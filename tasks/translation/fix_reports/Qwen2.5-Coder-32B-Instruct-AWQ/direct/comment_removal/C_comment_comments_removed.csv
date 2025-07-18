@@ -1,0 +1,293 @@
+id,version,status,error,expected,actual
+s596918302,comments_removed,success,,,
+s283652523,comments_removed,compile_failed,"output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C/s283652523_comments_removed.c: In function ‘nextInt’:
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C/s283652523_comments_removed.c:22:15: warning: implicit declaration of function ‘nextLong’ [-Wimplicit-function-declaration]
+   22 |     long nl = nextLong(scanner);
+      |               ^~~~~~~~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C/s283652523_comments_removed.c:23:14: error: ‘INT_MIN’ undeclared (first use in this function)
+   23 |     if (nl < INT_MIN || nl > INT_MAX) {
+      |              ^~~~~~~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C/s283652523_comments_removed.c:3:1: note: ‘INT_MIN’ is defined in header ‘<limits.h>’; did you forget to ‘#include <limits.h>’?
+    2 | #include <stdlib.h>
+  +++ |+#include <limits.h>
+    3 | 
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C/s283652523_comments_removed.c:23:14: note: each undeclared identifier is reported only once for each function it appears in
+   23 |     if (nl < INT_MIN || nl > INT_MAX) {
+      |              ^~~~~~~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C/s283652523_comments_removed.c:23:30: error: ‘INT_MAX’ undeclared (first use in this function)
+   23 |     if (nl < INT_MIN || nl > INT_MAX) {
+      |                              ^~~~~~~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C/s283652523_comments_removed.c:23:30: note: ‘INT_MAX’ is defined in header ‘<limits.h>’; did you forget to ‘#include <limits.h>’?
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C/s283652523_comments_removed.c: At top level:
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C/s283652523_comments_removed.c:30:6: error: conflicting types for ‘nextLong’; have ‘long int(FastScanner *)’
+   30 | long nextLong(FastScanner *scanner) {
+      |      ^~~~~~~~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C/s283652523_comments_removed.c:22:15: note: previous implicit declaration of ‘nextLong’ with type ‘int()’
+   22 |     long nl = nextLong(scanner);
+      |               ^~~~~~~~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C/s283652523_comments_removed.c: In function ‘nextChar’:
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C/s283652523_comments_removed.c:84:12: warning: implicit declaration of function ‘isspace’ [-Wimplicit-function-declaration]
+   84 |     while (isspace(b)) {
+      |            ^~~~~~~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C/s283652523_comments_removed.c:3:1: note: include ‘<ctype.h>’ or provide a declaration of ‘isspace’
+    2 | #include <stdlib.h>
+  +++ |+#include <ctype.h>
+    3 | 
+",,
+s584572995,comments_removed,success,,,
+s888333881,comments_removed,success,,,
+s545439898,comments_removed,success,,,
+s893190600,comments_removed,compile_failed,"output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C/s893190600_comments_removed.c: In function ‘nextInt’:
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C/s893190600_comments_removed.c:40:11: warning: implicit declaration of function ‘reads’; did you mean ‘read’? [-Wimplicit-function-declaration]
+   40 |     len = reads(len, isSpace);
+      |           ^~~~~
+      |           read
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C/s893190600_comments_removed.c: In function ‘nextString’:
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C/s893190600_comments_removed.c:99:17: warning: implicit declaration of function ‘nextDChar’; did you mean ‘getchar’? [-Wimplicit-function-declaration]
+   99 |     strcpy(ret, nextDChar());
+      |                 ^~~~~~~~~
+      |                 getchar
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C/s893190600_comments_removed.c:99:17: warning: passing argument 2 of ‘strcpy’ makes pointer from integer without a cast [-Wint-conversion]
+   99 |     strcpy(ret, nextDChar());
+      |                 ^~~~~~~~~~~
+      |                 |
+      |                 int
+In file included from output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C/s893190600_comments_removed.c:3:
+/usr/include/string.h:141:70: note: expected ‘const char * restrict’ but argument is of type ‘int’
+  141 | extern char *strcpy (char *__restrict __dest, const char *__restrict __src)
+      |                                               ~~~~~~~~~~~~~~~~~~~~~~~^~~~~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C/s893190600_comments_removed.c: At top level:
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C/s893190600_comments_removed.c:104:7: error: conflicting types for ‘nextDChar’; have ‘char *()’
+  104 | char* nextDChar() {
+      |       ^~~~~~~~~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C/s893190600_comments_removed.c:99:17: note: previous implicit declaration of ‘nextDChar’ with type ‘int()’
+   99 |     strcpy(ret, nextDChar());
+      |                 ^~~~~~~~~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C/s893190600_comments_removed.c: In function ‘reads’:
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C/s893190600_comments_removed.c:132:17: error: assignment to expression with array type
+  132 |             str = rep;
+      |                 ^
+",,
+s580342216,comments_removed,success,,,
+s196249385,comments_removed,success,,,
+s456888268,comments_removed,success,,,
+s466963472,comments_removed,success,,,
+s863488345,comments_removed,test_failed,,"*....*
+......
+..-...
+..>#..
+
+<.
+..
+
+^-#**
+.-.#*
+.-..#
+
+.....
+.***.
+..*..
+..*..
+....v","*.*..*
+......
+..-...
+..>#..
+
+<.
+..
+
+^-#**
+.-*#*
+.-**#
+
+.****
+.****
+.****
+.****
+v****"
+s127819686,comments_removed,success,,,
+s287007304,comments_removed,success,,,
+s937747608,comments_removed,success,,,
+s824230885,comments_removed,runtime_failed,"There is no more input
+",,
+s452855095,comments_removed,success,,,
+s378126458,comments_removed,success,,,
+s221078931,comments_removed,compile_failed,"output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C/s221078931_comments_removed.c: In function ‘diagonal’:
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C/s221078931_comments_removed.c:12:16: error: ‘INT_MAX’ undeclared (first use in this function)
+   12 |         return INT_MAX;
+      |                ^~~~~~~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C/s221078931_comments_removed.c:4:1: note: ‘INT_MAX’ is defined in header ‘<limits.h>’; did you forget to ‘#include <limits.h>’?
+    3 | #include <math.h>
+  +++ |+#include <limits.h>
+    4 | 
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C/s221078931_comments_removed.c:12:16: note: each undeclared identifier is reported only once for each function it appears in
+   12 |         return INT_MAX;
+      |                ^~~~~~~
+",,
+s081988820,comments_removed,success,,,
+s504715611,comments_removed,compile_failed,"output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C/s504715611_comments_removed.c: In function ‘modlcm’:
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C/s504715611_comments_removed.c:48:20: warning: implicit declaration of function ‘modint’ [-Wimplicit-function-declaration]
+   48 |     return a * b * modint(gcd(a, b), mod);
+      |                    ^~~~~~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C/s504715611_comments_removed.c:48:27: warning: implicit declaration of function ‘gcd’ [-Wimplicit-function-declaration]
+   48 |     return a * b * modint(gcd(a, b), mod);
+      |                           ^~~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C/s504715611_comments_removed.c: At top level:
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C/s504715611_comments_removed.c:51:6: error: conflicting types for ‘gcd’; have ‘long int(long int,  long int)’
+   51 | long gcd(long a, long b) {
+      |      ^~~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C/s504715611_comments_removed.c:48:27: note: previous implicit declaration of ‘gcd’ with type ‘int()’
+   48 |     return a * b * modint(gcd(a, b), mod);
+      |                           ^~~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C/s504715611_comments_removed.c: In function ‘isPrime’:
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C/s504715611_comments_removed.c:110:20: warning: implicit declaration of function ‘sqrt’ [-Wimplicit-function-declaration]
+  110 |     long d = (long)sqrt(n);
+      |                    ^~~~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C/s504715611_comments_removed.c:5:1: note: include ‘<math.h>’ or provide a declaration of ‘sqrt’
+    4 | #include <stdbool.h>
+  +++ |+#include <math.h>
+    5 | 
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C/s504715611_comments_removed.c:110:20: warning: incompatible implicit declaration of built-in function ‘sqrt’ [-Wbuiltin-declaration-mismatch]
+  110 |     long d = (long)sqrt(n);
+      |                    ^~~~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C/s504715611_comments_removed.c:110:20: note: include ‘<math.h>’ or provide a declaration of ‘sqrt’
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C/s504715611_comments_removed.c: At top level:
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C/s504715611_comments_removed.c:211:6: error: conflicting types for ‘modint’; have ‘long int(long int,  long int)’
+  211 | long modint(long a, long m) {
+      |      ^~~~~~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C/s504715611_comments_removed.c:48:20: note: previous implicit declaration of ‘modint’ with type ‘int()’
+   48 |     return a * b * modint(gcd(a, b), mod);
+      |                    ^~~~~~
+",,
+s684030429,comments_removed,compile_failed,"output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C/s684030429_comments_removed.c: In function ‘lmin’:
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C/s684030429_comments_removed.c:91:16: error: ‘LONG_MAX’ undeclared (first use in this function)
+   91 |     long min = LONG_MAX;
+      |                ^~~~~~~~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C/s684030429_comments_removed.c:3:1: note: ‘LONG_MAX’ is defined in header ‘<limits.h>’; did you forget to ‘#include <limits.h>’?
+    2 | #include <stdlib.h>
+  +++ |+#include <limits.h>
+    3 | 
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C/s684030429_comments_removed.c:91:16: note: each undeclared identifier is reported only once for each function it appears in
+   91 |     long min = LONG_MAX;
+      |                ^~~~~~~~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C/s684030429_comments_removed.c: In function ‘imin’:
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C/s684030429_comments_removed.c:99:15: error: ‘INT_MAX’ undeclared (first use in this function)
+   99 |     int min = INT_MAX;
+      |               ^~~~~~~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C/s684030429_comments_removed.c:99:15: note: ‘INT_MAX’ is defined in header ‘<limits.h>’; did you forget to ‘#include <limits.h>’?
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C/s684030429_comments_removed.c: In function ‘lmax’:
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C/s684030429_comments_removed.c:107:16: error: ‘LONG_MIN’ undeclared (first use in this function)
+  107 |     long max = LONG_MIN;
+      |                ^~~~~~~~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C/s684030429_comments_removed.c:107:16: note: ‘LONG_MIN’ is defined in header ‘<limits.h>’; did you forget to ‘#include <limits.h>’?
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C/s684030429_comments_removed.c: In function ‘imax’:
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C/s684030429_comments_removed.c:115:15: error: ‘INT_MIN’ undeclared (first use in this function)
+  115 |     int max = INT_MIN;
+      |               ^~~~~~~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C/s684030429_comments_removed.c:115:15: note: ‘INT_MIN’ is defined in header ‘<limits.h>’; did you forget to ‘#include <limits.h>’?
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C/s684030429_comments_removed.c: In function ‘ibs’:
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C/s684030429_comments_removed.c:123:65: error: ‘compare’ undeclared (first use in this function)
+  123 |     qsort(a, n, sizeof(int), (int (*)(const void*, const void*))compare);
+      |                                                                 ^~~~~~~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C/s684030429_comments_removed.c: In function ‘lbs’:
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C/s684030429_comments_removed.c:141:66: error: ‘compare_long’ undeclared (first use in this function)
+  141 |     qsort(a, n, sizeof(long), (int (*)(const void*, const void*))compare_long);
+      |                                                                  ^~~~~~~~~~~~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C/s684030429_comments_removed.c: In function ‘stb’:
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C/s684030429_comments_removed.c:169:17: warning: implicit declaration of function ‘strlen’ [-Wimplicit-function-declaration]
+  169 |     for(int i = strlen(s) - 1; i >= 0; i--) {
+      |                 ^~~~~~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C/s684030429_comments_removed.c:3:1: note: include ‘<string.h>’ or provide a declaration of ‘strlen’
+    2 | #include <stdlib.h>
+  +++ |+#include <string.h>
+    3 | 
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C/s684030429_comments_removed.c:169:17: warning: incompatible implicit declaration of built-in function ‘strlen’ [-Wbuiltin-declaration-mismatch]
+  169 |     for(int i = strlen(s) - 1; i >= 0; i--) {
+      |                 ^~~~~~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C/s684030429_comments_removed.c:169:17: note: include ‘<string.h>’ or provide a declaration of ‘strlen’
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C/s684030429_comments_removed.c:169:5: error: declaration of non-variable ‘strlen’ in ‘for’ loop initial declaration
+  169 |     for(int i = strlen(s) - 1; i >= 0; i--) {
+      |     ^~~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C/s684030429_comments_removed.c:170:31: warning: implicit declaration of function ‘pow’ [-Wimplicit-function-declaration]
+  170 |         sum += (s[i] - '0') * pow(2, k++);
+      |                               ^~~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C/s684030429_comments_removed.c:3:1: note: include ‘<math.h>’ or provide a declaration of ‘pow’
+    2 | #include <stdlib.h>
+  +++ |+#include <math.h>
+    3 | 
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C/s684030429_comments_removed.c:170:31: warning: incompatible implicit declaration of built-in function ‘pow’ [-Wbuiltin-declaration-mismatch]
+  170 |         sum += (s[i] - '0') * pow(2, k++);
+      |                               ^~~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C/s684030429_comments_removed.c:170:31: note: include ‘<math.h>’ or provide a declaration of ‘pow’
+",,
+s967693306,comments_removed,success,,,
+s685734377,comments_removed,test_failed,,2,
+s041542819,comments_removed,success,,,
+s936984238,comments_removed,success,,,
+s867221485,comments_removed,success,,,
+s511234019,comments_removed,success,,,
+s910447421,comments_removed,success,,,
+s725559666,comments_removed,success,,,
+s573993837,comments_removed,success,,,
+s185737640,comments_removed,success,,,
+s780275612,comments_removed,compile_failed,"/usr/bin/ld: /tmp/ccu495IP.o: in function `main':
+s780275612_comments_removed.c:(.text+0x58): undefined reference to `pow'
+collect2: error: ld returned 1 exit status
+",,
+s826491904,comments_removed,success,,,
+s316260310,comments_removed,compile_failed,"output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C/s316260310_comments_removed.c:6:13: error: expected identifier or ‘(’ before numeric constant
+    6 | #define MOD 1000000007
+      |             ^~~~~~~~~~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C/s316260310_comments_removed.c:9:15: note: in expansion of macro ‘MOD’
+    9 |     long long MOD;
+      |               ^~~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C/s316260310_comments_removed.c:5:14: error: expected identifier or ‘(’ before numeric constant
+    5 | #define MAXN 1000006
+      |              ^~~~~~~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C/s316260310_comments_removed.c:10:9: note: in expansion of macro ‘MAXN’
+   10 |     int MAXN;
+      |         ^~~~
+",,
+s749703010,comments_removed,compile_failed,"output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C/s749703010_comments_removed.c: In function ‘dp’:
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C/s749703010_comments_removed.c:28:23: warning: implicit declaration of function ‘fmin’ [-Wimplicit-function-declaration]
+   28 |                 ans = fmin(ans, ff + dp((nf + (ff % 2)) % 2, i, msk | (1 << i)));
+      |                       ^~~~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C/s749703010_comments_removed.c:5:1: note: include ‘<math.h>’ or provide a declaration of ‘fmin’
+    4 | #include <limits.h>
+  +++ |+#include <math.h>
+    5 | 
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C/s749703010_comments_removed.c:28:23: warning: incompatible implicit declaration of built-in function ‘fmin’ [-Wbuiltin-declaration-mismatch]
+   28 |                 ans = fmin(ans, ff + dp((nf + (ff % 2)) % 2, i, msk | (1 << i)));
+      |                       ^~~~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C/s749703010_comments_removed.c:28:23: note: include ‘<math.h>’ or provide a declaration of ‘fmin’
+/usr/bin/ld: /tmp/ccSowxIb.o: in function `dp':
+s749703010_comments_removed.c:(.text+0x210): undefined reference to `fmin'
+collect2: error: ld returned 1 exit status
+",,
+s380356166,comments_removed,success,,,
+s831281137,comments_removed,success,,,
+s527301188,comments_removed,test_failed,,3,1
+s514557145,comments_removed,compile_failed,"output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C/s514557145_comments_removed.c:18:13: error: ‘INT_MAX’ undeclared here (not in a function)
+   18 | S S_E = {0, INT_MAX / 2, INT_MIN / 2};
+      |             ^~~~~~~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C/s514557145_comments_removed.c:3:1: note: ‘INT_MAX’ is defined in header ‘<limits.h>’; did you forget to ‘#include <limits.h>’?
+    2 | #include <stdlib.h>
+  +++ |+#include <limits.h>
+    3 | 
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C/s514557145_comments_removed.c:18:26: error: ‘INT_MIN’ undeclared here (not in a function)
+   18 | S S_E = {0, INT_MAX / 2, INT_MIN / 2};
+      |                          ^~~~~~~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C/s514557145_comments_removed.c:18:26: note: ‘INT_MIN’ is defined in header ‘<limits.h>’; did you forget to ‘#include <limits.h>’?
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C/s514557145_comments_removed.c: In function ‘S_map’:
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C/s514557145_comments_removed.c:55:5: error: conversion to non-scalar type requested
+   55 |     return (S)(((f.D * c) % MOD2 * inv9) % MOD2, s.l, s.r);
+      |     ^~~~~~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C/s514557145_comments_removed.c: In function ‘main’:
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C/s514557145_comments_removed.c:235:37: error: ‘LazySegTree’ has no member named ‘allProd’
+  235 |         printf(""%lld\\n"", lazySegTree.allProd().sum);
+      |                                     ^
+",,
+s012761786,comments_removed,success,,,
+s612878490,comments_removed,success,,,
+s010698290,comments_removed,success,,,
+s063482767,comments_removed,success,,,

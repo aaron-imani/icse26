@@ -1,0 +1,104 @@
+id,status,expected,actual,error
+s596918302,success,,,
+s283652523,success,,,
+s584572995,success,,,
+s888333881,compile_failed,,,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/Java/Go/s888333881_commented.go:9:2: imported and not used: ""strings""
+output/Qwen/QwQ-32B-AWQ/codenet/Java/Go/s888333881_commented.go:73:5: invalid operation: dw %= cnt (mismatched types int64 and int)
+output/Qwen/QwQ-32B-AWQ/codenet/Java/Go/s888333881_commented.go:90:5: invalid operation: dw %= cnt (mismatched types int64 and int)
+"
+s545439898,success,,,
+s893190600,success,,,
+s580342216,success,,,
+s196249385,success,,,
+s456888268,success,,,
+s466963472,success,,,
+s863488345,test_failed,"*....*
+......
+..-...
+..>#..
+
+<.
+..
+
+^-#**
+.-.#*
+.-..#
+
+.....
+.***.
+..*..
+..*..
+....v","*....*
+......
+..-...
+..>#..
+<.
+..
+^-#**
+.-.#*
+.-..#
+.....
+.***.
+..*..
+..*..
+....v",
+s127819686,success,,,
+s287007304,success,,,
+s937747608,success,,,
+s824230885,success,,,
+s452855095,success,,,
+s378126458,success,,,
+s221078931,compile_failed,,,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/Java/Go/s221078931_commented.go:60:3: found declared but not used
+"
+s081988820,runtime_failed,,,"12
+"
+s504715611,compile_failed,,,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/Java/Go/s504715611_commented.go:108:17: cannot use g (variable of type int64) as type int in argument to modint
+output/Qwen/QwQ-32B-AWQ/codenet/Java/Go/s504715611_commented.go:109:9: invalid operation: a * b % modInt (mismatched types int64 and int)
+"
+s684030429,success,,,
+s967693306,compile_failed,,,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/Java/Go/s967693306_commented.go:12:2: conflict declared but not used
+output/Qwen/QwQ-32B-AWQ/codenet/Java/Go/s967693306_commented.go:46:25: undefined: 布
+"
+s685734377,compile_failed,,,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/Java/Go/s685734377_commented.go:65:23: syntax error: unexpected energy at end of statement
+output/Qwen/QwQ-32B-AWQ/codenet/Java/Go/s685734377_commented.go:69:1: syntax error: unexpected package, expecting }
+"
+s041542819,success,,,
+s936984238,success,,,
+s867221485,test_failed,1,0,
+s511234019,success,,,
+s910447421,compile_failed,,,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/Java/Go/s910447421_commented.go:46:2: undefined: sort
+"
+s725559666,success,,,
+s573993837,success,,,
+s185737640,compile_failed,,,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/Java/Go/s185737640_commented.go:25:2: undefined: fmt
+"
+s780275612,success,,,
+s826491904,success,,,
+s316260310,success,,,
+s749703010,success,,,
+s380356166,success,,,
+s831281137,compile_failed,,,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/Java/Go/s831281137_commented.go:33:28: syntax error: unexpected i_sum, expecting comma, : or ]
+"
+s527301188,runtime_failed,,,"3
+"
+s514557145,compile_failed,,,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/Java/Go/s514557145_commented.go:102:21: syntax error: unexpected {, expecting )
+output/Qwen/QwQ-32B-AWQ/codenet/Java/Go/s514557145_commented.go:103:4: syntax error: unexpected r2, expecting {
+output/Qwen/QwQ-32B-AWQ/codenet/Java/Go/s514557145_commented.go:105:4: syntax error: unexpected if, expecting expression
+"
+s012761786,compile_failed,,,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/Java/Go/s012761786_commented.go:4:2: imported and not used: ""bufio""
+output/Qwen/QwQ-32B-AWQ/codenet/Java/Go/s012761786_commented.go:7:2: imported and not used: ""os""
+"
+s612878490,test_failed,4,16,
+s010698290,test_failed,2 2,0 0,
+s063482767,compile_failed,,,"output/Qwen/QwQ-32B-AWQ/codenet/Java/Go/s063482767_commented.go:1:1: expected 'package', found 'import'
+"

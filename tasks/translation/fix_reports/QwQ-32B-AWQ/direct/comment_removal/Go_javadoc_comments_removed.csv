@@ -1,0 +1,29 @@
+id,version,status,expected,actual,error
+s283652523,comments_removed,test_failed,11,0,
+s466963472,comments_removed,compile_failed,,,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/Go/s466963472_comments_removed.go:35:1: syntax error: unexpected EOF, expecting }
+"
+s863488345,comments_removed,success,,,
+s378126458,comments_removed,success,,,
+s081988820,comments_removed,compile_failed,,,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/Go/s081988820_comments_removed.go:30:2: H declared but not used
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/Go/s081988820_comments_removed.go:31:2: W declared but not used
+"
+s684030429,comments_removed,success,,,
+s685734377,comments_removed,compile_failed,,,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/Go/s685734377_comments_removed.go:14:23: undefined: io
+"
+s041542819,comments_removed,compile_failed,,,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/Go/s041542819_comments_removed.go:8:2: imported and not used: ""strings""
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/Go/s041542819_comments_removed.go:15:24: undefined: io
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/Go/s041542819_comments_removed.go:44:23: undefined: io
+"
+s936984238,comments_removed,success,,,
+s867221485,comments_removed,compile_failed,,,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/Go/s867221485_comments_removed.go:14:2: N declared but not used
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/Go/s867221485_comments_removed.go:21:2: first declared but not used
+"
+s910447421,comments_removed,compile_failed,,,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/Go/s910447421_comments_removed.go:35:21: syntax error: unexpected _ at end of statement
+"
+s612878490,comments_removed,test_failed,4,16,

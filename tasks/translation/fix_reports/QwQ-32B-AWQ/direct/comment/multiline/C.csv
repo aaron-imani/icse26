@@ -1,0 +1,214 @@
+id,version,status,error,expected,actual
+s596918302,commented,success,,,
+s283652523,commented,success,,,
+s584572995,commented,success,,,
+s888333881,commented,compile_failed,"output/Qwen/QwQ-32B-AWQ/codenet/direct/multiline/comment/direct/Java/C/s888333881_commented.c: In function ‘main’:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/multiline/comment/direct/Java/C/s888333881_commented.c:96:44: error: stray ‘\\343’ in program
+   96 |                     return 知道自己是正确的。0;
+      |                                            ^~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/multiline/comment/direct/Java/C/s888333881_commented.c:96:28: error: ‘知道自己是正确的’ undeclared (first use in this function)
+   96 |                     return 知道自己是正确的。0;
+      |                            ^~~~~~~~~~~~~~~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/multiline/comment/direct/Java/C/s888333881_commented.c:96:28: note: each undeclared identifier is reported only once for each function it appears in
+output/Qwen/QwQ-32B-AWQ/codenet/direct/multiline/comment/direct/Java/C/s888333881_commented.c:96:44: error: expected ‘;’ before numeric constant
+   96 |                     return 知道自己是正确的。0;
+      |                                            ^ ~
+      |                                            ;
+",,
+s545439898,commented,success,,,
+s893190600,commented,compile_failed,"output/Qwen/QwQ-32B-AWQ/codenet/direct/multiline/comment/direct/Java/C/s893190600_commented.c: In function ‘main’:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/multiline/comment/direct/Java/C/s893190600_commented.c:54:29: error: ‘RequestMethod’ undeclared (first use in this function)
+   54 |                     return  RequestMethod;
+      |                             ^~~~~~~~~~~~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/multiline/comment/direct/Java/C/s893190600_commented.c:54:29: note: each undeclared identifier is reported only once for each function it appears in
+",,
+s580342216,commented,success,,,
+s196249385,commented,success,,,
+s456888268,commented,success,,,
+s466963472,commented,success,,,
+s863488345,commented,success,,,
+s127819686,commented,success,,,
+s287007304,commented,success,,,
+s937747608,commented,success,,,
+s824230885,commented,success,,,
+s452855095,commented,success,,,
+s378126458,commented,success,,,
+s221078931,commented,success,,,
+s081988820,commented,success,,,
+s504715611,commented,compile_failed,"/usr/bin/ld: /tmp/ccBQbCcN.o: in function `isPrime':
+s504715611_commented.c:(.text+0x340): undefined reference to `sqrt'
+collect2: error: ld returned 1 exit status
+",,
+s684030429,commented,compile_failed,"output/Qwen/QwQ-32B-AWQ/codenet/direct/multiline/comment/direct/Java/C/s684030429_commented.c: In function ‘lmin’:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/multiline/comment/direct/Java/C/s684030429_commented.c:85:16: error: ‘LONG_MAX’ undeclared (first use in this function)
+   85 |     long min = LONG_MAX;
+      |                ^~~~~~~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/multiline/comment/direct/Java/C/s684030429_commented.c:5:1: note: ‘LONG_MAX’ is defined in header ‘<limits.h>’; did you forget to ‘#include <limits.h>’?
+    4 | #include <math.h>
+  +++ |+#include <limits.h>
+    5 | 
+output/Qwen/QwQ-32B-AWQ/codenet/direct/multiline/comment/direct/Java/C/s684030429_commented.c:85:16: note: each undeclared identifier is reported only once for each function it appears in
+   85 |     long min = LONG_MAX;
+      |                ^~~~~~~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/multiline/comment/direct/Java/C/s684030429_commented.c: In function ‘imin’:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/multiline/comment/direct/Java/C/s684030429_commented.c:91:15: error: ‘INT_MAX’ undeclared (first use in this function)
+   91 |     int min = INT_MAX;
+      |               ^~~~~~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/multiline/comment/direct/Java/C/s684030429_commented.c:91:15: note: ‘INT_MAX’ is defined in header ‘<limits.h>’; did you forget to ‘#include <limits.h>’?
+output/Qwen/QwQ-32B-AWQ/codenet/direct/multiline/comment/direct/Java/C/s684030429_commented.c: In function ‘lmax’:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/multiline/comment/direct/Java/C/s684030429_commented.c:97:16: error: ‘LONG_MIN’ undeclared (first use in this function)
+   97 |     long max = LONG_MIN;
+      |                ^~~~~~~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/multiline/comment/direct/Java/C/s684030429_commented.c:97:16: note: ‘LONG_MIN’ is defined in header ‘<limits.h>’; did you forget to ‘#include <limits.h>’?
+output/Qwen/QwQ-32B-AWQ/codenet/direct/multiline/comment/direct/Java/C/s684030429_commented.c: In function ‘imax’:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/multiline/comment/direct/Java/C/s684030429_commented.c:103:15: error: ‘INT_MIN’ undeclared (first use in this function)
+  103 |     int max = INT_MIN;
+      |               ^~~~~~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/multiline/comment/direct/Java/C/s684030429_commented.c:103:15: note: ‘INT_MIN’ is defined in header ‘<limits.h>’; did you forget to ‘#include <limits.h>’?
+",,
+s967693306,commented,success,,,
+s685734377,commented,compile_failed,"output/Qwen/QwQ-32B-AWQ/codenet/direct/multiline/comment/direct/Java/C/s685734377_commented.c: In function ‘main’:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/multiline/comment/direct/Java/C/s685734377_commented.c:31:30: error: ‘RequestMethod’ undeclared (first use in this function)
+   31 |             hashRow[i][j] =  RequestMethod: POST
+      |                              ^~~~~~~~~~~~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/multiline/comment/direct/Java/C/s685734377_commented.c:31:30: note: each undeclared identifier is reported only once for each function it appears in
+output/Qwen/QwQ-32B-AWQ/codenet/direct/multiline/comment/direct/Java/C/s685734377_commented.c:31:43: error: expected ‘;’ before ‘:’ token
+   31 |             hashRow[i][j] =  RequestMethod: POST
+      |                                           ^
+      |                                           ;
+",,
+s041542819,commented,compile_failed,"output/Qwen/QwQ-32B-AWQ/codenet/direct/multiline/comment/direct/Java/C/s041542819_commented.c: In function ‘main’:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/multiline/comment/direct/Java/C/s041542819_commented.c:37:32: error: expected expression before ‘.’ token
+   37 |         if (idx_t < 0) idx_t = .h;
+      |                                ^
+",,
+s936984238,commented,success,,,
+s867221485,commented,test_failed,,1,0
+s511234019,commented,success,,,
+s910447421,commented,success,,,
+s725559666,commented,success,,,
+s573993837,commented,success,,,
+s185737640,commented,success,,,
+s780275612,commented,compile_failed,"/usr/bin/ld: /tmp/ccM31ws1.o: in function `main':
+s780275612_commented.c:(.text+0x58): undefined reference to `pow'
+collect2: error: ld returned 1 exit status
+",,
+s826491904,commented,compile_failed,"output/Qwen/QwQ-32B-AWQ/codenet/direct/multiline/comment/direct/Java/C/s826491904_commented.c: In function ‘main’:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/multiline/comment/direct/Java/C/s826491904_commented.c:8:1: error: unknown type name ‘Wait’
+    8 | Wait a second, in my previous outline, I had:
+      | ^~~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/multiline/comment/direct/Java/C/s826491904_commented.c:8:8: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘second’
+    8 | Wait a second, in my previous outline, I had:
+      |        ^~~~~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/multiline/comment/direct/Java/C/s826491904_commented.c:13:1: error: unknown type name ‘But’
+   13 | But in the code above, I wrote:
+      | ^~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/multiline/comment/direct/Java/C/s826491904_commented.c:13:8: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘the’
+   13 | But in the code above, I wrote:
+      |        ^~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/multiline/comment/direct/Java/C/s826491904_commented.c:22:1: error: unknown type name ‘But’
+   22 | But in the code I just wrote, I have:
+      | ^~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/multiline/comment/direct/Java/C/s826491904_commented.c:22:8: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘the’
+   22 | But in the code I just wrote, I have:
+      |        ^~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/multiline/comment/direct/Java/C/s826491904_commented.c:28:1: error: unknown type name ‘Wait’
+   28 | Wait no, that's a mistake. Wait no, in the code I wrote earlier, the code is:
+      | ^~~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/multiline/comment/direct/Java/C/s826491904_commented.c:28:14: warning: missing terminating ' character
+   28 | Wait no, that's a mistake. Wait no, in the code I wrote earlier, the code is:
+      |              ^
+output/Qwen/QwQ-32B-AWQ/codenet/direct/multiline/comment/direct/Java/C/s826491904_commented.c:28:14: error: missing terminating ' character
+   28 | Wait no, that's a mistake. Wait no, in the code I wrote earlier, the code is:
+      |              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/multiline/comment/direct/Java/C/s826491904_commented.c:30:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘Wait’
+   30 | Wait let me re-examine my code.
+      | ^~~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/multiline/comment/direct/Java/C/s826491904_commented.c:44:48: warning: missing terminating ' character
+   44 | Ah, right. So in the code I wrote earlier, that's correct. But in the code I was just thinking of, I had a typo. So the correct code is as above.
+      |                                                ^
+output/Qwen/QwQ-32B-AWQ/codenet/direct/multiline/comment/direct/Java/C/s826491904_commented.c:44:48: error: missing terminating ' character
+   44 | Ah, right. So in the code I wrote earlier, that's correct. But in the code I was just thinking of, I had a typo. So the correct code is as above.
+      |                                                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/multiline/comment/direct/Java/C/s826491904_commented.c:46:15: warning: missing terminating ' character
+   46 | Wait, the user's Java code does:
+      |               ^
+output/Qwen/QwQ-32B-AWQ/codenet/direct/multiline/comment/direct/Java/C/s826491904_commented.c:46:15: error: missing terminating ' character
+   46 | Wait, the user's Java code does:
+      |               ^~~~~~~~~~~~~~~~~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/multiline/comment/direct/Java/C/s826491904_commented.c:75:10: warning: character constant too long for its type
+   75 | Yes, that's correct. So the final code is as above. I need to make sure that's exactly what I output.
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/multiline/comment/direct/Java/C/s826491904_commented.c:75:1: error: expected declaration or statement at end of input
+   75 | Yes, that's correct. So the final code is as above. I need to make sure that's exactly what I output.
+      | ^~~
+",,
+s316260310,commented,compile_failed,"output/Qwen/QwQ-32B-AWQ/codenet/direct/multiline/comment/direct/Java/C/s316260310_commented.c:8:5: error: ‘index’ redeclared as different kind of symbol
+    8 | int index = 0, total = 0;
+      |     ^~~~~
+In file included from /usr/include/string.h:462,
+                 from output/Qwen/QwQ-32B-AWQ/codenet/direct/multiline/comment/direct/Java/C/s316260310_commented.c:3:
+/usr/include/strings.h:68:14: note: previous declaration of ‘index’ with type ‘char *(const char *, int)’
+   68 | extern char *index (const char *__s, int __c)
+      |              ^~~~~
+",,
+s749703010,commented,success,,,
+s380356166,commented,success,,,
+s831281137,commented,compile_failed,"output/Qwen/QwQ-32B-AWQ/codenet/direct/multiline/comment/direct/Java/C/s831281137_commented.c: In function ‘main’:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/multiline/comment/direct/Java/C/s831281137_commented.c:14:34: error: stray ‘\\343’ in program
+   14 |     memset(sumV, 求和V的初始化为0。然后进入双重循环处理每个物品和每个可能的重量。
+      |                                  ^~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/multiline/comment/direct/Java/C/s831281137_commented.c:14:18: error: ‘求和V的初始化为0’ undeclared (first use in this function)
+   14 |     memset(sumV, 求和V的初始化为0。然后进入双重循环处理每个物品和每个可能的重量。
+      |                  ^~~~~~~~~~~~~~~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/multiline/comment/direct/Java/C/s831281137_commented.c:14:18: note: each undeclared identifier is reported only once for each function it appears in
+output/Qwen/QwQ-32B-AWQ/codenet/direct/multiline/comment/direct/Java/C/s831281137_commented.c:14:34: error: expected ‘)’ before ‘然后进入双重循环处理每个物品和每个可能的重量’
+   14 |     memset(sumV, 求和V的初始化为0。然后进入双重循环处理每个物品和每个可能的重量。
+      |           ~                      ^ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                  )
+output/Qwen/QwQ-32B-AWQ/codenet/direct/multiline/comment/direct/Java/C/s831281137_commented.c:14:80: error: stray ‘\\343’ in program
+   14 |     memset(sumV, 求和V的初始化为0。然后进入双重循环处理每个物品和每个可能的重量。
+      |                                                                                ^~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/multiline/comment/direct/Java/C/s831281137_commented.c:17:66: error: stray ‘\\343’ in program
+   17 | 1. 首先处理重量小于当前物品重量的情况，直接继承前一个物品的最优解。
+      |                                                                  ^~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/multiline/comment/direct/Java/C/s831281137_commented.c:18:94: error: stray ‘\\343’ in program
+   18 | 2. 然后处理重量大于等于当前物品重量的情况，比较不选该物品或选该物品两种情况的总价值，取较大值。
+      |                                                                                              ^~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/multiline/comment/direct/Java/C/s831281137_commented.c:20:27: error: stray ‘\\343’ in program
+   20 | 最后输出sumV[N][W]即为答案。
+      |                           ^~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/multiline/comment/direct/Java/C/s831281137_commented.c:22:144: error: stray ‘\\343’ in program
+   22 | 需要注意的是，由于C语言中的数组索引从0开始，而原Java代码中的物品编号从1到N，因此在C代码中也采用相同的索引方式，使得代码逻辑与原Java代码保持一致。
+      |                                                                                                                                                ^~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/multiline/comment/direct/Java/C/s831281137_commented.c:24:182: error: stray ‘\\343’ in program
+   24 | 此外，由于原Java代码可能存在物品重量超过背包容量W的情况，导致访问数组越界，但根据题目要求，这里直接按照原代码逻辑翻译，假设输入数据不会出现这种情况，或在后续处理中通过条件判断来避免。但根据给出的Java代码，其逻辑确实存在这一潜在问题，但在翻译过程中保持原样。
+      |                                                                                                                                                                                      ^~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/multiline/comment/direct/Java/C/s831281137_commented.c:24:256: error: stray ‘\\343’ in program
+   24 | 此外，由于原Java代码可能存在物品重量超过背包容量W的情况，导致访问数组越界，但根据题目要求，这里直接按照原代码逻辑翻译，假设输入数据不会出现这种情况，或在后续处理中通过条件判断来避免。但根据给出的Java代码，其逻辑确实存在这一潜在问题，但在翻译过程中保持原样。
+      |                                                                                                                                                                                                                                                                ^~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/multiline/comment/direct/Java/C/s831281137_commented.c:14:5: error: too few arguments to function ‘memset’
+   14 |     memset(sumV, 求和V的初始化为0。然后进入双重循环处理每个物品和每个可能的重量。
+      |     ^~~~~~
+In file included from output/Qwen/QwQ-32B-AWQ/codenet/direct/multiline/comment/direct/Java/C/s831281137_commented.c:2:
+/usr/include/string.h:61:14: note: declared here
+   61 | extern void *memset (void *__s, int __c, size_t __n) __THROW __nonnull ((1));
+      |              ^~~~~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/multiline/comment/direct/Java/C/s831281137_commented.c:26:1: error: expected declaration or statement at end of input
+   26 | 综上，最终的C代码如下：
+      | ^~~~~~~~~~~~~~~~~~~~~~~
+",,
+s527301188,commented,test_failed,,3,1
+s514557145,commented,compile_failed,"output/Qwen/QwQ-32B-AWQ/codenet/direct/multiline/comment/direct/Java/C/s514557145_commented.c:34:24: error: initializer element is not constant
+   34 | const long long inv9 = modInv(9);
+      |                        ^~~~~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/multiline/comment/direct/Java/C/s514557145_commented.c: In function ‘S_map’:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/multiline/comment/direct/Java/C/s514557145_commented.c:47:20: error: ‘tenmod’ undeclared (first use in this function)
+   47 |     long long c = (tenmod[a] - tenmod[b]);
+      |                    ^~~~~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/multiline/comment/direct/Java/C/s514557145_commented.c:47:20: note: each undeclared identifier is reported only once for each function it appears in
+",,
+s012761786,commented,success,,,
+s612878490,commented,test_failed,,4,3
+s010698290,commented,success,,,
+s063482767,commented,success,,,

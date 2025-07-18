@@ -1,0 +1,108 @@
+id,version,status,error,expected,actual
+s596918302,commented,success,,,
+s283652523,commented,success,,,
+s584572995,commented,compile_failed,"  File ""output/Qwen/QwQ-32B-AWQ/codenet/direct/multiline/comment/direct/Java/Python/s584572995_commented.py"", line 1
+    Here's the Python code translated from the provided Java code:
+        ^
+SyntaxError: unterminated string literal (detected at line 1)
+",,
+s888333881,commented,success,,,
+s545439898,commented,success,,,
+s893190600,commented,success,,,
+s580342216,commented,compile_failed,"  File ""output/Qwen/QwQ-32B-AWQ/codenet/direct/multiline/comment/direct/Java/Python/s580342216_commented.py"", line 58
+    // End of Code
+    ^^
+SyntaxError: invalid syntax
+",,
+s196249385,commented,success,,,
+s456888268,commented,success,,,
+s466963472,commented,success,,,
+s863488345,commented,runtime_failed,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/QwQ-32B-AWQ/codenet/direct/multiline/comment/direct/Java/Python/s863488345_commented.py"", line 117, in <module>
+    main()
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/QwQ-32B-AWQ/codenet/direct/multiline/comment/direct/Java/Python/s863488345_commented.py"", line 59, in main
+    h = int(lines[idx])
+ValueError: invalid literal for int() with base 10: '4 6'
+",,
+s127819686,commented,success,,,
+s287007304,commented,success,,,
+s937747608,commented,success,,,
+s824230885,commented,success,,,
+s452855095,commented,compile_failed,"  File ""output/Qwen/QwQ-32B-AWQ/codenet/direct/multiline/comment/direct/Java/Python/s452855095_commented.py"", line 1
+    //package Contest081;
+    ^^
+SyntaxError: invalid syntax
+",,
+s378126458,commented,success,,,
+s221078931,commented,compile_failed,"  File ""output/Qwen/QwQ-32B-AWQ/codenet/direct/multiline/comment/direct/Java/Python/s221078931_commented.py"", line 22
+    if h == 0 and w == .:
+                       ^
+SyntaxError: invalid syntax
+",,
+s081988820,commented,success,,,
+s504715611,commented,success,,,
+s684030429,commented,success,,,
+s967693306,commented,runtime_failed,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/QwQ-32B-AWQ/codenet/direct/multiline/comment/direct/Java/Python/s967693306_commented.py"", line 43, in <module>
+    main()
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/QwQ-32B-AWQ/codenet/direct/multiline/comment/direct/Java/Python/s967693306_commented.py"", line 4, in main
+    n = int(sys.stdin.readline())
+ValueError: invalid literal for int() with base 10: '3 3\\n'
+",,
+s685734377,commented,success,,,
+s041542819,commented,runtime_failed,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/QwQ-32B-AWQ/codenet/direct/multiline/comment/direct/Java/Python/s041542819_commented.py"", line 56, in <module>
+    main() # End of Code
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/QwQ-32B-AWQ/codenet/direct/multiline/comment/direct/Java/Python/s041542819_commented.py"", line 46, in main
+    滑動2*sl + tr,
+NameError: name '滑動2' is not defined
+",,
+s936984238,commented,success,,,
+s867221485,commented,compile_failed,"  File ""output/Qwen/QwQ-32B-AWQ/codenet/direct/multiline/comment/direct/Java/Python/s867221485_commented.py"", line 1
+    Here's the translated Python code:
+        ^
+SyntaxError: unterminated string literal (detected at line 1)
+",,
+s511234019,commented,success,,,
+s910447421,commented,success,,,
+s725559666,commented,success,,,
+s573993837,commented,runtime_failed,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/QwQ-32B-AWQ/codenet/direct/multiline/comment/direct/Java/Python/s573993837_commented.py"", line 1, in <module>
+    t = int(input())
+ValueError: invalid literal for int() with base 10: '7 4'
+",,
+s185737640,commented,success,,,
+s780275612,commented,success,,,
+s826491904,commented,success,,,
+s316260310,commented,runtime_failed,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/QwQ-32B-AWQ/codenet/direct/multiline/comment/direct/Java/Python/s316260310_commented.py"", line 41, in <module>
+    main()
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/QwQ-32B-AWQ/codenet/direct/multiline/comment/direct/Java/Python/s316260310_commented.py"", line 4, in main
+    N = int(sys.stdin.readline())
+ValueError: invalid literal for int() with base 10: '4 5\\n'
+",,
+s749703010,commented,success,,,
+s380356166,commented,success,,,
+s831281137,commented,success,,,
+s527301188,commented,compile_failed,"  File ""output/Qwen/QwQ-32B-AWQ/codenet/direct/multiline/comment/direct/Java/Python/s527301188_commented.py"", line 16
+    nums[top - 1] -> b * a
+                  ^^
+SyntaxError: invalid syntax
+",,
+s514557145,commented,test_failed,,"11222211
+77772211
+77333333
+72333333
+72311333","222200
+77770000
+333333
+2000000
+11000"
+s012761786,commented,success,,,
+s612878490,commented,runtime_failed,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/QwQ-32B-AWQ/codenet/direct/multiline/comment/direct/Java/Python/s612878490_commented.py"", line 9, in <module>
+    A = int(sys.stdin.readline())
+ValueError: invalid literal for int() with base 10: '1 7\\n'
+",,
+s010698290,commented,success,,,
+s063482767,commented,success,,,

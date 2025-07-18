@@ -1,0 +1,45 @@
+id,version,status,expected,actual,error
+s283652523,commented,success,,,
+s466963472,commented,test_failed,"68440000
+70210000","75640000
+73810000",
+s863488345,commented,success,,,
+s378126458,commented,success,,,
+s081988820,commented,success,,,
+s684030429,commented,runtime_failed,,,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/javadoc/uncomment/direct/Java/Python/s684030429_commented.py"", line 108, in <module>
+    main.solve()  # End of Code
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/javadoc/uncomment/direct/Java/Python/s684030429_commented.py"", line 14, in solve
+    a = self.ni()
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/javadoc/uncomment/direct/Java/Python/s684030429_commented.py"", line 20, in ni
+    return int(input())
+ValueError: invalid literal for int() with base 10: '12 4'
+"
+s685734377,commented,success,,,
+s041542819,commented,test_failed,"350
+1400
+301
+399","700
+800
+900
+550",
+s936984238,commented,runtime_failed,,,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/javadoc/uncomment/direct/Java/Python/s936984238_commented.py"", line 19, in <module>
+    main()  # End of Code
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/javadoc/uncomment/direct/Java/Python/s936984238_commented.py"", line 11, in main
+    solve(scores, number)
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/javadoc/uncomment/direct/Java/Python/s936984238_commented.py"", line 16, in solve
+    print(total_sum // (number - 2))
+ZeroDivisionError: integer division or modulo by zero
+"
+s867221485,commented,test_failed,1,0,
+s910447421,commented,runtime_failed,,,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/javadoc/uncomment/direct/Java/Python/s910447421_commented.py"", line 79, in <module>
+    solve()
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/javadoc/uncomment/direct/Java/Python/s910447421_commented.py"", line 43, in solve
+    ans = min(ans, check(p, q))
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/javadoc/uncomment/direct/Java/Python/s910447421_commented.py"", line 53, in check
+    if not taken[i]:
+NameError: name 'taken' is not defined
+"
+s612878490,commented,test_failed,4,3,

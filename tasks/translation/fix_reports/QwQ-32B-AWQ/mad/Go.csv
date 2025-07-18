@@ -1,0 +1,246 @@
+id,version,status,error,expected,actual
+s596918302,comments_removed,success,,,
+s596918302,commented,compile_failed,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s596918302_commented.go:41:9: undefined: 行
+",,
+s283652523,comments_removed,success,,,
+s283652523,commented,success,,,
+s584572995,comments_removed,compile_failed,"output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s584572995_comments_removed.go:1:16: expected 'package', found 'EOF'
+",,
+s584572995,commented,compile_failed,"output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s584572995_commented.go:1:1: expected 'package', found The
+",,
+s888333881,comments_removed,compile_failed,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s888333881_comments_removed.go:4:2: imported and not used: ""bufio""
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s888333881_comments_removed.go:5:2: imported and not used: ""fmt""
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s888333881_comments_removed.go:6:2: imported and not used: ""math/bits""
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s888333881_comments_removed.go:7:2: imported and not used: ""os""
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s888333881_comments_removed.go:8:2: imported and not used: ""strconv""
+",,
+s888333881,commented,compile_failed,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s888333881_commented.go:4:2: imported and not used: ""bufio""
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s888333881_commented.go:5:2: imported and not used: ""os""
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s888333881_commented.go:6:2: imported and not used: ""strconv""
+",,
+s545439898,comments_removed,success,,,
+s545439898,commented,success,,,
+s893190600,comments_removed,success,,,
+s893190600,commented,compile_failed,"output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s893190600_commented.go:1:1: expected 'package', found Yes
+",,
+s580342216,comments_removed,compile_failed,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s580342216_comments_removed.go:85:22: syntax error: unexpected is, expecting comma or )
+",,
+s580342216,commented,success,,,
+s196249385,comments_removed,success,,,
+s196249385,commented,compile_failed,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s196249385_commented.go:29:20: syntax error: unexpected ..., expecting {
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s196249385_commented.go:29:23: invalid character U+FF08 '（' in identifier
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s196249385_commented.go:29:70: invalid character U+FF09 '）' in identifier
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s196249385_commented.go:30:17: syntax error: unexpected ), expecting { after for clause
+",,
+s456888268,comments_removed,compile_failed,"output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s456888268_comments_removed.go:1:1: expected 'package', found The
+",,
+s456888268,commented,success,,,
+s466963472,comments_removed,success,,,
+s466963472,commented,success,,,
+s863488345,comments_removed,test_failed,,"*....*
+......
+..-...
+..>#..
+
+<.
+..
+
+^-#**
+.-.#*
+.-..#
+
+.....
+.***.
+..*..
+..*..
+....v","*.*..*
+......
+..-...
+..>#..
+
+<.
+..
+
+^-#**
+.-*#*
+.-**#
+
+.****
+.****
+.****
+.****
+v****"
+s863488345,commented,compile_failed,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s863488345_commented.go:70:24: syntax error: cannot use assignment (battleTown[x][y]) = ('.') as value
+",,
+s127819686,comments_removed,success,,,
+s127819686,commented,success,,,
+s287007304,comments_removed,success,,,
+s287007304,commented,success,,,
+s937747608,comments_removed,success,,,
+s937747608,commented,success,,,
+s824230885,comments_removed,success,,,
+s824230885,commented,success,,,
+s452855095,comments_removed,success,,,
+s452855095,commented,success,,,
+s378126458,comments_removed,success,,,
+s378126458,commented,compile_failed,"output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s378126458_commented.go:1:1: expected 'package', found The
+",,
+s221078931,comments_removed,success,,,
+s221078931,commented,compile_failed,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s221078931_commented.go:63:3: found declared but not used
+",,
+s081988820,comments_removed,compile_failed,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s081988820_comments_removed.go:32:16: syntax error: unexpected literal 0, expecting {
+",,
+s081988820,commented,compile_failed,"output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s081988820_commented.go:1:1: expected 'package', found ERROR
+",,
+s504715611,comments_removed,compile_failed,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s504715611_comments_removed.go:9:2: imported and not used: ""strings""
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s504715611_comments_removed.go:169:11: undefined: math
+",,
+s504715611,commented,compile_failed,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s504715611_commented.go:4:2: imported and not used: ""bufio""
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s504715611_commented.go:5:2: imported and not used: ""fmt""
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s504715611_commented.go:6:2: imported and not used: ""io""
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s504715611_commented.go:7:2: imported and not used: ""math""
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s504715611_commented.go:8:2: imported and not used: ""os""
+",,
+s684030429,comments_removed,compile_failed,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s684030429_comments_removed.go:7:2: imported and not used: ""strconv""
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s684030429_comments_removed.go:31:7: undefined: ni
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s684030429_comments_removed.go:32:7: undefined: ni
+",,
+s684030429,commented,compile_failed,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s684030429_commented.go:169:10: invalid operation: v < min (mismatched types int64 and int)
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s684030429_commented.go:170:10: cannot use v (variable of type int64) as type int in assignment
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s684030429_commented.go:173:9: cannot use min (variable of type int) as type int64 in return statement
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s684030429_commented.go:179:10: invalid operation: v > max (mismatched types int64 and int)
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s684030429_commented.go:180:10: cannot use v (variable of type int64) as type int in assignment
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s684030429_commented.go:183:9: cannot use max (variable of type int) as type int64 in return statement
+",,
+s967693306,comments_removed,compile_failed,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s967693306_comments_removed.go:4:2: imported and not used: ""bufio""
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s967693306_comments_removed.go:5:2: imported and not used: ""fmt""
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s967693306_comments_removed.go:6:2: imported and not used: ""os""
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s967693306_comments_removed.go:7:2: imported and not used: ""sort""
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s967693306_comments_removed.go:8:2: imported and not used: ""strconv""
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s967693306_comments_removed.go:37:21: undefined: FastScanner
+",,
+s967693306,commented,compile_failed,"output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s967693306_commented.go:1:1: expected 'package', found Negative
+",,
+s685734377,comments_removed,compile_failed,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s685734377_comments_removed.go:4:2: imported and not used: ""bufio""
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s685734377_comments_removed.go:5:2: imported and not used: ""fmt""
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s685734377_comments_removed.go:6:2: imported and not used: ""io""
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s685734377_comments_removed.go:7:2: imported and not used: ""os""
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s685734377_comments_removed.go:8:2: imported and not used: ""strconv""
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s685734377_comments_removed.go:9:2: imported and not used: ""strings""
+",,
+s685734377,commented,success,,,
+s041542819,comments_removed,compile_failed,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s041542819_comments_removed.go:182:1: syntax error: unexpected EOF, expecting }
+",,
+s041542819,commented,compile_failed,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s041542819_commented.go:4:2: imported and not used: ""bufio""
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s041542819_commented.go:32:22: os.Stdin.ReadAll undefined (type *os.File has no field or method ReadAll)
+",,
+s936984238,comments_removed,compile_failed,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s936984238_comments_removed.go:40:1: syntax error: unexpected EOF, expecting }
+",,
+s936984238,commented,success,,,
+s867221485,comments_removed,compile_failed,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s867221485_comments_removed.go:43:1: syntax error: unexpected EOF, expecting }
+",,
+s867221485,commented,compile_failed,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s867221485_commented.go:14:2: n declared but not used
+",,
+s511234019,comments_removed,success,,,
+s511234019,commented,success,,,
+s910447421,comments_removed,compile_failed,"output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s910447421_comments_removed.go:1:1: expected 'package', found ERROR
+",,
+s910447421,commented,success,,,
+s725559666,comments_removed,success,,,
+s725559666,commented,success,,,
+s573993837,comments_removed,runtime_failed,"panic: runtime error: index out of range [2] with length 2
+
+goroutine 1 [running]:
+main.main()
+	/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s573993837_comments_removed.go:21 +0x365
+",,
+s573993837,commented,success,,,
+s185737640,comments_removed,success,,,
+s185737640,commented,success,,,
+s780275612,comments_removed,compile_failed,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s780275612_comments_removed.go:11:1: syntax error: unexpected EOF, expecting }
+",,
+s780275612,commented,success,,,
+s826491904,comments_removed,success,,,
+s826491904,commented,success,,,
+s316260310,comments_removed,runtime_failed,"panic: runtime error: index out of range [0] with length 0
+
+goroutine 1 [running]:
+main.(*Solver).solve(0xc000236180)
+	/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s316260310_comments_removed.go:152 +0x330
+main.(*Solver).Solve(0xc000236180)
+	/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s316260310_comments_removed.go:137 +0x45
+main.main()
+	/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s316260310_comments_removed.go:180 +0x1e
+",,
+s316260310,commented,compile_failed,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s316260310_commented.go:24:28: undefined: io
+",,
+s749703010,comments_removed,runtime_failed,"panic: runtime error: index out of range [3] with length 3
+
+goroutine 1 [running]:
+main.dp(0x0, 0x3, 0x18000000000?)
+	/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s749703010_comments_removed.go:71 +0x2f5
+main.main()
+	/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s749703010_comments_removed.go:50 +0x376
+",,
+s749703010,commented,compile_failed,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s749703010_commented.go:76:14: invalid operation: res < ans (mismatched types int and float64)
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s749703010_commented.go:77:12: cannot use res (variable of type int) as type float64 in assignment
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s749703010_commented.go:83:25: cannot use ans (variable of type float64) as type int in assignment
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s749703010_commented.go:84:9: cannot use ans (variable of type float64) as type int in return statement
+",,
+s380356166,comments_removed,success,,,
+s380356166,commented,success,,,
+s831281137,comments_removed,success,,,
+s831281137,commented,compile_failed,"output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s831281137_commented.go:1:1: expected 'package', found ERROR
+",,
+s527301188,comments_removed,compile_failed,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s527301188_comments_removed.go:13:32: newline in rune literal
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s527301188_comments_removed.go:13:32: syntax error: unexpected newline, expecting comma or )
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s527301188_comments_removed.go:14:3: newline in rune literal
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s527301188_comments_removed.go:15:48: syntax error: unexpected ) at end of statement
+",,
+s527301188,commented,compile_failed,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s527301188_commented.go:38:1: syntax error: unexpected EOF, expecting }
+",,
+s514557145,comments_removed,compile_failed,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s514557145_comments_removed.go:234:36: newline in rune literal
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s514557145_comments_removed.go:235:1: more than one character in rune literal
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s514557145_comments_removed.go:235:13: syntax error: unexpected literal ' {, expecting { after if clause
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s514557145_comments_removed.go:235:16: newline in rune literal
+",,
+s514557145,commented,compile_failed,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s514557145_commented.go:231:13: undefined: 奏
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s514557145_commented.go:274:3: undefined: fmt
+",,
+s012761786,comments_removed,success,,,
+s012761786,commented,success,,,
+s612878490,comments_removed,test_failed,,4,16
+s612878490,commented,success,,,
+s010698290,comments_removed,success,,,
+s010698290,commented,compile_failed,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s010698290_commented.go:24:17: undefined: fmt.Atoi
+",,
+s063482767,comments_removed,success,,,
+s063482767,commented,compile_failed,"output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s063482767_commented.go:1:1: expected 'package', found 'import'
+",,

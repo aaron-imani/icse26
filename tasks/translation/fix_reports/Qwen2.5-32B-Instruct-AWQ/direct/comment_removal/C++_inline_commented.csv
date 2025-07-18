@@ -1,0 +1,198 @@
+id,version,status,error,expected,actual
+s596918302,commented,success,,,
+s545439898,commented,success,,,
+s196249385,commented,compile_failed,"output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C++/s196249385_commented.cpp: In function ‘void solve()’:
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C++/s196249385_commented.cpp:32:29: error: ‘log2’ was not declared in this scope
+   32 |     long mask = 1L << (long)log2(max);
+      |                             ^~~~
+",,
+s456888268,commented,compile_failed,"output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C++/s456888268_commented.cpp: In function ‘void reverse(int*)’:
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C++/s456888268_commented.cpp:62:22: warning: ‘sizeof’ on array function parameter ‘ar’ will return size of ‘int*’ [-Wsizeof-array-argument]
+   62 |     int len = sizeof(ar) / sizeof(ar[0]);
+      |                     ~^~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C++/s456888268_commented.cpp:61:18: note: declared here
+   61 | void reverse(int ar[]) {
+      |              ~~~~^~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C++/s456888268_commented.cpp: In function ‘void reverse(long int*)’:
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C++/s456888268_commented.cpp:71:22: warning: ‘sizeof’ on array function parameter ‘ar’ will return size of ‘long int*’ [-Wsizeof-array-argument]
+   71 |     int len = sizeof(ar) / sizeof(ar[0]);
+      |                     ~^~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C++/s456888268_commented.cpp:70:19: note: declared here
+   70 | void reverse(long ar[]) {
+      |              ~~~~~^~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C++/s456888268_commented.cpp: In function ‘void reverse(double*)’:
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C++/s456888268_commented.cpp:80:22: warning: ‘sizeof’ on array function parameter ‘ar’ will return size of ‘double*’ [-Wsizeof-array-argument]
+   80 |     int len = sizeof(ar) / sizeof(ar[0]);
+      |                     ~^~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C++/s456888268_commented.cpp:79:21: note: declared here
+   79 | void reverse(double ar[]) {
+      |              ~~~~~~~^~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C++/s456888268_commented.cpp: In function ‘void reverse(char*)’:
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C++/s456888268_commented.cpp:89:22: warning: ‘sizeof’ on array function parameter ‘ar’ will return size of ‘char*’ [-Wsizeof-array-argument]
+   89 |     int len = sizeof(ar) / sizeof(ar[0]);
+      |                     ~^~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C++/s456888268_commented.cpp:88:19: note: declared here
+   88 | void reverse(char ar[]) {
+      |              ~~~~~^~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C++/s456888268_commented.cpp: In function ‘std::string getReverse(std::string)’:
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C++/s456888268_commented.cpp:98:23: error: initializer fails to determine size of ‘c’
+   98 |     char c[] = s.c_str();
+      |                ~~~~~~~^~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C++/s456888268_commented.cpp:98:23: error: array must be initialized with a brace-enclosed initializer
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C++/s456888268_commented.cpp: At global scope:
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C++/s456888268_commented.cpp:520:15: error: declaration of ‘arr’ as multidimensional array must have bounds for all dimensions except the first
+  520 | void fill(int arr[][], int x, int n, int m) {
+      |               ^~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C++/s456888268_commented.cpp:520:22: error: expected ‘)’ before ‘,’ token
+  520 | void fill(int arr[][], int x, int n, int m) {
+      |          ~           ^
+      |                      )
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C++/s456888268_commented.cpp:520:24: error: expected unqualified-id before ‘int’
+  520 | void fill(int arr[][], int x, int n, int m) {
+      |                        ^~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C++/s456888268_commented.cpp:525:16: error: declaration of ‘arr’ as multidimensional array must have bounds for all dimensions except the first
+  525 | void fill(long arr[][], long x, int n, int m) {
+      |                ^~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C++/s456888268_commented.cpp:525:23: error: expected ‘)’ before ‘,’ token
+  525 | void fill(long arr[][], long x, int n, int m) {
+      |          ~            ^
+      |                       )
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C++/s456888268_commented.cpp:525:25: error: expected unqualified-id before ‘long’
+  525 | void fill(long arr[][], long x, int n, int m) {
+      |                         ^~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C++/s456888268_commented.cpp:530:18: error: declaration of ‘arr’ as multidimensional array must have bounds for all dimensions except the first
+  530 | void fill(double arr[][], double x, int n, int m) {
+      |                  ^~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C++/s456888268_commented.cpp:530:25: error: expected ‘)’ before ‘,’ token
+  530 | void fill(double arr[][], double x, int n, int m) {
+      |          ~              ^
+      |                         )
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C++/s456888268_commented.cpp:530:27: error: expected unqualified-id before ‘double’
+  530 | void fill(double arr[][], double x, int n, int m) {
+      |                           ^~~~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C++/s456888268_commented.cpp:535:16: error: declaration of ‘arr’ as multidimensional array must have bounds for all dimensions except the first
+  535 | void fill(bool arr[][], bool x, int n, int m) {
+      |                ^~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C++/s456888268_commented.cpp:535:23: error: expected ‘)’ before ‘,’ token
+  535 | void fill(bool arr[][], bool x, int n, int m) {
+      |          ~            ^
+      |                       )
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C++/s456888268_commented.cpp:535:25: error: expected unqualified-id before ‘bool’
+  535 | void fill(bool arr[][], bool x, int n, int m) {
+      |                         ^~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C++/s456888268_commented.cpp: In function ‘long int div(long int, long int, long int)’:
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C++/s456888268_commented.cpp:557:23: error: no matching function for call to ‘pow(long int&, long int, long int&)’
+  557 |     long res = x * pow(y, mod - 2, mod) % mod;
+      |                    ~~~^~~~~~~~~~~~~~~~~
+In file included from output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C++/s456888268_commented.cpp:25:
+/usr/include/c++/11/complex:1899:5: note: candidate: ‘template<class _Tp, class _Up> std::complex<typename __gnu_cxx::__promote_2<_Tp, _Up>::__type> std::pow(const std::complex<_Tp>&, const std::complex<_Up>&)’
+ 1899 |     pow(const std::complex<_Tp>& __x, const std::complex<_Up>& __y)
+      |     ^~~
+/usr/include/c++/11/complex:1899:5: note:   template argument deduction/substitution failed:
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C++/s456888268_commented.cpp:557:23: note:   mismatched types ‘const std::complex<_Tp>’ and ‘long int’
+  557 |     long res = x * pow(y, mod - 2, mod) % mod;
+      |                    ~~~^~~~~~~~~~~~~~~~~
+In file included from output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C++/s456888268_commented.cpp:25:
+/usr/include/c++/11/complex:1891:5: note: candidate: ‘template<class _Tp, class _Up> std::complex<typename __gnu_cxx::__promote_2<_Tp, _Up>::__type> std::pow(const _Tp&, const std::complex<_Up>&)’
+ 1891 |     pow(const _Tp& __x, const std::complex<_Up>& __y)
+      |     ^~~
+/usr/include/c++/11/complex:1891:5: note:   template argument deduction/substitution failed:
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C++/s456888268_commented.cpp:557:23: note:   mismatched types ‘const std::complex<_Up>’ and ‘long int’
+  557 |     long res = x * pow(y, mod - 2, mod) % mod;
+      |                    ~~~^~~~~~~~~~~~~~~~~
+In file included from output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C++/s456888268_commented.cpp:25:
+/usr/include/c++/11/complex:1883:5: note: candidate: ‘template<class _Tp, class _Up> std::complex<typename __gnu_cxx::__promote_2<_Tp, _Up>::__type> std::pow(const std::complex<_Tp>&, const _Up&)’
+ 1883 |     pow(const std::complex<_Tp>& __x, const _Up& __y)
+      |     ^~~
+/usr/include/c++/11/complex:1883:5: note:   template argument deduction/substitution failed:
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C++/s456888268_commented.cpp:557:23: note:   mismatched types ‘const std::complex<_Tp>’ and ‘long int’
+  557 |     long res = x * pow(y, mod - 2, mod) % mod;
+      |                    ~~~^~~~~~~~~~~~~~~~~
+In file included from output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C++/s456888268_commented.cpp:25:
+/usr/include/c++/11/complex:1073:5: note: candidate: ‘template<class _Tp> std::complex<_Tp> std::pow(const _Tp&, const std::complex<_Tp>&)’
+ 1073 |     pow(const _Tp& __x, const complex<_Tp>& __y)
+      |     ^~~
+/usr/include/c++/11/complex:1073:5: note:   template argument deduction/substitution failed:
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C++/s456888268_commented.cpp:557:23: note:   mismatched types ‘const std::complex<_Tp>’ and ‘long int’
+  557 |     long res = x * pow(y, mod - 2, mod) % mod;
+      |                    ~~~^~~~~~~~~~~~~~~~~
+In file included from output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C++/s456888268_commented.cpp:25:
+/usr/include/c++/11/complex:1062:5: note: candidate: ‘template<class _Tp> std::complex<_Tp> std::pow(const std::complex<_Tp>&, const std::complex<_Tp>&)’
+ 1062 |     pow(const complex<_Tp>& __x, const complex<_Tp>& __y)
+      |     ^~~
+/usr/include/c++/11/complex:1062:5: note:   template argument deduction/substitution failed:
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C++/s456888268_commented.cpp:557:23: note:   mismatched types ‘const std::complex<_Tp>’ and ‘long int’
+  557 |     long res = x * pow(y, mod - 2, mod) % mod;
+      |                    ~~~^~~~~~~~~~~~~~~~~
+In file included from output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C++/s456888268_commented.cpp:25:
+/usr/include/c++/11/complex:1028:5: note: candidate: ‘template<class _Tp> std::complex<_Tp> std::pow(const std::complex<_Tp>&, const _Tp&)’
+ 1028 |     pow(const complex<_Tp>& __x, const _Tp& __y)
+      |     ^~~
+/usr/include/c++/11/complex:1028:5: note:   template argument deduction/substitution failed:
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C++/s456888268_commented.cpp:557:23: note:   mismatched types ‘const std::complex<_Tp>’ and ‘long int’
+  557 |     long res = x * pow(y, mod - 2, mod) % mod;
+      |                    ~~~^~~~~~~~~~~~~~~~~
+In file included from output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C++/s456888268_commented.cpp:25:
+/usr/include/c++/11/complex:1019:5: note: candidate: ‘template<class _Tp> std::complex<_Tp> std::pow(const std::complex<_Tp>&, int)’
+ 1019 |     pow(const complex<_Tp>& __z, int __n)
+      |     ^~~
+/usr/include/c++/11/complex:1019:5: note:   template argument deduction/substitution failed:
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C++/s456888268_commented.cpp:557:23: note:   mismatched types ‘const std::complex<_Tp>’ and ‘long int’
+  557 |     long res = x * pow(y, mod - 2, mod) % mod;
+      |                    ~~~^~~~~~~~~~~~~~~~~
+In file included from output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C++/s456888268_commented.cpp:4:
+/usr/include/c++/11/cmath:415:5: note: candidate: ‘template<class _Tp, class _Up> constexpr typename __gnu_cxx::__promote_2<_Tp, _Up>::__type std::pow(_Tp, _Up)’
+  415 |     pow(_Tp __x, _Up __y)
+      |     ^~~
+/usr/include/c++/11/cmath:415:5: note:   template argument deduction/substitution failed:
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C++/s456888268_commented.cpp:557:23: note:   candidate expects 2 arguments, 3 provided
+  557 |     long res = x * pow(y, mod - 2, mod) % mod;
+      |                    ~~~^~~~~~~~~~~~~~~~~
+In file included from /usr/include/features.h:486,
+                 from /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h:39,
+                 from /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h:586,
+                 from /usr/include/c++/11/iostream:38,
+                 from output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C++/s456888268_commented.cpp:1:
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:140:1: note: candidate: ‘double pow(double, double)’
+  140 | __MATHCALL_VEC (pow,, (_Mdouble_ __x, _Mdouble_ __y));
+      | ^~~~~~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:140:1: note:   candidate expects 2 arguments, 3 provided
+In file included from output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C++/s456888268_commented.cpp:4:
+/usr/include/c++/11/cmath:392:3: note: candidate: ‘constexpr long double std::pow(long double, long double)’
+  392 |   pow(long double __x, long double __y)
+      |   ^~~
+/usr/include/c++/11/cmath:392:3: note:   candidate expects 2 arguments, 3 provided
+/usr/include/c++/11/cmath:388:3: note: candidate: ‘constexpr float std::pow(float, float)’
+  388 |   pow(float __x, float __y)
+      |   ^~~
+/usr/include/c++/11/cmath:388:3: note:   candidate expects 2 arguments, 3 provided
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C++/s456888268_commented.cpp: In function ‘void solve()’:
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C++/s456888268_commented.cpp:575:25: error: initializer fails to determine size of ‘s’
+  575 |     char s[] = tmp.c_str();
+      |                ~~~~~~~~~^~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C++/s456888268_commented.cpp:575:25: error: array must be initialized with a brace-enclosed initializer
+",,
+s287007304,commented,success,,,
+s937747608,commented,success,,,
+s452855095,commented,success,,,
+s504715611,commented,compile_failed,"output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C++/s504715611_commented.cpp: In member function ‘int FastScanner::nextInt()’:
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C++/s504715611_commented.cpp:104:18: error: ‘INT_MIN’ was not declared in this scope
+  104 |         if (nl < INT_MIN || nl > INT_MAX) throw std::runtime_error(""Number out of range"");
+      |                  ^~~~~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C++/s504715611_commented.cpp:7:1: note: ‘INT_MIN’ is defined in header ‘<climits>’; did you forget to ‘#include <climits>’?
+    6 | #include <cstdio>
+  +++ |+#include <climits>
+    7 | 
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C++/s504715611_commented.cpp:104:34: error: ‘INT_MAX’ was not declared in this scope
+  104 |         if (nl < INT_MIN || nl > INT_MAX) throw std::runtime_error(""Number out of range"");
+      |                                  ^~~~~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C++/s504715611_commented.cpp:104:34: note: ‘INT_MAX’ is defined in header ‘<climits>’; did you forget to ‘#include <climits>’?
+",,
+s511234019,commented,success,,,
+s725559666,commented,success,,,
+s185737640,commented,success,,,
+s826491904,commented,test_failed,,7,8
+s831281137,commented,success,,,
+s527301188,commented,success,,,
+s012761786,commented,success,,,
+s063482767,commented,success,,,

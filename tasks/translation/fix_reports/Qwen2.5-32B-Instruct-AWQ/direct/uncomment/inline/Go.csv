@@ -1,0 +1,48 @@
+id,version,status,expected,actual,error
+s596918302,commented,success,,,
+s545439898,commented,test_failed,5 4 3 2 1,0 0 0 0 0,
+s196249385,commented,compile_failed,,,"# command-line-arguments
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/inline/uncomment/direct/Java/Go/s196249385_commented.go:7:2: imported and not used: ""strconv""
+"
+s456888268,commented,compile_failed,,,"# command-line-arguments
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/inline/uncomment/direct/Java/Go/s456888268_commented.go:275:10: syntax error: unexpected ~, expecting expression
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/inline/uncomment/direct/Java/Go/s456888268_commented.go:276:2: syntax error: unexpected case, expecting }
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/inline/uncomment/direct/Java/Go/s456888268_commented.go:277:49: syntax error: unexpected {, expecting (
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/inline/uncomment/direct/Java/Go/s456888268_commented.go:279:49: syntax error: unexpected {, expecting (
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/inline/uncomment/direct/Java/Go/s456888268_commented.go:291:10: syntax error: unexpected ~, expecting expression
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/inline/uncomment/direct/Java/Go/s456888268_commented.go:292:2: syntax error: unexpected case, expecting }
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/inline/uncomment/direct/Java/Go/s456888268_commented.go:293:49: syntax error: unexpected {, expecting (
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/inline/uncomment/direct/Java/Go/s456888268_commented.go:295:49: syntax error: unexpected {, expecting (
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/inline/uncomment/direct/Java/Go/s456888268_commented.go:307:10: syntax error: unexpected ~, expecting expression
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/inline/uncomment/direct/Java/Go/s456888268_commented.go:308:2: syntax error: unexpected case, expecting }
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/inline/uncomment/direct/Java/Go/s456888268_commented.go:308:2: too many errors
+"
+s287007304,commented,success,,,
+s937747608,commented,success,,,
+s452855095,commented,infinite_loop,,,
+s504715611,commented,compile_failed,,,"# command-line-arguments
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/inline/uncomment/direct/Java/Go/s504715611_commented.go:8:2: imported and not used: ""strings""
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/inline/uncomment/direct/Java/Go/s504715611_commented.go:91:11: undefined: math
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/inline/uncomment/direct/Java/Go/s504715611_commented.go:117:3: undefined: scanner
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/inline/uncomment/direct/Java/Go/s504715611_commented.go:118:26: undefined: scanner
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/inline/uncomment/direct/Java/Go/s504715611_commented.go:126:3: undefined: scanner
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/inline/uncomment/direct/Java/Go/s504715611_commented.go:127:30: undefined: scanner
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/inline/uncomment/direct/Java/Go/s504715611_commented.go:149:2: undefined: sort
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/inline/uncomment/direct/Java/Go/s504715611_commented.go:156:2: undefined: sort
+"
+s511234019,commented,success,,,
+s725559666,commented,success,,,
+s185737640,commented,success,,,
+s826491904,commented,runtime_failed,,,"panic: runtime error: index out of range [0] with length 0
+
+goroutine 1 [running]:
+main.main()
+	/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/inline/uncomment/direct/Java/Go/s826491904_commented.go:21 +0x1c5
+"
+s831281137,commented,test_failed,13,0,
+s527301188,commented,success,,,
+s012761786,commented,success,,,
+s063482767,commented,compile_failed,,,"# command-line-arguments
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/inline/uncomment/direct/Java/Go/s063482767_commented.go:8:2: imported and not used: ""strings""
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/inline/uncomment/direct/Java/Go/s063482767_commented.go:21:2: undefined: sort
+"

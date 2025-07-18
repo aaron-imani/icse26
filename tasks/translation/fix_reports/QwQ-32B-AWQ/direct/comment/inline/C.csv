@@ -1,0 +1,103 @@
+id,version,status,expected,actual,error
+s596918302,commented,success,,,
+s283652523,commented,success,,,
+s584572995,commented,test_failed,125000001,375000002,
+s888333881,commented,success,,,
+s545439898,commented,success,,,
+s893190600,commented,success,,,
+s580342216,commented,success,,,
+s196249385,commented,success,,,
+s456888268,commented,success,,,
+s466963472,commented,success,,,
+s863488345,commented,compile_failed,,,"output/Qwen/QwQ-32B-AWQ/codenet/direct/inline/comment/direct/Java/C/s863488345_commented.c: In function ‘moveBomber’:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/inline/comment/direct/Java/C/s863488345_commented.c:114:26: error: ‘嘲’ undeclared (first use in this function)
+  114 |                 if (a == 嘲) return;
+      |                          ^~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/inline/comment/direct/Java/C/s863488345_commented.c:114:26: note: each undeclared identifier is reported only once for each function it appears in
+"
+s127819686,commented,success,,,
+s287007304,commented,success,,,
+s937747608,commented,success,,,
+s824230885,commented,success,,,
+s452855095,commented,success,,,
+s378126458,commented,success,,,
+s221078931,commented,success,,,
+s081988820,commented,success,,,
+s504715611,commented,compile_failed,,,"/usr/bin/ld: /tmp/ccxxcxbf.o: in function `isPrime':
+s504715611_commented.c:(.text+0x339): undefined reference to `sqrt'
+collect2: error: ld returned 1 exit status
+"
+s684030429,commented,compile_failed,,,"output/Qwen/QwQ-32B-AWQ/codenet/direct/inline/comment/direct/Java/C/s684030429_commented.c: In function ‘lmin’:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/inline/comment/direct/Java/C/s684030429_commented.c:133:16: error: ‘LLONG_MAX’ undeclared (first use in this function)
+  133 |     long min = LLONG_MAX;
+      |                ^~~~~~~~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/inline/comment/direct/Java/C/s684030429_commented.c:5:1: note: ‘LLONG_MAX’ is defined in header ‘<limits.h>’; did you forget to ‘#include <limits.h>’?
+    4 | #include <math.h>
+  +++ |+#include <limits.h>
+    5 | 
+output/Qwen/QwQ-32B-AWQ/codenet/direct/inline/comment/direct/Java/C/s684030429_commented.c:133:16: note: each undeclared identifier is reported only once for each function it appears in
+  133 |     long min = LLONG_MAX;
+      |                ^~~~~~~~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/inline/comment/direct/Java/C/s684030429_commented.c: In function ‘imin’:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/inline/comment/direct/Java/C/s684030429_commented.c:141:15: error: ‘INT_MAX’ undeclared (first use in this function)
+  141 |     int min = INT_MAX;
+      |               ^~~~~~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/inline/comment/direct/Java/C/s684030429_commented.c:141:15: note: ‘INT_MAX’ is defined in header ‘<limits.h>’; did you forget to ‘#include <limits.h>’?
+output/Qwen/QwQ-32B-AWQ/codenet/direct/inline/comment/direct/Java/C/s684030429_commented.c: In function ‘lmax’:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/inline/comment/direct/Java/C/s684030429_commented.c:149:16: error: ‘LLONG_MIN’ undeclared (first use in this function)
+  149 |     long max = LLONG_MIN;
+      |                ^~~~~~~~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/inline/comment/direct/Java/C/s684030429_commented.c:149:16: note: ‘LLONG_MIN’ is defined in header ‘<limits.h>’; did you forget to ‘#include <limits.h>’?
+output/Qwen/QwQ-32B-AWQ/codenet/direct/inline/comment/direct/Java/C/s684030429_commented.c: In function ‘imax’:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/inline/comment/direct/Java/C/s684030429_commented.c:157:15: error: ‘INT_MIN’ undeclared (first use in this function)
+  157 |     int max = INT_MIN;
+      |               ^~~~~~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/inline/comment/direct/Java/C/s684030429_commented.c:157:15: note: ‘INT_MIN’ is defined in header ‘<limits.h>’; did you forget to ‘#include <limits.h>’?
+"
+s967693306,commented,compile_failed,,,"output/Qwen/QwQ-32B-AWQ/codenet/direct/inline/comment/direct/Java/C/s967693306_commented.c: In function ‘main’:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/inline/comment/direct/Java/C/s967693306_commented.c:44:30: error: ‘做不到’ undeclared (first use in this function)
+   44 |                 if (digit != 做不到) {
+      |                              ^~~~~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/inline/comment/direct/Java/C/s967693306_commented.c:44:30: note: each undeclared identifier is reported only once for each function it appears in
+"
+s685734377,commented,test_failed,2,0,
+s041542819,commented,success,,,
+s936984238,commented,success,,,
+s867221485,commented,success,,,
+s511234019,commented,success,,,
+s910447421,commented,success,,,
+s725559666,commented,success,,,
+s573993837,commented,success,,,
+s185737640,commented,success,,,
+s780275612,commented,compile_failed,,,"/usr/bin/ld: /tmp/ccLdRFnT.o: in function `main':
+s780275612_commented.c:(.text+0x58): undefined reference to `pow'
+collect2: error: ld returned 1 exit status
+"
+s826491904,commented,success,,,
+s316260310,commented,test_failed,4,,
+s749703010,commented,success,,,
+s380356166,commented,success,,,
+s831281137,commented,success,,,
+s527301188,commented,success,,,
+s514557145,commented,compile_failed,,,"output/Qwen/QwQ-32B-AWQ/codenet/direct/inline/comment/direct/Java/C/s514557145_commented.c:21:21: error: ‘INT_MAX’ undeclared here (not in a function)
+   21 | struct S S_E = {0, (INT_MAX / 2), (INT_MIN / 2)};
+      |                     ^~~~~~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/inline/comment/direct/Java/C/s514557145_commented.c:4:1: note: ‘INT_MAX’ is defined in header ‘<limits.h>’; did you forget to ‘#include <limits.h>’?
+    3 | #include <math.h>
+  +++ |+#include <limits.h>
+    4 | 
+output/Qwen/QwQ-32B-AWQ/codenet/direct/inline/comment/direct/Java/C/s514557145_commented.c:21:36: error: ‘INT_MIN’ undeclared here (not in a function)
+   21 | struct S S_E = {0, (INT_MAX / 2), (INT_MIN / 2)};
+      |                                    ^~~~~~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/inline/comment/direct/Java/C/s514557145_commented.c:21:36: note: ‘INT_MIN’ is defined in header ‘<limits.h>’; did you forget to ‘#include <limits.h>’?
+output/Qwen/QwQ-32B-AWQ/codenet/direct/inline/comment/direct/Java/C/s514557145_commented.c: In function ‘push’:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/inline/comment/direct/Java/C/s514557145_commented.c:80:22: error: invalid operands to binary == (have ‘struct F’ and ‘struct F’)
+   80 |     if (tree->laz[k] == F_I) return;
+      |         ~~~~~~~~~~~~ ^~
+      |                  |
+      |                  struct F
+"
+s012761786,commented,success,,,
+s612878490,commented,success,,,
+s010698290,commented,success,,,
+s063482767,commented,success,,,

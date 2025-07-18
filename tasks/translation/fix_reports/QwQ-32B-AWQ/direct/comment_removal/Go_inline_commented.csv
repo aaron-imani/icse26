@@ -1,0 +1,29 @@
+id,version,status,expected,actual,error
+s596918302,commented,success,,,
+s545439898,commented,success,,,
+s196249385,commented,success,,,
+s456888268,commented,success,,,
+s287007304,commented,success,,,
+s937747608,commented,success,,,
+s452855095,commented,success,,,
+s504715611,commented,compile_failed,,,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/Go/s504715611_commented.go:108:17: cannot use g (variable of type int64) as type int in argument to modint
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/Go/s504715611_commented.go:109:9: invalid operation: a * b % modInt (mismatched types int64 and int)
+"
+s511234019,commented,success,,,
+s725559666,commented,success,,,
+s185737640,commented,compile_failed,,,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/Go/s185737640_commented.go:25:2: undefined: fmt
+"
+s826491904,commented,success,,,
+s831281137,commented,compile_failed,,,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/Go/s831281137_commented.go:33:28: syntax error: unexpected i_sum, expecting comma, : or ]
+"
+s527301188,commented,runtime_failed,,,"3
+"
+s012761786,commented,compile_failed,,,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/Go/s012761786_commented.go:4:2: imported and not used: ""bufio""
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/Go/s012761786_commented.go:7:2: imported and not used: ""os""
+"
+s063482767,commented,compile_failed,,,"output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/Go/s063482767_commented.go:1:1: expected 'package', found 'import'
+"

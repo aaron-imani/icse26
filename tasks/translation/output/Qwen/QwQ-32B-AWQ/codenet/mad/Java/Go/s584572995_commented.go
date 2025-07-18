@@ -1,0 +1,1 @@
+The correct answer is the Affirmative's code. The key error in the Negative's code is in the edges loop where they compute term1 and term2 using modpow(a,a) instead of modpow(2,a). This results in incorrect exponentiation calculations critical to the problem's solution. The Affirmative's code correctly replicates the original Java's logic with proper 2^a and 2^b exponents.

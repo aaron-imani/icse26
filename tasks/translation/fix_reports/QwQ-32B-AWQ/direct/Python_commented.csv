@@ -1,0 +1,90 @@
+id,status,error,expected,actual
+s596918302,success,,,
+s283652523,success,,,
+s584572995,success,,,
+s888333881,compile_failed,"  File ""output/Qwen/QwQ-32B-AWQ/codenet/Java/Python/s888333881_commented.py"", line 45
+    while dw != 把自己想象成一个Java程序员，现在需要将一段Java代码转换为Python。首先，我需要仔细阅读Java代码，理解其结构和逻辑。
+                               ^
+SyntaxError: invalid character '，' (U+FF0C)
+",,
+s545439898,success,,,
+s893190600,success,,,
+s580342216,success,,,
+s196249385,success,,,
+s456888268,success,,,
+s466963472,success,,,
+s863488345,compile_failed,"  File ""output/Qwen/QwQ-32B-AWQ/codenet/Java/Python/s863488345_commented.py"", line 107
+    if .assertRaises(x < h and 0 <= new_y < w:
+       ^
+SyntaxError: invalid syntax
+",,
+s127819686,runtime_failed,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/QwQ-32B-AWQ/codenet/Java/Python/s127819686_commented.py"", line 1, in <module>
+    a = int(input())
+ValueError: invalid literal for int() with base 10: '81 58'
+",,
+s287007304,success,,,
+s937747608,success,,,
+s824230885,success,,,
+s452855095,success,,,
+s378126458,success,,,
+s221078931,compile_failed,"  File ""output/Qwen/QwQ-32B-AWQ/codenet/Java/Python/s221078931_commented.py"", line 23
+    if h == SuppressLint(""ClickableViewAccessibility"") 0 and w == 0:
+                                                       ^
+SyntaxError: invalid syntax
+",,
+s081988820,success,,,
+s504715611,compile_failed,"  File ""output/Qwen/QwQ-32B-AWQ/codenet/Java/Python/s504715611_commented.py"", line 92
+    left, right = # noqa: E265
+                  ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+",,
+s684030429,success,,,
+s967693306,success,,,
+s685734377,success,,,
+s041542819,success,,,
+s936984238,runtime_failed,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/QwQ-32B-AWQ/codenet/Java/Python/s936984238_commented.py"", line 23, in <module>
+    main()
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/QwQ-32B-AWQ/codenet/Java/Python/s936984238_commented.py"", line 20, in main
+    slove()
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/QwQ-32B-AWQ/codenet/Java/Python/s936984238_commented.py"", line 15, in slove
+    avg = sum_val // (number - 2)
+ZeroDivisionError: integer division or modulo by zero
+",,
+s867221485,test_failed,,1,0
+s511234019,success,,,
+s910447421,success,,,
+s725559666,success,,,
+s573993837,success,,,
+s185737640,success,,,
+s780275612,success,,,
+s826491904,runtime_failed,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/QwQ-32B-AWQ/codenet/Java/Python/s826491904_commented.py"", line 2, in <module>
+    max_v = min_v = int(input())
+ValueError: invalid literal for int() with base 10: '2 3 7 9'
+",,
+s316260310,success,,,
+s749703010,success,,,
+s380356166,success,,,
+s831281137,success,,,
+s527301188,success,,,
+s514557145,test_failed,,"11222211
+77772211
+77333333
+72333333
+72311333","11111111
+11111111
+11111111
+11111111
+11111111"
+s012761786,success,,,
+s612878490,runtime_failed,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/QwQ-32B-AWQ/codenet/Java/Python/s612878490_commented.py"", line 13, in <module>
+    main()
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/QwQ-32B-AWQ/codenet/Java/Python/s612878490_commented.py"", line 7, in main
+    A = int(input())
+ValueError: invalid literal for int() with base 10: '1 7'
+",,
+s010698290,success,,,
+s063482767,success,,,

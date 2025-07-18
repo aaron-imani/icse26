@@ -1,0 +1,34 @@
+id,version,status,error,expected,actual
+s584572995,commented,success,,,
+s888333881,commented,success,,,
+s893190600,commented,runtime_failed,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/QwQ-32B-AWQ/codenet/direct/multiline/uncomment/direct/Java/Python/s893190600_commented.py"", line 29, in <module>
+    main()
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/QwQ-32B-AWQ/codenet/direct/multiline/uncomment/direct/Java/Python/s893190600_commented.py"", line 4, in main
+    H = int(sys.stdin.readline())
+ValueError: invalid literal for int() with base 10: '3 3\\n'
+",,
+s580342216,commented,success,,,
+s127819686,commented,success,,,
+s824230885,commented,success,,,
+s221078931,commented,success,,,
+s967693306,commented,success,,,
+s573993837,commented,success,,,
+s780275612,commented,success,,,
+s316260310,commented,compile_failed,"  File ""output/Qwen/QwQ-32B-AWQ/codenet/direct/multiline/uncomment/direct/Java/Python/s316260310_commented.py"", line 1
+    Here's the Python code translated from the provided Java code:
+        ^
+SyntaxError: unterminated string literal (detected at line 1)
+",,
+s749703010,commented,success,,,
+s380356166,commented,success,,,
+s514557145,commented,test_failed,,"11222211
+77772211
+77333333
+72333333
+72311333","11221111
+11221111
+77331111
+72331111
+72311111"
+s010698290,commented,test_failed,,2 2,0 0

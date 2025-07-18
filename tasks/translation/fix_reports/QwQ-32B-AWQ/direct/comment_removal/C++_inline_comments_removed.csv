@@ -1,0 +1,73 @@
+id,version,status,error,expected,actual
+s596918302,comments_removed,success,,,
+s545439898,comments_removed,success,,,
+s196249385,comments_removed,success,,,
+s456888268,comments_removed,compile_failed,"output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C++/s456888268_comments_removed.cpp:12:17: error: ‘numeric_limits’ was not declared in this scope
+   12 | const int inf = numeric_limits<int>::max() / 2;
+      |                 ^~~~~~~~~~~~~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C++/s456888268_comments_removed.cpp:12:32: error: expected primary-expression before ‘int’
+   12 | const int inf = numeric_limits<int>::max() / 2;
+      |                                ^~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C++/s456888268_comments_removed.cpp:13:24: error: ‘numeric_limits’ was not declared in this scope
+   13 | const long long linf = numeric_limits<long long>::max() / 3;
+      |                        ^~~~~~~~~~~~~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C++/s456888268_comments_removed.cpp:13:39: error: expected primary-expression before ‘long’
+   13 | const long long linf = numeric_limits<long long>::max() / 3;
+      |                                       ^~~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C++/s456888268_comments_removed.cpp:14:21: error: ‘numeric_limits’ was not declared in this scope
+   14 | const double dinf = numeric_limits<double>::max() / 3;
+      |                     ^~~~~~~~~~~~~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C++/s456888268_comments_removed.cpp:14:36: error: expected primary-expression before ‘double’
+   14 | const double dinf = numeric_limits<double>::max() / 3;
+      |                                    ^~~~~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C++/s456888268_comments_removed.cpp:16:19: error: ‘M_PI’ was not declared in this scope
+   16 | const double pi = M_PI;
+      |                   ^~~~
+",,
+s287007304,comments_removed,success,,,
+s937747608,comments_removed,success,,,
+s452855095,comments_removed,success,,,
+s504715611,comments_removed,compile_failed,"output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C++/s504715611_comments_removed.cpp:10:17: error: ‘INT_MAX’ was not declared in this scope
+   10 | const int big = INT_MAX;
+      |                 ^~~~~~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C++/s504715611_comments_removed.cpp:6:1: note: ‘INT_MAX’ is defined in header ‘<climits>’; did you forget to ‘#include <climits>’?
+    5 | #include <cmath>
+  +++ |+#include <climits>
+    6 | using namespace std;
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C++/s504715611_comments_removed.cpp: In member function ‘int FastScanner::nextInt()’:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C++/s504715611_comments_removed.cpp:90:18: error: ‘INT_MIN’ was not declared in this scope
+   90 |         if (nl < INT_MIN || nl > INT_MAX) throw runtime_error(""Out of range"");
+      |                  ^~~~~~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C++/s504715611_comments_removed.cpp:90:18: note: ‘INT_MIN’ is defined in header ‘<climits>’; did you forget to ‘#include <climits>’?
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C++/s504715611_comments_removed.cpp:90:34: error: ‘INT_MAX’ was not declared in this scope
+   90 |         if (nl < INT_MIN || nl > INT_MAX) throw runtime_error(""Out of range"");
+      |                                  ^~~~~~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C++/s504715611_comments_removed.cpp:90:34: note: ‘INT_MAX’ is defined in header ‘<climits>’; did you forget to ‘#include <climits>’?
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C++/s504715611_comments_removed.cpp: In function ‘long int modlcm(long int, long int)’:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C++/s504715611_comments_removed.cpp:108:46: error: ‘modint’ was not declared in this scope; did you mean ‘mode_t’?
+  108 | long modlcm(long a, long b) { return a * b * modint(gcd(a, b), mod); }
+      |                                              ^~~~~~
+      |                                              mode_t
+",,
+s511234019,comments_removed,success,,,
+s725559666,comments_removed,success,,,
+s185737640,comments_removed,success,,,
+s826491904,comments_removed,compile_failed,"output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C++/s826491904_comments_removed.cpp: In function ‘int main()’:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C++/s826491904_comments_removed.cpp:14:18: error: ‘max’ cannot be used as a function
+   14 |         max = max(max, in);
+      |               ~~~^~~~~~~~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C++/s826491904_comments_removed.cpp:15:18: error: ‘min’ cannot be used as a function
+   15 |         min = min(min, in);
+      |               ~~~^~~~~~~~~
+",,
+s831281137,comments_removed,success,,,
+s527301188,comments_removed,compile_failed,"output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C++/s527301188_comments_removed.cpp: In function ‘int main()’:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C++/s527301188_comments_removed.cpp:40:14: error: expected ‘}’ at end of input
+   40 |     return 0; // End of Code
+      |              ^
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C++/s527301188_comments_removed.cpp:6:12: note: to match this ‘{’
+    6 | int main() {
+      |            ^
+",,
+s012761786,comments_removed,success,,,
+s063482767,comments_removed,success,,,

@@ -1,0 +1,111 @@
+id,status,expected,actual,error
+s596918302,success,,,
+s283652523,success,,,
+s584572995,compile_failed,,,"output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/C/s584572995_comments_removed.c:1:1: error: unknown type name ‘The’
+    1 | The provided C code is correct and will produce the correct result under the problem constraints.
+      | ^~~
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/C/s584572995_comments_removed.c:1:14: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘C’
+    1 | The provided C code is correct and will produce the correct result under the problem constraints.
+      |              ^
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/C/s584572995_comments_removed.c:1:14: error: unknown type name ‘C’
+"
+s888333881,success,,,
+s545439898,success,,,
+s893190600,success,,,
+s580342216,success,,,
+s196249385,success,,,
+s456888268,success,,,
+s466963472,success,,,
+s863488345,compile_failed,,,"output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/C/s863488345_comments_removed.c: In function ‘moveBomber’:
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/C/s863488345_comments_removed.c:45:33: error: ‘罪’ undeclared (first use in this function)
+   45 |             while (currentCol > 罪? 0) {
+      |                                 ^~
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/C/s863488345_comments_removed.c:45:33: note: each undeclared identifier is reported only once for each function it appears in
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/C/s863488345_comments_removed.c:45:38: error: expected ‘:’ before ‘)’ token
+   45 |             while (currentCol > 罪? 0) {
+      |                                      ^
+      |                                      :
+"
+s127819686,success,,,
+s287007304,success,,,
+s937747608,success,,,
+s824230885,success,,,
+s452855095,success,,,
+s378126458,success,,,
+s221078931,compile_failed,,,"output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/C/s221078931_comments_removed.c: In function ‘main’:
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/C/s221078931_comments_removed.c:44:46: error: ‘_2’ undeclared (first use in this function)
+   44 |         if (sscanf(line, ""%d %d"", &h, &w) != _2) continue;
+      |                                              ^~
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/C/s221078931_comments_removed.c:44:46: note: each undeclared identifier is reported only once for each function it appears in
+"
+s081988820,success,,,
+s504715611,compile_failed,,,"/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x1b): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+"
+s684030429,success,,,
+s967693306,success,,,
+s685734377,compile_failed,,,"output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/C/s685734377_comments_removed.c: In function ‘main’:
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/C/s685734377_comments_removed.c:27:26: error: ‘翻译结果’ undeclared (first use in this function)
+   27 |             for (int k = 翻译结果 0; k < n; k++) {
+      |                          ^~~~~~~~
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/C/s685734377_comments_removed.c:27:26: note: each undeclared identifier is reported only once for each function it appears in
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/C/s685734377_comments_removed.c:27:35: error: expected ‘,’ or ‘;’ before numeric constant
+   27 |             for (int k = 翻译结果 0; k < n; k++) {
+      |                                   ^
+"
+s041542819,test_failed,"350
+1400
+301
+399",,
+s936984238,success,,,
+s867221485,success,,,
+s511234019,success,,,
+s910447421,success,,,
+s725559666,success,,,
+s573993837,compile_failed,,,"output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/C/s573993837_comments_removed.c:1:1: error: unknown type name ‘The’
+    1 | The provided C code correctly translates the Java code. Key fixes include simplifying the modulo operation when n > m, ensuring correct token parsing in InputReader, and proper handling of all edge cases. The final code is correct and functional.
+      | ^~~
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/C/s573993837_comments_removed.c:1:14: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘C’
+    1 | The provided C code correctly translates the Java code. Key fixes include simplifying the modulo operation when n > m, ensuring correct token parsing in InputReader, and proper handling of all edge cases. The final code is correct and functional.
+      |              ^
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/C/s573993837_comments_removed.c:1:14: error: unknown type name ‘C’
+"
+s185737640,success,,,
+s780275612,compile_failed,,,"/usr/bin/ld: /tmp/ccwNX6SB.o: in function `main':
+s780275612_comments_removed.c:(.text+0x58): undefined reference to `pow'
+collect2: error: ld returned 1 exit status
+"
+s826491904,success,,,
+s316260310,success,,,
+s749703010,success,,,
+s380356166,success,,,
+s831281137,compile_failed,,,"output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/C/s831281137_comments_removed.c:3:1: error: unknown type name ‘defined’
+    3 | defined MAX(a, b) as ((a) > (b) ? (a) : (b))
+      | ^~~~~~~
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/C/s831281137_comments_removed.c: In function ‘MAX’:
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/C/s831281137_comments_removed.c:3:19: error: expected declaration specifiers before ‘as’
+    3 | defined MAX(a, b) as ((a) > (b) ? (a) : (b))
+      |                   ^~
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/C/s831281137_comments_removed.c:3:9: warning: type of ‘a’ defaults to ‘int’ [-Wimplicit-int]
+    3 | defined MAX(a, b) as ((a) > (b) ? (a) : (b))
+      |         ^~~
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/C/s831281137_comments_removed.c:3:9: warning: type of ‘b’ defaults to ‘int’ [-Wimplicit-int]
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/C/s831281137_comments_removed.c:38: error: expected ‘{’ at end of input
+"
+s527301188,success,,,
+s514557145,compile_failed,,,"output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/C/s514557145_comments_removed.c:4:1: error: unknown type name ‘defined’
+    4 | defined MOD2 998244353;
+      | ^~~~~~~
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/C/s514557145_comments_removed.c:4:14: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before numeric constant
+    4 | defined MOD2 998244353;
+      |              ^~~~~~~~~
+"
+s012761786,success,,,
+s612878490,success,,,
+s010698290,success,,,
+s063482767,compile_failed,,,"output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/C/s063482767_comments_removed.c: In function ‘main’:
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/C/s063482767_comments_removed.c:23:5: error: expected declaration or statement at end of input
+   23 |     return 0;
+      |     ^~~~~~
+"

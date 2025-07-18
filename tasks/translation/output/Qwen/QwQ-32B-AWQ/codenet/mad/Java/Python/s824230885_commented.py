@@ -1,0 +1,1 @@
+The provided Python code correctly translates the Java code's logic. It reads input properly, tracks the maximum value starting at 0, and counts increments when elements are >= current max. The negative side's agreement confirms the accuracy.

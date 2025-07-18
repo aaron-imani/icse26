@@ -1,0 +1,30 @@
+id,version,status,error
+s584572995,commented,success,
+s888333881,commented,compile_failed,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/direct/multiline/uncomment/direct/Java/Go/s888333881_commented.go:90:5: invalid operation: dw %= cnt (mismatched types int64 and int)
+output/Qwen/QwQ-32B-AWQ/codenet/direct/multiline/uncomment/direct/Java/Go/s888333881_commented.go:103:5: invalid operation: dw %= cnt (mismatched types int64 and int)
+"
+s893190600,commented,success,
+s580342216,commented,success,
+s127819686,commented,success,
+s824230885,commented,compile_failed,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/direct/multiline/uncomment/direct/Java/Go/s824230885_commented.go:14:2: n declared but not used
+"
+s221078931,commented,success,
+s967693306,commented,success,
+s573993837,commented,compile_failed,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/direct/multiline/uncomment/direct/Java/Go/s573993837_commented.go:8:2: imported and not used: ""strings""
+"
+s780275612,commented,success,
+s316260310,commented,compile_failed,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/direct/multiline/uncomment/direct/Java/Go/s316260310_commented.go:14:19: undefined: io
+"
+s749703010,commented,compile_failed,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/direct/multiline/uncomment/direct/Java/Go/s749703010_commented.go:4:2: imported and not used: ""bufio""
+output/Qwen/QwQ-32B-AWQ/codenet/direct/multiline/uncomment/direct/Java/Go/s749703010_commented.go:7:2: imported and not used: ""os""
+"
+s380356166,commented,success,
+s514557145,commented,compile_failed,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/direct/multiline/uncomment/direct/Java/Go/s514557145_commented.go:6:2: imported and not used: ""io""
+"
+s010698290,commented,success,

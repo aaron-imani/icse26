@@ -1,0 +1,21 @@
+id,version,status,error,expected,actual
+s596918302,comments_removed,success,,,
+s545439898,comments_removed,success,,,
+s196249385,comments_removed,compile_failed,"output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C++/s196249385_comments_removed.cpp: In function ‘void solve()’:
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C++/s196249385_comments_removed.cpp:31:30: error: ‘log2’ was not declared in this scope
+   31 |     long mask = 1L << (long)(log2(max));
+      |                              ^~~~
+",,
+s456888268,comments_removed,token_size_exceeded,,,
+s287007304,comments_removed,success,,,
+s937747608,comments_removed,success,,,
+s452855095,comments_removed,success,,,
+s504715611,comments_removed,success,,,
+s511234019,comments_removed,success,,,
+s725559666,comments_removed,success,,,
+s185737640,comments_removed,success,,,
+s826491904,comments_removed,test_failed,,7,8
+s831281137,comments_removed,success,,,
+s527301188,comments_removed,success,,,
+s012761786,comments_removed,success,,,
+s063482767,comments_removed,success,,,

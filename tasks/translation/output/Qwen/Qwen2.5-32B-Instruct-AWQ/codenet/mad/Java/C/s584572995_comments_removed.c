@@ -1,0 +1,127 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+#define mod 1000000007
+
+typedef struct {
+    int *data;
+    int size;
+    int capacity;
+} ArrayList;
+
+ArrayList* createArrayList() {
+    ArrayList* list = (ArrayList*)malloc(sizeof(ArrayList));
+    list->data = (int*)malloc(sizeof(int) * 1);
+    list->size = 0;
+    list->capacity = 1;
+    return list;
+}
+
+void add(ArrayList* list, int value) {
+    if (list->size == list->capacity) {
+        list->capacity *= 2;
+        list->data = (int*)realloc(list->data, sizeof(int) * list->capacity);
+    }
+    list->data[list->size++] = value;
+}
+
+int* get(ArrayList* list, int index) {
+    return &list->data[index];
+}
+
+typedef struct {
+    ArrayList** data;
+    int size;
+    int capacity;
+} List;
+
+List* createList() {
+    List* list = (List*)malloc(sizeof(List));
+    list->data = (ArrayList**)malloc(sizeof(ArrayList*) * 1);
+    list->size = 0;
+    list->capacity = 1;
+    return list;
+}
+
+void addList(List* list, ArrayList* value) {
+    if (list->size == list->capacity) {
+        list->capacity *= 2;
+        list->data = (ArrayList**)realloc(list->data, sizeof(ArrayList*) * list->capacity);
+    }
+    list->data[list->size++] = value;
+}
+
+ArrayList* getList(List* list, int index) {
+    return list->data[index];
+}
+
+int rec(int v, int parent, List* to, int* dp) {
+    int res = 1;
+    for (int i = 0; i < getList(to, v)->size; i++) {
+        int next = *get(getList(to, v), i);
+        if (next == parent) continue;
+        res += rec(next, v, to, dp);
+    }
+    return dp[v] = res;
+}
+
+long modpow(long x, long y) {
+    if (y == 0) return 1;
+    if (y % 2 != 0) return x * modpow(x, y - 1) % mod;
+    long tmp = modpow(x, y / 2);
+    return tmp * tmp % mod;
+}
+
+int main() {
+    int N;
+    scanf("%d", &N);
+
+    List* to = createList();
+    for (int i = 0; i < N; i++) {
+        addList(to, createArrayList());
+    }
+
+    int edges[N - 1][2];
+
+    for (int i = 0; i < N - 1; i++) {
+        int A, B;
+        scanf("%d %d", &A, &B);
+        A--; B--;
+        add(getList(to, A), B);
+        add(getList(to, B), A);
+        edges[i][0] = B;
+        edges[i][1] = A;
+    }
+
+    int dp[N];
+    rec(0, -1, to, dp);
+
+    long mulsum = 0;
+    for (int i = 0; i < N - 1; i++) {
+        int candidate1 = edges[i][0];
+        int candidate2 = edges[i][1];
+        int child = candidate1;
+        if (dp[candidate1] > dp[candidate2]) child = candidate2;
+
+        long a = dp[child];
+        long b = N - a;
+
+        long mul = (modpow(2, a) - 1) * (modpow(2, b) - 1) % mod;
+        mulsum += mul;
+        mulsum %= mod;
+    }
+
+    long cases = modpow(2, N);
+
+    long PN = (mulsum + (cases - 1 + mod) % mod) % mod;
+
+    long BN = N * modpow(2, N - 1) % mod;
+
+    long WN = (PN - BN + mod) % mod;
+    long ans = WN * modpow(cases, mod - 2) % mod;
+
+    printf("%ld\n", ans);
+
+    return 0;
+}
+// End of Code

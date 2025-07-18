@@ -1,0 +1,31 @@
+id,version,status,error,expected,actual
+s283652523,comments_removed,success,,,
+s466963472,comments_removed,infinite_loop,,,
+s863488345,comments_removed,success,,,
+s378126458,comments_removed,success,,,
+s081988820,comments_removed,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/Go/s081988820_comments_removed.go:63:19: undefined: io
+",,
+s684030429,comments_removed,success,,,
+s685734377,comments_removed,success,,,
+s041542819,comments_removed,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/Go/s041542819_comments_removed.go:42:4: cannot use max(sl, tl) (value of type int) as type int64 in argument to min
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/Go/s041542819_comments_removed.go:42:8: cannot use sl (variable of type int64) as type int in argument to max
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/Go/s041542819_comments_removed.go:42:12: cannot use tl (variable of type int64) as type int in argument to max
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/Go/s041542819_comments_removed.go:43:4: cannot use max(sr, tr) (value of type int) as type int64 in argument to min
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/Go/s041542819_comments_removed.go:43:8: cannot use sr (variable of type int64) as type int in argument to max
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/Go/s041542819_comments_removed.go:43:12: cannot use tr (variable of type int64) as type int in argument to max
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/Go/s041542819_comments_removed.go:84:13: strings.FieldsFunc (value of type func(s string, f func(rune) bool) []string) is not a type
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/Go/s041542819_comments_removed.go:87:24: undefined: io
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/Go/s041542819_comments_removed.go:94:20: invalid operation: l.tokenizer == nil (operator == not defined on untyped nil)
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/Go/s041542819_comments_removed.go:144:23: undefined: io
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/Go/s041542819_comments_removed.go:94:20: too many errors
+",,
+s936984238,comments_removed,success,,,
+s867221485,comments_removed,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/Go/s867221485_comments_removed.go:8:2: imported and not used: ""strings""
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/Go/s867221485_comments_removed.go:19:2: flag declared but not used
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/Go/s867221485_comments_removed.go:23:2: first declared but not used
+",,
+s910447421,comments_removed,success,,,
+s612878490,comments_removed,test_failed,,4,16

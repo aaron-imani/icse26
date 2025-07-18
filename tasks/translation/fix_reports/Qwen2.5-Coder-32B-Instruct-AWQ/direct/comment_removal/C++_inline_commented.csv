@@ -1,0 +1,36 @@
+id,version,status,error,expected,actual
+s596918302,commented,success,,,
+s545439898,commented,success,,,
+s196249385,commented,success,,,
+s456888268,commented,compile_failed,"output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C++/s456888268_commented.cpp: In function ‘long long int div(long long int, long long int)’:
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C++/s456888268_commented.cpp:437:32: error: invalid operands of types ‘__gnu_cxx::__promote_2<long long int, long long int, double, double>::__type’ {aka ‘double’} and ‘const long long int’ to binary ‘operator%’
+  437 |     return x * pow(y, mod - 2) % mod;
+      |            ~~~~~~~~~~~~~~~~~~~ ^ ~~~
+      |              |                   |
+      |              |                   const long long int
+      |              __gnu_cxx::__promote_2<long long int, long long int, double, double>::__type {aka double}
+",,
+s287007304,commented,success,,,
+s937747608,commented,success,,,
+s452855095,commented,success,,,
+s504715611,commented,compile_failed,"output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C++/s504715611_commented.cpp: In member function ‘int FastScanner::nextInt()’:
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C++/s504715611_commented.cpp:106:18: error: ‘INT_MIN’ was not declared in this scope
+  106 |         if (nl < INT_MIN || nl > INT_MAX) throw runtime_error(""Invalid input"");
+      |                  ^~~~~~~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C++/s504715611_commented.cpp:13:1: note: ‘INT_MIN’ is defined in header ‘<climits>’; did you forget to ‘#include <climits>’?
+   12 | #include <cstdio>
+  +++ |+#include <climits>
+   13 | 
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C++/s504715611_commented.cpp:106:34: error: ‘INT_MAX’ was not declared in this scope
+  106 |         if (nl < INT_MIN || nl > INT_MAX) throw runtime_error(""Invalid input"");
+      |                                  ^~~~~~~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C++/s504715611_commented.cpp:106:34: note: ‘INT_MAX’ is defined in header ‘<climits>’; did you forget to ‘#include <climits>’?
+",,
+s511234019,commented,success,,,
+s725559666,commented,success,,,
+s185737640,commented,success,,,
+s826491904,commented,success,,,
+s831281137,commented,success,,,
+s527301188,commented,success,,,
+s012761786,commented,success,,,
+s063482767,commented,success,,,

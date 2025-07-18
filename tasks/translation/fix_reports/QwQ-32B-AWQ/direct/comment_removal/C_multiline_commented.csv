@@ -1,0 +1,46 @@
+id,version,status,error,expected,actual
+s584572995,commented,success,,,
+s888333881,commented,success,,,
+s893190600,commented,compile_failed,"output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C/s893190600_commented.c: In function ‘main’:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C/s893190600_commented.c:35:13: error: ‘ConnectionState’ undeclared (first use in this function)
+   35 |     return  ConnectionState: 0;
+      |             ^~~~~~~~~~~~~~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C/s893190600_commented.c:35:13: note: each undeclared identifier is reported only once for each function it appears in
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C/s893190600_commented.c:35:28: error: expected ‘;’ before ‘:’ token
+   35 |     return  ConnectionState: 0;
+      |                            ^
+      |                            ;
+",,
+s580342216,commented,success,,,
+s127819686,commented,success,,,
+s824230885,commented,success,,,
+s221078931,commented,compile_failed,"output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C/s221078931_commented.c: In function ‘main’:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C/s221078931_commented.c:34:22: error: ‘check’ undeclared (first use in this function)
+   34 |         for (int j = check:0 to 199; j++) {
+      |                      ^~~~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C/s221078931_commented.c:34:22: note: each undeclared identifier is reported only once for each function it appears in
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C/s221078931_commented.c:34:27: error: expected ‘,’ or ‘;’ before ‘:’ token
+   34 |         for (int j = check:0 to 199; j++) {
+      |                           ^
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C/s221078931_commented.c:34:41: error: expected ‘;’ before ‘)’ token
+   34 |         for (int j = check:0 to 199; j++) {
+      |                                         ^
+      |                                         ;
+",,
+s967693306,commented,success,,,
+s573993837,commented,success,,,
+s780275612,commented,compile_failed,"/usr/bin/ld: /tmp/ccvyTSPz.o: in function `main':
+s780275612_commented.c:(.text+0x58): undefined reference to `pow'
+collect2: error: ld returned 1 exit status
+",,
+s316260310,commented,success,,,
+s749703010,commented,success,,,
+s380356166,commented,success,,,
+s514557145,commented,compile_failed,"output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C/s514557145_commented.c: In function ‘push’:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C/s514557145_commented.c:114:22: error: invalid operands to binary == (have ‘F’ and ‘F’)
+  114 |     if (tree->laz[k] == tree->id) return;
+      |         ~~~~~~~~~~~~ ^~ ~~~~~~~~
+      |                  |          |
+      |                  F          F
+",,
+s010698290,commented,success,,,

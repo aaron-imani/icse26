@@ -1,0 +1,1 @@
+import heapq\nn = int(input())\nqueue = []\nfor _ in range(n):\n    heapq.heappush(queue, int(input()))\n\nsum = 0\nfor _ in range(n - 1):\n    sum += heapq.heappop(queue)\n\n# 出力\nprint("Yes" if heapq.heappop(queue) < sum else "No")  # End of Code

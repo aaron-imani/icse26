@@ -1,0 +1,1 @@
+The correct answer is the Affirmative's code. The Negative's code has a critical syntax error in the memo lookup using '翻转' instead of the variable 'flip', which would cause a runtime error. The Affirmative's code properly translates the original Java logic including state management and DP transitions.

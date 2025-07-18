@@ -1,0 +1,167 @@
+id,version,status,error
+s283652523,commented,compile_failed,"output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/javadoc/uncomment/direct/Java/C++/s283652523_commented.cpp: In destructor ‘FastScanner::~FastScanner()’:
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/javadoc/uncomment/direct/Java/C++/s283652523_commented.cpp:20:20: error: ‘std::istream’ {aka ‘class std::basic_istream<char>’} has no member named ‘close’
+   20 |             input->close();
+      |                    ^~~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/javadoc/uncomment/direct/Java/C++/s283652523_commented.cpp: In member function ‘int FastScanner::nextInt()’:
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/javadoc/uncomment/direct/Java/C++/s283652523_commented.cpp:26:18: error: ‘INT_MIN’ was not declared in this scope
+   26 |         if (nl < INT_MIN || nl > INT_MAX) throw runtime_error(""Overflow"");
+      |                  ^~~~~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/javadoc/uncomment/direct/Java/C++/s283652523_commented.cpp:4:1: note: ‘INT_MIN’ is defined in header ‘<climits>’; did you forget to ‘#include <climits>’?
+    3 | #include <fstream>
+  +++ |+#include <climits>
+    4 | #include <string>
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/javadoc/uncomment/direct/Java/C++/s283652523_commented.cpp:26:34: error: ‘INT_MAX’ was not declared in this scope
+   26 |         if (nl < INT_MIN || nl > INT_MAX) throw runtime_error(""Overflow"");
+      |                                  ^~~~~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/javadoc/uncomment/direct/Java/C++/s283652523_commented.cpp:26:34: note: ‘INT_MAX’ is defined in header ‘<climits>’; did you forget to ‘#include <climits>’?
+"
+s466963472,commented,success,
+s863488345,commented,success,
+s378126458,commented,success,
+s081988820,commented,compile_failed,"output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/javadoc/uncomment/direct/Java/C++/s081988820_commented.cpp: In member function ‘void Main::solve()’:
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/javadoc/uncomment/direct/Java/C++/s081988820_commented.cpp:26:33: error: no match for call to ‘(std::vector<int>) (__gnu_cxx::__alloc_traits<std::allocator<int>, int>::value_type&, __gnu_cxx::__alloc_traits<std::allocator<int>, int>::value_type)’
+   26 |                     min[i] = min(min[i], c[i][j] + min[j]);
+      |                              ~~~^~~~~~~~~~~~~~~~~~~~~~~~~~
+"
+s684030429,commented,compile_failed,"output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/javadoc/uncomment/direct/Java/C++/s684030429_commented.cpp: In member function ‘long int Main::lmin(std::vector<long int>&)’:
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/javadoc/uncomment/direct/Java/C++/s684030429_commented.cpp:94:20: error: ‘LONG_MAX’ was not declared in this scope
+   94 |         long min = LONG_MAX;
+      |                    ^~~~~~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/javadoc/uncomment/direct/Java/C++/s684030429_commented.cpp:4:1: note: ‘LONG_MAX’ is defined in header ‘<climits>’; did you forget to ‘#include <climits>’?
+    3 | #include <algorithm>
+  +++ |+#include <climits>
+    4 | 
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/javadoc/uncomment/direct/Java/C++/s684030429_commented.cpp: In member function ‘int Main::imin(std::vector<int>&)’:
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/javadoc/uncomment/direct/Java/C++/s684030429_commented.cpp:101:19: error: ‘INT_MAX’ was not declared in this scope
+  101 |         int min = INT_MAX;
+      |                   ^~~~~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/javadoc/uncomment/direct/Java/C++/s684030429_commented.cpp:101:19: note: ‘INT_MAX’ is defined in header ‘<climits>’; did you forget to ‘#include <climits>’?
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/javadoc/uncomment/direct/Java/C++/s684030429_commented.cpp: In member function ‘long int Main::lmax(std::vector<long int>&)’:
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/javadoc/uncomment/direct/Java/C++/s684030429_commented.cpp:108:20: error: ‘LONG_MIN’ was not declared in this scope
+  108 |         long max = LONG_MIN;
+      |                    ^~~~~~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/javadoc/uncomment/direct/Java/C++/s684030429_commented.cpp:108:20: note: ‘LONG_MIN’ is defined in header ‘<climits>’; did you forget to ‘#include <climits>’?
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/javadoc/uncomment/direct/Java/C++/s684030429_commented.cpp: In member function ‘int Main::imax(std::vector<int>&)’:
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/javadoc/uncomment/direct/Java/C++/s684030429_commented.cpp:115:19: error: ‘INT_MIN’ was not declared in this scope
+  115 |         int max = INT_MIN;
+      |                   ^~~~~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/javadoc/uncomment/direct/Java/C++/s684030429_commented.cpp:115:19: note: ‘INT_MIN’ is defined in header ‘<climits>’; did you forget to ‘#include <climits>’?
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/javadoc/uncomment/direct/Java/C++/s684030429_commented.cpp: In member function ‘int Main::stb(std::string)’:
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/javadoc/uncomment/direct/Java/C++/s684030429_commented.cpp:161:43: error: ‘pow’ was not declared in this scope
+  161 |             sum += stoi(s.substr(i, 1)) * pow(2, k++);
+      |                                           ^~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/javadoc/uncomment/direct/Java/C++/s684030429_commented.cpp: In member function ‘void Main::solve()’:
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/javadoc/uncomment/direct/Java/C++/s684030429_commented.cpp:169:20: error: expression cannot be used as a function
+  169 |         cout << max(0, a - 2 * b) << endl;
+      |                 ~~~^~~~~~~~~~~~~~
+"
+s685734377,commented,success,
+s041542819,commented,compile_failed,"output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/javadoc/uncomment/direct/Java/C++/s041542819_commented.cpp: In member function ‘void DLazyFaith::solve(int)’:
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/javadoc/uncomment/direct/Java/C++/s041542819_commented.cpp:26:32: error: no matching function for call to ‘max(int, __gnu_cxx::__normal_iterator<long int*, std::vector<long int> >::difference_type)’
+   26 |             long sl = x - s[max(0, lower_bound(s.begin(), s.end(), x + 1) - s.begin() - 1)];
+      |                             ~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/c++/11/bits/char_traits.h:39,
+                 from /usr/include/c++/11/ios:40,
+                 from /usr/include/c++/11/ostream:38,
+                 from /usr/include/c++/11/iostream:39,
+                 from output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/javadoc/uncomment/direct/Java/C++/s041542819_commented.cpp:1:
+/usr/include/c++/11/bits/stl_algobase.h:254:5: note: candidate: ‘template<class _Tp> const _Tp& std::max(const _Tp&, const _Tp&)’
+  254 |     max(const _Tp& __a, const _Tp& __b)
+      |     ^~~
+/usr/include/c++/11/bits/stl_algobase.h:254:5: note:   template argument deduction/substitution failed:
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/javadoc/uncomment/direct/Java/C++/s041542819_commented.cpp:26:32: note:   deduced conflicting types for parameter ‘const _Tp’ (‘int’ and ‘__gnu_cxx::__normal_iterator<long int*, std::vector<long int> >::difference_type’ {aka ‘long int’})
+   26 |             long sl = x - s[max(0, lower_bound(s.begin(), s.end(), x + 1) - s.begin() - 1)];
+      |                             ~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/c++/11/bits/char_traits.h:39,
+                 from /usr/include/c++/11/ios:40,
+                 from /usr/include/c++/11/ostream:38,
+                 from /usr/include/c++/11/iostream:39,
+                 from output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/javadoc/uncomment/direct/Java/C++/s041542819_commented.cpp:1:
+/usr/include/c++/11/bits/stl_algobase.h:300:5: note: candidate: ‘template<class _Tp, class _Compare> const _Tp& std::max(const _Tp&, const _Tp&, _Compare)’
+  300 |     max(const _Tp& __a, const _Tp& __b, _Compare __comp)
+      |     ^~~
+/usr/include/c++/11/bits/stl_algobase.h:300:5: note:   template argument deduction/substitution failed:
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/javadoc/uncomment/direct/Java/C++/s041542819_commented.cpp:26:32: note:   deduced conflicting types for parameter ‘const _Tp’ (‘int’ and ‘__gnu_cxx::__normal_iterator<long int*, std::vector<long int> >::difference_type’ {aka ‘long int’})
+   26 |             long sl = x - s[max(0, lower_bound(s.begin(), s.end(), x + 1) - s.begin() - 1)];
+      |                             ~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/c++/11/algorithm:62,
+                 from output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/javadoc/uncomment/direct/Java/C++/s041542819_commented.cpp:3:
+/usr/include/c++/11/bits/stl_algo.h:3461:5: note: candidate: ‘template<class _Tp> _Tp std::max(std::initializer_list<_Tp>)’
+ 3461 |     max(initializer_list<_Tp> __l)
+      |     ^~~
+/usr/include/c++/11/bits/stl_algo.h:3461:5: note:   template argument deduction/substitution failed:
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/javadoc/uncomment/direct/Java/C++/s041542819_commented.cpp:26:32: note:   mismatched types ‘std::initializer_list<_Tp>’ and ‘int’
+   26 |             long sl = x - s[max(0, lower_bound(s.begin(), s.end(), x + 1) - s.begin() - 1)];
+      |                             ~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/c++/11/algorithm:62,
+                 from output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/javadoc/uncomment/direct/Java/C++/s041542819_commented.cpp:3:
+/usr/include/c++/11/bits/stl_algo.h:3467:5: note: candidate: ‘template<class _Tp, class _Compare> _Tp std::max(std::initializer_list<_Tp>, _Compare)’
+ 3467 |     max(initializer_list<_Tp> __l, _Compare __comp)
+      |     ^~~
+/usr/include/c++/11/bits/stl_algo.h:3467:5: note:   template argument deduction/substitution failed:
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/javadoc/uncomment/direct/Java/C++/s041542819_commented.cpp:26:32: note:   mismatched types ‘std::initializer_list<_Tp>’ and ‘int’
+   26 |             long sl = x - s[max(0, lower_bound(s.begin(), s.end(), x + 1) - s.begin() - 1)];
+      |                             ~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/javadoc/uncomment/direct/Java/C++/s041542819_commented.cpp:27:32: error: no matching function for call to ‘max(int, __gnu_cxx::__normal_iterator<long int*, std::vector<long int> >::difference_type)’
+   27 |             long tl = x - t[max(0, lower_bound(t.begin(), t.end(), x + 1) - t.begin() - 1)];
+      |                             ~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/c++/11/bits/char_traits.h:39,
+                 from /usr/include/c++/11/ios:40,
+                 from /usr/include/c++/11/ostream:38,
+                 from /usr/include/c++/11/iostream:39,
+                 from output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/javadoc/uncomment/direct/Java/C++/s041542819_commented.cpp:1:
+/usr/include/c++/11/bits/stl_algobase.h:254:5: note: candidate: ‘template<class _Tp> const _Tp& std::max(const _Tp&, const _Tp&)’
+  254 |     max(const _Tp& __a, const _Tp& __b)
+      |     ^~~
+/usr/include/c++/11/bits/stl_algobase.h:254:5: note:   template argument deduction/substitution failed:
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/javadoc/uncomment/direct/Java/C++/s041542819_commented.cpp:27:32: note:   deduced conflicting types for parameter ‘const _Tp’ (‘int’ and ‘__gnu_cxx::__normal_iterator<long int*, std::vector<long int> >::difference_type’ {aka ‘long int’})
+   27 |             long tl = x - t[max(0, lower_bound(t.begin(), t.end(), x + 1) - t.begin() - 1)];
+      |                             ~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/c++/11/bits/char_traits.h:39,
+                 from /usr/include/c++/11/ios:40,
+                 from /usr/include/c++/11/ostream:38,
+                 from /usr/include/c++/11/iostream:39,
+                 from output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/javadoc/uncomment/direct/Java/C++/s041542819_commented.cpp:1:
+/usr/include/c++/11/bits/stl_algobase.h:300:5: note: candidate: ‘template<class _Tp, class _Compare> const _Tp& std::max(const _Tp&, const _Tp&, _Compare)’
+  300 |     max(const _Tp& __a, const _Tp& __b, _Compare __comp)
+      |     ^~~
+/usr/include/c++/11/bits/stl_algobase.h:300:5: note:   template argument deduction/substitution failed:
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/javadoc/uncomment/direct/Java/C++/s041542819_commented.cpp:27:32: note:   deduced conflicting types for parameter ‘const _Tp’ (‘int’ and ‘__gnu_cxx::__normal_iterator<long int*, std::vector<long int> >::difference_type’ {aka ‘long int’})
+   27 |             long tl = x - t[max(0, lower_bound(t.begin(), t.end(), x + 1) - t.begin() - 1)];
+      |                             ~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/c++/11/algorithm:62,
+                 from output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/javadoc/uncomment/direct/Java/C++/s041542819_commented.cpp:3:
+/usr/include/c++/11/bits/stl_algo.h:3461:5: note: candidate: ‘template<class _Tp> _Tp std::max(std::initializer_list<_Tp>)’
+ 3461 |     max(initializer_list<_Tp> __l)
+      |     ^~~
+/usr/include/c++/11/bits/stl_algo.h:3461:5: note:   template argument deduction/substitution failed:
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/javadoc/uncomment/direct/Java/C++/s041542819_commented.cpp:27:32: note:   mismatched types ‘std::initializer_list<_Tp>’ and ‘int’
+   27 |             long tl = x - t[max(0, lower_bound(t.begin(), t.end(), x + 1) - t.begin() - 1)];
+      |                             ~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/c++/11/algorithm:62,
+                 from output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/javadoc/uncomment/direct/Java/C++/s041542819_commented.cpp:3:
+/usr/include/c++/11/bits/stl_algo.h:3467:5: note: candidate: ‘template<class _Tp, class _Compare> _Tp std::max(std::initializer_list<_Tp>, _Compare)’
+ 3467 |     max(initializer_list<_Tp> __l, _Compare __comp)
+      |     ^~~
+/usr/include/c++/11/bits/stl_algo.h:3467:5: note:   template argument deduction/substitution failed:
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/javadoc/uncomment/direct/Java/C++/s041542819_commented.cpp:27:32: note:   mismatched types ‘std::initializer_list<_Tp>’ and ‘int’
+   27 |             long tl = x - t[max(0, lower_bound(t.begin(), t.end(), x + 1) - t.begin() - 1)];
+      |                             ~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+"
+s936984238,commented,compile_failed,"output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/javadoc/uncomment/direct/Java/C++/s936984238_commented.cpp: In function ‘int main()’:
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/javadoc/uncomment/direct/Java/C++/s936984238_commented.cpp:11:12: error: ‘read’ was not declared in this scope; did you mean ‘fread’?
+   11 |     while (read()) {
+      |            ^~~~
+      |            fread
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/javadoc/uncomment/direct/Java/C++/s936984238_commented.cpp:12:9: error: ‘solve’ was not declared in this scope
+   12 |         solve();
+      |         ^~~~~
+"
+s867221485,commented,success,
+s910447421,commented,compile_failed,"output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/javadoc/uncomment/direct/Java/C++/s910447421_commented.cpp: In function ‘void solve()’:
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/javadoc/uncomment/direct/Java/C++/s910447421_commented.cpp:18:24: error: ‘check’ was not declared in this scope
+   18 |         ans = min(ans, check(p, q));
+      |                        ^~~~~
+"
+s612878490,commented,success,

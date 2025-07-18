@@ -1,0 +1,143 @@
+id,version,status,error,expected,actual
+s283652523,comments_removed,compile_failed,"output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C++/s283652523_comments_removed.cpp: In constructor ‘FastScanner::FastScanner()’:
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C++/s283652523_comments_removed.cpp:11:49: error: no matching function for call to ‘std::basic_ifstream<char>::basic_ifstream(std::basic_streambuf<char>*)’
+   11 |     FastScanner() { input = ifstream(cin.rdbuf()); }
+      |                                                 ^
+In file included from /usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:70,
+                 from output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C++/s283652523_comments_removed.cpp:1:
+/usr/include/c++/11/fstream:592:7: note: candidate: ‘std::basic_ifstream<_CharT, _Traits>::basic_ifstream(std::basic_ifstream<_CharT, _Traits>&&) [with _CharT = char; _Traits = std::char_traits<char>]’
+  592 |       basic_ifstream(basic_ifstream&& __rhs)
+      |       ^~~~~~~~~~~~~~
+/usr/include/c++/11/fstream:592:39: note:   no known conversion for argument 1 from ‘std::basic_streambuf<char>*’ to ‘std::basic_ifstream<char>&&’
+  592 |       basic_ifstream(basic_ifstream&& __rhs)
+      |                      ~~~~~~~~~~~~~~~~~^~~~~
+/usr/include/c++/11/fstream:567:7: note: candidate: ‘std::basic_ifstream<_CharT, _Traits>::basic_ifstream(const string&, std::ios_base::openmode) [with _CharT = char; _Traits = std::char_traits<char>; std::string = std::__cxx11::basic_string<char>; std::ios_base::openmode = std::ios_base::openmode]’
+  567 |       basic_ifstream(const std::string& __s,
+      |       ^~~~~~~~~~~~~~
+/usr/include/c++/11/fstream:567:41: note:   no known conversion for argument 1 from ‘std::basic_streambuf<char>*’ to ‘const string&’ {aka ‘const std::__cxx11::basic_string<char>&’}
+  567 |       basic_ifstream(const std::string& __s,
+      |                      ~~~~~~~~~~~~~~~~~~~^~~
+/usr/include/c++/11/fstream:534:7: note: candidate: ‘std::basic_ifstream<_CharT, _Traits>::basic_ifstream(const char*, std::ios_base::openmode) [with _CharT = char; _Traits = std::char_traits<char>; std::ios_base::openmode = std::ios_base::openmode]’
+  534 |       basic_ifstream(const char* __s, ios_base::openmode __mode = ios_base::in)
+      |       ^~~~~~~~~~~~~~
+/usr/include/c++/11/fstream:534:34: note:   no known conversion for argument 1 from ‘std::basic_streambuf<char>*’ to ‘const char*’
+  534 |       basic_ifstream(const char* __s, ios_base::openmode __mode = ios_base::in)
+      |                      ~~~~~~~~~~~~^~~
+/usr/include/c++/11/fstream:523:7: note: candidate: ‘std::basic_ifstream<_CharT, _Traits>::basic_ifstream() [with _CharT = char; _Traits = std::char_traits<char>]’
+  523 |       basic_ifstream() : __istream_type(), _M_filebuf()
+      |       ^~~~~~~~~~~~~~
+/usr/include/c++/11/fstream:523:7: note:   candidate expects 0 arguments, 1 provided
+",,
+s466963472,comments_removed,success,,,
+s863488345,comments_removed,test_failed,,"*....*
+......
+..-...
+..>#..
+
+<.
+..
+
+^-#**
+.-.#*
+.-..#
+
+.....
+.***.
+..*..
+..*..
+....v","*.*..*
+......
+..-...
+..>#..
+
+<.
+..
+
+^-#**
+.-*#*
+.-**#
+
+.****
+.****
+.****
+.****
+v****"
+s378126458,comments_removed,success,,,
+s081988820,comments_removed,compile_failed,"output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C++/s081988820_comments_removed.cpp: In member function ‘void Main::solve()’:
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C++/s081988820_comments_removed.cpp:30:33: error: no match for call to ‘(std::vector<int>) (__gnu_cxx::__alloc_traits<std::allocator<int>, int>::value_type&, __gnu_cxx::__alloc_traits<std::allocator<int>, int>::value_type)’
+   30 |                     min[i] = min(min[i], c[i][j] + min[j]);
+      |                              ~~~^~~~~~~~~~~~~~~~~~~~~~~~~~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C++/s081988820_comments_removed.cpp: At global scope:
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C++/s081988820_comments_removed.cpp:202:5: error: ‘optional’ does not name a type
+  202 |     optional<long long> getCost(int from, int to) {
+      |     ^~~~~~~~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C++/s081988820_comments_removed.cpp:211:19: error: ‘optional’ was not declared in this scope
+  211 |     vector<vector<optional<long long>>> costArray;
+      |                   ^~~~~~~~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C++/s081988820_comments_removed.cpp:211:19: note: ‘std::optional’ is only available from C++17 onwards
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C++/s081988820_comments_removed.cpp:211:37: error: template argument 1 is invalid
+  211 |     vector<vector<optional<long long>>> costArray;
+      |                                     ^~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C++/s081988820_comments_removed.cpp:211:37: error: template argument 2 is invalid
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C++/s081988820_comments_removed.cpp:211:39: error: template argument 1 is invalid
+  211 |     vector<vector<optional<long long>>> costArray;
+      |                                       ^
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C++/s081988820_comments_removed.cpp:211:39: error: template argument 2 is invalid
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C++/s081988820_comments_removed.cpp: In constructor ‘ArrayGraph::ArrayGraph(int)’:
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C++/s081988820_comments_removed.cpp:196:45: error: ‘optional’ was not declared in this scope
+  196 |     ArrayGraph(int n) : costArray(n, vector<optional<long long>>(n)), vertexNum(n) {}
+      |                                             ^~~~~~~~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C++/s081988820_comments_removed.cpp:196:45: note: ‘std::optional’ is only available from C++17 onwards
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C++/s081988820_comments_removed.cpp:196:63: error: template argument 1 is invalid
+  196 |     ArrayGraph(int n) : costArray(n, vector<optional<long long>>(n)), vertexNum(n) {}
+      |                                                               ^~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C++/s081988820_comments_removed.cpp:196:63: error: template argument 2 is invalid
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C++/s081988820_comments_removed.cpp:196:25: error: expression list treated as compound expression in mem-initializer [-fpermissive]
+  196 |     ArrayGraph(int n) : costArray(n, vector<optional<long long>>(n)), vertexNum(n) {}
+      |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C++/s081988820_comments_removed.cpp: In member function ‘void ArrayGraph::link(int, int, long long int)’:
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C++/s081988820_comments_removed.cpp:199:18: error: invalid types ‘int[int]’ for array subscript
+  199 |         costArray[from][to] = cost;
+      |                  ^
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C++/s081988820_comments_removed.cpp: In member function ‘long long int DfsFlowResolver::maxFlow(int, int)’:
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C++/s081988820_comments_removed.cpp:224:42: error: ‘LLONG_MAX’ was not declared in this scope
+  224 |             currentFlow = flow(from, to, LLONG_MAX / 3, passed);
+      |                                          ^~~~~~~~~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C++/s081988820_comments_removed.cpp:9:1: note: ‘LLONG_MAX’ is defined in header ‘<climits>’; did you forget to ‘#include <climits>’?
+    8 | #include <algorithm>
+  +++ |+#include <climits>
+    9 | 
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C++/s081988820_comments_removed.cpp: In member function ‘long long int DfsFlowResolver::flow(int, int, long long int, std::vector<bool>&)’:
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C++/s081988820_comments_removed.cpp:242:13: error: ‘optional’ was not declared in this scope
+  242 |             optional<long long> cost = graph.getCost(from, id);
+      |             ^~~~~~~~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C++/s081988820_comments_removed.cpp:242:13: note: ‘std::optional’ is only available from C++17 onwards
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C++/s081988820_comments_removed.cpp:242:22: error: expected primary-expression before ‘long’
+  242 |             optional<long long> cost = graph.getCost(from, id);
+      |                      ^~~~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C++/s081988820_comments_removed.cpp:243:17: error: ‘cost’ was not declared in this scope; did you mean ‘cosl’?
+  243 |             if (cost.has_value() && cost.value() > 0) {
+      |                 ^~~~
+      |                 cosl
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C++/s081988820_comments_removed.cpp:248:48: error: ‘class ArrayGraph’ has no member named ‘getCost’
+  248 |                     graph.link(id, from, graph.getCost(id, from).value_or(0LL) + returnFlow);
+      |                                                ^~~~~~~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C++/s081988820_comments_removed.cpp: At global scope:
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C++/s081988820_comments_removed.cpp:452:10: error: ‘bool PrimeNumberUtils::isPrime(int)’ cannot be overloaded with ‘bool PrimeNumberUtils::isPrime(int)’
+  452 |     bool isPrime(int n) {
+      |          ^~~~~~~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C++/s081988820_comments_removed.cpp:443:10: note: previous declaration ‘bool PrimeNumberUtils::isPrime(int)’
+  443 |     bool isPrime(int n) {
+      |          ^~~~~~~
+",,
+s684030429,comments_removed,success,,,
+s685734377,comments_removed,success,,,
+s041542819,comments_removed,success,,,
+s936984238,comments_removed,success,,,
+s867221485,comments_removed,success,,,
+s910447421,comments_removed,compile_failed,"output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C++/s910447421_comments_removed.cpp: In function ‘void solve()’:
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C++/s910447421_comments_removed.cpp:18:24: error: ‘check’ was not declared in this scope
+   18 |         ans = min(ans, check(p, q));
+      |                        ^~~~~
+",,
+s612878490,comments_removed,success,,,

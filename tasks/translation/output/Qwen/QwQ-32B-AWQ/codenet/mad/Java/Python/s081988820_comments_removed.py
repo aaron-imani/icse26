@@ -1,0 +1,1 @@
+The Python code correctly implements the problem's requirements. The key steps are properly translated, including input handling, Floyd-Warshall algorithm for shortest paths to node 1, and accumulating costs for valid cells (A >= 0). The code will produce the correct answer.

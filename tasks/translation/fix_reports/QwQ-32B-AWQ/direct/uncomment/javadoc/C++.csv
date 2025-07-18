@@ -1,0 +1,45 @@
+id,version,status,error,expected,actual
+s283652523,commented,compile_failed,"output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/uncomment/direct/Java/C++/s283652523_commented.cpp: In member function ‘int FastScanner::nextInt()’:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/uncomment/direct/Java/C++/s283652523_commented.cpp:20:19: error: expected primary-expression before ‘,’ token
+   20 |         int ret = , c;
+      |                   ^
+",,
+s466963472,commented,success,,,
+s863488345,commented,success,,,
+s378126458,commented,compile_failed,"output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/uncomment/direct/Java/C++/s378126458_commented.cpp: In function ‘int main()’:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/uncomment/direct/Java/C++/s378126458_commented.cpp:10:5: error: ‘vector’ was not declared in this scope
+   10 |     vector<int> pre(N+1);
+      |     ^~~~~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/uncomment/direct/Java/C++/s378126458_commented.cpp:2:1: note: ‘std::vector’ is defined in header ‘<vector>’; did you forget to ‘#include <vector>’?
+    1 | #include <iostream>
+  +++ |+#include <vector>
+    2 | #include <string>
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/uncomment/direct/Java/C++/s378126458_commented.cpp:10:12: error: expected primary-expression before ‘int’
+   10 |     vector<int> pre(N+1);
+      |            ^~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/uncomment/direct/Java/C++/s378126458_commented.cpp:13:13: error: ‘pre’ was not declared in this scope
+   13 |             pre[i] = 1;
+      |             ^~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/uncomment/direct/Java/C++/s378126458_commented.cpp:17:9: error: ‘pre’ was not declared in this scope
+   17 |         pre[i] += pre[i-1];
+      |         ^~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/uncomment/direct/Java/C++/s378126458_commented.cpp:23:18: error: ‘pre’ was not declared in this scope
+   23 |         cout << (pre[r] - pre[l-1]) << endl;
+      |                  ^~~
+",,
+s081988820,commented,success,,,
+s684030429,commented,compile_failed,"output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/uncomment/direct/Java/C++/s684030429_commented.cpp: In member function ‘void Main::solve()’:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/uncomment/direct/Java/C++/s684030429_commented.cpp:127:20: error: expression cannot be used as a function
+  127 |         cout << max(0, a - 2*b) << endl;
+      |                 ~~~^~~~~~~~~~~~
+",,
+s685734377,commented,success,,,
+s041542819,commented,compile_failed,"output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/uncomment/direct/Java/C++/s041542819_commented.cpp: In member function ‘std::string LightScanner::next()’:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/uncomment/direct/Java/C++/s041542819_commented.cpp:20:33: error: variable ‘std::stringstream ss’ has initializer but incomplete type
+   20 |             stringstream ss(line);
+      |                                 ^
+",,
+s936984238,commented,success,,,
+s867221485,commented,test_failed,,1,0
+s910447421,commented,success,,,
+s612878490,commented,test_failed,,4,3

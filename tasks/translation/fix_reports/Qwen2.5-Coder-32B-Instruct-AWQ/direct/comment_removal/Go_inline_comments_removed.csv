@@ -1,0 +1,41 @@
+id,version,status,error,expected,actual
+s596918302,comments_removed,success,,,
+s545439898,comments_removed,success,,,
+s196249385,comments_removed,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/Go/s196249385_comments_removed.go:8:2: imported and not used: ""strings""
+",,
+s456888268,comments_removed,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/Go/s456888268_comments_removed.go:315:10: syntax error: unexpected ~, expecting expression
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/Go/s456888268_comments_removed.go:317:4: syntax error: unexpected ) at end of statement
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/Go/s456888268_comments_removed.go:318:2: syntax error: unexpected case, expecting }
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/Go/s456888268_comments_removed.go:319:49: syntax error: unexpected {, expecting (
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/Go/s456888268_comments_removed.go:320:4: syntax error: unexpected return, expecting )
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/Go/s456888268_comments_removed.go:323:49: syntax error: unexpected {, expecting (
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/Go/s456888268_comments_removed.go:324:4: syntax error: unexpected return, expecting )
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/Go/s456888268_comments_removed.go:338:10: syntax error: unexpected ~, expecting expression
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/Go/s456888268_comments_removed.go:340:4: syntax error: unexpected ) at end of statement
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/Go/s456888268_comments_removed.go:341:2: syntax error: unexpected case, expecting }
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/Go/s456888268_comments_removed.go:341:2: too many errors
+",,
+s287007304,comments_removed,success,,,
+s937747608,comments_removed,success,,,
+s452855095,comments_removed,success,,,
+s504715611,comments_removed,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/Go/s504715611_comments_removed.go:8:2: imported and not used: ""strings""
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/Go/s504715611_comments_removed.go:128:27: invalid operation: cannot indirect 0.5 (untyped float constant)
+",,
+s511234019,comments_removed,success,,,
+s725559666,comments_removed,success,,,
+s185737640,comments_removed,success,,,
+s826491904,comments_removed,success,,,
+s831281137,comments_removed,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/Go/s831281137_comments_removed.go:8:2: imported and not used: ""strings""
+",,
+s527301188,comments_removed,success,,,
+s012761786,comments_removed,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/Go/s012761786_comments_removed.go:12:7: undefined: nextLong
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/Go/s012761786_comments_removed.go:13:7: undefined: nextLong
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/Go/s012761786_comments_removed.go:14:7: undefined: nextLong
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/Go/s012761786_comments_removed.go:75:9: undefined: strings
+",,
+s063482767,comments_removed,success,,,

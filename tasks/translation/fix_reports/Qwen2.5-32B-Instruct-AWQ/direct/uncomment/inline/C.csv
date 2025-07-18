@@ -1,0 +1,66 @@
+id,version,status,expected,actual,error
+s596918302,commented,success,,,
+s545439898,commented,success,,,
+s196249385,commented,test_failed,12,,
+s456888268,commented,compile_failed,,,"output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/inline/uncomment/direct/Java/C/s456888268_commented.c:32:6: error: conflicting types for ‘reverse’; have ‘void(long int *, int)’
+   32 | void reverse(long ar[], int len) {
+      |      ^~~~~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/inline/uncomment/direct/Java/C/s456888268_commented.c:24:6: note: previous definition of ‘reverse’ with type ‘void(int *, int)’
+   24 | void reverse(int ar[], int len) {
+      |      ^~~~~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/inline/uncomment/direct/Java/C/s456888268_commented.c:40:6: error: conflicting types for ‘reverse’; have ‘void(double *, int)’
+   40 | void reverse(double ar[], int len) {
+      |      ^~~~~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/inline/uncomment/direct/Java/C/s456888268_commented.c:24:6: note: previous definition of ‘reverse’ with type ‘void(int *, int)’
+   24 | void reverse(int ar[], int len) {
+      |      ^~~~~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/inline/uncomment/direct/Java/C/s456888268_commented.c:48:6: error: conflicting types for ‘reverse’; have ‘void(char *, int)’
+   48 | void reverse(char ar[], int len) {
+      |      ^~~~~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/inline/uncomment/direct/Java/C/s456888268_commented.c:24:6: note: previous definition of ‘reverse’ with type ‘void(int *, int)’
+   24 | void reverse(int ar[], int len) {
+      |      ^~~~~~~
+"
+s287007304,commented,success,,,
+s937747608,commented,success,,,
+s452855095,commented,success,,,
+s504715611,commented,compile_failed,,,"output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/inline/uncomment/direct/Java/C/s504715611_commented.c: In function ‘isPrime’:
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/inline/uncomment/direct/Java/C/s504715611_commented.c:78:14: warning: implicit declaration of function ‘sqrt’ [-Wimplicit-function-declaration]
+   78 |     long d = sqrt(n);
+      |              ^~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/inline/uncomment/direct/Java/C/s504715611_commented.c:4:1: note: include ‘<math.h>’ or provide a declaration of ‘sqrt’
+    3 | #include <string.h>
+  +++ |+#include <math.h>
+    4 | 
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/inline/uncomment/direct/Java/C/s504715611_commented.c:78:14: warning: incompatible implicit declaration of built-in function ‘sqrt’ [-Wbuiltin-declaration-mismatch]
+   78 |     long d = sqrt(n);
+      |              ^~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/inline/uncomment/direct/Java/C/s504715611_commented.c:78:14: note: include ‘<math.h>’ or provide a declaration of ‘sqrt’
+/usr/bin/ld: /tmp/ccPd4w2J.o: in function `isPrime':
+s504715611_commented.c:(.text+0x3af): undefined reference to `sqrt'
+collect2: error: ld returned 1 exit status
+"
+s511234019,commented,success,,,
+s725559666,commented,success,,,
+s185737640,commented,success,,,
+s826491904,commented,success,,,
+s831281137,commented,success,,,
+s527301188,commented,success,,,
+s012761786,commented,compile_failed,,,"/usr/bin/ld: /tmp/ccbjhoHe.o: in function `main':
+s012761786_commented.c:(.text+0xfb): undefined reference to `fmin'
+/usr/bin/ld: s012761786_commented.c:(.text+0x139): undefined reference to `fmin'
+/usr/bin/ld: s012761786_commented.c:(.text+0x169): undefined reference to `fmin'
+collect2: error: ld returned 1 exit status
+"
+s063482767,commented,compile_failed,,,"output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/inline/uncomment/direct/Java/C/s063482767_commented.c: In function ‘extractMin’:
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/inline/uncomment/direct/Java/C/s063482767_commented.c:73:16: error: ‘INT_MAX’ undeclared (first use in this function)
+   73 |         return INT_MAX;
+      |                ^~~~~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/inline/uncomment/direct/Java/C/s063482767_commented.c:3:1: note: ‘INT_MAX’ is defined in header ‘<limits.h>’; did you forget to ‘#include <limits.h>’?
+    2 | #include <stdlib.h>
+  +++ |+#include <limits.h>
+    3 | 
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/inline/uncomment/direct/Java/C/s063482767_commented.c:73:16: note: each undeclared identifier is reported only once for each function it appears in
+   73 |         return INT_MAX;
+      |                ^~~~~~~
+"

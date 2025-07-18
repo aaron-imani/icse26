@@ -1,0 +1,45 @@
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	var N, W int
+	fmt.Scan(&N, &W)
+
+	v := make([]int, N)
+	w := make([]int, N)
+
+	for i := 0; i < N; i++ {
+		fmt.Scan(&v[i], &w[i])
+	}
+
+	sumV := make([][]int, N+1)
+	for i := range sumV {
+		sumV[i] = make([]int, W+1)
+	}
+
+	for i := 1; i <= N; i++ {
+		currentW := w[i-1]
+		currentV := v[i-1]
+
+		for i_sum := 0; i_sum < currentW; i_sum++ {
+			sumV[i][i_sum] = sumV[i-1][i_sum]
+		}
+
+		for i_sum := currentW; i_sum <= W; i_sum++ {
+			option1 := sumV[i-1][i_sum]
+			option2 := sumV[i-投[0]i_sum-currentW] + currentV
+			if option2 > option1 {
+				sumV[i][i_sum] = option2
+			} else {
+				sumV[i][i_sum] = option1
+			}
+		}
+	}
+
+	fmt.Println(sumV[N][W])
+}
+
+// End of Code

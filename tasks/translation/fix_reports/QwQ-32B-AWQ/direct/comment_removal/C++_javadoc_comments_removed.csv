@@ -1,0 +1,205 @@
+id,version,status,error,expected,actual
+s283652523,comments_removed,success,,,
+s466963472,comments_removed,compile_failed,"output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C++/s466963472_comments_removed.cpp: In function ‘bool read()’:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C++/s466963472_comments_removed.cpp:7:16: error: cannot convert ‘std::basic_istream<char>::__istream_type’ {aka ‘std::basic_istream<char>’} to ‘bool’ in return
+    7 |     return cin >> d;
+      |            ~~~~^~~~
+      |                |
+      |                std::basic_istream<char>::__istream_type {aka std::basic_istream<char>}
+",,
+s863488345,comments_removed,success,,,
+s378126458,comments_removed,success,,,
+s081988820,comments_removed,success,,,
+s684030429,comments_removed,compile_failed,"output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C++/s684030429_comments_removed.cpp:85:14: error: declaration of ‘a’ as multidimensional array must have bounds for all dimensions except the first
+   85 | void ida(int a[][/* m */], int n, int m) {
+      |              ^
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C++/s684030429_comments_removed.cpp:85:26: error: expected ‘)’ before ‘,’ token
+   85 | void ida(int a[][/* m */], int n, int m) {
+      |         ~                ^
+      |                          )
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C++/s684030429_comments_removed.cpp:85:28: error: expected unqualified-id before ‘int’
+   85 | void ida(int a[][/* m */], int n, int m) {
+      |                            ^~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C++/s684030429_comments_removed.cpp:93:15: error: declaration of ‘a’ as multidimensional array must have bounds for all dimensions except the first
+   93 | void lda(long a[][/* m */], int n, int m) {
+      |               ^
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C++/s684030429_comments_removed.cpp:93:27: error: expected ‘)’ before ‘,’ token
+   93 | void lda(long a[][/* m */], int n, int m) {
+      |         ~                 ^
+      |                           )
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C++/s684030429_comments_removed.cpp:93:29: error: expected unqualified-id before ‘int’
+   93 | void lda(long a[][/* m */], int n, int m) {
+      |                             ^~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C++/s684030429_comments_removed.cpp:101:17: error: declaration of ‘a’ as multidimensional array must have bounds for all dimensions except the first
+  101 | void dda(double a[][/* m */], int n, int m) {
+      |                 ^
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C++/s684030429_comments_removed.cpp:101:29: error: expected ‘)’ before ‘,’ token
+  101 | void dda(double a[][/* m */], int n, int m) {
+      |         ~                   ^
+      |                             )
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C++/s684030429_comments_removed.cpp:101:31: error: expected unqualified-id before ‘int’
+  101 | void dda(double a[][/* m */], int n, int m) {
+      |                               ^~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C++/s684030429_comments_removed.cpp: In function ‘int stoi(const string&)’:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C++/s684030429_comments_removed.cpp:110:16: error: call of overloaded ‘stoi(const string&)’ is ambiguous
+  110 |     return stoi(s);
+      |            ~~~~^~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C++/s684030429_comments_removed.cpp:109:5: note: candidate: ‘int stoi(const string&)’
+  109 | int stoi(const string &s) {
+      |     ^~~~
+In file included from /usr/include/c++/11/string:55,
+                 from /usr/include/c++/11/bits/locale_classes.h:40,
+                 from /usr/include/c++/11/bits/ios_base.h:41,
+                 from /usr/include/c++/11/ios:42,
+                 from /usr/include/c++/11/ostream:38,
+                 from /usr/include/c++/11/iostream:39,
+                 from output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C++/s684030429_comments_removed.cpp:1:
+/usr/include/c++/11/bits/basic_string.h:6619:3: note: candidate: ‘int std::__cxx11::stoi(const string&, std::size_t*, int)’
+ 6619 |   stoi(const string& __str, size_t* __idx = 0, int __base = 10)
+      |   ^~~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C++/s684030429_comments_removed.cpp: In function ‘double stod(const string&)’:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C++/s684030429_comments_removed.cpp:114:16: error: call of overloaded ‘stod(const string&)’ is ambiguous
+  114 |     return stod(s);
+      |            ~~~~^~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C++/s684030429_comments_removed.cpp:113:8: note: candidate: ‘double stod(const string&)’
+  113 | double stod(const string &s) {
+      |        ^~~~
+In file included from /usr/include/c++/11/string:55,
+                 from /usr/include/c++/11/bits/locale_classes.h:40,
+                 from /usr/include/c++/11/bits/ios_base.h:41,
+                 from /usr/include/c++/11/ios:42,
+                 from /usr/include/c++/11/ostream:38,
+                 from /usr/include/c++/11/iostream:39,
+                 from output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C++/s684030429_comments_removed.cpp:1:
+/usr/include/c++/11/bits/basic_string.h:6649:3: note: candidate: ‘double std::__cxx11::stod(const string&, std::size_t*)’
+ 6649 |   stod(const string& __str, size_t* __idx = 0)
+      |   ^~~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C++/s684030429_comments_removed.cpp: In function ‘long int lmin(long int*, int)’:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C++/s684030429_comments_removed.cpp:118:20: error: ‘LLONG_MAX’ was not declared in this scope
+  118 |     long min_val = LLONG_MAX;
+      |                    ^~~~~~~~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C++/s684030429_comments_removed.cpp:7:1: note: ‘LLONG_MAX’ is defined in header ‘<climits>’; did you forget to ‘#include <climits>’?
+    6 | #include <cmath>
+  +++ |+#include <climits>
+    7 | using namespace std;
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C++/s684030429_comments_removed.cpp: In function ‘int imin(int*, int)’:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C++/s684030429_comments_removed.cpp:126:19: error: ‘INT_MAX’ was not declared in this scope
+  126 |     int min_val = INT_MAX;
+      |                   ^~~~~~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C++/s684030429_comments_removed.cpp:126:19: note: ‘INT_MAX’ is defined in header ‘<climits>’; did you forget to ‘#include <climits>’?
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C++/s684030429_comments_removed.cpp: In function ‘long int lmax(long int*, int)’:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C++/s684030429_comments_removed.cpp:134:20: error: ‘LLONG_MIN’ was not declared in this scope
+  134 |     long max_val = LLONG_MIN;
+      |                    ^~~~~~~~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C++/s684030429_comments_removed.cpp:134:20: note: ‘LLONG_MIN’ is defined in header ‘<climits>’; did you forget to ‘#include <climits>’?
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C++/s684030429_comments_removed.cpp: In function ‘int imax(int*, int)’:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C++/s684030429_comments_removed.cpp:142:19: error: ‘INT_MIN’ was not declared in this scope
+  142 |     int max_val = INT_MIN;
+      |                   ^~~~~~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C++/s684030429_comments_removed.cpp:142:19: note: ‘INT_MIN’ is defined in header ‘<climits>’; did you forget to ‘#include <climits>’?
+",,
+s685734377,comments_removed,success,,,
+s041542819,comments_removed,compile_failed,"output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C++/s041542819_comments_removed.cpp: In member function ‘std::string LightScanner::next()’:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C++/s041542819_comments_removed.cpp:18:33: error: variable ‘std::stringstream ss’ has initializer but incomplete type
+   18 |             stringstream ss(line);
+      |                                 ^
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C++/s041542819_comments_removed.cpp: In member function ‘void DLazyFaith::solve(int, LightScanner&, LightWriter&)’:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C++/s041542819_comments_removed.cpp:76:29: error: no matching function for call to ‘max(int, long int)’
+   76 |             int s_prev = max(0, s_idx-1);
+      |                          ~~~^~~~~~~~~~~~
+In file included from /usr/include/c++/11/bits/char_traits.h:39,
+                 from /usr/include/c++/11/ios:40,
+                 from /usr/include/c++/11/ostream:38,
+                 from /usr/include/c++/11/iostream:39,
+                 from output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C++/s041542819_comments_removed.cpp:1:
+/usr/include/c++/11/bits/stl_algobase.h:254:5: note: candidate: ‘template<class _Tp> const _Tp& std::max(const _Tp&, const _Tp&)’
+  254 |     max(const _Tp& __a, const _Tp& __b)
+      |     ^~~
+/usr/include/c++/11/bits/stl_algobase.h:254:5: note:   template argument deduction/substitution failed:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C++/s041542819_comments_removed.cpp:76:29: note:   deduced conflicting types for parameter ‘const _Tp’ (‘int’ and ‘long int’)
+   76 |             int s_prev = max(0, s_idx-1);
+      |                          ~~~^~~~~~~~~~~~
+In file included from /usr/include/c++/11/bits/char_traits.h:39,
+                 from /usr/include/c++/11/ios:40,
+                 from /usr/include/c++/11/ostream:38,
+                 from /usr/include/c++/11/iostream:39,
+                 from output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C++/s041542819_comments_removed.cpp:1:
+/usr/include/c++/11/bits/stl_algobase.h:300:5: note: candidate: ‘template<class _Tp, class _Compare> const _Tp& std::max(const _Tp&, const _Tp&, _Compare)’
+  300 |     max(const _Tp& __a, const _Tp& __b, _Compare __comp)
+      |     ^~~
+/usr/include/c++/11/bits/stl_algobase.h:300:5: note:   template argument deduction/substitution failed:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C++/s041542819_comments_removed.cpp:76:29: note:   deduced conflicting types for parameter ‘const _Tp’ (‘int’ and ‘long int’)
+   76 |             int s_prev = max(0, s_idx-1);
+      |                          ~~~^~~~~~~~~~~~
+In file included from /usr/include/c++/11/algorithm:62,
+                 from output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C++/s041542819_comments_removed.cpp:3:
+/usr/include/c++/11/bits/stl_algo.h:3461:5: note: candidate: ‘template<class _Tp> _Tp std::max(std::initializer_list<_Tp>)’
+ 3461 |     max(initializer_list<_Tp> __l)
+      |     ^~~
+/usr/include/c++/11/bits/stl_algo.h:3461:5: note:   template argument deduction/substitution failed:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C++/s041542819_comments_removed.cpp:76:29: note:   mismatched types ‘std::initializer_list<_Tp>’ and ‘int’
+   76 |             int s_prev = max(0, s_idx-1);
+      |                          ~~~^~~~~~~~~~~~
+In file included from /usr/include/c++/11/algorithm:62,
+                 from output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C++/s041542819_comments_removed.cpp:3:
+/usr/include/c++/11/bits/stl_algo.h:3467:5: note: candidate: ‘template<class _Tp, class _Compare> _Tp std::max(std::initializer_list<_Tp>, _Compare)’
+ 3467 |     max(initializer_list<_Tp> __l, _Compare __comp)
+      |     ^~~
+/usr/include/c++/11/bits/stl_algo.h:3467:5: note:   template argument deduction/substitution failed:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C++/s041542819_comments_removed.cpp:76:29: note:   mismatched types ‘std::initializer_list<_Tp>’ and ‘int’
+   76 |             int s_prev = max(0, s_idx-1);
+      |                          ~~~^~~~~~~~~~~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C++/s041542819_comments_removed.cpp:79:29: error: no matching function for call to ‘max(int, long int)’
+   79 |             int t_prev = max(0, t_idx-1);
+      |                          ~~~^~~~~~~~~~~~
+In file included from /usr/include/c++/11/bits/char_traits.h:39,
+                 from /usr/include/c++/11/ios:40,
+                 from /usr/include/c++/11/ostream:38,
+                 from /usr/include/c++/11/iostream:39,
+                 from output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C++/s041542819_comments_removed.cpp:1:
+/usr/include/c++/11/bits/stl_algobase.h:254:5: note: candidate: ‘template<class _Tp> const _Tp& std::max(const _Tp&, const _Tp&)’
+  254 |     max(const _Tp& __a, const _Tp& __b)
+      |     ^~~
+/usr/include/c++/11/bits/stl_algobase.h:254:5: note:   template argument deduction/substitution failed:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C++/s041542819_comments_removed.cpp:79:29: note:   deduced conflicting types for parameter ‘const _Tp’ (‘int’ and ‘long int’)
+   79 |             int t_prev = max(0, t_idx-1);
+      |                          ~~~^~~~~~~~~~~~
+In file included from /usr/include/c++/11/bits/char_traits.h:39,
+                 from /usr/include/c++/11/ios:40,
+                 from /usr/include/c++/11/ostream:38,
+                 from /usr/include/c++/11/iostream:39,
+                 from output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C++/s041542819_comments_removed.cpp:1:
+/usr/include/c++/11/bits/stl_algobase.h:300:5: note: candidate: ‘template<class _Tp, class _Compare> const _Tp& std::max(const _Tp&, const _Tp&, _Compare)’
+  300 |     max(const _Tp& __a, const _Tp& __b, _Compare __comp)
+      |     ^~~
+/usr/include/c++/11/bits/stl_algobase.h:300:5: note:   template argument deduction/substitution failed:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C++/s041542819_comments_removed.cpp:79:29: note:   deduced conflicting types for parameter ‘const _Tp’ (‘int’ and ‘long int’)
+   79 |             int t_prev = max(0, t_idx-1);
+      |                          ~~~^~~~~~~~~~~~
+In file included from /usr/include/c++/11/algorithm:62,
+                 from output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C++/s041542819_comments_removed.cpp:3:
+/usr/include/c++/11/bits/stl_algo.h:3461:5: note: candidate: ‘template<class _Tp> _Tp std::max(std::initializer_list<_Tp>)’
+ 3461 |     max(initializer_list<_Tp> __l)
+      |     ^~~
+/usr/include/c++/11/bits/stl_algo.h:3461:5: note:   template argument deduction/substitution failed:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C++/s041542819_comments_removed.cpp:79:29: note:   mismatched types ‘std::initializer_list<_Tp>’ and ‘int’
+   79 |             int t_prev = max(0, t_idx-1);
+      |                          ~~~^~~~~~~~~~~~
+In file included from /usr/include/c++/11/algorithm:62,
+                 from output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C++/s041542819_comments_removed.cpp:3:
+/usr/include/c++/11/bits/stl_algo.h:3467:5: note: candidate: ‘template<class _Tp, class _Compare> _Tp std::max(std::initializer_list<_Tp>, _Compare)’
+ 3467 |     max(initializer_list<_Tp> __l, _Compare __comp)
+      |     ^~~
+/usr/include/c++/11/bits/stl_algo.h:3467:5: note:   template argument deduction/substitution failed:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C++/s041542819_comments_removed.cpp:79:29: note:   mismatched types ‘std::initializer_list<_Tp>’ and ‘int’
+   79 |             int t_prev = max(0, t_idx-1);
+      |                          ~~~^~~~~~~~~~~~
+",,
+s936984238,comments_removed,success,,,
+s867221485,comments_removed,success,,,
+s910447421,comments_removed,compile_failed,"output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C++/s910447421_comments_removed.cpp: In function ‘void solve()’:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C++/s910447421_comments_removed.cpp:47:23: error: ‘check’ was not declared in this scope
+   47 |         int current = check(p, q, taken);
+      |                       ^~~~~
+",,
+s612878490,comments_removed,test_failed,,4,3

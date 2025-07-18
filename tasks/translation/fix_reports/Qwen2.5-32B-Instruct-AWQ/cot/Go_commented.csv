@@ -1,0 +1,197 @@
+id,status,error,expected,actual
+s596918302,success,,,
+s283652523,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s283652523_commented.go:7:2: imported and not used: ""strconv""
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s283652523_commented.go:85:9: undefined: strings
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s283652523_commented.go:90:62: -1 (untyped int constant) overflows byte
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s283652523_commented.go:98:9: undefined: strings
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s283652523_commented.go:100:24: -1 (untyped int constant) overflows byte
+",,
+s584572995,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s584572995_commented.go:82:23: undefined: io
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s584572995_commented.go:88:9: undefined: strings
+",,
+s888333881,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s888333881_commented.go:166:6: abs redeclared in this block
+	output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s888333881_commented.go:159:6: other declaration of abs
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s888333881_commented.go:173:6: abs redeclared in this block
+	output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s888333881_commented.go:159:6: other declaration of abs
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s888333881_commented.go:187:6: min redeclared in this block
+	output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s888333881_commented.go:180:6: other declaration of min
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s888333881_commented.go:194:6: min redeclared in this block
+	output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s888333881_commented.go:180:6: other declaration of min
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s888333881_commented.go:208:6: max redeclared in this block
+	output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s888333881_commented.go:201:6: other declaration of max
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s888333881_commented.go:215:6: max redeclared in this block
+	output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s888333881_commented.go:201:6: other declaration of max
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s888333881_commented.go:232:6: minN redeclared in this block
+	output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s888333881_commented.go:222:6: other declaration of minN
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s888333881_commented.go:252:6: maxN redeclared in this block
+	output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s888333881_commented.go:242:6: other declaration of maxN
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s888333881_commented.go:272:6: minExAd redeclared in this block
+	output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s888333881_commented.go:262:6: other declaration of minExAd
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s888333881_commented.go:292:6: minExVal redeclared in this block
+	output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s888333881_commented.go:282:6: other declaration of minExVal
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s888333881_commented.go:292:6: too many errors
+",,
+s545439898,success,,,
+s893190600,compile_failed,"output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s893190600_commented.go:1:2: expected 'package', found 'EOF'
+",,
+s580342216,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s580342216_commented.go:15:30: cannot use strings.NewReader("""") (value of type *strings.Reader) as type string in argument to strings.NewReader
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s580342216_commented.go:23:21: scanner.ReadString undefined (type *strings.Reader has no field or method ReadString)
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s580342216_commented.go:81:18: invalid character '\'' in octal escape
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s580342216_commented.go:91:13: invalid operation: cannot call non-function lcs (variable of type []byte)
+",,
+s196249385,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s196249385_commented.go:35:25: undefined: math
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s196249385_commented.go:73:10: undefined: strconv
+",,
+s456888268,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s456888268_commented.go:7:2: imported and not used: ""strconv""
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s456888268_commented.go:55:6: reverse redeclared in this block
+	output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s456888268_commented.go:46:6: other declaration of reverse
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s456888268_commented.go:64:6: reverse redeclared in this block
+	output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s456888268_commented.go:46:6: other declaration of reverse
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s456888268_commented.go:73:6: reverse redeclared in this block
+	output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s456888268_commented.go:46:6: other declaration of reverse
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s456888268_commented.go:84:10: cannot use c (variable of type []rune) as type []int in argument to reverse
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s456888268_commented.go:89:6: reverse redeclared in this block
+	output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s456888268_commented.go:46:6: other declaration of reverse
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s456888268_commented.go:98:6: reverse redeclared in this block
+	output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s456888268_commented.go:46:6: other declaration of reverse
+",,
+s466963472,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s466963472_commented.go:5:2: imported and not used: ""strconv""
+",,
+s863488345,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s863488345_commented.go:7:2: imported and not used: ""strings""
+",,
+s127819686,success,,,
+s287007304,success,,,
+s937747608,success,,,
+s824230885,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s824230885_commented.go:74:32: fmt.Sprintf(""%s"", str).Split undefined (type string has no field or method Split)
+",,
+s452855095,success,,,
+s378126458,success,,,
+s221078931,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s221078931_commented.go:42:15: undefined: strings
+",,
+s081988820,test_failed,,12,0
+s504715611,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s504715611_commented.go:95:9: undefined: strings
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s504715611_commented.go:143:9: too many return values
+	have (float64, error)
+	want (float64)
+",,
+s684030429,success,,,
+s967693306,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s967693306_commented.go:297:6: syntax error: unexpected :=, expecting [
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s967693306_commented.go:301:21: syntax error: unexpected semicolon, expecting type
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s967693306_commented.go:305:10: syntax error: unexpected =, expecting type
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s967693306_commented.go:314:21: syntax error: unexpected +, expecting ]
+",,
+s685734377,success,,,
+s041542819,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s041542819_commented.go:15:25: undefined: io
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s041542819_commented.go:46:25: undefined: io
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s041542819_commented.go:54:24: LightWriter.Print redeclared in this block
+	output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s041542819_commented.go:50:24: other declaration of Print
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s041542819_commented.go:59:11: cannot use s (variable of type string) as type rune in argument to lw.Print
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s041542819_commented.go:95:4: cannot use max(sl, tl) (value of type int) as type int64 in argument to min
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s041542819_commented.go:95:8: cannot use sl (variable of type int64) as type int in argument to max
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s041542819_commented.go:95:12: cannot use tl (variable of type int64) as type int in argument to max
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s041542819_commented.go:96:4: cannot use max(sr, tr) (value of type int) as type int64 in argument to min
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s041542819_commented.go:96:8: cannot use sr (variable of type int64) as type int in argument to max
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s041542819_commented.go:96:12: cannot use tr (variable of type int64) as type int in argument to max
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s041542819_commented.go:96:4: too many errors
+",,
+s936984238,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s936984238_commented.go:8:2: imported and not used: ""strconv""
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s936984238_commented.go:34:12: undefined: score
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s936984238_commented.go:36:18: undefined: number
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s936984238_commented.go:37:10: undefined: score
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s936984238_commented.go:39:21: undefined: number
+",,
+s867221485,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s867221485_commented.go:58:1: syntax error: unexpected EOF, expecting }
+",,
+s511234019,success,,,
+s910447421,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s910447421_commented.go:92:26: undefined: bufio
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s910447421_commented.go:92:42: undefined: os
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s910447421_commented.go:96:10: undefined: bufio
+",,
+s725559666,success,,,
+s573993837,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s573993837_commented.go:30:43: cannot use m - n (value of type int64) as type int in argument to min
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s573993837_commented.go:30:48: cannot use n (variable of type int64) as type int in argument to min
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s573993837_commented.go:33:42: cannot use m - n (value of type int64) as type int in argument to min
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s573993837_commented.go:33:47: cannot use n (variable of type int64) as type int in argument to min
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s573993837_commented.go:104:6: feedArr redeclared in this block
+	output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s573993837_commented.go:98:6: other declaration of feedArr
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s573993837_commented.go:110:6: feedArr redeclared in this block
+	output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s573993837_commented.go:98:6: other declaration of feedArr
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s573993837_commented.go:116:6: feedArr redeclared in this block
+	output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s573993837_commented.go:98:6: other declaration of feedArr
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s573993837_commented.go:130:6: printArr redeclared in this block
+	output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s573993837_commented.go:122:6: other declaration of printArr
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s573993837_commented.go:138:6: printArr redeclared in this block
+	output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s573993837_commented.go:122:6: other declaration of printArr
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s573993837_commented.go:146:6: printArr redeclared in this block
+	output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s573993837_commented.go:122:6: other declaration of printArr
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s573993837_commented.go:33:47: too many errors
+",,
+s185737640,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s185737640_commented.go:35:1: syntax error: unexpected EOF, expecting }
+",,
+s780275612,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s780275612_commented.go:16:1: syntax error: unexpected EOF, expecting }
+",,
+s826491904,success,,,
+s316260310,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s316260310_commented.go:333:1: syntax error: unexpected EOF, expecting }
+",,
+s749703010,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s749703010_commented.go:30:7: undefined: bits
+",,
+s380356166,success,,,
+s831281137,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s831281137_commented.go:67:19: too many arguments in call to nlongs
+	have (int, number, number)
+	want (int)
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s831281137_commented.go:71:18: too many arguments in call to nints
+	have (int, number, number)
+	want (int)
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s831281137_commented.go:74:6: nints redeclared in this block
+	output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s831281137_commented.go:70:6: other declaration of nints
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s831281137_commented.go:82:6: nlongs redeclared in this block
+	output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s831281137_commented.go:66:6: other declaration of nlongs
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s831281137_commented.go:99:27: too many arguments in call to nsToChars2D
+	have (int, int, number)
+	want (int, int)
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s831281137_commented.go:102:6: nsToChars2D redeclared in this block
+	output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s831281137_commented.go:98:6: other declaration of nsToChars2D
+",,
+s527301188,success,,,
+s514557145,runtime_failed,"panic: runtime error: index out of range [8] with length 8
+
+goroutine 1 [running]:
+main.(*LazySegTree).push(0xc0001b6000, 0xc000000000?)
+	/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s514557145_commented.go:167 +0x275
+main.(*LazySegTree).Apply(0xc0001b6000, 0xc00000e010?, 0x2, {0x3?, 0x3?})
+	/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s514557145_commented.go:121 +0xd1
+main.main()
+	/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s514557145_commented.go:44 +0x358
+",,
+s012761786,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s012761786_commented.go:6:2: imported and not used: ""strconv""
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s012761786_commented.go:61:9: undefined: strings
+",,
+s612878490,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s612878490_commented.go:43:1: syntax error: unexpected EOF, expecting }
+",,
+s010698290,compile_failed,"output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/cot/Java/Go/s010698290_commented.go:1:2: expected 'package', found 'EOF'
+",,
+s063482767,success,,,

@@ -1,0 +1,98 @@
+id,status,error,expected,actual
+s596918302,compile_failed,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s596918302_commented.go:41:9: undefined: 行
+",,
+s283652523,success,,,
+s584572995,compile_failed,"output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s584572995_commented.go:1:1: expected 'package', found The
+",,
+s888333881,compile_failed,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s888333881_commented.go:4:2: imported and not used: ""bufio""
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s888333881_commented.go:5:2: imported and not used: ""os""
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s888333881_commented.go:6:2: imported and not used: ""strconv""
+",,
+s545439898,success,,,
+s893190600,compile_failed,"output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s893190600_commented.go:1:1: expected 'package', found Yes
+",,
+s580342216,success,,,
+s196249385,compile_failed,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s196249385_commented.go:29:20: syntax error: unexpected ..., expecting {
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s196249385_commented.go:29:23: invalid character U+FF08 '（' in identifier
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s196249385_commented.go:29:70: invalid character U+FF09 '）' in identifier
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s196249385_commented.go:30:17: syntax error: unexpected ), expecting { after for clause
+",,
+s456888268,success,,,
+s466963472,success,,,
+s863488345,compile_failed,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s863488345_commented.go:70:24: syntax error: cannot use assignment (battleTown[x][y]) = ('.') as value
+",,
+s127819686,success,,,
+s287007304,success,,,
+s937747608,success,,,
+s824230885,success,,,
+s452855095,success,,,
+s378126458,compile_failed,"output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s378126458_commented.go:1:1: expected 'package', found The
+",,
+s221078931,compile_failed,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s221078931_commented.go:63:3: found declared but not used
+",,
+s081988820,compile_failed,"output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s081988820_commented.go:1:1: expected 'package', found ERROR
+",,
+s504715611,compile_failed,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s504715611_commented.go:4:2: imported and not used: ""bufio""
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s504715611_commented.go:5:2: imported and not used: ""fmt""
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s504715611_commented.go:6:2: imported and not used: ""io""
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s504715611_commented.go:7:2: imported and not used: ""math""
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s504715611_commented.go:8:2: imported and not used: ""os""
+",,
+s684030429,compile_failed,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s684030429_commented.go:169:10: invalid operation: v < min (mismatched types int64 and int)
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s684030429_commented.go:170:10: cannot use v (variable of type int64) as type int in assignment
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s684030429_commented.go:173:9: cannot use min (variable of type int) as type int64 in return statement
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s684030429_commented.go:179:10: invalid operation: v > max (mismatched types int64 and int)
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s684030429_commented.go:180:10: cannot use v (variable of type int64) as type int in assignment
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s684030429_commented.go:183:9: cannot use max (variable of type int) as type int64 in return statement
+",,
+s967693306,compile_failed,"output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s967693306_commented.go:1:1: expected 'package', found Negative
+",,
+s685734377,success,,,
+s041542819,compile_failed,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s041542819_commented.go:4:2: imported and not used: ""bufio""
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s041542819_commented.go:32:22: os.Stdin.ReadAll undefined (type *os.File has no field or method ReadAll)
+",,
+s936984238,success,,,
+s867221485,compile_failed,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s867221485_commented.go:14:2: n declared but not used
+",,
+s511234019,success,,,
+s910447421,success,,,
+s725559666,success,,,
+s573993837,success,,,
+s185737640,success,,,
+s780275612,success,,,
+s826491904,success,,,
+s316260310,compile_failed,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s316260310_commented.go:24:28: undefined: io
+",,
+s749703010,compile_failed,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s749703010_commented.go:76:14: invalid operation: res < ans (mismatched types int and float64)
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s749703010_commented.go:77:12: cannot use res (variable of type int) as type float64 in assignment
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s749703010_commented.go:83:25: cannot use ans (variable of type float64) as type int in assignment
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s749703010_commented.go:84:9: cannot use ans (variable of type float64) as type int in return statement
+",,
+s380356166,success,,,
+s831281137,compile_failed,"output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s831281137_commented.go:1:1: expected 'package', found ERROR
+",,
+s527301188,compile_failed,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s527301188_commented.go:38:1: syntax error: unexpected EOF, expecting }
+",,
+s514557145,compile_failed,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s514557145_commented.go:231:13: undefined: 奏
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s514557145_commented.go:274:3: undefined: fmt
+",,
+s012761786,success,,,
+s612878490,success,,,
+s010698290,compile_failed,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s010698290_commented.go:24:17: undefined: fmt.Atoi
+",,
+s063482767,compile_failed,"output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s063482767_commented.go:1:1: expected 'package', found 'import'
+",,

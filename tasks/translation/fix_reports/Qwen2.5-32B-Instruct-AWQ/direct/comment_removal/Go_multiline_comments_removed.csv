@@ -1,0 +1,82 @@
+id,version,status,error,expected,actual
+s584572995,comments_removed,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/Go/s584572995_comments_removed.go:8:2: imported and not used: ""strings""
+",,
+s888333881,comments_removed,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/Go/s888333881_comments_removed.go:250:6: abs redeclared in this block
+	output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/Go/s888333881_comments_removed.go:243:6: other declaration of abs
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/Go/s888333881_comments_removed.go:257:6: abs redeclared in this block
+	output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/Go/s888333881_comments_removed.go:243:6: other declaration of abs
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/Go/s888333881_comments_removed.go:271:6: min redeclared in this block
+	output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/Go/s888333881_comments_removed.go:264:6: other declaration of min
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/Go/s888333881_comments_removed.go:278:6: min redeclared in this block
+	output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/Go/s888333881_comments_removed.go:264:6: other declaration of min
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/Go/s888333881_comments_removed.go:292:6: max redeclared in this block
+	output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/Go/s888333881_comments_removed.go:285:6: other declaration of max
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/Go/s888333881_comments_removed.go:299:6: max redeclared in this block
+	output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/Go/s888333881_comments_removed.go:285:6: other declaration of max
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/Go/s888333881_comments_removed.go:316:6: minN redeclared in this block
+	output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/Go/s888333881_comments_removed.go:306:6: other declaration of minN
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/Go/s888333881_comments_removed.go:336:6: maxN redeclared in this block
+	output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/Go/s888333881_comments_removed.go:326:6: other declaration of maxN
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/Go/s888333881_comments_removed.go:356:6: minExAd redeclared in this block
+	output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/Go/s888333881_comments_removed.go:346:6: other declaration of minExAd
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/Go/s888333881_comments_removed.go:376:6: minExVal redeclared in this block
+	output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/Go/s888333881_comments_removed.go:366:6: other declaration of minExVal
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/Go/s888333881_comments_removed.go:376:6: too many errors
+",,
+s893190600,comments_removed,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/Go/s893190600_comments_removed.go:7:2: imported and not used: ""strconv""
+",,
+s580342216,comments_removed,success,,,
+s127819686,comments_removed,success,,,
+s824230885,comments_removed,success,,,
+s221078931,comments_removed,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/Go/s221078931_comments_removed.go:61:3: diag declared but not used
+",,
+s967693306,comments_removed,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/Go/s967693306_comments_removed.go:73:6: inv redeclared in this block
+	output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/Go/s967693306_comments_removed.go:16:5: other declaration of inv
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/Go/s967693306_comments_removed.go:175:2: undefined: sort
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/Go/s967693306_comments_removed.go:182:6: nextPermutation redeclared in this block
+	output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/Go/s967693306_comments_removed.go:145:6: other declaration of nextPermutation
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/Go/s967693306_comments_removed.go:187:4: undefined: sort
+",,
+s573993837,comments_removed,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/Go/s573993837_comments_removed.go:67:6: feedArr redeclared in this block
+	output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/Go/s573993837_comments_removed.go:61:6: other declaration of feedArr
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/Go/s573993837_comments_removed.go:73:6: feedArr redeclared in this block
+	output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/Go/s573993837_comments_removed.go:61:6: other declaration of feedArr
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/Go/s573993837_comments_removed.go:79:6: feedArr redeclared in this block
+	output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/Go/s573993837_comments_removed.go:61:6: other declaration of feedArr
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/Go/s573993837_comments_removed.go:93:6: printArr redeclared in this block
+	output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/Go/s573993837_comments_removed.go:85:6: other declaration of printArr
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/Go/s573993837_comments_removed.go:101:6: printArr redeclared in this block
+	output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/Go/s573993837_comments_removed.go:85:6: other declaration of printArr
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/Go/s573993837_comments_removed.go:109:6: printArr redeclared in this block
+	output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/Go/s573993837_comments_removed.go:85:6: other declaration of printArr
+",,
+s780275612,comments_removed,success,,,
+s316260310,comments_removed,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/Go/s316260310_comments_removed.go:71:7: undefined: rand
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/Go/s316260310_comments_removed.go:78:8: undefined: rand
+",,
+s749703010,comments_removed,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/Go/s749703010_comments_removed.go:8:2: imported and not used: ""strings""
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/Go/s749703010_comments_removed.go:31:7: undefined: bits
+",,
+s380356166,comments_removed,test_failed,,6,1
+s514557145,comments_removed,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/Go/s514557145_comments_removed.go:8:2: imported and not used: ""strings""
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/Go/s514557145_comments_removed.go:98:2: l declared but not used
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/Go/s514557145_comments_removed.go:227:9: undefined: bits
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/Go/s514557145_comments_removed.go:245:1: missing return
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/Go/s514557145_comments_removed.go:279:1: missing return
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/Go/s514557145_comments_removed.go:321:35: cannot use S{}.op (value of type func(s2 S) S) as type func(S, S) S in argument to NewLazySegTree
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/Go/s514557145_comments_removed.go:321:48: undefined: math
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/Go/s514557145_comments_removed.go:321:87: cannot use S{}.mapFunc (value of type func(f F) S) as type func(F, S) S in argument to NewLazySegTree
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/Go/s514557145_comments_removed.go:321:100: cannot use F{}.composite (value of type func(g F) F) as type func(F, F) F in argument to NewLazySegTree
+",,
+s010698290,comments_removed,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/Go/s010698290_comments_removed.go:8:2: imported and not used: ""strings""
+",,

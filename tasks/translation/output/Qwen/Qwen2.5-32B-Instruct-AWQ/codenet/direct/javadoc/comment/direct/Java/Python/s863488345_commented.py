@@ -1,0 +1,98 @@
+import sys
+
+def move_bomber(a, b):
+    if 0 <= a < h and 0 <= b < w:
+        if battle_town[a][b] == '^':
+            for i in range(a - 1, -1, -1):
+                if battle_town[i][b] == '*':
+                    battle_town[i][b] = '.'
+                    return
+                elif battle_town[i][b] == '#':
+                    return
+        elif battle_town[a][b] == 'v':
+            for i in range(a + 1, h):
+                if battle_town[i][b] == '*':
+                    battle_town[i][b] = '.'
+                    return
+                elif battle_town[i][b] == '#':
+                    return
+        elif battle_town[a][b] == '<':
+            for i in range(b - 1, -1, -1):
+                if battle_town[a][i] == '*':
+                    battle_town[a][i] = '.'
+                    return
+                elif battle_town[a][i] == '#':
+                    return
+        elif battle_town[a][b] == '>':
+            for i in range(b + 1, w):
+                if battle_town[a][i] == '*':
+                    battle_town[a][i] = '.'
+                    return
+                elif battle_town[a][i] == '#':
+                    return
+
+def main():
+    input = sys.stdin.read
+    data = input().split()
+    index = 0
+    map_num = int(data[index])
+    index += 1
+
+    for _ in range(map_num):
+        if _ > 0:
+            print("")
+        h = int(data[index])
+        w = int(data[index + 1])
+        index += 2
+
+        battle_town = []
+        for _ in range(h):
+            row = list(data[index])
+            index += 1
+            battle_town.append(row)
+
+        for j in range(h):
+            for k in range(w):
+                if battle_town[j][k] in ['^', 'v', '<', '>']:
+                    x = j
+                    y = k
+
+        bomber_act_num = int(data[index])
+        index += 1
+        bomber_act = list(data[index])
+        index += 1
+
+        for l in range(bomber_act_num):
+            if bomber_act[l] == 'U':
+                battle_town[x][y] = '^'
+                if x - 1 >= 0 and battle_town[x - 1][y] == '.':
+                    battle_town[x - 1][y] = '^'
+                    battle_town[x][y] = '.'
+                    x -= 1
+            elif bomber_act[l] == 'D':
+                battle_town[x][y] = 'v'
+                if x + 1 < h and battle_town[x + 1][y] == '.':
+                    battle_town[x + 1][y] = 'v'
+                    battle_town[x][y] = '.'
+                    x += 1
+            elif bomber_act[l] == 'L':
+                battle_town[x][y] = '<'
+                if y - 1 >= 0 and battle_town[x][y - 1] == '.':
+                    battle_town[x][y - 1] = '<'
+                    battle_town[x][y] = '.'
+                    y -= 1
+            elif bomber_act[l] == 'R':
+                battle_town[x][y] = '>'
+                if y + 1 < w and battle_town[x][y + 1] == '.':
+                    battle_town[x][y + 1] = '>'
+                    battle_town[x][y] = '.'
+                    y += 1
+            elif bomber_act[l] == 'S':
+                move_bomber(x, y)
+
+        for s in range(h):
+            for k in range(w):
+                print(battle_town[s][k], end="")
+            print()
+
+main()  # End of Code

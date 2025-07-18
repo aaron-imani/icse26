@@ -1,0 +1,59 @@
+id,version,status,error,expected,actual
+s584572995,commented,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/multiline/uncomment/direct/Java/Go/s584572995_commented.go:47:9: invalid operation: mulsum + (cases - 1 + mod) % mod (mismatched types int and int64)
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/multiline/uncomment/direct/Java/Go/s584572995_commented.go:81:19: undefined: io
+",,
+s888333881,commented,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/multiline/uncomment/direct/Java/Go/s888333881_commented.go:217:26: cannot use dw (variable of type int64) as type int in argument to countFlaged
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/multiline/uncomment/direct/Java/Go/s888333881_commented.go:234:26: cannot use dw (variable of type int64) as type int in argument to countFlaged
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/multiline/uncomment/direct/Java/Go/s888333881_commented.go:328:25: invalid operation: dt[i] < min (mismatched types int and float64)
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/multiline/uncomment/direct/Java/Go/s888333881_commented.go:329:10: cannot use dt[i] (variable of type int) as type float64 in assignment
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/multiline/uncomment/direct/Java/Go/s888333881_commented.go:332:9: cannot use min (variable of type float64) as type int in return statement
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/multiline/uncomment/direct/Java/Go/s888333881_commented.go:338:25: invalid operation: dt[i] < min (mismatched types int64 and float64)
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/multiline/uncomment/direct/Java/Go/s888333881_commented.go:339:10: cannot use dt[i] (variable of type int64) as type float64 in assignment
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/multiline/uncomment/direct/Java/Go/s888333881_commented.go:342:9: cannot use min (variable of type float64) as type int64 in return statement
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/multiline/uncomment/direct/Java/Go/s888333881_commented.go:348:33: invalid operation: dt[i] < min (mismatched types int and float64)
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/multiline/uncomment/direct/Java/Go/s888333881_commented.go:938:23: undefined: io
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/multiline/uncomment/direct/Java/Go/s888333881_commented.go:348:33: too many errors
+",,
+s893190600,commented,success,,,
+s580342216,commented,success,,,
+s127819686,commented,success,,,
+s824230885,commented,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/multiline/uncomment/direct/Java/Go/s824230885_commented.go:17:2: N declared but not used
+",,
+s221078931,commented,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/multiline/uncomment/direct/Java/Go/s221078931_commented.go:61:3: diag declared but not used
+",,
+s967693306,commented,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/multiline/uncomment/direct/Java/Go/s967693306_commented.go:79:6: inv redeclared in this block
+	output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/multiline/uncomment/direct/Java/Go/s967693306_commented.go:19:2: other declaration of inv
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/multiline/uncomment/direct/Java/Go/s967693306_commented.go:156:12: cannot use list[i] (variable of type string) as type byte in assignment
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/multiline/uncomment/direct/Java/Go/s967693306_commented.go:170:14: invalid operation: pivot < list[i] (mismatched types byte and string)
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/multiline/uncomment/direct/Java/Go/s967693306_commented.go:171:17: invalid operation: list[i] < min (mismatched types string and byte)
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/multiline/uncomment/direct/Java/Go/s967693306_commented.go:172:11: cannot use list[i] (variable of type string) as type byte in assignment
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/multiline/uncomment/direct/Java/Go/s967693306_commented.go:179:2: undefined: sort
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/multiline/uncomment/direct/Java/Go/s967693306_commented.go:189:4: undefined: sort
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/multiline/uncomment/direct/Java/Go/s967693306_commented.go:231:19: undefined: io
+",,
+s573993837,commented,success,,,
+s780275612,commented,success,,,
+s316260310,commented,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/multiline/uncomment/direct/Java/Go/s316260310_commented.go:8:2: imported and not used: ""strings""
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/multiline/uncomment/direct/Java/Go/s316260310_commented.go:19:9: undefined: rand
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/multiline/uncomment/direct/Java/Go/s316260310_commented.go:31:9: undefined: rand
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/multiline/uncomment/direct/Java/Go/s316260310_commented.go:31:33: undefined: time
+",,
+s749703010,commented,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/multiline/uncomment/direct/Java/Go/s749703010_commented.go:30:7: undefined: bits
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/multiline/uncomment/direct/Java/Go/s749703010_commented.go:37:11: cannot use min(ans, ff + dp((nf + (ff % 2)) % 2, i, msk | (1 << i))) (value of type int) as type float64 in assignment
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/multiline/uncomment/direct/Java/Go/s749703010_commented.go:37:15: cannot use ans (variable of type float64) as type int in argument to min
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/multiline/uncomment/direct/Java/Go/s749703010_commented.go:44:27: cannot use ans (variable of type float64) as type int in assignment
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/multiline/uncomment/direct/Java/Go/s749703010_commented.go:45:9: cannot use ans (variable of type float64) as type int in return statement
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/multiline/uncomment/direct/Java/Go/s749703010_commented.go:90:19: undefined: io
+",,
+s380356166,commented,success,,,
+s514557145,commented,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/multiline/uncomment/direct/Java/Go/s514557145_commented.go:385:81: cannot use S.mapFunc (value of type func(s S, f F) S) as type func(F, S) S in argument to NewLazySegTreeFromArray
+",,
+s010698290,commented,test_failed,,2 2,0 0

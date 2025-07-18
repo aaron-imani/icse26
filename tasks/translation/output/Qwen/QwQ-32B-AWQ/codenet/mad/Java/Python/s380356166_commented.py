@@ -1,0 +1,1 @@
+The correct answer is the count of all triples (X, Y, Z) where 0 ≤ X, Y, Z ≤ K and X + Y + Z = S. The Python code correctly implements this with nested loops and conditions. For example, when K=2 and S=2, valid triples include (0,0,2), (0,1,1), (0,2,0), (1,0,1), (1,1,0), (1,0,1), (2,0,0) resulting in 6 ways. The code returns the correct count.

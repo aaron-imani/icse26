@@ -1,0 +1,160 @@
+id,status,error,expected,actual
+s596918302,success,,,
+s283652523,success,,,
+s584572995,success,,,
+s888333881,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s888333881_comments_removed.go:8:2: imported and not used: ""strings""
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s888333881_comments_removed.go:181:23: cannot use n - p - 1 (value of type int) as type int64 in argument to pow10E97
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s888333881_comments_removed.go:188:22: invalid operation: division by zero
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s888333881_comments_removed.go:197:23: cannot use n - p - 1 (value of type int) as type int64 in argument to pow10E97
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s888333881_comments_removed.go:203:22: invalid operation: division by zero
+",,
+s545439898,test_failed,,5 4 3 2 1,0 0 0 0 0
+s893190600,runtime_failed,"panic: runtime error: index out of range [0] with length 0
+
+goroutine 1 [running]:
+main.main()
+	/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s893190600_comments_removed.go:38 +0x75b
+",,
+s580342216,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s580342216_comments_removed.go:4:2: imported and not used: ""bufio""
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s580342216_comments_removed.go:5:2: imported and not used: ""fmt""
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s580342216_comments_removed.go:6:2: imported and not used: ""os""
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s580342216_comments_removed.go:7:2: imported and not used: ""strconv""
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s580342216_comments_removed.go:8:2: imported and not used: ""strings""
+",,
+s196249385,test_failed,,12,0
+s456888268,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s456888268_comments_removed.go:7:2: imported and not used: ""strings""
+",,
+s466963472,test_failed,,"68440000
+70210000",
+s863488345,success,,,
+s127819686,test_failed,,110,
+s287007304,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s287007304_comments_removed.go:13:34: newline in rune literal
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s287007304_comments_removed.go:13:34: syntax error: unexpected newline, expecting comma or )
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s287007304_comments_removed.go:14:3: newline in rune literal
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s287007304_comments_removed.go:15:2: syntax error: unexpected if at end of statement
+",,
+s937747608,success,,,
+s824230885,success,,,
+s452855095,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s452855095_comments_removed.go:8:2: imported and not used: ""strings""
+",,
+s378126458,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s378126458_comments_removed.go:8:2: imported and not used: ""strings""
+",,
+s221078931,test_failed,,"1 3
+2 3
+1 4
+2 4
+3 4
+1 8
+4 7
+2 8
+3 140
+89 109","1 3
+2 3
+1 4
+2 4
+3 4
+1 8
+2 8
+2 8
+3 140
+89 109"
+s081988820,success,,,
+s504715611,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s504715611_comments_removed.go:4:2: imported and not used: ""bufio""
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s504715611_comments_removed.go:5:2: imported and not used: ""fmt""
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s504715611_comments_removed.go:6:2: imported and not used: ""os""
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s504715611_comments_removed.go:7:2: imported and not used: ""strconv""
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s504715611_comments_removed.go:8:2: imported and not used: ""strings""
+",,
+s684030429,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s684030429_comments_removed.go:95:34: m redeclared in this block
+	output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s684030429_comments_removed.go:95:7: other declaration of m
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s684030429_comments_removed.go:97:19: invalid operation: j < m (mismatched types int and *Main)
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s684030429_comments_removed.go:103:36: m redeclared in this block
+	output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s684030429_comments_removed.go:103:7: other declaration of m
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s684030429_comments_removed.go:105:19: invalid operation: j < m (mismatched types int and *Main)
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s684030429_comments_removed.go:111:38: m redeclared in this block
+	output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s684030429_comments_removed.go:111:7: other declaration of m
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s684030429_comments_removed.go:113:19: invalid operation: j < m (mismatched types int and *Main)
+",,
+s967693306,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s967693306_comments_removed.go:1026:1: syntax error: unexpected EOF, expecting }
+",,
+s685734377,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s685734377_comments_removed.go:8:2: imported and not used: ""strings""
+",,
+s041542819,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s041542819_comments_removed.go:75:12: invalid operation: val < minVal (mismatched types int64 and int)
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s041542819_comments_removed.go:76:13: cannot use val (variable of type int64) as type int in assignment
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s041542819_comments_removed.go:79:9: cannot use minVal (variable of type int) as type int64 in return statement
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s041542819_comments_removed.go:90:4: cannot use max(sl, tl) (value of type int) as type int64 in argument to min
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s041542819_comments_removed.go:90:8: cannot use sl (variable of type int64) as type int in argument to max
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s041542819_comments_removed.go:90:12: cannot use tl (variable of type int64) as type int in argument to max
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s041542819_comments_removed.go:91:4: cannot use max(sr, tr) (value of type int) as type int64 in argument to min
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s041542819_comments_removed.go:91:8: cannot use sr (variable of type int64) as type int in argument to max
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s041542819_comments_removed.go:91:12: cannot use tr (variable of type int64) as type int in argument to max
+",,
+s936984238,runtime_failed,"panic: runtime error: index out of range [1] with length 1
+
+goroutine 1 [running]:
+main.read(0xc000196ef0)
+	/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s936984238_comments_removed.go:32 +0x150
+main.main()
+	/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s936984238_comments_removed.go:17 +0x8f
+",,
+s867221485,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s867221485_comments_removed.go:21:2: first declared but not used
+",,
+s511234019,success,,,
+s910447421,success,,,
+s725559666,test_failed,,Yes,Error reading input: EOF
+s573993837,test_failed,,1,
+s185737640,success,,,
+s780275612,success,,,
+s826491904,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s826491904_comments_removed.go:8:2: imported and not used: ""strings""
+",,
+s316260310,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s316260310_comments_removed.go:19:8: undefined: rand
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s316260310_comments_removed.go:26:9: undefined: rand
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s316260310_comments_removed.go:49:4: h.factorial undefined (type *Helper has no field or method factorial)
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s316260310_comments_removed.go:53:7: h.factorial undefined (type *Helper has no field or method factorial)
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s316260310_comments_removed.go:56:11: h.factorial undefined (type *Helper has no field or method factorial)
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s316260310_comments_removed.go:63:7: h.factorial undefined (type *Helper has no field or method factorial)
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s316260310_comments_removed.go:66:17: h.factorial undefined (type *Helper has no field or method factorial)
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s316260310_comments_removed.go:169:28: undefined: io
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s316260310_comments_removed.go:269:18: Helper.println redeclared in this block
+	output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s316260310_comments_removed.go:264:18: other declaration of println
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s316260310_comments_removed.go:313:18: Solver.solve redeclared in this block
+	output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s316260310_comments_removed.go:298:18: other declaration of solve
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s316260310_comments_removed.go:66:17: too many errors
+",,
+s749703010,success,,,
+s380356166,test_failed,,6,
+s831281137,success,,,
+s527301188,success,,,
+s514557145,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s514557145_comments_removed.go:8:2: imported and not used: ""strings""
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s514557145_comments_removed.go:111:2: l declared but not used
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s514557145_comments_removed.go:271:26: sc.ScanText undefined (type *bufio.Scanner has no field or method ScanText)
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s514557145_comments_removed.go:281:27: cannot use S{}.op (value of type func(s2 S) S) as type func(S, S) S in argument to NewLazySegTree
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s514557145_comments_removed.go:281:40: cannot use F{}.mapS (value of type func(s S) S) as type func(F, S) S in argument to NewLazySegTree
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s514557145_comments_removed.go:281:50: cannot use F{}.composite (value of type func(g F) F) as type func(F, F) F in argument to NewLazySegTree
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s514557145_comments_removed.go:284:27: sc.ScanText undefined (type *bufio.Scanner has no field or method ScanText)
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s514557145_comments_removed.go:285:27: sc.ScanText undefined (type *bufio.Scanner has no field or method ScanText)
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s514557145_comments_removed.go:286:31: sc.ScanText undefined (type *bufio.Scanner has no field or method ScanText)
+",,
+s012761786,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s012761786_comments_removed.go:9:2: imported and not used: ""strings""
+",,
+s612878490,success,,,
+s010698290,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s010698290_comments_removed.go:8:2: imported and not used: ""strings""
+",,
+s063482767,test_failed,,Yes,true

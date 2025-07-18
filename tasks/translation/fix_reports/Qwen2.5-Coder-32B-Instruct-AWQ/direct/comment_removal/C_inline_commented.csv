@@ -1,0 +1,32 @@
+id,version,status,error,expected,actual
+s596918302,commented,success,,,
+s545439898,commented,success,,,
+s196249385,commented,success,,,
+s456888268,commented,success,,,
+s287007304,commented,success,,,
+s937747608,commented,success,,,
+s452855095,commented,success,,,
+s504715611,commented,compile_failed,"output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C/s504715611_commented.c: In function ‘isPrime’:
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C/s504715611_commented.c:106:16: warning: implicit declaration of function ‘sqrt’ [-Wimplicit-function-declaration]
+  106 |     double d = sqrt(n);
+      |                ^~~~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C/s504715611_commented.c:5:1: note: include ‘<math.h>’ or provide a declaration of ‘sqrt’
+    4 | #include <stdbool.h>
+  +++ |+#include <math.h>
+    5 | 
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C/s504715611_commented.c:106:16: warning: incompatible implicit declaration of built-in function ‘sqrt’ [-Wbuiltin-declaration-mismatch]
+  106 |     double d = sqrt(n);
+      |                ^~~~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C/s504715611_commented.c:106:16: note: include ‘<math.h>’ or provide a declaration of ‘sqrt’
+/usr/bin/ld: /tmp/ccm13UJ5.o: in function `isPrime':
+s504715611_commented.c:(.text+0x45b): undefined reference to `sqrt'
+collect2: error: ld returned 1 exit status
+",,
+s511234019,commented,success,,,
+s725559666,commented,success,,,
+s185737640,commented,success,,,
+s826491904,commented,success,,,
+s831281137,commented,success,,,
+s527301188,commented,test_failed,,3,1
+s012761786,commented,success,,,
+s063482767,commented,success,,,

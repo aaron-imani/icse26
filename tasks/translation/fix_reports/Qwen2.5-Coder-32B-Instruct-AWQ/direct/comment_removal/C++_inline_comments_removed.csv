@@ -1,0 +1,24 @@
+id,version,status,error,expected,actual
+s596918302,comments_removed,success,,,
+s545439898,comments_removed,success,,,
+s196249385,comments_removed,success,,,
+s456888268,comments_removed,compile_failed,"output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C++/s456888268_comments_removed.cpp: In function ‘long long int div(long long int, long long int)’:
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C++/s456888268_comments_removed.cpp:137:41: error: invalid operands of types ‘__gnu_cxx::__promote_2<long long int, long long int, double, double>::__type’ {aka ‘double’} and ‘const long long int’ to binary ‘operator%’
+  137 |     long long res = x * pow(y, mod - 2) % mod;
+      |                     ~~~~~~~~~~~~~~~~~~~ ^ ~~~
+      |                       |                   |
+      |                       |                   const long long int
+      |                       __gnu_cxx::__promote_2<long long int, long long int, double, double>::__type {aka double}
+",,
+s287007304,comments_removed,success,,,
+s937747608,comments_removed,success,,,
+s452855095,comments_removed,success,,,
+s504715611,comments_removed,success,,,
+s511234019,comments_removed,success,,,
+s725559666,comments_removed,success,,,
+s185737640,comments_removed,success,,,
+s826491904,comments_removed,success,,,
+s831281137,comments_removed,success,,,
+s527301188,comments_removed,success,,,
+s012761786,comments_removed,success,,,
+s063482767,comments_removed,success,,,

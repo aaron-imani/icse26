@@ -1,0 +1,1 @@
+The Negative side's argument is correct. The Python code should remove the `x -=1` line to avoid corrupting the count of selected elements. The corrected code ensures `x` accurately reflects the number of elements chosen, leading to proper state transitions in the DP function.

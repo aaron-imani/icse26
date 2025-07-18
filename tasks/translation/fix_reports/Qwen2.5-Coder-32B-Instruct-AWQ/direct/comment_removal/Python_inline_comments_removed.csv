@@ -1,0 +1,55 @@
+id,version,status,expected,actual,error
+s596918302,comments_removed,success,,,
+s545439898,comments_removed,runtime_failed,,,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/Python/s545439898_comments_removed.py"", line 2, in <module>
+    giving_numbers = [int(input()) for _ in range(count)]
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/Python/s545439898_comments_removed.py"", line 2, in <listcomp>
+    giving_numbers = [int(input()) for _ in range(count)]
+ValueError: invalid literal for int() with base 10: '1 2 3 4 5'
+"
+s196249385,comments_removed,success,,,
+s456888268,comments_removed,test_failed,4,,
+s287007304,comments_removed,success,,,
+s937747608,comments_removed,runtime_failed,,,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/Python/s937747608_comments_removed.py"", line 1, in <module>
+    a = int(input())
+ValueError: invalid literal for int() with base 10: '3 5 2 7'
+"
+s452855095,comments_removed,success,,,
+s504715611,comments_removed,success,,,
+s511234019,comments_removed,runtime_failed,,,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/Python/s511234019_comments_removed.py"", line 1, in <module>
+    a = int(input())
+ValueError: invalid literal for int() with base 10: '3 1'
+"
+s725559666,comments_removed,runtime_failed,,,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/Python/s725559666_comments_removed.py"", line 1, in <module>
+    a = int(input())
+ValueError: invalid literal for int() with base 10: '1 3 8'
+"
+s185737640,comments_removed,success,,,
+s826491904,comments_removed,success,,,
+s831281137,comments_removed,runtime_failed,,,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/Python/s831281137_comments_removed.py"", line 28, in <module>
+    main()
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/Python/s831281137_comments_removed.py"", line 7, in main
+    N = nint()
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/Python/s831281137_comments_removed.py"", line 4, in nint
+    return int(sys.stdin.readline())
+ValueError: invalid literal for int() with base 10: '4 5\\n'
+"
+s527301188,comments_removed,success,,,
+s012761786,comments_removed,runtime_failed,,,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/Python/s012761786_comments_removed.py"", line 52, in <module>
+    n = nextLong()
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/Python/s012761786_comments_removed.py"", line 10, in nextLong
+    return int(next())
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/Python/s012761786_comments_removed.py"", line 4, in next
+    return sys.stdin.read().split()[next.index]
+IndexError: list index out of range
+"
+s063482767,comments_removed,runtime_failed,,,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/Python/s063482767_comments_removed.py"", line 6, in <module>
+    heapq.heappush(queue, int(input()))
+ValueError: invalid literal for int() with base 10: '3 8 5 1'
+"

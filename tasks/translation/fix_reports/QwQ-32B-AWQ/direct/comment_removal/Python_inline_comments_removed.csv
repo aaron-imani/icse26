@@ -1,0 +1,25 @@
+id,version,status,error,expected,actual
+s596918302,comments_removed,success,,,
+s545439898,comments_removed,success,,,
+s196249385,comments_removed,success,,,
+s456888268,comments_removed,success,,,
+s287007304,comments_removed,success,,,
+s937747608,comments_removed,runtime_failed,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/Python/s937747608_comments_removed.py"", line 1, in <module>
+    a = int(input())
+ValueError: invalid literal for int() with base 10: '3 5 2 7'
+",,
+s452855095,comments_removed,success,,,
+s504715611,comments_removed,success,,,
+s511234019,comments_removed,success,,,
+s725559666,comments_removed,success,,,
+s185737640,comments_removed,success,,,
+s826491904,comments_removed,runtime_failed,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/Python/s826491904_comments_removed.py"", line 2, in <module>
+    max_val = min_val = int(input())
+ValueError: invalid literal for int() with base 10: '2 3 7 9'
+",,
+s831281137,comments_removed,success,,,
+s527301188,comments_removed,success,,,
+s012761786,comments_removed,success,,,
+s063482767,comments_removed,success,,,

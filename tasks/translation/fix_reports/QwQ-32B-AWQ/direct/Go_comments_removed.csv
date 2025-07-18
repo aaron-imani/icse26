@@ -1,0 +1,84 @@
+id,status,expected,actual,error
+s596918302,success,,,
+s283652523,test_failed,11,0,
+s584572995,compile_failed,,,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/Java/Go/s584572995_comments_removed.go:92:9: invalid operation: (int64(WN) * int64(invCases)) % mod (mismatched types int64 and int)
+"
+s888333881,success,,,
+s545439898,success,,,
+s893190600,success,,,
+s580342216,success,,,
+s196249385,success,,,
+s456888268,compile_failed,,,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/Java/Go/s456888268_comments_removed.go:30:1: syntax error: unexpected EOF, expecting }
+"
+s466963472,compile_failed,,,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/Java/Go/s466963472_comments_removed.go:35:1: syntax error: unexpected EOF, expecting }
+"
+s863488345,success,,,
+s127819686,compile_failed,,,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/Java/Go/s127819686_comments_removed.go:11:1: syntax error: unexpected EOF, expecting }
+"
+s287007304,success,,,
+s937747608,success,,,
+s824230885,success,,,
+s452855095,compile_failed,,,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/Java/Go/s452855095_comments_removed.go:14:9: undefined: 也知道
+"
+s378126458,success,,,
+s221078931,compile_failed,,,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/Java/Go/s221078931_comments_removed.go:59:3: found declared but not used
+"
+s081988820,compile_failed,,,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/Java/Go/s081988820_comments_removed.go:30:2: H declared but not used
+output/Qwen/QwQ-32B-AWQ/codenet/Java/Go/s081988820_comments_removed.go:31:2: W declared but not used
+"
+s504715611,compile_failed,,,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/Java/Go/s504715611_comments_removed.go:6:2: imported and not used: ""io""
+"
+s684030429,success,,,
+s967693306,compile_failed,,,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/Java/Go/s967693306_comments_removed.go:65:18: undefined: krijg
+"
+s685734377,compile_failed,,,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/Java/Go/s685734377_comments_removed.go:14:23: undefined: io
+"
+s041542819,compile_failed,,,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/Java/Go/s041542819_comments_removed.go:8:2: imported and not used: ""strings""
+output/Qwen/QwQ-32B-AWQ/codenet/Java/Go/s041542819_comments_removed.go:15:24: undefined: io
+output/Qwen/QwQ-32B-AWQ/codenet/Java/Go/s041542819_comments_removed.go:44:23: undefined: io
+"
+s936984238,success,,,
+s867221485,compile_failed,,,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/Java/Go/s867221485_comments_removed.go:14:2: N declared but not used
+output/Qwen/QwQ-32B-AWQ/codenet/Java/Go/s867221485_comments_removed.go:21:2: first declared but not used
+"
+s511234019,success,,,
+s910447421,compile_failed,,,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/Java/Go/s910447421_comments_removed.go:35:21: syntax error: unexpected _ at end of statement
+"
+s725559666,success,,,
+s573993837,success,,,
+s185737640,success,,,
+s780275612,success,,,
+s826491904,success,,,
+s316260310,success,,,
+s749703010,compile_failed,,,"output/Qwen/QwQ-32B-AWQ/codenet/Java/Go/s749703010_comments_removed.go:1:1: expected 'package', found 'type'
+"
+s380356166,success,,,
+s831281137,success,,,
+s527301188,compile_failed,,,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/Java/Go/s527301188_comments_removed.go:25:27: undefined: _1
+"
+s514557145,compile_failed,,,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/Java/Go/s514557145_comments_removed.go:127:15: syntax error: unexpected deteriorates at end of statement
+"
+s012761786,compile_failed,,,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/Java/Go/s012761786_comments_removed.go:24:13: cannot use _ as value or type
+"
+s612878490,test_failed,4,16,
+s010698290,test_failed,2 2,0 0,
+s063482767,compile_failed,,,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/Java/Go/s063482767_comments_removed.go:51:3: undefined: fmt
+output/Qwen/QwQ-32B-AWQ/codenet/Java/Go/s063482767_comments_removed.go:53:3: undefined: fmt
+"

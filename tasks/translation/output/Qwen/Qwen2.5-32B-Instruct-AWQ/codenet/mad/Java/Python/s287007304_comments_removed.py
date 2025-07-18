@@ -1,0 +1,1 @@
+def read_line():\n    try:\n        return input()\n    except Exception as e:\n        return str(e)\n\ns = read_line().split(' ')\na = int(s[0])\nb = int(s[1])\nif b % a == 0:\n    print(a + b)\nelse:\n    print(b - a)\n# End of Code

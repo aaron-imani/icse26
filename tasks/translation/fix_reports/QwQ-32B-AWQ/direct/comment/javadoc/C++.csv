@@ -1,0 +1,840 @@
+id,version,status,error,expected,actual
+s596918302,commented,success,,,
+s283652523,commented,success,,,
+s584572995,commented,success,,,
+s888333881,commented,compile_failed,"output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s888333881_commented.cpp:13:12: error: ‘Node0n’ was not declared in this scope
+   13 |     vector<Node0n> dt;
+      |            ^~~~~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s888333881_commented.cpp:13:18: error: template argument 1 is invalid
+   13 |     vector<Node0n> dt;
+      |                  ^
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s888333881_commented.cpp:13:18: error: template argument 2 is invalid
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s888333881_commented.cpp: In member function ‘void Graph0n::add(int, int)’:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s888333881_commented.cpp:15:35: error: invalid types ‘int[int]’ for array subscript
+   15 |     void add(int vn, int val) { dt[vn].add(val); }
+      |                                   ^
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s888333881_commented.cpp: In member function ‘int Graph0n::get(int, int)’:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s888333881_commented.cpp:16:43: error: invalid types ‘int[int]’ for array subscript
+   16 |     int get(int vn, int index) { return dt[vn].get(index); }
+      |                                           ^
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s888333881_commented.cpp: In member function ‘std::vector<int> Graph0n::get(int)’:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s888333881_commented.cpp:17:40: error: invalid types ‘int[int]’ for array subscript
+   17 |     vector<int> get(int vn) { return dt[vn].getAll(); }
+      |                                        ^
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s888333881_commented.cpp: In member function ‘int Graph0n::sizeOf(int)’:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s888333881_commented.cpp:18:35: error: invalid types ‘int[int]’ for array subscript
+   18 |     int sizeOf(int vn) { return dt[vn].size(); }
+      |                                   ^
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s888333881_commented.cpp: In member function ‘void Graph0n::clear()’:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s888333881_commented.cpp:19:43: error: request for member ‘size’ in ‘((Graph0n*)this)->Graph0n::dt’, which is of non-class type ‘int’
+   19 |     void clear() { for (int i = 0; i < dt.size(); i++) dt[i].clear(); }
+      |                                           ^~~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s888333881_commented.cpp:19:58: error: invalid types ‘int[int]’ for array subscript
+   19 |     void clear() { for (int i = 0; i < dt.size(); i++) dt[i].clear(); }
+      |                                                          ^
+",,
+s545439898,commented,success,,,
+s893190600,commented,compile_failed,"output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s893190600_commented.cpp:70:19: error: declaration of ‘std::map<int, int> MapCounter::map’ changes meaning of ‘map’ [-fpermissive]
+   70 |     map<int, int> map;
+      |                   ^~~
+In file included from /usr/include/c++/11/map:61,
+                 from output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s893190600_commented.cpp:4:
+/usr/include/c++/11/bits/stl_map.h:100:11: note: ‘map’ declared here as ‘class std::map<int, int>’
+  100 |     class map
+      |           ^~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s893190600_commented.cpp: In member function ‘const std::vector<int>& Graph::get(int) const’:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s893190600_commented.cpp:114:33: warning: returning reference to temporary [-Wreturn-local-addr]
+  114 |         return it != data.end() ? it->second : vector<int>();
+      |                ~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+",,
+s580342216,commented,success,,,
+s196249385,commented,success,,,
+s456888268,commented,success,,,
+s466963472,commented,compile_failed,"output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s466963472_commented.cpp: In function ‘bool read()’:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s466963472_commented.cpp:7:17: error: cannot convert ‘std::basic_istream<char>::__istream_type’ {aka ‘std::basic_istream<char>’} to ‘bool’ in return
+    7 |     return (cin >> d);
+      |            ~~~~~^~~~~
+      |                 |
+      |                 std::basic_istream<char>::__istream_type {aka std::basic_istream<char>}
+",,
+s863488345,commented,success,,,
+s127819686,commented,success,,,
+s287007304,commented,success,,,
+s937747608,commented,success,,,
+s824230885,commented,test_failed,,3,
+s452855095,commented,success,,,
+s378126458,commented,success,,,
+s221078931,commented,compile_failed,"output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s221078931_commented.cpp: In member function ‘int IntegralRect::diagonal() const’:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s221078931_commented.cpp:14:20: error: ‘INT_MAX’ was not declared in this scope
+   14 |             return INT_MAX;
+      |                    ^~~~~~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s221078931_commented.cpp:3:1: note: ‘INT_MAX’ is defined in header ‘<climits>’; did you forget to ‘#include <climits>’?
+    2 | #include <algorithm>
+  +++ |+#include <climits>
+    3 | 
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s221078931_commented.cpp: In function ‘int main()’:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s221078931_commented.cpp:30:29: error: no matching function for call to ‘IntegralRect::IntegralRect()’
+   30 |     IntegralRect rects[40000];
+      |                             ^
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s221078931_commented.cpp:10:5: note: candidate: ‘IntegralRect::IntegralRect(int, int)’
+   10 |     IntegralRect(int h, int w) : height(h), width(w) {}
+      |     ^~~~~~~~~~~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s221078931_commented.cpp:10:5: note:   candidate expects 2 arguments, 0 provided
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s221078931_commented.cpp:6:7: note: candidate: ‘constexpr IntegralRect::IntegralRect(const IntegralRect&)’
+    6 | class IntegralRect {
+      |       ^~~~~~~~~~~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s221078931_commented.cpp:6:7: note:   candidate expects 1 argument, 0 provided
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s221078931_commented.cpp:6:7: note: candidate: ‘constexpr IntegralRect::IntegralRect(IntegralRect&&)’
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s221078931_commented.cpp:6:7: note:   candidate expects 1 argument, 0 provided
+",,
+s081988820,commented,success,,,
+s504715611,commented,compile_failed,"output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s504715611_commented.cpp:11:17: error: ‘INT_MAX’ was not declared in this scope
+   11 | const int big = INT_MAX;
+      |                 ^~~~~~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s504715611_commented.cpp:7:1: note: ‘INT_MAX’ is defined in header ‘<climits>’; did you forget to ‘#include <climits>’?
+    6 | #include <cmath>
+  +++ |+#include <climits>
+    7 | using namespace std;
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s504715611_commented.cpp: In member function ‘int FastScanner::nextInt()’:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s504715611_commented.cpp:72:17: error: ‘INT_MIN’ was not declared in this scope
+   72 |         if (n < INT_MIN || n > INT_MAX) throw runtime_error(""Overflow"");
+      |                 ^~~~~~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s504715611_commented.cpp:72:17: note: ‘INT_MIN’ is defined in header ‘<climits>’; did you forget to ‘#include <climits>’?
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s504715611_commented.cpp:72:32: error: ‘INT_MAX’ was not declared in this scope
+   72 |         if (n < INT_MIN || n > INT_MAX) throw runtime_error(""Overflow"");
+      |                                ^~~~~~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s504715611_commented.cpp:72:32: note: ‘INT_MAX’ is defined in header ‘<climits>’; did you forget to ‘#include <climits>’?
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s504715611_commented.cpp: In function ‘long long int modlcm(long long int, long long int)’:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s504715611_commented.cpp:108:27: error: ‘gcd’ was not declared in this scope
+  108 |     return a * b * modint(gcd(a, b), mod) % mod;
+      |                           ^~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s504715611_commented.cpp:108:20: error: ‘modint’ was not declared in this scope; did you mean ‘mode_t’?
+  108 |     return a * b * modint(gcd(a, b), mod) % mod;
+      |                    ^~~~~~
+      |                    mode_t
+",,
+s684030429,commented,compile_failed,"output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s684030429_commented.cpp:20:25: error: declaration of ‘a’ as multidimensional array must have bounds for all dimensions except the first
+   20 |     static void ida(int a[][], int n, int m);
+      |                         ^
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s684030429_commented.cpp:20:30: error: expected ‘)’ before ‘,’ token
+   20 |     static void ida(int a[][], int n, int m);
+      |                    ~         ^
+      |                              )
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s684030429_commented.cpp:20:32: error: expected unqualified-id before ‘int’
+   20 |     static void ida(int a[][], int n, int m);
+      |                                ^~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s684030429_commented.cpp:21:26: error: declaration of ‘a’ as multidimensional array must have bounds for all dimensions except the first
+   21 |     static void lda(long a[][], int n, int m);
+      |                          ^
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s684030429_commented.cpp:21:31: error: expected ‘)’ before ‘,’ token
+   21 |     static void lda(long a[][], int n, int m);
+      |                    ~          ^
+      |                               )
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s684030429_commented.cpp:21:33: error: expected unqualified-id before ‘int’
+   21 |     static void lda(long a[][], int n, int m);
+      |                                 ^~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s684030429_commented.cpp:22:28: error: declaration of ‘a’ as multidimensional array must have bounds for all dimensions except the first
+   22 |     static void dda(double a[][], int n, int m);
+      |                            ^
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s684030429_commented.cpp:22:33: error: expected ‘)’ before ‘,’ token
+   22 |     static void dda(double a[][], int n, int m);
+      |                    ~            ^
+      |                                 )
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s684030429_commented.cpp:22:35: error: expected unqualified-id before ‘int’
+   22 |     static void dda(double a[][], int n, int m);
+      |                                   ^~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s684030429_commented.cpp: In static member function ‘static void Main::ia(int*)’:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s684030429_commented.cpp:71:33: warning: ‘sizeof’ on array function parameter ‘a’ will return size of ‘int*’ [-Wsizeof-array-argument]
+   71 |     for (int i = 0; i < (sizeof(a)/sizeof(a[0])); i++) {
+      |                                ~^~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s684030429_commented.cpp:70:19: note: declared here
+   70 | void Main::ia(int a[]) {
+      |               ~~~~^~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s684030429_commented.cpp: In static member function ‘static void Main::la(long int*)’:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s684030429_commented.cpp:77:33: warning: ‘sizeof’ on array function parameter ‘a’ will return size of ‘long int*’ [-Wsizeof-array-argument]
+   77 |     for (int i = 0; i < (sizeof(a)/sizeof(a[0])); i++) {
+      |                                ~^~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s684030429_commented.cpp:76:20: note: declared here
+   76 | void Main::la(long a[]) {
+      |               ~~~~~^~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s684030429_commented.cpp: In static member function ‘static void Main::fa(float*)’:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s684030429_commented.cpp:83:33: warning: ‘sizeof’ on array function parameter ‘a’ will return size of ‘float*’ [-Wsizeof-array-argument]
+   83 |     for (int i = 0; i < (sizeof(a)/sizeof(a[0])); i++) {
+      |                                ~^~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s684030429_commented.cpp:82:21: note: declared here
+   82 | void Main::fa(float a[]) {
+      |               ~~~~~~^~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s684030429_commented.cpp: In static member function ‘static void Main::da(double*)’:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s684030429_commented.cpp:89:33: warning: ‘sizeof’ on array function parameter ‘a’ will return size of ‘double*’ [-Wsizeof-array-argument]
+   89 |     for (int i = 0; i < (sizeof(a)/sizeof(a[0])); i++) {
+      |                                ~^~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s684030429_commented.cpp:88:22: note: declared here
+   88 | void Main::da(double a[]) {
+      |               ~~~~~~~^~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s684030429_commented.cpp: In static member function ‘static void Main::sa(std::string*, bool)’:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s684030429_commented.cpp:96:37: warning: ‘sizeof’ on array function parameter ‘a’ will return size of ‘std::string*’ {aka ‘std::__cxx11::basic_string<char>*’} [-Wsizeof-array-argument]
+   96 |         for (int i = 0; i < (sizeof(a)/sizeof(a[0])); i++) {
+      |                                    ~^~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s684030429_commented.cpp:94:22: note: declared here
+   94 | void Main::sa(string a[], bool empty) {
+      |               ~~~~~~~^~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s684030429_commented.cpp:100:37: warning: ‘sizeof’ on array function parameter ‘a’ will return size of ‘std::string*’ {aka ‘std::__cxx11::basic_string<char>*’} [-Wsizeof-array-argument]
+  100 |         for (int i = 0; i < (sizeof(a)/sizeof(a[0])); i++) {
+      |                                    ~^~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s684030429_commented.cpp:94:22: note: declared here
+   94 | void Main::sa(string a[], bool empty) {
+      |               ~~~~~~~^~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s684030429_commented.cpp: At global scope:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s684030429_commented.cpp:106:20: error: declaration of ‘a’ as multidimensional array must have bounds for all dimensions except the first
+  106 | void Main::ida(int a[][], int n, int m) {
+      |                    ^
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s684030429_commented.cpp:106:25: error: expected ‘)’ before ‘,’ token
+  106 | void Main::ida(int a[][], int n, int m) {
+      |               ~         ^
+      |                         )
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s684030429_commented.cpp:106:6: error: declaration of ‘static void Main::ida(...)’ outside of class is not definition [-fpermissive]
+  106 | void Main::ida(int a[][], int n, int m) {
+      |      ^~~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s684030429_commented.cpp:106:27: error: expected unqualified-id before ‘int’
+  106 | void Main::ida(int a[][], int n, int m) {
+      |                           ^~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s684030429_commented.cpp: In static member function ‘static long int Main::lmin(long int*)’:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s684030429_commented.cpp:123:16: error: ‘LLONG_MAX’ was not declared in this scope
+  123 |     long min = LLONG_MAX;
+      |                ^~~~~~~~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s684030429_commented.cpp:4:1: note: ‘LLONG_MAX’ is defined in header ‘<climits>’; did you forget to ‘#include <climits>’?
+    3 | #include <algorithm>
+  +++ |+#include <climits>
+    4 | using namespace std;
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s684030429_commented.cpp:124:33: warning: ‘sizeof’ on array function parameter ‘a’ will return size of ‘long int*’ [-Wsizeof-array-argument]
+  124 |     for (int i = 0; i < (sizeof(a)/sizeof(a[0])); i++) {
+      |                                ~^~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s684030429_commented.cpp:122:22: note: declared here
+  122 | long Main::lmin(long a[]) {
+      |                 ~~~~~^~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s684030429_commented.cpp: In static member function ‘static int Main::imin(int*)’:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s684030429_commented.cpp:131:15: error: ‘INT_MAX’ was not declared in this scope
+  131 |     int min = INT_MAX;
+      |               ^~~~~~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s684030429_commented.cpp:131:15: note: ‘INT_MAX’ is defined in header ‘<climits>’; did you forget to ‘#include <climits>’?
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s684030429_commented.cpp:132:33: warning: ‘sizeof’ on array function parameter ‘a’ will return size of ‘int*’ [-Wsizeof-array-argument]
+  132 |     for (int i = 0; i < (sizeof(a)/sizeof(a[0])); i++) {
+      |                                ~^~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s684030429_commented.cpp:130:20: note: declared here
+  130 | int Main::imin(int a[]) {
+      |                ~~~~^~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s684030429_commented.cpp: In static member function ‘static long int Main::lmax(long int*)’:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s684030429_commented.cpp:139:16: error: ‘LLONG_MIN’ was not declared in this scope
+  139 |     long max = LLONG_MIN;
+      |                ^~~~~~~~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s684030429_commented.cpp:139:16: note: ‘LLONG_MIN’ is defined in header ‘<climits>’; did you forget to ‘#include <climits>’?
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s684030429_commented.cpp:140:33: warning: ‘sizeof’ on array function parameter ‘a’ will return size of ‘long int*’ [-Wsizeof-array-argument]
+  140 |     for (int i = 0; i < (sizeof(a)/sizeof(a[0])); i++) {
+      |                                ~^~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s684030429_commented.cpp:138:22: note: declared here
+  138 | long Main::lmax(long a[]) {
+      |                 ~~~~~^~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s684030429_commented.cpp: In static member function ‘static int Main::imax(int*)’:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s684030429_commented.cpp:147:15: error: ‘INT_MIN’ was not declared in this scope
+  147 |     int max = INT_MIN;
+      |               ^~~~~~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s684030429_commented.cpp:147:15: note: ‘INT_MIN’ is defined in header ‘<climits>’; did you forget to ‘#include <climits>’?
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s684030429_commented.cpp:148:33: warning: ‘sizeof’ on array function parameter ‘a’ will return size of ‘int*’ [-Wsizeof-array-argument]
+  148 |     for (int i = 0; i < (sizeof(a)/sizeof(a[0])); i++) {
+      |                                ~^~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s684030429_commented.cpp:146:20: note: declared here
+  146 | int Main::imax(int a[]) {
+      |                ~~~~^~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s684030429_commented.cpp: In static member function ‘static bool Main::ibs(int*, int)’:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s684030429_commented.cpp:155:25: warning: ‘sizeof’ on array function parameter ‘a’ will return size of ‘int*’ [-Wsizeof-array-argument]
+  155 |     sort(a, a + (sizeof(a)/sizeof(a[0])));
+      |                        ~^~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s684030429_commented.cpp:154:20: note: declared here
+  154 | bool Main::ibs(int a[], int toFind) {
+      |                ~~~~^~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s684030429_commented.cpp:157:23: warning: ‘sizeof’ on array function parameter ‘a’ will return size of ‘int*’ [-Wsizeof-array-argument]
+  157 |     int max = (sizeof(a)/sizeof(a[0])) -1;
+      |                      ~^~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s684030429_commented.cpp:154:20: note: declared here
+  154 | bool Main::ibs(int a[], int toFind) {
+      |                ~~~~^~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s684030429_commented.cpp: In static member function ‘static bool Main::lbs(long int*, long int)’:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s684030429_commented.cpp:169:25: warning: ‘sizeof’ on array function parameter ‘a’ will return size of ‘long int*’ [-Wsizeof-array-argument]
+  169 |     sort(a, a + (sizeof(a)/sizeof(a[0])));
+      |                        ~^~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s684030429_commented.cpp:168:21: note: declared here
+  168 | bool Main::lbs(long a[], long toFind) {
+      |                ~~~~~^~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s684030429_commented.cpp:171:23: warning: ‘sizeof’ on array function parameter ‘a’ will return size of ‘long int*’ [-Wsizeof-array-argument]
+  171 |     int max = (sizeof(a)/sizeof(a[0]))-1;
+      |                      ~^~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s684030429_commented.cpp:168:21: note: declared here
+  168 | bool Main::lbs(long a[], long toFind) {
+      |                ~~~~~^~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s684030429_commented.cpp: In static member function ‘static int Main::stb(std::string)’:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s684030429_commented.cpp:186:43: error: ‘pow’ was not declared in this scope
+  186 |         sum += std::stoi(s.substr(i,1)) * pow(2, k++);
+      |                                           ^~~
+",,
+s967693306,commented,compile_failed,"output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s967693306_commented.cpp: In member function ‘long long int FastScanner::nextLong()’:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s967693306_commented.cpp:54:23: error: ‘越’ was not declared in this scope
+   54 |         long long n = 越 0;
+      |                       ^~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s967693306_commented.cpp: In member function ‘int FastScanner::nextInt()’:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s967693306_commented.cpp:77:18: error: ‘INT_MIN’ was not declared in this scope
+   77 |         if (nl < INT_MIN || nl > INT_MAX) throw out_of_range(""Integer overflow"");
+      |                  ^~~~~~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s967693306_commented.cpp:5:1: note: ‘INT_MIN’ is defined in header ‘<climits>’; did you forget to ‘#include <climits>’?
+    4 | #include <algorithm>
+  +++ |+#include <climits>
+    5 | 
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s967693306_commented.cpp:77:34: error: ‘INT_MAX’ was not declared in this scope
+   77 |         if (nl < INT_MIN || nl > INT_MAX) throw out_of_range(""Integer overflow"");
+      |                                  ^~~~~~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s967693306_commented.cpp:77:34: note: ‘INT_MAX’ is defined in header ‘<climits>’; did you forget to ‘#include <climits>’?
+",,
+s685734377,commented,compile_failed,"output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s685734377_commented.cpp:10:5: error: ‘queue’ does not name a type
+   10 |     queue<string> tokens;
+      |     ^~~~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s685734377_commented.cpp: In member function ‘std::string FastScanner::next()’:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s685734377_commented.cpp:15:13: error: ‘tokens’ was not declared in this scope
+   15 |         if (tokens.empty()) {
+      |             ^~~~~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s685734377_commented.cpp:24:14: error: ‘tokens’ was not declared in this scope
+   24 |         if (!tokens.empty()) {
+      |              ^~~~~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s685734377_commented.cpp: In member function ‘void TaskB::solve(int, FastScanner&, std::ostream&)’:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s685734377_commented.cpp:72:26: error: ‘_B’ was not declared in this scope; did you mean ‘B’?
+   72 |             for (int B = _B < n; ++B) {
+      |                          ^~
+      |                          B
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s685734377_commented.cpp:72:37: error: expected ‘;’ before ‘)’ token
+   72 |             for (int B = _B < n; ++B) {
+      |                                     ^
+",,
+s041542819,commented,success,,,
+s936984238,commented,success,,,
+s867221485,commented,success,,,
+s511234019,commented,success,,,
+s910447421,commented,compile_failed,"output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s910447421_commented.cpp: In function ‘int main()’:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s910447421_commented.cpp:56:47: error: use of ‘auto’ in lambda parameter declaration only available with ‘-std=c++14’ or ‘-std=gnu++14’
+   56 |     sort(balls.begin(), balls.end(), [](const auto& a, const auto& b) {
+      |                                               ^~~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s910447421_commented.cpp:56:62: error: use of ‘auto’ in lambda parameter declaration only available with ‘-std=c++14’ or ‘-std=gnu++14’
+   56 |     sort(balls.begin(), balls.end(), [](const auto& a, const auto& b) {
+      |                                                              ^~~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s910447421_commented.cpp: In lambda function:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s910447421_commented.cpp:57:18: error: request for member ‘first’ in ‘a’, which is of non-class type ‘const int’
+   57 |         return a.first < b.first;
+      |                  ^~~~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s910447421_commented.cpp:57:28: error: request for member ‘first’ in ‘b’, which is of non-class type ‘const int’
+   57 |         return a.first < b.first;
+      |                            ^~~~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s910447421_commented.cpp: In function ‘int main()’:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s910447421_commented.cpp:64:47: error: use of ‘auto’ in lambda parameter declaration only available with ‘-std=c++14’ or ‘-std=gnu++14’
+   64 |     sort(balls.begin(), balls.end(), [](const auto& a, const auto& b) {
+      |                                               ^~~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s910447421_commented.cpp:64:62: error: use of ‘auto’ in lambda parameter declaration only available with ‘-std=c++14’ or ‘-std=gnu++14’
+   64 |     sort(balls.begin(), balls.end(), [](const auto& a, const auto& b) {
+      |                                                              ^~~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s910447421_commented.cpp: In lambda function:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s910447421_commented.cpp:65:18: error: request for member ‘first’ in ‘a’, which is of non-class type ‘const int’
+   65 |         return a.first < b.first;
+      |                  ^~~~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s910447421_commented.cpp:65:28: error: request for member ‘first’ in ‘b’, which is of non-class type ‘const int’
+   65 |         return a.first < b.first;
+      |                            ^~~~~
+In file included from /usr/include/c++/11/bits/stl_algobase.h:71,
+                 from /usr/include/c++/11/bits/char_traits.h:39,
+                 from /usr/include/c++/11/ios:40,
+                 from /usr/include/c++/11/istream:38,
+                 from /usr/include/c++/11/sstream:38,
+                 from /usr/include/c++/11/complex:45,
+                 from /usr/include/c++/11/ccomplex:39,
+                 from /usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:54,
+                 from output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s910447421_commented.cpp:1:
+/usr/include/c++/11/bits/predefined_ops.h: In instantiation of ‘bool __gnu_cxx::__ops::_Iter_comp_iter<_Compare>::operator()(_Iterator1, _Iterator2) [with _Iterator1 = __gnu_cxx::__normal_iterator<std::pair<int, int>*, std::vector<std::pair<int, int> > >; _Iterator2 = __gnu_cxx::__normal_iterator<std::pair<int, int>*, std::vector<std::pair<int, int> > >; _Compare = main()::<lambda(const int&, const int&)>]’:
+/usr/include/c++/11/bits/stl_algo.h:1826:14:   required from ‘void std::__insertion_sort(_RandomAccessIterator, _RandomAccessIterator, _Compare) [with _RandomAccessIterator = __gnu_cxx::__normal_iterator<std::pair<int, int>*, std::vector<std::pair<int, int> > >; _Compare = __gnu_cxx::__ops::_Iter_comp_iter<main()::<lambda(const int&, const int&)> >]’
+/usr/include/c++/11/bits/stl_algo.h:1866:25:   required from ‘void std::__final_insertion_sort(_RandomAccessIterator, _RandomAccessIterator, _Compare) [with _RandomAccessIterator = __gnu_cxx::__normal_iterator<std::pair<int, int>*, std::vector<std::pair<int, int> > >; _Compare = __gnu_cxx::__ops::_Iter_comp_iter<main()::<lambda(const int&, const int&)> >]’
+/usr/include/c++/11/bits/stl_algo.h:1957:31:   required from ‘void std::__sort(_RandomAccessIterator, _RandomAccessIterator, _Compare) [with _RandomAccessIterator = __gnu_cxx::__normal_iterator<std::pair<int, int>*, std::vector<std::pair<int, int> > >; _Compare = __gnu_cxx::__ops::_Iter_comp_iter<main()::<lambda(const int&, const int&)> >]’
+/usr/include/c++/11/bits/stl_algo.h:4875:18:   required from ‘void std::sort(_RAIter, _RAIter, _Compare) [with _RAIter = __gnu_cxx::__normal_iterator<std::pair<int, int>*, std::vector<std::pair<int, int> > >; _Compare = main()::<lambda(const int&, const int&)>]’
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s910447421_commented.cpp:56:9:   required from here
+/usr/include/c++/11/bits/predefined_ops.h:158:30: error: no match for call to ‘(main()::<lambda(const int&, const int&)>) (std::pair<int, int>&, std::pair<int, int>&)’
+  158 |         { return bool(_M_comp(*__it1, *__it2)); }
+      |                       ~~~~~~~^~~~~~~~~~~~~~~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s910447421_commented.cpp:56:38: note: candidate: ‘main()::<lambda(const int&, const int&)>’
+   56 |     sort(balls.begin(), balls.end(), [](const auto& a, const auto& b) {
+      |                                      ^
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s910447421_commented.cpp:56:38: note:   no known conversion for argument 1 from ‘std::pair<int, int>’ to ‘const int&’
+In file included from /usr/include/c++/11/bits/stl_algobase.h:71,
+                 from /usr/include/c++/11/bits/char_traits.h:39,
+                 from /usr/include/c++/11/ios:40,
+                 from /usr/include/c++/11/istream:38,
+                 from /usr/include/c++/11/sstream:38,
+                 from /usr/include/c++/11/complex:45,
+                 from /usr/include/c++/11/ccomplex:39,
+                 from /usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:54,
+                 from output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s910447421_commented.cpp:1:
+/usr/include/c++/11/bits/predefined_ops.h: In instantiation of ‘bool __gnu_cxx::__ops::_Iter_comp_iter<_Compare>::operator()(_Iterator1, _Iterator2) [with _Iterator1 = __gnu_cxx::__normal_iterator<std::pair<int, int>*, std::vector<std::pair<int, int> > >; _Iterator2 = __gnu_cxx::__normal_iterator<std::pair<int, int>*, std::vector<std::pair<int, int> > >; _Compare = main()::<lambda(const int&, const int&)>]’:
+/usr/include/c++/11/bits/stl_algo.h:1826:14:   required from ‘void std::__insertion_sort(_RandomAccessIterator, _RandomAccessIterator, _Compare) [with _RandomAccessIterator = __gnu_cxx::__normal_iterator<std::pair<int, int>*, std::vector<std::pair<int, int> > >; _Compare = __gnu_cxx::__ops::_Iter_comp_iter<main()::<lambda(const int&, const int&)> >]’
+/usr/include/c++/11/bits/stl_algo.h:1866:25:   required from ‘void std::__final_insertion_sort(_RandomAccessIterator, _RandomAccessIterator, _Compare) [with _RandomAccessIterator = __gnu_cxx::__normal_iterator<std::pair<int, int>*, std::vector<std::pair<int, int> > >; _Compare = __gnu_cxx::__ops::_Iter_comp_iter<main()::<lambda(const int&, const int&)> >]’
+/usr/include/c++/11/bits/stl_algo.h:1957:31:   required from ‘void std::__sort(_RandomAccessIterator, _RandomAccessIterator, _Compare) [with _RandomAccessIterator = __gnu_cxx::__normal_iterator<std::pair<int, int>*, std::vector<std::pair<int, int> > >; _Compare = __gnu_cxx::__ops::_Iter_comp_iter<main()::<lambda(const int&, const int&)> >]’
+/usr/include/c++/11/bits/stl_algo.h:4875:18:   required from ‘void std::sort(_RAIter, _RAIter, _Compare) [with _RAIter = __gnu_cxx::__normal_iterator<std::pair<int, int>*, std::vector<std::pair<int, int> > >; _Compare = main()::<lambda(const int&, const int&)>]’
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s910447421_commented.cpp:64:9:   required from here
+/usr/include/c++/11/bits/predefined_ops.h:158:30: error: no match for call to ‘(main()::<lambda(const int&, const int&)>) (std::pair<int, int>&, std::pair<int, int>&)’
+  158 |         { return bool(_M_comp(*__it1, *__it2)); }
+      |                       ~~~~~~~^~~~~~~~~~~~~~~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s910447421_commented.cpp:64:38: note: candidate: ‘main()::<lambda(const int&, const int&)>’
+   64 |     sort(balls.begin(), balls.end(), [](const auto& a, const auto& b) {
+      |                                      ^
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s910447421_commented.cpp:64:38: note:   no known conversion for argument 1 from ‘std::pair<int, int>’ to ‘const int&’
+In file included from /usr/include/c++/11/bits/stl_algobase.h:71,
+                 from /usr/include/c++/11/bits/char_traits.h:39,
+                 from /usr/include/c++/11/ios:40,
+                 from /usr/include/c++/11/istream:38,
+                 from /usr/include/c++/11/sstream:38,
+                 from /usr/include/c++/11/complex:45,
+                 from /usr/include/c++/11/ccomplex:39,
+                 from /usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:54,
+                 from output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s910447421_commented.cpp:1:
+/usr/include/c++/11/bits/predefined_ops.h: In instantiation of ‘bool __gnu_cxx::__ops::_Val_comp_iter<_Compare>::operator()(_Value&, _Iterator) [with _Value = std::pair<int, int>; _Iterator = __gnu_cxx::__normal_iterator<std::pair<int, int>*, std::vector<std::pair<int, int> > >; _Compare = main()::<lambda(const int&, const int&)>]’:
+/usr/include/c++/11/bits/stl_algo.h:1806:20:   required from ‘void std::__unguarded_linear_insert(_RandomAccessIterator, _Compare) [with _RandomAccessIterator = __gnu_cxx::__normal_iterator<std::pair<int, int>*, std::vector<std::pair<int, int> > >; _Compare = __gnu_cxx::__ops::_Val_comp_iter<main()::<lambda(const int&, const int&)> >]’
+/usr/include/c++/11/bits/stl_algo.h:1834:36:   required from ‘void std::__insertion_sort(_RandomAccessIterator, _RandomAccessIterator, _Compare) [with _RandomAccessIterator = __gnu_cxx::__normal_iterator<std::pair<int, int>*, std::vector<std::pair<int, int> > >; _Compare = __gnu_cxx::__ops::_Iter_comp_iter<main()::<lambda(const int&, const int&)> >]’
+/usr/include/c++/11/bits/stl_algo.h:1866:25:   required from ‘void std::__final_insertion_sort(_RandomAccessIterator, _RandomAccessIterator, _Compare) [with _RandomAccessIterator = __gnu_cxx::__normal_iterator<std::pair<int, int>*, std::vector<std::pair<int, int> > >; _Compare = __gnu_cxx::__ops::_Iter_comp_iter<main()::<lambda(const int&, const int&)> >]’
+/usr/include/c++/11/bits/stl_algo.h:1957:31:   required from ‘void std::__sort(_RandomAccessIterator, _RandomAccessIterator, _Compare) [with _RandomAccessIterator = __gnu_cxx::__normal_iterator<std::pair<int, int>*, std::vector<std::pair<int, int> > >; _Compare = __gnu_cxx::__ops::_Iter_comp_iter<main()::<lambda(const int&, const int&)> >]’
+/usr/include/c++/11/bits/stl_algo.h:4875:18:   required from ‘void std::sort(_RAIter, _RAIter, _Compare) [with _RAIter = __gnu_cxx::__normal_iterator<std::pair<int, int>*, std::vector<std::pair<int, int> > >; _Compare = main()::<lambda(const int&, const int&)>]’
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s910447421_commented.cpp:56:9:   required from here
+/usr/include/c++/11/bits/predefined_ops.h:240:30: error: no match for call to ‘(main()::<lambda(const int&, const int&)>) (std::pair<int, int>&, std::pair<int, int>&)’
+  240 |         { return bool(_M_comp(__val, *__it)); }
+      |                       ~~~~~~~^~~~~~~~~~~~~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s910447421_commented.cpp:56:38: note: candidate: ‘main()::<lambda(const int&, const int&)>’
+   56 |     sort(balls.begin(), balls.end(), [](const auto& a, const auto& b) {
+      |                                      ^
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s910447421_commented.cpp:56:38: note:   no known conversion for argument 1 from ‘std::pair<int, int>’ to ‘const int&’
+In file included from /usr/include/c++/11/bits/stl_algobase.h:71,
+                 from /usr/include/c++/11/bits/char_traits.h:39,
+                 from /usr/include/c++/11/ios:40,
+                 from /usr/include/c++/11/istream:38,
+                 from /usr/include/c++/11/sstream:38,
+                 from /usr/include/c++/11/complex:45,
+                 from /usr/include/c++/11/ccomplex:39,
+                 from /usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:54,
+                 from output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s910447421_commented.cpp:1:
+/usr/include/c++/11/bits/predefined_ops.h: In instantiation of ‘bool __gnu_cxx::__ops::_Val_comp_iter<_Compare>::operator()(_Value&, _Iterator) [with _Value = std::pair<int, int>; _Iterator = __gnu_cxx::__normal_iterator<std::pair<int, int>*, std::vector<std::pair<int, int> > >; _Compare = main()::<lambda(const int&, const int&)>]’:
+/usr/include/c++/11/bits/stl_algo.h:1806:20:   required from ‘void std::__unguarded_linear_insert(_RandomAccessIterator, _Compare) [with _RandomAccessIterator = __gnu_cxx::__normal_iterator<std::pair<int, int>*, std::vector<std::pair<int, int> > >; _Compare = __gnu_cxx::__ops::_Val_comp_iter<main()::<lambda(const int&, const int&)> >]’
+/usr/include/c++/11/bits/stl_algo.h:1834:36:   required from ‘void std::__insertion_sort(_RandomAccessIterator, _RandomAccessIterator, _Compare) [with _RandomAccessIterator = __gnu_cxx::__normal_iterator<std::pair<int, int>*, std::vector<std::pair<int, int> > >; _Compare = __gnu_cxx::__ops::_Iter_comp_iter<main()::<lambda(const int&, const int&)> >]’
+/usr/include/c++/11/bits/stl_algo.h:1866:25:   required from ‘void std::__final_insertion_sort(_RandomAccessIterator, _RandomAccessIterator, _Compare) [with _RandomAccessIterator = __gnu_cxx::__normal_iterator<std::pair<int, int>*, std::vector<std::pair<int, int> > >; _Compare = __gnu_cxx::__ops::_Iter_comp_iter<main()::<lambda(const int&, const int&)> >]’
+/usr/include/c++/11/bits/stl_algo.h:1957:31:   required from ‘void std::__sort(_RandomAccessIterator, _RandomAccessIterator, _Compare) [with _RandomAccessIterator = __gnu_cxx::__normal_iterator<std::pair<int, int>*, std::vector<std::pair<int, int> > >; _Compare = __gnu_cxx::__ops::_Iter_comp_iter<main()::<lambda(const int&, const int&)> >]’
+/usr/include/c++/11/bits/stl_algo.h:4875:18:   required from ‘void std::sort(_RAIter, _RAIter, _Compare) [with _RAIter = __gnu_cxx::__normal_iterator<std::pair<int, int>*, std::vector<std::pair<int, int> > >; _Compare = main()::<lambda(const int&, const int&)>]’
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s910447421_commented.cpp:64:9:   required from here
+/usr/include/c++/11/bits/predefined_ops.h:240:30: error: no match for call to ‘(main()::<lambda(const int&, const int&)>) (std::pair<int, int>&, std::pair<int, int>&)’
+  240 |         { return bool(_M_comp(__val, *__it)); }
+      |                       ~~~~~~~^~~~~~~~~~~~~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s910447421_commented.cpp:64:38: note: candidate: ‘main()::<lambda(const int&, const int&)>’
+   64 |     sort(balls.begin(), balls.end(), [](const auto& a, const auto& b) {
+      |                                      ^
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s910447421_commented.cpp:64:38: note:   no known conversion for argument 1 from ‘std::pair<int, int>’ to ‘const int&’
+In file included from /usr/include/c++/11/bits/stl_algobase.h:71,
+                 from /usr/include/c++/11/bits/char_traits.h:39,
+                 from /usr/include/c++/11/ios:40,
+                 from /usr/include/c++/11/istream:38,
+                 from /usr/include/c++/11/sstream:38,
+                 from /usr/include/c++/11/complex:45,
+                 from /usr/include/c++/11/ccomplex:39,
+                 from /usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:54,
+                 from output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s910447421_commented.cpp:1:
+/usr/include/c++/11/bits/predefined_ops.h: In instantiation of ‘bool __gnu_cxx::__ops::_Iter_comp_val<_Compare>::operator()(_Iterator, _Value&) [with _Iterator = __gnu_cxx::__normal_iterator<std::pair<int, int>*, std::vector<std::pair<int, int> > >; _Value = std::pair<int, int>; _Compare = main()::<lambda(const int&, const int&)>]’:
+/usr/include/c++/11/bits/stl_heap.h:139:48:   required from ‘void std::__push_heap(_RandomAccessIterator, _Distance, _Distance, _Tp, _Compare&) [with _RandomAccessIterator = __gnu_cxx::__normal_iterator<std::pair<int, int>*, std::vector<std::pair<int, int> > >; _Distance = long int; _Tp = std::pair<int, int>; _Compare = __gnu_cxx::__ops::_Iter_comp_val<main()::<lambda(const int&, const int&)> >]’
+/usr/include/c++/11/bits/stl_heap.h:246:23:   required from ‘void std::__adjust_heap(_RandomAccessIterator, _Distance, _Distance, _Tp, _Compare) [with _RandomAccessIterator = __gnu_cxx::__normal_iterator<std::pair<int, int>*, std::vector<std::pair<int, int> > >; _Distance = long int; _Tp = std::pair<int, int>; _Compare = __gnu_cxx::__ops::_Iter_comp_iter<main()::<lambda(const int&, const int&)> >]’
+/usr/include/c++/11/bits/stl_heap.h:355:22:   required from ‘void std::__make_heap(_RandomAccessIterator, _RandomAccessIterator, _Compare&) [with _RandomAccessIterator = __gnu_cxx::__normal_iterator<std::pair<int, int>*, std::vector<std::pair<int, int> > >; _Compare = __gnu_cxx::__ops::_Iter_comp_iter<main()::<lambda(const int&, const int&)> >]’
+/usr/include/c++/11/bits/stl_algo.h:1646:23:   required from ‘void std::__heap_select(_RandomAccessIterator, _RandomAccessIterator, _RandomAccessIterator, _Compare) [with _RandomAccessIterator = __gnu_cxx::__normal_iterator<std::pair<int, int>*, std::vector<std::pair<int, int> > >; _Compare = __gnu_cxx::__ops::_Iter_comp_iter<main()::<lambda(const int&, const int&)> >]’
+/usr/include/c++/11/bits/stl_algo.h:1917:25:   required from ‘void std::__partial_sort(_RandomAccessIterator, _RandomAccessIterator, _RandomAccessIterator, _Compare) [with _RandomAccessIterator = __gnu_cxx::__normal_iterator<std::pair<int, int>*, std::vector<std::pair<int, int> > >; _Compare = __gnu_cxx::__ops::_Iter_comp_iter<main()::<lambda(const int&, const int&)> >]’
+/usr/include/c++/11/bits/stl_algo.h:1933:27:   required from ‘void std::__introsort_loop(_RandomAccessIterator, _RandomAccessIterator, _Size, _Compare) [with _RandomAccessIterator = __gnu_cxx::__normal_iterator<std::pair<int, int>*, std::vector<std::pair<int, int> > >; _Size = long int; _Compare = __gnu_cxx::__ops::_Iter_comp_iter<main()::<lambda(const int&, const int&)> >]’
+/usr/include/c++/11/bits/stl_algo.h:1954:25:   required from ‘void std::__sort(_RandomAccessIterator, _RandomAccessIterator, _Compare) [with _RandomAccessIterator = __gnu_cxx::__normal_iterator<std::pair<int, int>*, std::vector<std::pair<int, int> > >; _Compare = __gnu_cxx::__ops::_Iter_comp_iter<main()::<lambda(const int&, const int&)> >]’
+/usr/include/c++/11/bits/stl_algo.h:4875:18:   required from ‘void std::sort(_RAIter, _RAIter, _Compare) [with _RAIter = __gnu_cxx::__normal_iterator<std::pair<int, int>*, std::vector<std::pair<int, int> > >; _Compare = main()::<lambda(const int&, const int&)>]’
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s910447421_commented.cpp:56:9:   required from here
+/usr/include/c++/11/bits/predefined_ops.h:196:30: error: no match for call to ‘(main()::<lambda(const int&, const int&)>) (std::pair<int, int>&, std::pair<int, int>&)’
+  196 |         { return bool(_M_comp(*__it, __val)); }
+      |                       ~~~~~~~^~~~~~~~~~~~~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s910447421_commented.cpp:56:38: note: candidate: ‘main()::<lambda(const int&, const int&)>’
+   56 |     sort(balls.begin(), balls.end(), [](const auto& a, const auto& b) {
+      |                                      ^
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s910447421_commented.cpp:56:38: note:   no known conversion for argument 1 from ‘std::pair<int, int>’ to ‘const int&’
+In file included from /usr/include/c++/11/bits/stl_algobase.h:71,
+                 from /usr/include/c++/11/bits/char_traits.h:39,
+                 from /usr/include/c++/11/ios:40,
+                 from /usr/include/c++/11/istream:38,
+                 from /usr/include/c++/11/sstream:38,
+                 from /usr/include/c++/11/complex:45,
+                 from /usr/include/c++/11/ccomplex:39,
+                 from /usr/include/x86_64-linux-gnu/c++/11/bits/stdc++.h:54,
+                 from output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s910447421_commented.cpp:1:
+/usr/include/c++/11/bits/predefined_ops.h: In instantiation of ‘bool __gnu_cxx::__ops::_Iter_comp_val<_Compare>::operator()(_Iterator, _Value&) [with _Iterator = __gnu_cxx::__normal_iterator<std::pair<int, int>*, std::vector<std::pair<int, int> > >; _Value = std::pair<int, int>; _Compare = main()::<lambda(const int&, const int&)>]’:
+/usr/include/c++/11/bits/stl_heap.h:139:48:   required from ‘void std::__push_heap(_RandomAccessIterator, _Distance, _Distance, _Tp, _Compare&) [with _RandomAccessIterator = __gnu_cxx::__normal_iterator<std::pair<int, int>*, std::vector<std::pair<int, int> > >; _Distance = long int; _Tp = std::pair<int, int>; _Compare = __gnu_cxx::__ops::_Iter_comp_val<main()::<lambda(const int&, const int&)> >]’
+/usr/include/c++/11/bits/stl_heap.h:246:23:   required from ‘void std::__adjust_heap(_RandomAccessIterator, _Distance, _Distance, _Tp, _Compare) [with _RandomAccessIterator = __gnu_cxx::__normal_iterator<std::pair<int, int>*, std::vector<std::pair<int, int> > >; _Distance = long int; _Tp = std::pair<int, int>; _Compare = __gnu_cxx::__ops::_Iter_comp_iter<main()::<lambda(const int&, const int&)> >]’
+/usr/include/c++/11/bits/stl_heap.h:355:22:   required from ‘void std::__make_heap(_RandomAccessIterator, _RandomAccessIterator, _Compare&) [with _RandomAccessIterator = __gnu_cxx::__normal_iterator<std::pair<int, int>*, std::vector<std::pair<int, int> > >; _Compare = __gnu_cxx::__ops::_Iter_comp_iter<main()::<lambda(const int&, const int&)> >]’
+/usr/include/c++/11/bits/stl_algo.h:1646:23:   required from ‘void std::__heap_select(_RandomAccessIterator, _RandomAccessIterator, _RandomAccessIterator, _Compare) [with _RandomAccessIterator = __gnu_cxx::__normal_iterator<std::pair<int, int>*, std::vector<std::pair<int, int> > >; _Compare = __gnu_cxx::__ops::_Iter_comp_iter<main()::<lambda(const int&, const int&)> >]’
+/usr/include/c++/11/bits/stl_algo.h:1917:25:   required from ‘void std::__partial_sort(_RandomAccessIterator, _RandomAccessIterator, _RandomAccessIterator, _Compare) [with _RandomAccessIterator = __gnu_cxx::__normal_iterator<std::pair<int, int>*, std::vector<std::pair<int, int> > >; _Compare = __gnu_cxx::__ops::_Iter_comp_iter<main()::<lambda(const int&, const int&)> >]’
+/usr/include/c++/11/bits/stl_algo.h:1933:27:   required from ‘void std::__introsort_loop(_RandomAccessIterator, _RandomAccessIterator, _Size, _Compare) [with _RandomAccessIterator = __gnu_cxx::__normal_iterator<std::pair<int, int>*, std::vector<std::pair<int, int> > >; _Size = long int; _Compare = __gnu_cxx::__ops::_Iter_comp_iter<main()::<lambda(const int&, const int&)> >]’
+/usr/include/c++/11/bits/stl_algo.h:1954:25:   required from ‘void std::__sort(_RandomAccessIterator, _RandomAccessIterator, _Compare) [with _RandomAccessIterator = __gnu_cxx::__normal_iterator<std::pair<int, int>*, std::vector<std::pair<int, int> > >; _Compare = __gnu_cxx::__ops::_Iter_comp_iter<main()::<lambda(const int&, const int&)> >]’
+/usr/include/c++/11/bits/stl_algo.h:4875:18:   required from ‘void std::sort(_RAIter, _RAIter, _Compare) [with _RAIter = __gnu_cxx::__normal_iterator<std::pair<int, int>*, std::vector<std::pair<int, int> > >; _Compare = main()::<lambda(const int&, const int&)>]’
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s910447421_commented.cpp:64:9:   required from here
+/usr/include/c++/11/bits/predefined_ops.h:196:30: error: no match for call to ‘(main()::<lambda(const int&, const int&)>) (std::pair<int, int>&, std::pair<int, int>&)’
+  196 |         { return bool(_M_comp(*__it, __val)); }
+      |                       ~~~~~~~^~~~~~~~~~~~~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s910447421_commented.cpp:64:38: note: candidate: ‘main()::<lambda(const int&, const int&)>’
+   64 |     sort(balls.begin(), balls.end(), [](const auto& a, const auto& b) {
+      |                                      ^
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s910447421_commented.cpp:64:38: note:   no known conversion for argument 1 from ‘std::pair<int, int>’ to ‘const int&’
+",,
+s725559666,commented,success,,,
+s573993837,commented,compile_failed,"output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s573993837_commented.cpp: In function ‘int num(int)’:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s573993837_commented.cpp:26:15: error: expected primary-expression before ‘,’ token
+   26 |         n >>= , 1;
+      |               ^
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s573993837_commented.cpp: At global scope:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s573993837_commented.cpp:63:30: error: ‘InputReader’ has not been declared
+   63 | void feedArr(vector<T>& arr, InputReader& in) {
+      |                              ^~~~~~~~~~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s573993837_commented.cpp: In function ‘void feedArr(std::vector<_Tp>&, int&)’:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s573993837_commented.cpp:65:21: error: request for member ‘nextLong’ in ‘in’, which is of non-class type ‘int’
+   65 |         arr[i] = in.nextLong();
+      |                     ^~~~~~~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s573993837_commented.cpp: In function ‘void solve(InputReader&, std::ostream&)’:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s573993837_commented.cpp:125:21: error: expected ‘;’ before ‘u’
+  125 |             continue u;
+      |                     ^~
+      |                     ;
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s573993837_commented.cpp:125:22: error: ‘u’ was not declared in this scope
+  125 |             continue u;
+      |                      ^
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s573993837_commented.cpp:129:21: error: expected ‘;’ before ‘u’
+  129 |             continue u;
+      |                     ^~
+      |                     ;
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s573993837_commented.cpp:129:22: error: ‘u’ was not declared in this scope
+  129 |             continue u;
+      |                      ^
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s573993837_commented.cpp:135:21: error: expected ‘;’ before ‘u’
+  135 |             continue u;
+      |                     ^~
+      |                     ;
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s573993837_commented.cpp:135:22: error: ‘u’ was not declared in this scope
+  135 |             continue u;
+      |                      ^
+",,
+s185737640,commented,success,,,
+s780275612,commented,success,,,
+s826491904,commented,success,,,
+s316260310,commented,success,,,
+s749703010,commented,success,,,
+s380356166,commented,success,,,
+s831281137,commented,success,,,
+s527301188,commented,compile_failed,"output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s527301188_commented.cpp: In function ‘int main()’:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s527301188_commented.cpp:10:25: error: variable ‘std::stringstream ss’ has initializer but incomplete type
+   10 |     stringstream ss(line);
+      |                         ^
+",,
+s514557145,commented,compile_failed,"output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s514557145_commented.cpp:32:24: error: ‘F’ does not name a type
+   32 |     static S map(const F& f, const S& s);
+      |                        ^
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s514557145_commented.cpp:35:20: error: ‘INT_MAX’ was not declared in this scope
+   35 | const S S::E = {0, INT_MAX/2, INT_MIN/2};
+      |                    ^~~~~~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s514557145_commented.cpp:4:1: note: ‘INT_MAX’ is defined in header ‘<climits>’; did you forget to ‘#include <climits>’?
+    3 | #include <functional>
+  +++ |+#include <climits>
+    4 | using namespace std;
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s514557145_commented.cpp:35:31: error: ‘INT_MIN’ was not declared in this scope
+   35 | const S S::E = {0, INT_MAX/2, INT_MIN/2};
+      |                               ^~~~~~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s514557145_commented.cpp:35:31: note: ‘INT_MIN’ is defined in header ‘<climits>’; did you forget to ‘#include <climits>’?
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s514557145_commented.cpp:50:3: error: no declaration matches ‘S S::map(const F&, const S&)’
+   50 | S S::map(const F& f, const S& s) {
+      |   ^
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s514557145_commented.cpp:32:14: note: candidate is: ‘static S S::map(const int&, const S&)’
+   32 |     static S map(const F& f, const S& s);
+      |              ^~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s514557145_commented.cpp:24:8: note: ‘struct S’ defined here
+   24 | struct S {
+      |        ^
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s514557145_commented.cpp: In function ‘int main()’:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s514557145_commented.cpp:178:76: error: no matching function for call to ‘LazySegTree<S, F>::LazySegTree(std::vector<S>&, S (*&)(const S&, const S&), const S&, S (*&)(const int&, const S&), F (*&)(const F&, const F&), F&)’
+  178 |     LazySegTree<S, F> segTree(dat, op, S::E, mapping, composition, identity);
+      |                                                                            ^
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s514557145_commented.cpp:116:5: note: candidate: ‘LazySegTree<S, F>::LazySegTree(const std::vector<S>&, std::function<S(S, S)>, S, std::function<S(F, S)>, std::function<F(F, F)>, F) [with S = S; F = F]’
+  116 |     LazySegTree(const vector<S>& dat, function<S(S, S)> op, S e,
+      |     ^~~~~~~~~~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s514557145_commented.cpp:117:35: note:   no known conversion for argument 4 from ‘S (*)(const int&, const S&)’ to ‘std::function<S(F, S)>’
+  117 |                 function<S(F, S)> mapping,
+      |                 ~~~~~~~~~~~~~~~~~~^~~~~~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s514557145_commented.cpp:104:5: note: candidate: ‘LazySegTree<S, F>::LazySegTree(int, std::function<S(S, S)>, S, std::function<S(F, S)>, std::function<F(F, F)>, F) [with S = S; F = F]’
+  104 |     LazySegTree(int n, function<S(S, S)> op, S e,
+      |     ^~~~~~~~~~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s514557145_commented.cpp:104:21: note:   no known conversion for argument 1 from ‘std::vector<S>’ to ‘int’
+  104 |     LazySegTree(int n, function<S(S, S)> op, S e,
+      |                 ~~~~^
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s514557145_commented.cpp:58:7: note: candidate: ‘LazySegTree<S, F>::LazySegTree(const LazySegTree<S, F>&)’
+   58 | class LazySegTree {
+      |       ^~~~~~~~~~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s514557145_commented.cpp:58:7: note:   candidate expects 1 argument, 6 provided
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s514557145_commented.cpp:58:7: note: candidate: ‘LazySegTree<S, F>::LazySegTree(LazySegTree<S, F>&&)’
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s514557145_commented.cpp:58:7: note:   candidate expects 1 argument, 6 provided
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s514557145_commented.cpp:186:17: error: no matching function for call to ‘F::F(long long int&, int&)’
+  186 |         F f(D, N);
+      |                 ^
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s514557145_commented.cpp:37:8: note: candidate: ‘F::F()’
+   37 | struct F {
+      |        ^
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s514557145_commented.cpp:37:8: note:   candidate expects 0 arguments, 2 provided
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s514557145_commented.cpp:37:8: note: candidate: ‘constexpr F::F(const F&)’
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s514557145_commented.cpp:37:8: note:   candidate expects 1 argument, 2 provided
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s514557145_commented.cpp:37:8: note: candidate: ‘constexpr F::F(F&&)’
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s514557145_commented.cpp:37:8: note:   candidate expects 1 argument, 2 provided
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s514557145_commented.cpp: In instantiation of ‘void LazySegTree<S, F>::push(int) [with S = S; F = F]’:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s514557145_commented.cpp:85:41:   required from ‘void LazySegTree<S, F>::pushTo(int, int) [with S = S; F = F]’
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s514557145_commented.cpp:137:9:   required from ‘void LazySegTree<S, F>::apply(int, int, const F&) [with S = S; F = F]’
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s514557145_commented.cpp:187:22:   required from here
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s514557145_commented.cpp:70:20: error: no match for ‘operator==’ (operand types are ‘__gnu_cxx::__alloc_traits<std::allocator<F>, F>::value_type’ {aka ‘F’} and ‘F’)
+   70 |         if (Laz[k] == Id) return;
+      |             ~~~~~~~^~~~~
+In file included from /usr/include/c++/11/iosfwd:40,
+                 from /usr/include/c++/11/ios:38,
+                 from /usr/include/c++/11/ostream:38,
+                 from /usr/include/c++/11/iostream:39,
+                 from output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s514557145_commented.cpp:1:
+/usr/include/c++/11/bits/postypes.h:222:5: note: candidate: ‘template<class _StateT> bool std::operator==(const std::fpos<_StateT>&, const std::fpos<_StateT>&)’
+  222 |     operator==(const fpos<_StateT>& __lhs, const fpos<_StateT>& __rhs)
+      |     ^~~~~~~~
+/usr/include/c++/11/bits/postypes.h:222:5: note:   template argument deduction/substitution failed:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s514557145_commented.cpp:70:20: note:   ‘__gnu_cxx::__alloc_traits<std::allocator<F>, F>::value_type’ {aka ‘F’} is not derived from ‘const std::fpos<_StateT>’
+   70 |         if (Laz[k] == Id) return;
+      |             ~~~~~~~^~~~~
+In file included from /usr/include/c++/11/bits/stl_algobase.h:64,
+                 from /usr/include/c++/11/bits/char_traits.h:39,
+                 from /usr/include/c++/11/ios:40,
+                 from /usr/include/c++/11/ostream:38,
+                 from /usr/include/c++/11/iostream:39,
+                 from output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s514557145_commented.cpp:1:
+/usr/include/c++/11/bits/stl_pair.h:466:5: note: candidate: ‘template<class _T1, class _T2> constexpr bool std::operator==(const std::pair<_T1, _T2>&, const std::pair<_T1, _T2>&)’
+  466 |     operator==(const pair<_T1, _T2>& __x, const pair<_T1, _T2>& __y)
+      |     ^~~~~~~~
+/usr/include/c++/11/bits/stl_pair.h:466:5: note:   template argument deduction/substitution failed:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s514557145_commented.cpp:70:20: note:   ‘__gnu_cxx::__alloc_traits<std::allocator<F>, F>::value_type’ {aka ‘F’} is not derived from ‘const std::pair<_T1, _T2>’
+   70 |         if (Laz[k] == Id) return;
+      |             ~~~~~~~^~~~~
+In file included from /usr/include/c++/11/bits/stl_algobase.h:67,
+                 from /usr/include/c++/11/bits/char_traits.h:39,
+                 from /usr/include/c++/11/ios:40,
+                 from /usr/include/c++/11/ostream:38,
+                 from /usr/include/c++/11/iostream:39,
+                 from output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s514557145_commented.cpp:1:
+/usr/include/c++/11/bits/stl_iterator.h:420:5: note: candidate: ‘template<class _Iterator> bool std::operator==(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_Iterator>&)’
+  420 |     operator==(const reverse_iterator<_Iterator>& __x,
+      |     ^~~~~~~~
+/usr/include/c++/11/bits/stl_iterator.h:420:5: note:   template argument deduction/substitution failed:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s514557145_commented.cpp:70:20: note:   ‘__gnu_cxx::__alloc_traits<std::allocator<F>, F>::value_type’ {aka ‘F’} is not derived from ‘const std::reverse_iterator<_Iterator>’
+   70 |         if (Laz[k] == Id) return;
+      |             ~~~~~~~^~~~~
+In file included from /usr/include/c++/11/bits/stl_algobase.h:67,
+                 from /usr/include/c++/11/bits/char_traits.h:39,
+                 from /usr/include/c++/11/ios:40,
+                 from /usr/include/c++/11/ostream:38,
+                 from /usr/include/c++/11/iostream:39,
+                 from output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s514557145_commented.cpp:1:
+/usr/include/c++/11/bits/stl_iterator.h:459:5: note: candidate: ‘template<class _IteratorL, class _IteratorR> bool std::operator==(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_IteratorR>&)’
+  459 |     operator==(const reverse_iterator<_IteratorL>& __x,
+      |     ^~~~~~~~
+/usr/include/c++/11/bits/stl_iterator.h:459:5: note:   template argument deduction/substitution failed:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s514557145_commented.cpp:70:20: note:   ‘__gnu_cxx::__alloc_traits<std::allocator<F>, F>::value_type’ {aka ‘F’} is not derived from ‘const std::reverse_iterator<_Iterator>’
+   70 |         if (Laz[k] == Id) return;
+      |             ~~~~~~~^~~~~
+In file included from /usr/include/c++/11/bits/stl_algobase.h:67,
+                 from /usr/include/c++/11/bits/char_traits.h:39,
+                 from /usr/include/c++/11/ios:40,
+                 from /usr/include/c++/11/ostream:38,
+                 from /usr/include/c++/11/iostream:39,
+                 from output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s514557145_commented.cpp:1:
+/usr/include/c++/11/bits/stl_iterator.h:1585:5: note: candidate: ‘template<class _IteratorL, class _IteratorR> bool std::operator==(const std::move_iterator<_IteratorL>&, const std::move_iterator<_IteratorR>&)’
+ 1585 |     operator==(const move_iterator<_IteratorL>& __x,
+      |     ^~~~~~~~
+/usr/include/c++/11/bits/stl_iterator.h:1585:5: note:   template argument deduction/substitution failed:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s514557145_commented.cpp:70:20: note:   ‘__gnu_cxx::__alloc_traits<std::allocator<F>, F>::value_type’ {aka ‘F’} is not derived from ‘const std::move_iterator<_IteratorL>’
+   70 |         if (Laz[k] == Id) return;
+      |             ~~~~~~~^~~~~
+In file included from /usr/include/c++/11/bits/stl_algobase.h:67,
+                 from /usr/include/c++/11/bits/char_traits.h:39,
+                 from /usr/include/c++/11/ios:40,
+                 from /usr/include/c++/11/ostream:38,
+                 from /usr/include/c++/11/iostream:39,
+                 from output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s514557145_commented.cpp:1:
+/usr/include/c++/11/bits/stl_iterator.h:1648:5: note: candidate: ‘template<class _Iterator> bool std::operator==(const std::move_iterator<_IteratorL>&, const std::move_iterator<_IteratorL>&)’
+ 1648 |     operator==(const move_iterator<_Iterator>& __x,
+      |     ^~~~~~~~
+/usr/include/c++/11/bits/stl_iterator.h:1648:5: note:   template argument deduction/substitution failed:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s514557145_commented.cpp:70:20: note:   ‘__gnu_cxx::__alloc_traits<std::allocator<F>, F>::value_type’ {aka ‘F’} is not derived from ‘const std::move_iterator<_IteratorL>’
+   70 |         if (Laz[k] == Id) return;
+      |             ~~~~~~~^~~~~
+In file included from /usr/include/c++/11/string:41,
+                 from /usr/include/c++/11/bits/locale_classes.h:40,
+                 from /usr/include/c++/11/bits/ios_base.h:41,
+                 from /usr/include/c++/11/ios:42,
+                 from /usr/include/c++/11/ostream:38,
+                 from /usr/include/c++/11/iostream:39,
+                 from output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s514557145_commented.cpp:1:
+/usr/include/c++/11/bits/allocator.h:218:5: note: candidate: ‘template<class _T1, class _T2> bool std::operator==(const std::allocator<_CharT>&, const std::allocator<_T2>&)’
+  218 |     operator==(const allocator<_T1>&, const allocator<_T2>&)
+      |     ^~~~~~~~
+/usr/include/c++/11/bits/allocator.h:218:5: note:   template argument deduction/substitution failed:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s514557145_commented.cpp:70:20: note:   ‘__gnu_cxx::__alloc_traits<std::allocator<F>, F>::value_type’ {aka ‘F’} is not derived from ‘const std::allocator<_CharT>’
+   70 |         if (Laz[k] == Id) return;
+      |             ~~~~~~~^~~~~
+In file included from /usr/include/c++/11/string:55,
+                 from /usr/include/c++/11/bits/locale_classes.h:40,
+                 from /usr/include/c++/11/bits/ios_base.h:41,
+                 from /usr/include/c++/11/ios:42,
+                 from /usr/include/c++/11/ostream:38,
+                 from /usr/include/c++/11/iostream:39,
+                 from output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s514557145_commented.cpp:1:
+/usr/include/c++/11/bits/basic_string.h:6226:5: note: candidate: ‘template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)’
+ 6226 |     operator==(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+      |     ^~~~~~~~
+/usr/include/c++/11/bits/basic_string.h:6226:5: note:   template argument deduction/substitution failed:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s514557145_commented.cpp:70:20: note:   ‘__gnu_cxx::__alloc_traits<std::allocator<F>, F>::value_type’ {aka ‘F’} is not derived from ‘const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>’
+   70 |         if (Laz[k] == Id) return;
+      |             ~~~~~~~^~~~~
+In file included from /usr/include/c++/11/string:55,
+                 from /usr/include/c++/11/bits/locale_classes.h:40,
+                 from /usr/include/c++/11/bits/ios_base.h:41,
+                 from /usr/include/c++/11/ios:42,
+                 from /usr/include/c++/11/ostream:38,
+                 from /usr/include/c++/11/iostream:39,
+                 from output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s514557145_commented.cpp:1:
+/usr/include/c++/11/bits/basic_string.h:6234:5: note: candidate: ‘template<class _CharT> typename __gnu_cxx::__enable_if<std::__is_char<_Tp>::__value, bool>::__type std::operator==(const std::__cxx11::basic_string<_CharT>&, const std::__cxx11::basic_string<_CharT>&)’
+ 6234 |     operator==(const basic_string<_CharT>& __lhs,
+      |     ^~~~~~~~
+/usr/include/c++/11/bits/basic_string.h:6234:5: note:   template argument deduction/substitution failed:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s514557145_commented.cpp:70:20: note:   ‘__gnu_cxx::__alloc_traits<std::allocator<F>, F>::value_type’ {aka ‘F’} is not derived from ‘const std::__cxx11::basic_string<_CharT>’
+   70 |         if (Laz[k] == Id) return;
+      |             ~~~~~~~^~~~~
+In file included from /usr/include/c++/11/string:55,
+                 from /usr/include/c++/11/bits/locale_classes.h:40,
+                 from /usr/include/c++/11/bits/ios_base.h:41,
+                 from /usr/include/c++/11/ios:42,
+                 from /usr/include/c++/11/ostream:38,
+                 from /usr/include/c++/11/iostream:39,
+                 from output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s514557145_commented.cpp:1:
+/usr/include/c++/11/bits/basic_string.h:6248:5: note: candidate: ‘template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, const _CharT*)’
+ 6248 |     operator==(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+      |     ^~~~~~~~
+/usr/include/c++/11/bits/basic_string.h:6248:5: note:   template argument deduction/substitution failed:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s514557145_commented.cpp:70:20: note:   ‘__gnu_cxx::__alloc_traits<std::allocator<F>, F>::value_type’ {aka ‘F’} is not derived from ‘const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>’
+   70 |         if (Laz[k] == Id) return;
+      |             ~~~~~~~^~~~~
+In file included from /usr/include/c++/11/string:55,
+                 from /usr/include/c++/11/bits/locale_classes.h:40,
+                 from /usr/include/c++/11/bits/ios_base.h:41,
+                 from /usr/include/c++/11/ios:42,
+                 from /usr/include/c++/11/ostream:38,
+                 from /usr/include/c++/11/iostream:39,
+                 from output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s514557145_commented.cpp:1:
+/usr/include/c++/11/bits/basic_string.h:6289:5: note: candidate: ‘template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const _CharT*, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)’
+ 6289 |     operator==(const _CharT* __lhs,
+      |     ^~~~~~~~
+/usr/include/c++/11/bits/basic_string.h:6289:5: note:   template argument deduction/substitution failed:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s514557145_commented.cpp:70:20: note:   mismatched types ‘const _CharT*’ and ‘F’
+   70 |         if (Laz[k] == Id) return;
+      |             ~~~~~~~^~~~~
+In file included from /usr/include/c++/11/bits/locale_facets.h:48,
+                 from /usr/include/c++/11/bits/basic_ios.h:37,
+                 from /usr/include/c++/11/ios:44,
+                 from /usr/include/c++/11/ostream:38,
+                 from /usr/include/c++/11/iostream:39,
+                 from output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s514557145_commented.cpp:1:
+/usr/include/c++/11/bits/streambuf_iterator.h:226:5: note: candidate: ‘template<class _CharT, class _Traits> bool std::operator==(const std::istreambuf_iterator<_CharT, _Traits>&, const std::istreambuf_iterator<_CharT, _Traits>&)’
+  226 |     operator==(const istreambuf_iterator<_CharT, _Traits>& __a,
+      |     ^~~~~~~~
+/usr/include/c++/11/bits/streambuf_iterator.h:226:5: note:   template argument deduction/substitution failed:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s514557145_commented.cpp:70:20: note:   ‘__gnu_cxx::__alloc_traits<std::allocator<F>, F>::value_type’ {aka ‘F’} is not derived from ‘const std::istreambuf_iterator<_CharT, _Traits>’
+   70 |         if (Laz[k] == Id) return;
+      |             ~~~~~~~^~~~~
+In file included from /usr/include/c++/11/vector:67,
+                 from output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s514557145_commented.cpp:2:
+/usr/include/c++/11/bits/stl_vector.h:1892:5: note: candidate: ‘template<class _Tp, class _Alloc> bool std::operator==(const std::vector<_Tp, _Alloc>&, const std::vector<_Tp, _Alloc>&)’
+ 1892 |     operator==(const vector<_Tp, _Alloc>& __x, const vector<_Tp, _Alloc>& __y)
+      |     ^~~~~~~~
+/usr/include/c++/11/bits/stl_vector.h:1892:5: note:   template argument deduction/substitution failed:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s514557145_commented.cpp:70:20: note:   ‘__gnu_cxx::__alloc_traits<std::allocator<F>, F>::value_type’ {aka ‘F’} is not derived from ‘const std::vector<_Tp, _Alloc>’
+   70 |         if (Laz[k] == Id) return;
+      |             ~~~~~~~^~~~~
+In file included from /usr/include/c++/11/tuple:39,
+                 from /usr/include/c++/11/functional:54,
+                 from output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s514557145_commented.cpp:3:
+/usr/include/c++/11/array:276:5: note: candidate: ‘template<class _Tp, long unsigned int _Nm> bool std::operator==(const std::array<_Tp, _Nm>&, const std::array<_Tp, _Nm>&)’
+  276 |     operator==(const array<_Tp, _Nm>& __one, const array<_Tp, _Nm>& __two)
+      |     ^~~~~~~~
+/usr/include/c++/11/array:276:5: note:   template argument deduction/substitution failed:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s514557145_commented.cpp:70:20: note:   ‘__gnu_cxx::__alloc_traits<std::allocator<F>, F>::value_type’ {aka ‘F’} is not derived from ‘const std::array<_Tp, _Nm>’
+   70 |         if (Laz[k] == Id) return;
+      |             ~~~~~~~^~~~~
+In file included from /usr/include/c++/11/functional:54,
+                 from output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s514557145_commented.cpp:3:
+/usr/include/c++/11/tuple:1524:5: note: candidate: ‘template<class ... _TElements, class ... _UElements> constexpr bool std::operator==(const std::tuple<_Tps ...>&, const std::tuple<_Types ...>&)’
+ 1524 |     operator==(const tuple<_TElements...>& __t,
+      |     ^~~~~~~~
+/usr/include/c++/11/tuple:1524:5: note:   template argument deduction/substitution failed:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s514557145_commented.cpp:70:20: note:   ‘__gnu_cxx::__alloc_traits<std::allocator<F>, F>::value_type’ {aka ‘F’} is not derived from ‘const std::tuple<_Tps ...>’
+   70 |         if (Laz[k] == Id) return;
+      |             ~~~~~~~^~~~~
+In file included from /usr/include/c++/11/functional:59,
+                 from output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s514557145_commented.cpp:3:
+/usr/include/c++/11/bits/std_function.h:718:5: note: candidate: ‘template<class _Res, class ... _Args> bool std::operator==(const std::function<_Res(_ArgTypes ...)>&, std::nullptr_t)’
+  718 |     operator==(const function<_Res(_Args...)>& __f, nullptr_t) noexcept
+      |     ^~~~~~~~
+/usr/include/c++/11/bits/std_function.h:718:5: note:   template argument deduction/substitution failed:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s514557145_commented.cpp:70:20: note:   ‘__gnu_cxx::__alloc_traits<std::allocator<F>, F>::value_type’ {aka ‘F’} is not derived from ‘const std::function<_Res(_ArgTypes ...)>’
+   70 |         if (Laz[k] == Id) return;
+      |             ~~~~~~~^~~~~
+In file included from /usr/include/c++/11/functional:59,
+                 from output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s514557145_commented.cpp:3:
+/usr/include/c++/11/bits/std_function.h:725:5: note: candidate: ‘template<class _Res, class ... _Args> bool std::operator==(std::nullptr_t, const std::function<_Res(_ArgTypes ...)>&)’
+  725 |     operator==(nullptr_t, const function<_Res(_Args...)>& __f) noexcept
+      |     ^~~~~~~~
+/usr/include/c++/11/bits/std_function.h:725:5: note:   template argument deduction/substitution failed:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s514557145_commented.cpp:70:20: note:   ‘F’ is not derived from ‘const std::function<_Res(_ArgTypes ...)>’
+   70 |         if (Laz[k] == Id) return;
+      |             ~~~~~~~^~~~~
+In file included from /usr/include/c++/11/bits/ios_base.h:46,
+                 from /usr/include/c++/11/ios:42,
+                 from /usr/include/c++/11/ostream:38,
+                 from /usr/include/c++/11/iostream:39,
+                 from output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/comment/direct/Java/C++/s514557145_commented.cpp:1:
+/usr/include/c++/11/system_error:362:3: note: candidate: ‘bool std::operator==(const std::error_code&, const std::error_code&)’
+  362 |   operator==(const error_code& __lhs, const error_code& __rhs) noexcept
+      |   ^~~~~~~~
+/usr/include/c++/11/system_error:362:32: note:   no known conversion for argument 1 from ‘__gnu_cxx::__alloc_traits<std::allocator<F>, F>::value_type’ {aka ‘F’} to ‘const std::error_code&’
+  362 |   operator==(const error_code& __lhs, const error_code& __rhs) noexcept
+      |              ~~~~~~~~~~~~~~~~~~^~~~~
+/usr/include/c++/11/system_error:368:3: note: candidate: ‘bool std::operator==(const std::error_code&, const std::error_condition&)’
+  368 |   operator==(const error_code& __lhs, const error_condition& __rhs) noexcept
+      |   ^~~~~~~~
+/usr/include/c++/11/system_error:368:32: note:   no known conversion for argument 1 from ‘__gnu_cxx::__alloc_traits<std::allocator<F>, F>::value_type’ {aka ‘F’} to ‘const std::error_code&’
+  368 |   operator==(const error_code& __lhs, const error_condition& __rhs) noexcept
+      |              ~~~~~~~~~~~~~~~~~~^~~~~
+/usr/include/c++/11/system_error:376:3: note: candidate: ‘bool std::operator==(const std::error_condition&, const std::error_condition&)’
+  376 |   operator==(const error_condition& __lhs,
+      |   ^~~~~~~~
+/usr/include/c++/11/system_error:376:37: note:   no known conversion for argument 1 from ‘__gnu_cxx::__alloc_traits<std::allocator<F>, F>::value_type’ {aka ‘F’} to ‘const std::error_condition&’
+  376 |   operator==(const error_condition& __lhs,
+      |              ~~~~~~~~~~~~~~~~~~~~~~~^~~~~
+/usr/include/c++/11/system_error:408:3: note: candidate: ‘bool std::operator==(const std::error_condition&, const std::error_code&)’
+  408 |   operator==(const error_condition& __lhs, const error_code& __rhs) noexcept
+      |   ^~~~~~~~
+/usr/include/c++/11/system_error:408:37: note:   no known conversion for argument 1 from ‘__gnu_cxx::__alloc_traits<std::allocator<F>, F>::value_type’ {aka ‘F’} to ‘const std::error_condition&’
+  408 |   operator==(const error_condition& __lhs, const error_code& __rhs) noexcept
+      |              ~~~~~~~~~~~~~~~~~~~~~~~^~~~~
+",,
+s012761786,commented,success,,,
+s612878490,commented,test_failed,,4,3
+s010698290,commented,success,,,
+s063482767,commented,success,,,

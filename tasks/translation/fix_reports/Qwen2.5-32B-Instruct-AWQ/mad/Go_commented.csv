@@ -1,0 +1,129 @@
+id,status,error,expected,actual
+s596918302,success,,,
+s283652523,success,,,
+s584572995,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s584572995_commented.go:8:2: imported and not used: ""strings""
+",,
+s888333881,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s888333881_commented.go:8:2: imported and not used: ""strings""
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s888333881_commented.go:170:23: cannot use n - p - 1 (value of type int) as type int64 in argument to pow10E97
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s888333881_commented.go:177:22: invalid operation: division by zero
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s888333881_commented.go:186:23: cannot use n - p - 1 (value of type int) as type int64 in argument to pow10E97
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s888333881_commented.go:192:22: invalid operation: division by zero
+",,
+s545439898,test_failed,,5 4 3 2 1,0 0 0 0 0
+s893190600,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s893190600_commented.go:7:2: imported and not used: ""strconv""
+",,
+s580342216,success,,,
+s196249385,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s196249385_commented.go:8:2: imported and not used: ""strings""
+",,
+s456888268,success,,,
+s466963472,success,,,
+s863488345,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s863488345_commented.go:8:2: imported and not used: ""strings""
+",,
+s127819686,test_failed,,110,
+s287007304,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s287007304_commented.go:13:34: newline in rune literal
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s287007304_commented.go:13:34: syntax error: unexpected newline, expecting comma or )
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s287007304_commented.go:14:3: newline in rune literal
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s287007304_commented.go:15:2: syntax error: unexpected if at end of statement
+",,
+s937747608,success,,,
+s824230885,success,,,
+s452855095,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s452855095_commented.go:8:2: imported and not used: ""strings""
+",,
+s378126458,runtime_failed,"panic: runtime error: index out of range [2] with length 1
+
+goroutine 1 [running]:
+main.main()
+	/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s378126458_commented.go:37 +0x2f1
+",,
+s221078931,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s221078931_commented.go:50:15: undefined: strings
+",,
+s081988820,test_failed,,12,0
+s504715611,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s504715611_commented.go:4:2: imported and not used: ""bufio""
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s504715611_commented.go:5:2: imported and not used: ""fmt""
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s504715611_commented.go:6:2: imported and not used: ""os""
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s504715611_commented.go:7:2: imported and not used: ""strconv""
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s504715611_commented.go:8:2: imported and not used: ""strings""
+",,
+s684030429,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s684030429_commented.go:8:2: imported and not used: ""strings""
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s684030429_commented.go:21:2: a declared but not used
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s684030429_commented.go:22:2: b declared but not used
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s684030429_commented.go:23:14: invalid operation: cannot call non-function max (variable of type int)
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s684030429_commented.go:26:6: max redeclared in this block
+	output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s684030429_commented.go:12:5: other declaration of max
+",,
+s967693306,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s967693306_commented.go:8:2: imported and not used: ""strings""
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s967693306_commented.go:132:2: undefined: sort
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s967693306_commented.go:143:4: undefined: sort
+",,
+s685734377,success,,,
+s041542819,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s041542819_commented.go:4:2: imported and not used: ""bufio""
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s041542819_commented.go:5:2: imported and not used: ""fmt""
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s041542819_commented.go:6:2: imported and not used: ""io""
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s041542819_commented.go:7:2: imported and not used: ""math""
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s041542819_commented.go:8:2: imported and not used: ""os""
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s041542819_commented.go:9:2: imported and not used: ""strconv""
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s041542819_commented.go:10:2: imported and not used: ""strings""
+",,
+s936984238,test_failed,,"342
+7
+300
+326","0
+0
+0
+0"
+s867221485,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s867221485_commented.go:13:2: N declared but not used
+",,
+s511234019,test_failed,,Yes,Enter two integers separated by space: Yes
+s910447421,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s910447421_commented.go:112:9: too many return values
+	have (int, error)
+	want (int)
+",,
+s725559666,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s725559666_commented.go:16:23: undefined: strings
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s725559666_commented.go:17:23: undefined: strings
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s725559666_commented.go:18:23: undefined: strings
+",,
+s573993837,test_failed,,1,0
+s185737640,success,,,
+s780275612,success,,,
+s826491904,test_failed,,7,0
+s316260310,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s316260310_commented.go:97:29: newline in rune literal
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s316260310_commented.go:97:29: syntax error: unexpected newline, expecting comma or )
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s316260310_commented.go:98:3: newline in rune literal
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s316260310_commented.go:99:2: syntax error: unexpected return at end of statement
+",,
+s749703010,success,,,
+s380356166,success,,,
+s831281137,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s831281137_commented.go:8:2: imported and not used: ""strings""
+",,
+s527301188,success,,,
+s514557145,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s514557145_commented.go:92:17: undefined: math
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s514557145_commented.go:103:2: l declared but not used
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s514557145_commented.go:262:35: cannot use S{}.op (value of type func(s2 S) S) as type func(S, S) S in argument to NewLazySegTree
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s514557145_commented.go:262:48: undefined: math
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s514557145_commented.go:262:87: cannot use F{}.mapFunc (value of type func(s S) S) as type func(F, S) S in argument to NewLazySegTree
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s514557145_commented.go:262:100: cannot use F{}.composite (value of type func(g F) F) as type func(F, F) F in argument to NewLazySegTree
+",,
+s012761786,success,,,
+s612878490,success,,,
+s010698290,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Go/s010698290_commented.go:8:2: imported and not used: ""strings""
+",,
+s063482767,test_failed,,Yes,true

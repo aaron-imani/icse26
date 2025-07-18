@@ -1,0 +1,33 @@
+#include <iostream>
+#include <vector>
+#include <algorithm>
+using namespace std;
+
+int number;
+vector<int> score;
+
+bool read() {
+    cin >> number;
+    if (number == 0) return false;
+    score.resize(number);
+    for (int i = 0; i < number; i++) {
+        cin >> score[i];
+    }
+    return true;
+}
+
+void slove() {
+    sort(score.begin(), score.end());
+    int sum = 0;
+    for (int i = 1; i < number - 1; i++) {
+        sum += score[i];
+    }
+    cout << sum / (number - 2) << endl;
+}
+
+int main() {
+    while (read()) {
+        slove();
+    }
+    return 0;
+} // End of Code

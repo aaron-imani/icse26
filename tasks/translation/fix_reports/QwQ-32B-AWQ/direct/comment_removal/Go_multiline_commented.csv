@@ -1,0 +1,29 @@
+id,version,status,expected,actual,error
+s584572995,commented,success,,,
+s888333881,commented,compile_failed,,,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/Go/s888333881_commented.go:9:2: imported and not used: ""strings""
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/Go/s888333881_commented.go:73:5: invalid operation: dw %= cnt (mismatched types int64 and int)
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/Go/s888333881_commented.go:90:5: invalid operation: dw %= cnt (mismatched types int64 and int)
+"
+s893190600,commented,success,,,
+s580342216,commented,success,,,
+s127819686,commented,success,,,
+s824230885,commented,success,,,
+s221078931,commented,compile_failed,,,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/Go/s221078931_commented.go:60:3: found declared but not used
+"
+s967693306,commented,compile_failed,,,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/Go/s967693306_commented.go:12:2: conflict declared but not used
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/Go/s967693306_commented.go:46:25: undefined: 布
+"
+s573993837,commented,success,,,
+s780275612,commented,success,,,
+s316260310,commented,success,,,
+s749703010,commented,success,,,
+s380356166,commented,success,,,
+s514557145,commented,compile_failed,,,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/Go/s514557145_commented.go:102:21: syntax error: unexpected {, expecting )
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/Go/s514557145_commented.go:103:4: syntax error: unexpected r2, expecting {
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/Go/s514557145_commented.go:105:4: syntax error: unexpected if, expecting expression
+"
+s010698290,commented,test_failed,2 2,0 0,

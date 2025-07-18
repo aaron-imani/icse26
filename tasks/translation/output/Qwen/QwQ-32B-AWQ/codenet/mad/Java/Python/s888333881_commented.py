@@ -1,0 +1,1 @@
+The Python code is correct. It accurately implements the logic of the Java code, including modular arithmetic, bit count calculations, and proper handling of edge cases like when the number of '1's is 1.

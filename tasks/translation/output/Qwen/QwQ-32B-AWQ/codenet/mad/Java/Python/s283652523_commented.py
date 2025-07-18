@@ -1,0 +1,1 @@
+The Python code correctly translates the Java solution. It handles input properly, processes elements in reverse order with modulo operations, and passes edge cases. The final answer is computed accurately.

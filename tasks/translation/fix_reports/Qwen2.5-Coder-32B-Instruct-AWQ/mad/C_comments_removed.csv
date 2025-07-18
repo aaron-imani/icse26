@@ -1,0 +1,310 @@
+id,status,error,expected,actual
+s596918302,success,,,
+s283652523,compile_failed,"output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/C/s283652523_comments_removed.c: In function ‘nextInt’:
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/C/s283652523_comments_removed.c:23:15: warning: implicit declaration of function ‘nextLong’ [-Wimplicit-function-declaration]
+   23 |     long nl = nextLong(scanner);
+      |               ^~~~~~~~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/C/s283652523_comments_removed.c:24:14: error: ‘INT_MIN’ undeclared (first use in this function)
+   24 |     if (nl < INT_MIN || nl > INT_MAX) {
+      |              ^~~~~~~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/C/s283652523_comments_removed.c:4:1: note: ‘INT_MIN’ is defined in header ‘<limits.h>’; did you forget to ‘#include <limits.h>’?
+    3 | #include <ctype.h>
+  +++ |+#include <limits.h>
+    4 | 
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/C/s283652523_comments_removed.c:24:14: note: each undeclared identifier is reported only once for each function it appears in
+   24 |     if (nl < INT_MIN || nl > INT_MAX) {
+      |              ^~~~~~~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/C/s283652523_comments_removed.c:24:30: error: ‘INT_MAX’ undeclared (first use in this function)
+   24 |     if (nl < INT_MIN || nl > INT_MAX) {
+      |                              ^~~~~~~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/C/s283652523_comments_removed.c:24:30: note: ‘INT_MAX’ is defined in header ‘<limits.h>’; did you forget to ‘#include <limits.h>’?
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/C/s283652523_comments_removed.c: At top level:
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/C/s283652523_comments_removed.c:31:6: error: conflicting types for ‘nextLong’; have ‘long int(FastScanner *)’
+   31 | long nextLong(FastScanner *scanner) {
+      |      ^~~~~~~~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/C/s283652523_comments_removed.c:23:15: note: previous implicit declaration of ‘nextLong’ with type ‘int()’
+   23 |     long nl = nextLong(scanner);
+      |               ^~~~~~~~
+",,
+s584572995,success,,,
+s888333881,compile_failed,"output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/C/s888333881_comments_removed.c: In function ‘V2Comp’:
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/C/s888333881_comments_removed.c:123:5: error: expected expression at end of input
+  123 |     else if (edgeA->weight > edgeB->weight) return
+      |     ^~~~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/C/s888333881_comments_removed.c:123:5: error: expected declaration or statement at end of input
+",,
+s545439898,success,,,
+s893190600,compile_failed,"output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/C/s893190600_comments_removed.c:1:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+    1 | ERROR
+      | ^~~~~
+",,
+s580342216,compile_failed,"output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/C/s580342216_comments_removed.c: In function ‘main’:
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/C/s580342216_comments_removed.c:24:12: error: void value not ignored as it ought to be
+   24 |     while (run_case()) {
+      |            ^~~~~~~~
+",,
+s196249385,success,,,
+s456888268,compile_failed,"output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/C/s456888268_comments_removed.c: In function ‘sort_int’:
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/C/s456888268_comments_removed.c:320:70: error: ‘compare_int’ undeclared (first use in this function)
+  320 |     qsort(ar, len, sizeof(int), (int (*)(const void *, const void *))compare_int);
+      |                                                                      ^~~~~~~~~~~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/C/s456888268_comments_removed.c:320:70: note: each undeclared identifier is reported only once for each function it appears in
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/C/s456888268_comments_removed.c: In function ‘sort_long’:
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/C/s456888268_comments_removed.c:324:71: error: ‘compare_long’ undeclared (first use in this function)
+  324 |     qsort(ar, len, sizeof(long), (int (*)(const void *, const void *))compare_long);
+      |                                                                       ^~~~~~~~~~~~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/C/s456888268_comments_removed.c: In function ‘sort_double’:
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/C/s456888268_comments_removed.c:328:73: error: ‘compare_double’ undeclared (first use in this function); did you mean ‘complex double’?
+  328 |     qsort(ar, len, sizeof(double), (int (*)(const void *, const void *))compare_double);
+      |                                                                         ^~~~~~~~~~~~~~
+      |                                                                         complex double
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/C/s456888268_comments_removed.c: In function ‘sort_char’:
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/C/s456888268_comments_removed.c:332:71: error: ‘compare_char’ undeclared (first use in this function)
+  332 |     qsort(ar, len, sizeof(char), (int (*)(const void *, const void *))compare_char);
+      |                                                                       ^~~~~~~~~~~~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/C/s456888268_comments_removed.c: At top level:
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/C/s456888268_comments_removed.c:418:6: error: conflicting types for ‘div’; have ‘long int(long int,  long int)’
+  418 | long div(long x, long y) {
+      |      ^~~
+In file included from output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/C/s456888268_comments_removed.c:3:
+/usr/include/stdlib.h:860:14: note: previous declaration of ‘div’ with type ‘div_t(int,  int)’
+  860 | extern div_t div (int __numer, int __denom)
+      |              ^~~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/C/s456888268_comments_removed.c: In function ‘div’:
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/C/s456888268_comments_removed.c:419:20: warning: implicit declaration of function ‘pow’ [-Wimplicit-function-declaration]
+  419 |     long res = x * pow(y, MOD - 2) % MOD;
+      |                    ^~~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/C/s456888268_comments_removed.c:6:1: note: include ‘<math.h>’ or provide a declaration of ‘pow’
+    5 | #include <ctype.h>
+  +++ |+#include <math.h>
+    6 | 
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/C/s456888268_comments_removed.c:419:20: warning: incompatible implicit declaration of built-in function ‘pow’ [-Wbuiltin-declaration-mismatch]
+  419 |     long res = x * pow(y, MOD - 2) % MOD;
+      |                    ^~~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/C/s456888268_comments_removed.c:419:20: note: include ‘<math.h>’ or provide a declaration of ‘pow’
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/C/s456888268_comments_removed.c:419:36: error: invalid operands to binary % (have ‘double’ and ‘int’)
+  419 |     long res = x * pow(y, MOD - 2) % MOD;
+      |                ~~~~~~~~~~~~~~~~~~~ ^
+      |                  |
+      |                  double
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/C/s456888268_comments_removed.c: At top level:
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/C/s456888268_comments_removed.c:423:6: warning: conflicting types for built-in function ‘pow’; expected ‘double(double,  double)’ [-Wbuiltin-declaration-mismatch]
+  423 | long pow(long x, long y) {
+      |      ^~~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/C/s456888268_comments_removed.c:423:6: note: ‘pow’ is declared in header ‘<math.h>’
+",,
+s466963472,success,,,
+s863488345,compile_failed,"output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/C/s863488345_comments_removed.c: In function ‘main’:
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/C/s863488345_comments_removed.c:110:44: error: ‘n’ undeclared (first use in this function)
+  110 |                     battleTown[x][y] = '>';n                    if (y + 1 < w && battleTown[x][y + 1] == '.') {
+      |                                            ^
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/C/s863488345_comments_removed.c:110:44: note: each undeclared identifier is reported only once for each function it appears in
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/C/s863488345_comments_removed.c:110:45: error: expected ‘;’ before ‘if’
+  110 |                     battleTown[x][y] = '>';n                    if (y + 1 < w && battleTown[x][y + 1] == '.') {
+      |                                             ^                   ~~
+      |                                             ;
+",,
+s127819686,success,,,
+s287007304,success,,,
+s937747608,success,,,
+s824230885,runtime_failed,"There is no more input
+",,
+s452855095,compile_failed,"output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/C/s452855095_comments_removed.c:1:1: error: unknown type name ‘Both’
+    1 | Both provided translations are correct and functionally equivalent. The choice between them is a matter of style preference.
+      | ^~~~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/C/s452855095_comments_removed.c:1:15: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘translations’
+    1 | Both provided translations are correct and functionally equivalent. The choice between them is a matter of style preference.
+      |               ^~~~~~~~~~~~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/C/s452855095_comments_removed.c:1:15: error: unknown type name ‘translations’
+",,
+s378126458,success,,,
+s221078931,success,,,
+s081988820,success,,,
+s504715611,compile_failed,"output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/C/s504715611_comments_removed.c: In function ‘modlcm’:
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/C/s504715611_comments_removed.c:54:20: warning: implicit declaration of function ‘modint’ [-Wimplicit-function-declaration]
+   54 |     return a * b * modint(gcd(a, b), mod);
+      |                    ^~~~~~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/C/s504715611_comments_removed.c:54:27: warning: implicit declaration of function ‘gcd’ [-Wimplicit-function-declaration]
+   54 |     return a * b * modint(gcd(a, b), mod);
+      |                           ^~~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/C/s504715611_comments_removed.c: At top level:
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/C/s504715611_comments_removed.c:57:6: error: conflicting types for ‘gcd’; have ‘long int(long int,  long int)’
+   57 | long gcd(long a, long b) {
+      |      ^~~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/C/s504715611_comments_removed.c:54:27: note: previous implicit declaration of ‘gcd’ with type ‘int()’
+   54 |     return a * b * modint(gcd(a, b), mod);
+      |                           ^~~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/C/s504715611_comments_removed.c:223:6: error: conflicting types for ‘modint’; have ‘long int(long int,  long int)’
+  223 | long modint(long a, long m) {
+      |      ^~~~~~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/C/s504715611_comments_removed.c:54:20: note: previous implicit declaration of ‘modint’ with type ‘int()’
+   54 |     return a * b * modint(gcd(a, b), mod);
+      |                    ^~~~~~
+",,
+s684030429,success,,,
+s967693306,compile_failed,"output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/C/s967693306_comments_removed.c:37:6: error: ‘inv’ redeclared as different kind of symbol
+   37 | long inv(long a) {
+      |      ^~~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/C/s967693306_comments_removed.c:11:6: note: previous declaration of ‘inv’ with type ‘long int[1000000]’
+   11 | long inv[SIZE];
+      |      ^~~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/C/s967693306_comments_removed.c: In function ‘initCOMB’:
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/C/s967693306_comments_removed.c:53:8: error: subscripted value is neither array nor pointer nor vector
+   53 |     inv[1] = 1;
+      |        ^
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/C/s967693306_comments_removed.c:57:12: error: subscripted value is neither array nor pointer nor vector
+   57 |         inv[i] = MOD - inv[MOD % i] * (MOD / i) % MOD;
+      |            ^
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/C/s967693306_comments_removed.c:57:27: error: subscripted value is neither array nor pointer nor vector
+   57 |         inv[i] = MOD - inv[MOD % i] * (MOD / i) % MOD;
+      |                           ^
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/C/s967693306_comments_removed.c:58:36: error: subscripted value is neither array nor pointer nor vector
+   58 |         finv[i] = finv[i - 1] * inv[i] % MOD;
+      |                                    ^
+",,
+s685734377,test_failed,,2,
+s041542819,success,,,
+s936984238,success,,,
+s867221485,success,,,
+s511234019,success,,,
+s910447421,compile_failed,"output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/C/s910447421_comments_removed.c:5:1: error: unknown type name ‘define’
+    5 | define MAX_N 100
+      | ^~~~~~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/C/s910447421_comments_removed.c:5:14: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before numeric constant
+    5 | define MAX_N 100
+      |              ^~~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/C/s910447421_comments_removed.c:8:11: error: ‘MAX_N’ undeclared here (not in a function)
+    8 | int balls[MAX_N][2];
+      |           ^~~~~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/C/s910447421_comments_removed.c: In function ‘compare’:
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/C/s910447421_comments_removed.c:13:17: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+   13 |     int *arr1 = *(const int(*)[2])a;
+      |                 ^
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/C/s910447421_comments_removed.c:14:17: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+   14 |     int *arr2 = *(const int(*)[2])b;
+      |                 ^
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/C/s910447421_comments_removed.c: In function ‘solve’:
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/C/s910447421_comments_removed.c:24:9: warning: implicit declaration of function ‘memset’ [-Wimplicit-function-declaration]
+   24 |         memset(taken, 0, sizeof(taken));
+      |         ^~~~~~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/C/s910447421_comments_removed.c:4:1: note: include ‘<string.h>’ or provide a declaration of ‘memset’
+    3 | #include <stdlib.h>
+  +++ |+#include <string.h>
+    4 | 
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/C/s910447421_comments_removed.c:24:9: warning: incompatible implicit declaration of built-in function ‘memset’ [-Wbuiltin-declaration-mismatch]
+   24 |         memset(taken, 0, sizeof(taken));
+      |         ^~~~~~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/C/s910447421_comments_removed.c:24:9: note: include ‘<string.h>’ or provide a declaration of ‘memset’
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/C/s910447421_comments_removed.c:28:9: error: ‘ans’ undeclared (first use in this function); did you mean ‘abs’?
+   28 |         ans = min(ans, check(p, q));
+      |         ^~~
+      |         abs
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/C/s910447421_comments_removed.c:28:9: note: each undeclared identifier is reported only once for each function it appears in
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/C/s910447421_comments_removed.c:28:24: warning: implicit declaration of function ‘check’ [-Wimplicit-function-declaration]
+   28 |         ans = min(ans, check(p, q));
+      |                        ^~~~~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/C/s910447421_comments_removed.c: In function ‘main’:
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/C/s910447421_comments_removed.c:65:5: error: ‘ans’ undeclared (first use in this function); did you mean ‘abs’?
+   65 |     ans = N;
+      |     ^~~
+      |     abs
+",,
+s725559666,success,,,
+s573993837,success,,,
+s185737640,compile_failed,"/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x1b): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+",,
+s780275612,compile_failed,"/usr/bin/ld: /tmp/cceYRKp8.o: in function `main':
+s780275612_comments_removed.c:(.text+0x58): undefined reference to `pow'
+/usr/bin/ld: s780275612_comments_removed.c:(.text+0x6f): undefined reference to `floor'
+collect2: error: ld returned 1 exit status
+",,
+s826491904,success,,,
+s316260310,compile_failed,"output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/C/s316260310_comments_removed.c:7:13: error: expected identifier or ‘(’ before numeric constant
+    7 | #define MOD 1000000007
+      |             ^~~~~~~~~~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/C/s316260310_comments_removed.c:10:15: note: in expansion of macro ‘MOD’
+   10 |     long long MOD;
+      |               ^~~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/C/s316260310_comments_removed.c:6:14: error: expected identifier or ‘(’ before numeric constant
+    6 | #define MAXN 1000006
+      |              ^~~~~~~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/C/s316260310_comments_removed.c:11:9: note: in expansion of macro ‘MAXN’
+   11 |     int MAXN;
+      |         ^~~~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/C/s316260310_comments_removed.c:12:1: warning: no semicolon at end of struct or union
+   12 | } Helper;
+      | ^
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/C/s316260310_comments_removed.c: In function ‘createHelper’:
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/C/s316260310_comments_removed.c:7:13: error: expected identifier before numeric constant
+    7 | #define MOD 1000000007
+      |             ^~~~~~~~~~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/C/s316260310_comments_removed.c:17:9: note: in expansion of macro ‘MOD’
+   17 |     hp->MOD = mod;
+      |         ^~~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/C/s316260310_comments_removed.c:6:14: error: expected identifier before numeric constant
+    6 | #define MAXN 1000006
+      |              ^~~~~~~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/C/s316260310_comments_removed.c:18:9: note: in expansion of macro ‘MAXN’
+   18 |     hp->MAXN = maxn;
+      |         ^~~~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/C/s316260310_comments_removed.c: In function ‘main’:
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/C/s316260310_comments_removed.c:6:14: error: expected identifier before numeric constant
+    6 | #define MAXN 1000006
+      |              ^~~~~~~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/C/s316260310_comments_removed.c:122:35: note: in expansion of macro ‘MAXN’
+  122 |     int* sieve = (int*)calloc(hp->MAXN, sizeof(int));
+      |                                   ^~~~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/C/s316260310_comments_removed.c:122:24: error: too few arguments to function ‘calloc’
+  122 |     int* sieve = (int*)calloc(hp->MAXN, sizeof(int));
+      |                        ^~~~~~
+In file included from output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/C/s316260310_comments_removed.c:2:
+/usr/include/stdlib.h:543:14: note: declared here
+  543 | extern void *calloc (size_t __nmemb, size_t __size)
+      |              ^~~~~~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/C/s316260310_comments_removed.c:6:14: error: expected identifier before numeric constant
+    6 | #define MAXN 1000006
+      |              ^~~~~~~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/C/s316260310_comments_removed.c:127:36: note: in expansion of macro ‘MAXN’
+  127 |     int* primes = (int*)malloc(hp->MAXN * sizeof(int));
+      |                                    ^~~~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/C/s316260310_comments_removed.c:6:14: error: expected identifier before numeric constant
+    6 | #define MAXN 1000006
+      |              ^~~~~~~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/C/s316260310_comments_removed.c:133:51: note: in expansion of macro ‘MAXN’
+  133 |     long long* factorial = (long long*)malloc(hp->MAXN * sizeof(long long));
+      |                                                   ^~~~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/C/s316260310_comments_removed.c:6:14: error: expected identifier before numeric constant
+    6 | #define MAXN 1000006
+      |              ^~~~~~~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/C/s316260310_comments_removed.c:141:33: note: in expansion of macro ‘MAXN’
+  141 |     setSieve(sieve, primes, hp->MAXN);
+      |                                 ^~~~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/C/s316260310_comments_removed.c:6:14: error: expected identifier before numeric constant
+    6 | #define MAXN 1000006
+      |              ^~~~~~~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/C/s316260310_comments_removed.c:142:33: note: in expansion of macro ‘MAXN’
+  142 |     setFactorial(factorial, hp->MAXN, hp->MOD);
+      |                                 ^~~~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/C/s316260310_comments_removed.c:142:5: error: too few arguments to function ‘setFactorial’
+  142 |     setFactorial(factorial, hp->MAXN, hp->MOD);
+      |     ^~~~~~~~~~~~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/C/s316260310_comments_removed.c:34:6: note: declared here
+   34 | void setFactorial(long long* factorial, int maxn, long long mod) {
+      |      ^~~~~~~~~~~~
+",,
+s749703010,success,,,
+s380356166,success,,,
+s831281137,success,,,
+s527301188,success,,,
+s514557145,compile_failed,"output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/C/s514557145_comments_removed.c: In function ‘S_map’:
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/C/s514557145_comments_removed.c:52:15: error: ‘tenmod’ undeclared (first use in this function)
+   52 |     long c = (tenmod[f.N - s.l] - tenmod[f.N - s.r - 1]);
+      |               ^~~~~~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/C/s514557145_comments_removed.c:52:15: note: each undeclared identifier is reported only once for each function it appears in
+",,
+s012761786,success,,,
+s612878490,success,,,
+s010698290,test_failed,,2 2,0 0
+s063482767,success,,,

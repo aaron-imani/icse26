@@ -1,0 +1,102 @@
+id,status,error,expected,actual
+s596918302,compile_failed,"  File ""output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Python/s596918302_comments_removed.py"", line 10
+    ndef dpc(arr, i, n, row):
+         ^^^
+SyntaxError: invalid syntax
+",,
+s283652523,success,,,
+s584572995,compile_failed,"  File ""output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Python/s584572995_comments_removed.py"", line 8
+    edges = [])
+              ^
+SyntaxError: unmatched ')'
+",,
+s888333881,success,,,
+s545439898,success,,,
+s893190600,runtime_failed,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Python/s893190600_comments_removed.py"", line 1, in <module>
+    Yes
+NameError: name 'Yes' is not defined
+",,
+s580342216,compile_failed,"  File ""output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Python/s580342216_comments_removed.py"", line 20
+    clas LCS:
+         ^^^
+SyntaxError: invalid syntax
+",,
+s196249385,success,,,
+s456888268,success,,,
+s466963472,success,,,
+s863488345,success,,,
+s127819686,success,,,
+s287007304,success,,,
+s937747608,runtime_failed,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Python/s937747608_comments_removed.py"", line 1, in <module>
+    a = int(input())
+ValueError: invalid literal for int() with base 10: '3 5 2 7'
+",,
+s824230885,compile_failed,"  File ""output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Python/s824230885_comments_removed.py"", line 1
+    The Python code is correct. It accurately translates the Java's logic, including the initial max_val=0 and the comparison condition. The code counts numbers >= current max, which aligns with the Java's behavior. Edge cases are properly handled.
+        ^^^^^^
+SyntaxError: invalid syntax
+",,
+s452855095,success,,,
+s378126458,success,,,
+s221078931,success,,,
+s081988820,compile_failed,"  File ""output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Python/s081988820_comments_removed.py"", line 1
+    The Python code correctly implements the problem's requirements. The key steps are properly translated, including input handling, Floyd-Warshall algorithm for shortest paths to node 1, and accumulating costs for valid cells (A >= 0). The code will produce the correct answer.
+                                                    ^
+SyntaxError: unterminated string literal (detected at line 1)
+",,
+s504715611,success,,,
+s684030429,success,,,
+s967693306,success,,,
+s685734377,success,,,
+s041542819,success,,,
+s936984238,runtime_failed,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Python/s936984238_comments_removed.py"", line 25, in <module>
+    while read():
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Python/s936984238_comments_removed.py"", line 3, in read
+    number = int(input())
+EOFError: EOF when reading a line
+",,
+s867221485,test_failed,,1,0
+s511234019,success,,,
+s910447421,compile_failed,"  File ""output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Python/s910447421_comments_removed.py"", line 1
+    The Python code correctly translates the Java solution. It handles input efficiently with FastScanner, maintains the problem's logic through sorting and coordinate swapping, and implements the greedy approach to find minimal sequences. The code's structure and algorithm match the original Java code's intent, ensuring correctness.
+                                                                                                                                                                                                                                                                                                               ^
+SyntaxError: unterminated string literal (detected at line 1)
+",,
+s725559666,success,,,
+s573993837,success,,,
+s185737640,success,,,
+s780275612,success,,,
+s826491904,runtime_failed,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Python/s826491904_comments_removed.py"", line 2, in <module>
+    max_val = int(input())
+ValueError: invalid literal for int() with base 10: '2 3 7 9'
+",,
+s316260310,success,,,
+s749703010,compile_failed,"  File ""output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Python/s749703010_comments_removed.py"", line 1
+    The correct answer is the Affirmative's code. The Negative's code has a critical syntax error in the memo lookup using '翻转' instead of the variable 'flip', which would cause a runtime error. The Affirmative's code properly translates the original Java logic including state management and DP transitions.
+                                                                                                                                                                                                                  ^
+SyntaxError: unterminated string literal (detected at line 1)
+",,
+s380356166,success,,,
+s831281137,compile_failed,"  File ""output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Python/s831281137_comments_removed.py"", line 23
+    sumV[i][i_sum] = max(sumV[i-1][i_sum], sumV[i-.mainloop() -1][i_sum - wi] + v[i])
+                                                  ^
+SyntaxError: invalid syntax
+",,
+s527301188,success,,,
+s514557145,compile_failed,"  File ""output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Python/s514557145_comments_removed.py"", line 74
+    l0 += 迷 1
+             ^
+SyntaxError: invalid syntax
+",,
+s012761786,compile_failed,"  File ""output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Python/s012761786_comments_removed.py"", line 1
+    The user's Python code is correct as provided. It precisely mirrors the Java code's logic and calculations, handling both even and odd cases correctly with proper integer division and variable adjustments. No changes are needed.
+        ^^^^
+SyntaxError: invalid syntax
+",,
+s612878490,success,,,
+s010698290,success,,,
+s063482767,success,,,

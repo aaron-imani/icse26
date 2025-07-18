@@ -1,0 +1,122 @@
+id,status,error,expected,actual
+s596918302,success,,,
+s283652523,compile_failed,"  File ""output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Python/s283652523_commented.py"", line 1
+    The Python code correctly translates the Java solution. It handles input properly, processes elements in reverse order with modulo operations, and passes edge cases. The final answer is computed accurately.
+        ^^^^^^
+SyntaxError: invalid syntax
+",,
+s584572995,compile_failed,"  File ""output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Python/s584572995_commented.py"", line 1
+    The provided Python code is correct and should work as intended. The final answer is printed as `ans` modulo `1000000007`.
+        ^^^^^^^^
+SyntaxError: invalid syntax
+",,
+s888333881,compile_failed,"  File ""output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Python/s888333881_commented.py"", line 1
+    The Python code is correct. It accurately implements the logic of the Java code, including modular arithmetic, bit count calculations, and proper handling of edge cases like when the number of '1's is 1.
+        ^^^^^^
+SyntaxError: invalid syntax
+",,
+s545439898,compile_failed,"  File ""output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Python/s545439898_commented.py"", line 6
+    print(' ', end+)
+                   ^
+SyntaxError: invalid syntax
+",,
+s893190600,success,,,
+s580342216,success,,,
+s196249385,success,,,
+s456888268,success,,,
+s466963472,success,,,
+s863488345,success,,,
+s127819686,runtime_failed,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Python/s127819686_commented.py"", line 1, in <module>
+    a = int(input())
+ValueError: invalid literal for int() with base 10: '81 58'
+",,
+s287007304,success,,,
+s937747608,runtime_failed,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Python/s937747608_commented.py"", line 1, in <module>
+    a = int(input())
+ValueError: invalid literal for int() with base 10: '3 5 2 7'
+",,
+s824230885,compile_failed,"  File ""output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Python/s824230885_commented.py"", line 1
+    The provided Python code correctly translates the Java code's logic. It reads input properly, tracks the maximum value starting at 0, and counts increments when elements are >= current max. The negative side's agreement confirms the accuracy.
+        ^^^^^^^^
+SyntaxError: invalid syntax
+",,
+s452855095,success,,,
+s378126458,success,,,
+s221078931,runtime_failed,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Python/s221078931_commented.py"", line 23, in <module>
+    if h == 鲆 and w == 0:
+NameError: name '鲆' is not defined
+",,
+s081988820,compile_failed,"  File ""output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Python/s081988820_commented.py"", line 1
+    The Python code correctly translates the Java solution. It reads inputs efficiently, computes minimal costs via iterative relaxation over 10 steps (sufficient for 10 nodes), and sums valid grid values. The negative's analysis confirms correctness without errors.
+                                                                                                                                                                                                                          ^
+SyntaxError: unterminated string literal (detected at line 1)
+",,
+s504715611,runtime_failed,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Python/s504715611_commented.py"", line 1, in <module>
+    print(""Yes"" if str_input[2] == str_input[3] and str_input[4] == str_input[5] else ""No"")
+NameError: name 'str_input' is not defined
+",,
+s684030429,success,,,
+s967693306,runtime_failed,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Python/s967693306_commented.py"", line 32, in <module>
+    main()
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Python/s967693306_commented.py"", line 17, in main
+    digit = int(s[j])
+ValueError: invalid literal for int() with base 10: '{'
+",,
+s685734377,success,,,
+s041542819,success,,,
+s936984238,success,,,
+s867221485,test_failed,,1,0
+s511234019,runtime_failed,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Python/s511234019_commented.py"", line 1, in <module>
+    a = int(input())
+ValueError: invalid literal for int() with base 10: '3 1'
+",,
+s910447421,compile_failed,"  File ""output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Python/s910447421_commented.py"", line 1
+    The Python code correctly implements the Java logic. Key points: 1. FastScanner mirrors Java's input handling. 2. Global variables match static counterparts. 3. Sorting and swapping logic is preserved. 4. Algorithmic steps in solve() and check() align with Java's approach. No translation errors found.
+        ^^^^^^
+SyntaxError: invalid syntax
+",,
+s725559666,success,,,
+s573993837,success,,,
+s185737640,success,,,
+s780275612,success,,,
+s826491904,runtime_failed,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Python/s826491904_commented.py"", line 2, in <module>
+    first = int(input())
+ValueError: invalid literal for int() with base 10: '2 3 7 9'
+",,
+s316260310,success,,,
+s749703010,compile_failed,"  File ""output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Python/s749703010_commented.py"", line 1
+    The Negative side's argument is correct. The Python code should remove the `x -=1` line to avoid corrupting the count of selected elements. The corrected code ensures `x` accurately reflects the number of elements chosen, leading to proper state transitions in the DP function.
+                     ^
+SyntaxError: unterminated string literal (detected at line 1)
+",,
+s380356166,compile_failed,"  File ""output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Python/s380356166_commented.py"", line 1
+    The correct answer is the count of all triples (X, Y, Z) where 0 ≤ X, Y, Z ≤ K and X + Y + Z = S. The Python code correctly implements this with nested loops and conditions. For example, when K=2 and S=2, valid triples include (0,0,2), (0,1,1), (0,2,0), (1,0,1), (1,1,0), (1,0,1), (2,0,0) resulting in 6 ways. The code returns the correct count.
+                                                                     ^
+SyntaxError: invalid character '≤' (U+2264)
+",,
+s831281137,success,,,
+s527301188,success,,,
+s514557145,test_failed,,"11222211
+77772211
+77333333
+72333333
+72311333","11111111
+11111111
+11111111
+11111111
+77333333"
+s012761786,success,,,
+s612878490,runtime_failed,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Python/s612878490_commented.py"", line 4, in <module>
+    A = int(input())
+ValueError: invalid literal for int() with base 10: '1 7'
+",,
+s010698290,success,,,
+s063482767,success,,,

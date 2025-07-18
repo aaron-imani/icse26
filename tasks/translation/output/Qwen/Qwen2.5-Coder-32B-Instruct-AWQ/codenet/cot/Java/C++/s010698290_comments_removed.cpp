@@ -1,0 +1,82 @@
+#include <iostream>
+#include <vector>
+#include <string>
+#include <sstream>
+#include <algorithm>
+
+using namespace std;
+
+class FastReader {
+    string line;
+    stringstream ss;
+
+public:
+    string next() {
+        if (!getline(cin, line)) return "";
+        ss.clear();
+        ss.str(line);
+        string token;
+        if (ss >> token) return token;
+        return next();
+    }
+
+    int nextInt() {
+        return stoi(next());
+    }
+
+    long nextLong() {
+        return stol(next());
+    }
+
+    double nextDouble() {
+        return stod(next());
+    }
+
+    string nextLine() {
+        return next();
+    }
+};
+
+int main() {
+    try {
+        FastReader s;
+        int i, j;
+        int m, n, t, max, k, x, y, min, correct_ans, num, num_penal;
+        long a, b, sum;
+
+        string str;
+
+        n = s.nextInt();
+        m = s.nextInt();
+
+        vector<int> penal(n + 1, 0);
+        vector<bool> solved(n + 1, false);
+
+        for (i = 0; i < m; i++) {
+            num = s.nextInt();
+            str = s.next();
+            if (str[0] == 'A') {
+                solved[num] = true;
+            } else {
+                if (!solved[num])
+                    penal[num]++;
+            }
+        }
+
+        correct_ans = 0;
+        num_penal = 0;
+        for (i = 1; i <= n; i++) {
+            if (solved[i]) {
+                correct_ans++;
+                num_penal += penal[i];
+            }
+        }
+
+        cout << correct_ans << " " << num_penal << "\n";
+
+    } catch (exception &e) {
+        cerr << e.what() << endl;
+    }
+    return 0;
+}
+// End of Code

@@ -1,0 +1,62 @@
+id,version,status,error
+s584572995,commented,success,
+s888333881,commented,success,
+s893190600,commented,runtime_failed,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/multiline/uncomment/direct/Java/Python/s893190600_commented.py"", line 315, in <module>
+    solver.solve()
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/multiline/uncomment/direct/Java/Python/s893190600_commented.py"", line 10, in solve
+    H = int(self.input.readline())
+ValueError: invalid literal for int() with base 10: '3 3\\n'
+"
+s580342216,commented,success,
+s127819686,commented,runtime_failed,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/multiline/uncomment/direct/Java/Python/s127819686_commented.py"", line 1, in <module>
+    a = int(input())
+ValueError: invalid literal for int() with base 10: '81 58'
+"
+s824230885,commented,compile_failed,"  File ""output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/multiline/uncomment/direct/Java/Python/s824230885_commented.py"", line 14
+    return self.input_line[self.index++]
+                                       ^
+SyntaxError: invalid syntax
+"
+s221078931,commented,success,
+s967693306,commented,success,
+s573993837,commented,runtime_failed,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/multiline/uncomment/direct/Java/Python/s573993837_commented.py"", line 53, in <module>
+    main()  # End of Code
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/multiline/uncomment/direct/Java/Python/s573993837_commented.py"", line 44, in main
+    input_stream = sys.stdin
+NameError: name 'sys' is not defined
+"
+s780275612,commented,success,
+s316260310,commented,runtime_failed,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/multiline/uncomment/direct/Java/Python/s316260310_commented.py"", line 148, in <module>
+    solver = Solver()
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/multiline/uncomment/direct/Java/Python/s316260310_commented.py"", line 5, in __init__
+    self.hp = Helper()
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/multiline/uncomment/direct/Java/Python/s316260310_commented.py"", line 48, in __init__
+    self.rnd = random.Random()
+NameError: name 'random' is not defined
+"
+s749703010,commented,success,
+s380356166,commented,runtime_failed,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/multiline/uncomment/direct/Java/Python/s380356166_commented.py"", line 39, in <module>
+    main()  # End of Code
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/multiline/uncomment/direct/Java/Python/s380356166_commented.py"", line 34, in main
+    solver.solve(1, my_input, out)
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/multiline/uncomment/direct/Java/Python/s380356166_commented.py"", line 4, in solve
+    K = in_stream.nextInt()
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/multiline/uncomment/direct/Java/Python/s380356166_commented.py"", line 19, in nextInt
+    return int(self.input_stream.readline().strip())
+ValueError: invalid literal for int() with base 10: '2 2'
+"
+s514557145,commented,runtime_failed,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/multiline/uncomment/direct/Java/Python/s514557145_commented.py"", line 134, in <module>
+    lazy_seg_tree.apply(l, r + 1, F(D, N))
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/multiline/uncomment/direct/Java/Python/s514557145_commented.py"", line 58, in apply
+    self.push(l >> h)
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/multiline/uncomment/direct/Java/Python/s514557145_commented.py"", line 93, in push
+    if self.Laz[k] == self.Id:
+IndexError: list index out of range
+"
+s010698290,commented,success,

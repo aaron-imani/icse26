@@ -1,0 +1,4 @@
+n = int(input())
+nums = list(map(int, input().split()))
+print(' '.join(map(str, reversed(nums))))
+# End of Code

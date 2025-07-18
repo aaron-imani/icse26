@@ -1,0 +1,1 @@
+The correct answer is the Negative side's code. The final result should use the inverse of (2^N -1) to account for all non-empty subsets. The expected value is (WN * inv(2^N-1)) mod 1e9+7. Hence the correct answer is the Negative's code output.

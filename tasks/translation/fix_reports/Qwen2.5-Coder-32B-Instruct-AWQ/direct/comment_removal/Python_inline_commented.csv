@@ -1,0 +1,47 @@
+id,version,status,expected,actual,error
+s596918302,commented,success,,,
+s545439898,commented,runtime_failed,,,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/Python/s545439898_commented.py"", line 2, in <module>
+    giving_numbers = [int(input()) for _ in range(count)]
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/Python/s545439898_commented.py"", line 2, in <listcomp>
+    giving_numbers = [int(input()) for _ in range(count)]
+ValueError: invalid literal for int() with base 10: '1 2 3 4 5'
+"
+s196249385,commented,success,,,
+s456888268,commented,test_failed,4,,
+s287007304,commented,success,,,
+s937747608,commented,runtime_failed,,,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/Python/s937747608_commented.py"", line 1, in <module>
+    a = int(input())
+ValueError: invalid literal for int() with base 10: '3 5 2 7'
+"
+s452855095,commented,success,,,
+s504715611,commented,success,,,
+s511234019,commented,runtime_failed,,,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/Python/s511234019_commented.py"", line 1, in <module>
+    a = int(input())
+ValueError: invalid literal for int() with base 10: '3 1'
+"
+s725559666,commented,runtime_failed,,,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/Python/s725559666_commented.py"", line 1, in <module>
+    a = int(input())
+ValueError: invalid literal for int() with base 10: '1 3 8'
+"
+s185737640,commented,success,,,
+s826491904,commented,runtime_failed,,,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/Python/s826491904_commented.py"", line 11, in <module>
+    main()
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/Python/s826491904_commented.py"", line 3, in main
+    max_val, min_val = map(int, input().split())
+ValueError: too many values to unpack (expected 2)
+"
+s831281137,commented,success,,,
+s527301188,commented,success,,,
+s012761786,commented,success,,,
+s063482767,commented,runtime_failed,,,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/Python/s063482767_commented.py"", line 16, in <module>
+    main()
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/Python/s063482767_commented.py"", line 7, in main
+    heapq.heappush(queue, int(input()))
+ValueError: invalid literal for int() with base 10: '3 8 5 1'
+"

@@ -1,0 +1,142 @@
+id,status,expected,actual,error
+s596918302,success,,,
+s283652523,success,,,
+s584572995,test_failed,125000001,750000005,
+s888333881,runtime_failed,,,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/Python/s888333881_commented.py"", line 1, in <module>
+    ERROR
+NameError: name 'ERROR' is not defined
+"
+s545439898,compile_failed,,,"  File ""output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/Python/s545439898_commented.py"", line 1
+    Both translations are correct. Here is one of the correct translations:
+         ^^^^^^^^^^^^
+SyntaxError: invalid syntax
+"
+s893190600,compile_failed,,,"  File ""output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/Python/s893190600_commented.py"", line 255
+    def del(self, from_node, to_node):
+        ^^^
+SyntaxError: invalid syntax
+"
+s580342216,runtime_failed,,,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/Python/s580342216_commented.py"", line 1, in <module>
+    ERROR
+NameError: name 'ERROR' is not defined
+"
+s196249385,success,,,
+s456888268,success,,,
+s466963472,success,,,
+s863488345,test_failed,"*....*
+......
+..-...
+..>#..
+
+<.
+..
+
+^-#**
+.-.#*
+.-..#
+
+.....
+.***.
+..*..
+..*..
+....v",,
+s127819686,runtime_failed,,,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/Python/s127819686_commented.py"", line 1, in <module>
+    a = int(input())
+ValueError: invalid literal for int() with base 10: '81 58'
+"
+s287007304,success,,,
+s937747608,runtime_failed,,,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/Python/s937747608_commented.py"", line 1, in <module>
+    a = int(input())
+ValueError: invalid literal for int() with base 10: '3 5 2 7'
+"
+s824230885,success,,,
+s452855095,success,,,
+s378126458,success,,,
+s221078931,success,,,
+s081988820,success,,,
+s504715611,success,,,
+s684030429,runtime_failed,,,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/Python/s684030429_commented.py"", line 111, in <module>
+    main.solve()
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/Python/s684030429_commented.py"", line 8, in solve
+    a = self.ni()
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/Python/s684030429_commented.py"", line 13, in ni
+    return int(self.sc.readline().strip())
+ValueError: invalid literal for int() with base 10: '12 4'
+"
+s967693306,success,,,
+s685734377,test_failed,2,,
+s041542819,success,,,
+s936984238,runtime_failed,,,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/Python/s936984238_commented.py"", line 24, in <module>
+    main()
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/Python/s936984238_commented.py"", line 21, in main
+    solve()
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/Python/s936984238_commented.py"", line 14, in solve
+    print(total // (number - 2))
+ZeroDivisionError: integer division or modulo by zero
+"
+s867221485,success,,,
+s511234019,runtime_failed,,,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/Python/s511234019_commented.py"", line 1, in <module>
+    a = int(input())
+ValueError: invalid literal for int() with base 10: '3 1'
+"
+s910447421,success,,,
+s725559666,runtime_failed,,,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/Python/s725559666_commented.py"", line 1, in <module>
+    a = int(input())
+ValueError: invalid literal for int() with base 10: '1 3 8'
+"
+s573993837,success,,,
+s185737640,compile_failed,,,"  File ""output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/Python/s185737640_commented.py"", line 1
+    Both provided translations are correct. The Negative side's version is slightly more efficient and readable due to the use of a `mid` variable, but the difference is minimal.
+                                                             ^
+SyntaxError: unterminated string literal (detected at line 1)
+"
+s780275612,success,,,
+s826491904,runtime_failed,,,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/Python/s826491904_commented.py"", line 12, in <module>
+    solve()
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/Python/s826491904_commented.py"", line 5, in solve
+    max_val, min_val = map(int, input.readline().split())
+ValueError: too many values to unpack (expected 2)
+"
+s316260310,test_failed,4,,
+s749703010,success,,,
+s380356166,runtime_failed,,,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/Python/s380356166_commented.py"", line 35, in <module>
+    main()
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/Python/s380356166_commented.py"", line 32, in main
+    solver.solve(1, in_stream, out)
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/Python/s380356166_commented.py"", line 6, in solve
+    K = in_stream.nextInt()
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/Python/s380356166_commented.py"", line 20, in nextInt
+    return int(self.in_stream.readline())
+ValueError: invalid literal for int() with base 10: '2 2\n'
+"
+s831281137,success,,,
+s527301188,success,,,
+s514557145,compile_failed,,,"  File ""output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/Python/s514557145_commented.py"", line 140
+    raise IndexError(f""Range [{l}, {r}) is
+                     ^
+SyntaxError: unterminated string literal (detected at line 140)
+"
+s012761786,runtime_failed,,,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/Python/s012761786_commented.py"", line 15, in <module>
+    n = nextLong()
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/Python/s012761786_commented.py"", line 10, in nextLong
+    return int(next())
+ValueError: invalid literal for int() with base 10: '5 2 4'
+"
+s612878490,success,,,
+s010698290,runtime_failed,,,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/Python/s010698290_commented.py"", line 1, in <module>
+    ERROR
+NameError: name 'ERROR' is not defined
+"
+s063482767,success,,,

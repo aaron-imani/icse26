@@ -1,0 +1,51 @@
+id,version,status,expected,actual,error
+s283652523,comments_removed,success,,,
+s466963472,comments_removed,success,,,
+s863488345,comments_removed,success,,,
+s378126458,comments_removed,success,,,
+s081988820,comments_removed,success,,,
+s684030429,comments_removed,runtime_failed,,,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/Python/s684030429_comments_removed.py"", line 110, in <module>
+    Main().solve()
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/Python/s684030429_comments_removed.py"", line 8, in solve
+    a = self.ni()
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/Python/s684030429_comments_removed.py"", line 13, in ni
+    return int(self.sc.readline().strip())
+ValueError: invalid literal for int() with base 10: '12 4'
+"
+s685734377,comments_removed,success,,,
+s041542819,comments_removed,runtime_failed,,,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/Python/s041542819_comments_removed.py"", line 98, in <module>
+    main()
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/Python/s041542819_comments_removed.py"", line 67, in main
+    solver.solve(1, in_, out)
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/Python/s041542819_comments_removed.py"", line 78, in solve
+    s[i + 1] = in_.longs()
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/Python/s041542819_comments_removed.py"", line 28, in longs
+    return int(self.string())
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/Python/s041542819_comments_removed.py"", line 20, in string
+    val = self._read()
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/Python/s041542819_comments_removed.py"", line 17, in _read
+    return self.buffer[self.index]
+IndexError: list index out of range
+"
+s936984238,comments_removed,runtime_failed,,,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/Python/s936984238_comments_removed.py"", line 24, in <module>
+    main()
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/Python/s936984238_comments_removed.py"", line 5, in main
+    solve()
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/Python/s936984238_comments_removed.py"", line 21, in solve
+    print(total // (number - 2))
+ZeroDivisionError: integer division or modulo by zero
+"
+s867221485,comments_removed,success,,,
+s910447421,comments_removed,runtime_failed,,,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/Python/s910447421_comments_removed.py"", line 86, in <module>
+    solve()
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/Python/s910447421_comments_removed.py"", line 47, in solve
+    ans = min(ans, check(p, q))
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/Python/s910447421_comments_removed.py"", line 57, in check
+    if not taken[i]:
+IndexError: list index out of range
+"
+s612878490,comments_removed,success,,,

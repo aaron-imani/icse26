@@ -1,0 +1,73 @@
+id,version,status,error,expected,actual
+s596918302,commented,compile_failed,"output/Qwen/QwQ-32B-AWQ/codenet/direct/inline/comment/direct/Java/Go/s596918302_commented.go:1:1: expected 'package', found 'import'
+",,
+s283652523,commented,success,,,
+s584572995,commented,compile_failed,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/direct/inline/comment/direct/Java/Go/s584572995_commented.go:73:20: undefined: 怏
+",,
+s888333881,commented,compile_failed,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/direct/inline/comment/direct/Java/Go/s888333881_commented.go:18:20: undefined: 遑
+output/Qwen/QwQ-32B-AWQ/codenet/direct/inline/comment/direct/Java/Go/s888333881_commented.go:92:5: invalid operation: dw %= cntBits (mismatched types int64 and int)
+output/Qwen/QwQ-32B-AWQ/codenet/direct/inline/comment/direct/Java/Go/s888333881_commented.go:104:5: invalid operation: dw %= cntBits (mismatched types int64 and int)
+",,
+s545439898,commented,test_failed,,5 4 3 2 1,0 0 0 0 0
+s893190600,commented,success,,,
+s580342216,commented,success,,,
+s196249385,commented,compile_failed,"output/Qwen/QwQ-32B-AWQ/codenet/direct/inline/comment/direct/Java/Go/s196249385_commented.go:1:1: expected 'package', found 'import'
+",,
+s456888268,commented,compile_failed,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/direct/inline/comment/direct/Java/Go/s456888268_commented.go:7:2: imported and not used: ""strings""
+",,
+s466963472,commented,success,,,
+s863488345,commented,compile_failed,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/direct/inline/comment/direct/Java/Go/s863488345_commented.go:70:3: bomberActNum declared but not used
+",,
+s127819686,commented,success,,,
+s287007304,commented,success,,,
+s937747608,commented,success,,,
+s824230885,commented,compile_failed,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/direct/inline/comment/direct/Java/Go/s824230885_commented.go:14:2: N declared but not used
+",,
+s452855095,commented,success,,,
+s378126458,commented,success,,,
+s221078931,commented,compile_failed,"output/Qwen/QwQ-32B-AWQ/codenet/direct/inline/comment/direct/Java/Go/s221078931_commented.go:1:1: expected 'package', found 'import'
+",,
+s081988820,commented,compile_failed,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/direct/inline/comment/direct/Java/Go/s081988820_commented.go:60:2: undefined: fmt
+",,
+s504715611,commented,success,,,
+s684030429,commented,success,,,
+s967693306,commented,success,,,
+s685734377,commented,test_failed,,2,0
+s041542819,commented,success,,,
+s936984238,commented,runtime_failed,"342
+7
+300
+326
+",,
+s867221485,commented,compile_failed,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/direct/inline/comment/direct/Java/Go/s867221485_commented.go:22:2: first declared but not used
+output/Qwen/QwQ-32B-AWQ/codenet/direct/inline/comment/direct/Java/Go/s867221485_commented.go:42:9: undefined: 嘲
+",,
+s511234019,commented,success,,,
+s910447421,commented,success,,,
+s725559666,commented,success,,,
+s573993837,commented,success,,,
+s185737640,commented,success,,,
+s780275612,commented,success,,,
+s826491904,commented,success,,,
+s316260310,commented,success,,,
+s749703010,commented,success,,,
+s380356166,commented,success,,,
+s831281137,commented,success,,,
+s527301188,commented,success,,,
+s514557145,commented,compile_failed,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/direct/inline/comment/direct/Java/Go/s514557145_commented.go:22:16: undefined: math
+output/Qwen/QwQ-32B-AWQ/codenet/direct/inline/comment/direct/Java/Go/s514557145_commented.go:159:3: level declared but not used
+",,
+s012761786,commented,success,,,
+s612878490,commented,test_failed,,4,16
+s010698290,commented,test_failed,,2 2,0 0
+s063482767,commented,compile_failed,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/direct/inline/comment/direct/Java/Go/s063482767_commented.go:38:10: syntax error: unexpected y at end of statement
+",,

@@ -1,0 +1,167 @@
+id,status,expected,actual,error
+s596918302,success,,,
+s283652523,success,,,
+s584572995,test_failed,125000001,750000005,
+s888333881,test_failed,"2
+1
+1",,
+s545439898,runtime_failed,,,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/cot/Java/Python/s545439898_comments_removed.py"", line 14, in <module>
+    main()
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/cot/Java/Python/s545439898_comments_removed.py"", line 5, in main
+    giving_numbers = [int(input()) for _ in range(count)]
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/cot/Java/Python/s545439898_comments_removed.py"", line 5, in <listcomp>
+    giving_numbers = [int(input()) for _ in range(count)]
+ValueError: invalid literal for int() with base 10: '1 2 3 4 5'
+"
+s893190600,test_failed,Yes,,
+s580342216,test_failed,4,,
+s196249385,success,,,
+s456888268,success,,,
+s466963472,test_failed,"68440000
+70210000","75640000
+73810000",
+s863488345,success,,,
+s127819686,runtime_failed,,,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/cot/Java/Python/s127819686_comments_removed.py"", line 12, in <module>
+    main()
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/cot/Java/Python/s127819686_comments_removed.py"", line 4, in main
+    a = int(input())
+ValueError: invalid literal for int() with base 10: '81 58'
+"
+s287007304,success,,,
+s937747608,runtime_failed,,,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/cot/Java/Python/s937747608_comments_removed.py"", line 14, in <module>
+    main()
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/cot/Java/Python/s937747608_comments_removed.py"", line 4, in main
+    a = int(input())
+ValueError: invalid literal for int() with base 10: '3 5 2 7'
+"
+s824230885,runtime_failed,,,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/cot/Java/Python/s824230885_comments_removed.py"", line 89, in <module>
+    main()
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/cot/Java/Python/s824230885_comments_removed.py"", line 74, in main
+    solve()
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/cot/Java/Python/s824230885_comments_removed.py"", line 79, in solve
+    lst = next_int_array()
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/cot/Java/Python/s824230885_comments_removed.py"", line 52, in next_int_array
+    input_data = next_str_array()
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/cot/Java/Python/s824230885_comments_removed.py"", line 46, in next_str_array
+    return myconv(next_input(), 8)
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/cot/Java/Python/s824230885_comments_removed.py"", line 64, in myconv
+    raise TypeError(""Don't join"")
+TypeError: Don't join
+"
+s452855095,success,,,
+s378126458,success,,,
+s221078931,success,,,
+s081988820,test_failed,12,,
+s504715611,success,,,
+s684030429,runtime_failed,,,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/cot/Java/Python/s684030429_comments_removed.py"", line 16, in <module>
+    main()
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/cot/Java/Python/s684030429_comments_removed.py"", line 13, in main
+    solve()
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/cot/Java/Python/s684030429_comments_removed.py"", line 4, in solve
+    a = ni()
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/cot/Java/Python/s684030429_comments_removed.py"", line 10, in ni
+    return int(input())
+ValueError: invalid literal for int() with base 10: '12 4'
+"
+s967693306,success,,,
+s685734377,runtime_failed,,,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/cot/Java/Python/s685734377_comments_removed.py"", line 54, in next
+    self.st = StringTokenizer(self.br.readline())
+NameError: name 'StringTokenizer' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/cot/Java/Python/s685734377_comments_removed.py"", line 60, in <module>
+    Main.main()
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/cot/Java/Python/s685734377_comments_removed.py"", line 11, in main
+    solver.solve(1, in_, out)
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/cot/Java/Python/s685734377_comments_removed.py"", line 15, in solve
+    n = in_.nextInt()
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/cot/Java/Python/s685734377_comments_removed.py"", line 49, in nextInt
+    return int(self.next())
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/cot/Java/Python/s685734377_comments_removed.py"", line 56, in next
+    self.st = StringTokenizer('')
+NameError: name 'StringTokenizer' is not defined
+"
+s041542819,success,,,
+s936984238,runtime_failed,,,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/cot/Java/Python/s936984238_comments_removed.py"", line 24, in <module>
+    main()
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/cot/Java/Python/s936984238_comments_removed.py"", line 21, in main
+    solve()
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/cot/Java/Python/s936984238_comments_removed.py"", line 17, in solve
+    print(total // (number - 2))
+ZeroDivisionError: integer division or modulo by zero
+"
+s867221485,success,,,
+s511234019,runtime_failed,,,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/cot/Java/Python/s511234019_comments_removed.py"", line 10, in <module>
+    main()
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/cot/Java/Python/s511234019_comments_removed.py"", line 2, in main
+    a = int(input())
+ValueError: invalid literal for int() with base 10: '3 1'
+"
+s910447421,test_failed,1,,
+s725559666,runtime_failed,,,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/cot/Java/Python/s725559666_comments_removed.py"", line 13, in <module>
+    main()
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/cot/Java/Python/s725559666_comments_removed.py"", line 4, in main
+    a = int(input())
+ValueError: invalid literal for int() with base 10: '1 3 8'
+"
+s573993837,test_failed,1,,
+s185737640,success,,,
+s780275612,success,,,
+s826491904,success,,,
+s316260310,compile_failed,,,"  File ""output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/cot/Java/Python/s316260310_comments_removed.py"", line 135
+    self.in = is_input
+         ^^
+SyntaxError: invalid syntax
+"
+s749703010,test_failed,1,,
+s380356166,runtime_failed,,,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/cot/Java/Python/s380356166_comments_removed.py"", line 30, in <module>
+    main()
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/cot/Java/Python/s380356166_comments_removed.py"", line 27, in main
+    solver.solve(1, in_stream, out)
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/cot/Java/Python/s380356166_comments_removed.py"", line 6, in solve
+    K = int(in_stream.readline())
+ValueError: invalid literal for int() with base 10: '2 2\n'
+"
+s831281137,runtime_failed,,,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/cot/Java/Python/s831281137_comments_removed.py"", line 31, in <module>
+    main()
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/cot/Java/Python/s831281137_comments_removed.py"", line 7, in main
+    N = nint()
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/cot/Java/Python/s831281137_comments_removed.py"", line 29, in nint
+    return int(sc.readline().strip())
+ValueError: invalid literal for int() with base 10: '4 5'
+"
+s527301188,success,,,
+s514557145,test_failed,"11222211
+77772211
+77333333
+72333333
+72311333",,
+s012761786,runtime_failed,,,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/cot/Java/Python/s012761786_comments_removed.py"", line 28, in <module>
+    main()
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/cot/Java/Python/s012761786_comments_removed.py"", line 4, in main
+    n = int(input())
+ValueError: invalid literal for int() with base 10: '5 2 4'
+"
+s612878490,test_failed,4,3,
+s010698290,success,,,
+s063482767,runtime_failed,,,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/cot/Java/Python/s063482767_comments_removed.py"", line 13, in <module>
+    main()
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/cot/Java/Python/s063482767_comments_removed.py"", line 7, in main
+    queue.append(int(input()))
+ValueError: invalid literal for int() with base 10: '3 8 5 1'
+"

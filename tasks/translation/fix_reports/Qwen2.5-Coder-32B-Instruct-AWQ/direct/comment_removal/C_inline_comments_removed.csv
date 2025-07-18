@@ -1,0 +1,50 @@
+id,version,status,error,expected,actual
+s596918302,comments_removed,success,,,
+s545439898,comments_removed,success,,,
+s196249385,comments_removed,success,,,
+s456888268,comments_removed,success,,,
+s287007304,comments_removed,success,,,
+s937747608,comments_removed,success,,,
+s452855095,comments_removed,success,,,
+s504715611,comments_removed,compile_failed,"output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C/s504715611_comments_removed.c: In function ‘modlcm’:
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C/s504715611_comments_removed.c:48:20: warning: implicit declaration of function ‘modint’ [-Wimplicit-function-declaration]
+   48 |     return a * b * modint(gcd(a, b), mod);
+      |                    ^~~~~~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C/s504715611_comments_removed.c:48:27: warning: implicit declaration of function ‘gcd’ [-Wimplicit-function-declaration]
+   48 |     return a * b * modint(gcd(a, b), mod);
+      |                           ^~~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C/s504715611_comments_removed.c: At top level:
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C/s504715611_comments_removed.c:51:6: error: conflicting types for ‘gcd’; have ‘long int(long int,  long int)’
+   51 | long gcd(long a, long b) {
+      |      ^~~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C/s504715611_comments_removed.c:48:27: note: previous implicit declaration of ‘gcd’ with type ‘int()’
+   48 |     return a * b * modint(gcd(a, b), mod);
+      |                           ^~~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C/s504715611_comments_removed.c: In function ‘isPrime’:
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C/s504715611_comments_removed.c:110:20: warning: implicit declaration of function ‘sqrt’ [-Wimplicit-function-declaration]
+  110 |     long d = (long)sqrt(n);
+      |                    ^~~~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C/s504715611_comments_removed.c:5:1: note: include ‘<math.h>’ or provide a declaration of ‘sqrt’
+    4 | #include <stdbool.h>
+  +++ |+#include <math.h>
+    5 | 
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C/s504715611_comments_removed.c:110:20: warning: incompatible implicit declaration of built-in function ‘sqrt’ [-Wbuiltin-declaration-mismatch]
+  110 |     long d = (long)sqrt(n);
+      |                    ^~~~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C/s504715611_comments_removed.c:110:20: note: include ‘<math.h>’ or provide a declaration of ‘sqrt’
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C/s504715611_comments_removed.c: At top level:
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C/s504715611_comments_removed.c:211:6: error: conflicting types for ‘modint’; have ‘long int(long int,  long int)’
+  211 | long modint(long a, long m) {
+      |      ^~~~~~
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/Java/C/s504715611_comments_removed.c:48:20: note: previous implicit declaration of ‘modint’ with type ‘int()’
+   48 |     return a * b * modint(gcd(a, b), mod);
+      |                    ^~~~~~
+",,
+s511234019,comments_removed,success,,,
+s725559666,comments_removed,success,,,
+s185737640,comments_removed,success,,,
+s826491904,comments_removed,success,,,
+s831281137,comments_removed,success,,,
+s527301188,comments_removed,test_failed,,3,1
+s012761786,comments_removed,success,,,
+s063482767,comments_removed,success,,,

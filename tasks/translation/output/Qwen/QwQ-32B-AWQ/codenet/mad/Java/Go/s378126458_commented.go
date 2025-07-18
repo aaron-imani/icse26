@@ -1,0 +1,1 @@
+The Go code correctly translates the Java solution. It properly constructs the prefix sum array for 'AC' pairs and handles 1-based to 0-based index conversions in queries. The loops avoid overflow, and edge cases are managed. The code is correct.

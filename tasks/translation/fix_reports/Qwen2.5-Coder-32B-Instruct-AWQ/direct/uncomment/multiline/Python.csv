@@ -1,0 +1,60 @@
+id,version,status,expected,actual,error
+s584572995,commented,test_failed,125000001,750000005,
+s888333881,commented,success,,,
+s893190600,commented,runtime_failed,,,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/multiline/uncomment/direct/Java/Python/s893190600_commented.py"", line 71, in <module>
+    main()
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/multiline/uncomment/direct/Java/Python/s893190600_commented.py"", line 68, in main
+    solver.solve()
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/multiline/uncomment/direct/Java/Python/s893190600_commented.py"", line 11, in solve
+    H = self.ni()
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/multiline/uncomment/direct/Java/Python/s893190600_commented.py"", line 35, in ni
+    return int(self.ns())
+ValueError: invalid literal for int() with base 10: '3 3'
+"
+s580342216,commented,test_failed,4,,
+s127819686,commented,runtime_failed,,,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/multiline/uncomment/direct/Java/Python/s127819686_commented.py"", line 1, in <module>
+    a = int(input())
+ValueError: invalid literal for int() with base 10: '81 58'
+"
+s824230885,commented,runtime_failed,,,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/multiline/uncomment/direct/Java/Python/s824230885_commented.py"", line 15, in <module>
+    solve()
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/multiline/uncomment/direct/Java/Python/s824230885_commented.py"", line 6, in solve
+    list = list(map(int, input[1:]))
+UnboundLocalError: local variable 'list' referenced before assignment
+"
+s221078931,commented,success,,,
+s967693306,commented,success,,,
+s573993837,commented,success,,,
+s780275612,commented,success,,,
+s316260310,commented,runtime_failed,,,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/multiline/uncomment/direct/Java/Python/s316260310_commented.py"", line 129, in <module>
+    solver = Solver()
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/multiline/uncomment/direct/Java/Python/s316260310_commented.py"", line 6, in __init__
+    self.hp = Helper()
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/multiline/uncomment/direct/Java/Python/s316260310_commented.py"", line 51, in __init__
+    self.rnd = random.Random()
+NameError: name 'random' is not defined
+"
+s749703010,commented,success,,,
+s380356166,commented,runtime_failed,,,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/multiline/uncomment/direct/Java/Python/s380356166_commented.py"", line 41, in <module>
+    main()
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/multiline/uncomment/direct/Java/Python/s380356166_commented.py"", line 38, in main
+    solver.solve(1, in_stream, out)
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/multiline/uncomment/direct/Java/Python/s380356166_commented.py"", line 6, in solve
+    K = int(in_stream.readline())
+ValueError: invalid literal for int() with base 10: '2 2\\n'
+"
+s514557145,commented,runtime_failed,,,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/multiline/uncomment/direct/Java/Python/s514557145_commented.py"", line 289, in <module>
+    lazy_seg_tree.apply_range(l, r + 1, F(D, N))
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/multiline/uncomment/direct/Java/Python/s514557145_commented.py"", line 144, in apply_range
+    self.Dat[l] = self.Mapping(f, self.Dat[l])
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/multiline/uncomment/direct/Java/Python/s514557145_commented.py"", line 20, in map
+    c = (tenmod[f.N - s.l] - tenmod[f.N - s.r - 1]) % MOD2
+TypeError: list indices must be integers or slices, not float
+"
+s010698290,commented,test_failed,2 2,0 0,

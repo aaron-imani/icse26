@@ -1,0 +1,139 @@
+id,status,error,expected,actual
+s596918302,success,,,
+s283652523,success,,,
+s584572995,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/Go/s584572995_commented.go:82:19: undefined: io
+",,
+s888333881,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/Go/s888333881_commented.go:55:1: syntax error: unexpected EOF, expecting type
+",,
+s545439898,test_failed,,5 4 3 2 1,"Error reading number: strconv.Atoi: parsing ""1 2 3 4 5"": invalid syntax"
+s893190600,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/Go/s893190600_commented.go:5:2: imported and not used: ""fmt""
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/Go/s893190600_commented.go:8:2: imported and not used: ""strings""
+",,
+s580342216,success,,,
+s196249385,success,,,
+s456888268,compile_failed,"output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/Go/s456888268_commented.go:1:1: expected 'package', found ERROR
+",,
+s466963472,test_failed,,"68440000
+70210000",68440000
+s863488345,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/Go/s863488345_commented.go:85:5: undefined: xOfBomber
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/Go/s863488345_commented.go:86:5: undefined: yOfBomber
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/Go/s863488345_commented.go:87:16: undefined: xOfBomber
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/Go/s863488345_commented.go:87:27: undefined: yOfBomber
+",,
+s127819686,success,,,
+s287007304,success,,,
+s937747608,success,,,
+s824230885,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/Go/s824230885_commented.go:37:2: N declared but not used
+",,
+s452855095,success,,,
+s378126458,success,,,
+s221078931,test_failed,,"1 3
+2 3
+1 4
+2 4
+3 4
+1 8
+4 7
+2 8
+3 140
+89 109","1 3
+2 3
+1 4
+2 4
+3 4
+1 8
+2 8
+2 8
+3 140
+89 109"
+s081988820,success,,,
+s504715611,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/Go/s504715611_commented.go:281:12: newline in rune literal
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/Go/s504715611_commented.go:282:1: more than one character in rune literal
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/Go/s504715611_commented.go:282:13: syntax error: unexpected literal ' {, expecting { after if clause
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/Go/s504715611_commented.go:282:16: newline in rune literal
+",,
+s684030429,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/Go/s684030429_commented.go:100:34: m redeclared in this block
+	output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/Go/s684030429_commented.go:100:7: other declaration of m
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/Go/s684030429_commented.go:102:19: invalid operation: j < m (mismatched types int and *Main)
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/Go/s684030429_commented.go:108:36: m redeclared in this block
+	output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/Go/s684030429_commented.go:108:7: other declaration of m
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/Go/s684030429_commented.go:110:19: invalid operation: j < m (mismatched types int and *Main)
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/Go/s684030429_commented.go:116:38: m redeclared in this block
+	output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/Go/s684030429_commented.go:116:7: other declaration of m
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/Go/s684030429_commented.go:118:19: invalid operation: j < m (mismatched types int and *Main)
+",,
+s967693306,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/Go/s967693306_commented.go:84:6: inv redeclared in this block
+	output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/Go/s967693306_commented.go:19:2: other declaration of inv
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/Go/s967693306_commented.go:162:12: cannot use list[i] (variable of type string) as type byte in assignment
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/Go/s967693306_commented.go:176:14: invalid operation: pivot < list[i] (mismatched types byte and string)
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/Go/s967693306_commented.go:177:17: invalid operation: list[i] < min (mismatched types string and byte)
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/Go/s967693306_commented.go:178:11: cannot use list[i] (variable of type string) as type byte in assignment
+",,
+s685734377,success,,,
+s041542819,success,,,
+s936984238,success,,,
+s867221485,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/Go/s867221485_commented.go:8:2: imported and not used: ""strings""
+",,
+s511234019,success,,,
+s910447421,runtime_failed,"panic: EOF
+
+goroutine 1 [running]:
+main.(*FastScanner).next(0xc000196eb8)
+	/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/Go/s910447421_commented.go:110 +0xd7
+main.(*FastScanner).nextInt(0x4328f6?)
+	/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/Go/s910447421_commented.go:122 +0x19
+main.main()
+	/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/Go/s910447421_commented.go:22 +0x1d5
+",,
+s725559666,success,,,
+s573993837,success,,,
+s185737640,success,,,
+s780275612,success,,,
+s826491904,test_failed,,7,0
+s316260310,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/Go/s316260310_commented.go:7:2: imported and not used: ""strconv""
+",,
+s749703010,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/Go/s749703010_commented.go:90:19: undefined: io
+",,
+s380356166,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/Go/s380356166_commented.go:7:2: imported and not used: ""strconv""
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/Go/s380356166_commented.go:8:2: imported and not used: ""strings""
+",,
+s831281137,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/Go/s831281137_commented.go:8:2: imported and not used: ""strings""
+",,
+s527301188,success,,,
+s514557145,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/Go/s514557145_commented.go:155:25: LazySegTree.pushTo redeclared in this block
+	output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/Go/s514557145_commented.go:149:25: other declaration of pushTo
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/Go/s514557145_commented.go:174:25: LazySegTree.updateFrom redeclared in this block
+	output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/Go/s514557145_commented.go:166:25: other declaration of updateFrom
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/Go/s514557145_commented.go:232:16: too many arguments in call to lst.pushTo
+	have (int, int)
+	want (int)
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/Go/s514557145_commented.go:251:20: too many arguments in call to lst.updateFrom
+	have (int, int)
+	want (int)
+",,
+s012761786,success,,,
+s612878490,test_failed,,4,"Error parsing A: strconv.Atoi: parsing ""1 7"": invalid syntax"
+s010698290,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/Go/s010698290_commented.go:7:2: imported and not used: ""strconv""
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/Go/s010698290_commented.go:8:2: imported and not used: ""strings""
+",,
+s063482767,runtime_failed,"panic: runtime error: index out of range [0] with length 0
+
+goroutine 1 [running]:
+main.main()
+	/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/mad/Java/Go/s063482767_commented.go:40 +0x27f
+",,

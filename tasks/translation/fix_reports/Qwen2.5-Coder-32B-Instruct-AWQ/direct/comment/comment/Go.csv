@@ -1,0 +1,150 @@
+id,version,status,error,expected,actual
+s596918302,commented,success,,,
+s283652523,commented,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/comment/comment/direct/Java/Go/s283652523_commented.go:7:2: imported and not used: ""strconv""
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/comment/comment/direct/Java/Go/s283652523_commented.go:8:2: imported and not used: ""strings""
+",,
+s584572995,commented,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/comment/comment/direct/Java/Go/s584572995_commented.go:44:13: invalid operation: mulsum + mul (mismatched types int and int64)
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/comment/comment/direct/Java/Go/s584572995_commented.go:47:9: invalid operation: mulsum + (cases - 1 + int64(mod)) % int64(mod) (mismatched types int and int64)
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/comment/comment/direct/Java/Go/s584572995_commented.go:81:19: undefined: io
+",,
+s888333881,commented,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/comment/comment/direct/Java/Go/s888333881_commented.go:207:23: cannot use n - p - 1 (value of type int) as type int64 in argument to pow10E97
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/comment/comment/direct/Java/Go/s888333881_commented.go:217:26: cannot use dw (variable of type int64) as type int in argument to countFlaged
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/comment/comment/direct/Java/Go/s888333881_commented.go:225:23: cannot use n - p - 1 (value of type int) as type int64 in argument to pow10E97
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/comment/comment/direct/Java/Go/s888333881_commented.go:234:26: cannot use dw (variable of type int64) as type int in argument to countFlaged
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/comment/comment/direct/Java/Go/s888333881_commented.go:328:21: invalid operation: d < min (mismatched types int and float64)
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/comment/comment/direct/Java/Go/s888333881_commented.go:329:10: cannot use d (variable of type int) as type float64 in assignment
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/comment/comment/direct/Java/Go/s888333881_commented.go:332:9: cannot use min (variable of type float64) as type int in return statement
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/comment/comment/direct/Java/Go/s888333881_commented.go:338:21: invalid operation: d < min (mismatched types int64 and float64)
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/comment/comment/direct/Java/Go/s888333881_commented.go:339:10: cannot use d (variable of type int64) as type float64 in assignment
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/comment/comment/direct/Java/Go/s888333881_commented.go:941:23: undefined: io
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/comment/comment/direct/Java/Go/s888333881_commented.go:339:10: too many errors
+",,
+s545439898,commented,success,,,
+s893190600,commented,success,,,
+s580342216,commented,success,,,
+s196249385,commented,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/comment/comment/direct/Java/Go/s196249385_commented.go:8:2: imported and not used: ""strings""
+",,
+s456888268,commented,success,,,
+s466963472,commented,success,,,
+s863488345,commented,runtime_failed,"panic: runtime error: index out of range [0] with length 0
+
+goroutine 1 [running]:
+main.(*Scanner).next(0xc0001ac040)
+	/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/comment/comment/direct/Java/Go/s863488345_commented.go:163 +0x1de
+main.(*Scanner).nextInt(0x0?)
+	/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/comment/comment/direct/Java/Go/s863488345_commented.go:178 +0x49
+main.main()
+	/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/comment/comment/direct/Java/Go/s863488345_commented.go:20 +0x56
+",,
+s127819686,commented,success,,,
+s287007304,commented,success,,,
+s937747608,commented,success,,,
+s824230885,commented,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/comment/comment/direct/Java/Go/s824230885_commented.go:17:2: N declared but not used
+",,
+s452855095,commented,success,,,
+s378126458,commented,success,,,
+s221078931,commented,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/comment/comment/direct/Java/Go/s221078931_commented.go:61:3: diag declared but not used
+",,
+s081988820,commented,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/comment/comment/direct/Java/Go/s081988820_commented.go:63:19: undefined: io
+",,
+s504715611,commented,success,,,
+s684030429,commented,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/comment/comment/direct/Java/Go/s684030429_commented.go:8:2: imported and not used: ""strings""
+",,
+s967693306,commented,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/comment/comment/direct/Java/Go/s967693306_commented.go:79:6: inv redeclared in this block
+	output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/comment/comment/direct/Java/Go/s967693306_commented.go:19:2: other declaration of inv
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/comment/comment/direct/Java/Go/s967693306_commented.go:156:12: cannot use list[i] (variable of type string) as type byte in assignment
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/comment/comment/direct/Java/Go/s967693306_commented.go:170:14: invalid operation: pivot < list[i] (mismatched types byte and string)
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/comment/comment/direct/Java/Go/s967693306_commented.go:171:17: invalid operation: list[i] < min (mismatched types string and byte)
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/comment/comment/direct/Java/Go/s967693306_commented.go:172:11: cannot use list[i] (variable of type string) as type byte in assignment
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/comment/comment/direct/Java/Go/s967693306_commented.go:179:2: undefined: sort
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/comment/comment/direct/Java/Go/s967693306_commented.go:189:4: undefined: sort
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/comment/comment/direct/Java/Go/s967693306_commented.go:231:19: undefined: io
+",,
+s685734377,commented,success,,,
+s041542819,commented,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/comment/comment/direct/Java/Go/s041542819_commented.go:43:4: cannot use max(sl, tl) (value of type int) as type int64 in argument to min
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/comment/comment/direct/Java/Go/s041542819_commented.go:43:8: cannot use sl (variable of type int64) as type int in argument to max
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/comment/comment/direct/Java/Go/s041542819_commented.go:43:12: cannot use tl (variable of type int64) as type int in argument to max
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/comment/comment/direct/Java/Go/s041542819_commented.go:44:4: cannot use max(sr, tr) (value of type int) as type int64 in argument to min
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/comment/comment/direct/Java/Go/s041542819_commented.go:44:8: cannot use sr (variable of type int64) as type int in argument to max
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/comment/comment/direct/Java/Go/s041542819_commented.go:44:12: cannot use tr (variable of type int64) as type int in argument to max
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/comment/comment/direct/Java/Go/s041542819_commented.go:85:13: strings.FieldsFunc (value of type func(s string, f func(rune) bool) []string) is not a type
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/comment/comment/direct/Java/Go/s041542819_commented.go:88:24: undefined: io
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/comment/comment/direct/Java/Go/s041542819_commented.go:95:20: invalid operation: l.tokenizer == nil (operator == not defined on untyped nil)
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/comment/comment/direct/Java/Go/s041542819_commented.go:143:23: undefined: io
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/comment/comment/direct/Java/Go/s041542819_commented.go:95:20: too many errors
+",,
+s936984238,commented,success,,,
+s867221485,commented,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/comment/comment/direct/Java/Go/s867221485_commented.go:8:2: imported and not used: ""strings""
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/comment/comment/direct/Java/Go/s867221485_commented.go:19:2: flag declared but not used
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/comment/comment/direct/Java/Go/s867221485_commented.go:23:2: first declared but not used
+",,
+s511234019,commented,success,,,
+s910447421,commented,runtime_failed,"panic: EOF
+
+goroutine 1 [running]:
+main.(*FastScanner).Next(0xc00019aeb8)
+	/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/comment/comment/direct/Java/Go/s910447421_commented.go:107 +0xb4
+main.(*FastScanner).NextInt(0x432e96?)
+	/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/comment/comment/direct/Java/Go/s910447421_commented.go:118 +0x19
+main.main()
+	/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/comment/comment/direct/Java/Go/s910447421_commented.go:20 +0x1d5
+",,
+s725559666,commented,success,,,
+s573993837,commented,success,,,
+s185737640,commented,success,,,
+s780275612,commented,success,,,
+s826491904,commented,success,,,
+s316260310,commented,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/comment/comment/direct/Java/Go/s316260310_commented.go:8:2: imported and not used: ""strings""
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/comment/comment/direct/Java/Go/s316260310_commented.go:19:9: undefined: rand
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/comment/comment/direct/Java/Go/s316260310_commented.go:31:9: undefined: rand
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/comment/comment/direct/Java/Go/s316260310_commented.go:31:33: undefined: time
+",,
+s749703010,commented,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/comment/comment/direct/Java/Go/s749703010_commented.go:30:7: undefined: bits
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/comment/comment/direct/Java/Go/s749703010_commented.go:37:11: cannot use min(ans, ff + dp((nf + (ff % 2)) % 2, i, msk | 1 << i)) (value of type int) as type float64 in assignment
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/comment/comment/direct/Java/Go/s749703010_commented.go:37:15: cannot use ans (variable of type float64) as type int in argument to min
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/comment/comment/direct/Java/Go/s749703010_commented.go:44:27: cannot use ans (variable of type float64) as type int in assignment
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/comment/comment/direct/Java/Go/s749703010_commented.go:45:9: cannot use ans (variable of type float64) as type int in return statement
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/comment/comment/direct/Java/Go/s749703010_commented.go:90:19: undefined: io
+",,
+s380356166,commented,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/comment/comment/direct/Java/Go/s380356166_commented.go:7:2: imported and not used: ""strconv""
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/comment/comment/direct/Java/Go/s380356166_commented.go:8:2: imported and not used: ""strings""
+",,
+s831281137,commented,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/comment/comment/direct/Java/Go/s831281137_commented.go:8:2: imported and not used: ""strings""
+",,
+s527301188,commented,success,,,
+s514557145,commented,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/comment/comment/direct/Java/Go/s514557145_commented.go:107:2: l declared but not used
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/comment/comment/direct/Java/Go/s514557145_commented.go:136:25: LazySegTree.pushTo redeclared in this block
+	output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/comment/comment/direct/Java/Go/s514557145_commented.go:130:25: other declaration of pushTo
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/comment/comment/direct/Java/Go/s514557145_commented.go:155:25: LazySegTree.updateFrom redeclared in this block
+	output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/comment/comment/direct/Java/Go/s514557145_commented.go:147:25: other declaration of updateFrom
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/comment/comment/direct/Java/Go/s514557145_commented.go:213:16: too many arguments in call to lst.pushTo
+	have (int, int)
+	want (int)
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/comment/comment/direct/Java/Go/s514557145_commented.go:232:20: too many arguments in call to lst.updateFrom
+	have (int, int)
+	want (int)
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/comment/comment/direct/Java/Go/s514557145_commented.go:349:70: cannot use S.mapFunc (value of type func(s S, f F) S) as type func(F, S) S in argument to NewLazySegTree
+",,
+s012761786,commented,success,,,
+s612878490,commented,test_failed,,4,16
+s010698290,commented,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/comment/comment/direct/Java/Go/s010698290_commented.go:7:2: imported and not used: ""strconv""
+output/Qwen/Qwen2.5-Coder-32B-Instruct-AWQ/codenet/direct/comment/comment/direct/Java/Go/s010698290_commented.go:8:2: imported and not used: ""strings""
+",,
+s063482767,commented,success,,,

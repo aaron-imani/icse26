@@ -1,0 +1,62 @@
+id,version,status,error,expected,actual
+s584572995,commented,success,,,
+s888333881,commented,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/multiline/uncomment/direct/Java/Go/s888333881_commented.go:7:2: imported and not used: ""strconv""
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/multiline/uncomment/direct/Java/Go/s888333881_commented.go:161:23: cannot use n - p - 1 (value of type int) as type int64 in argument to pow10E97
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/multiline/uncomment/direct/Java/Go/s888333881_commented.go:168:22: invalid operation: division by zero
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/multiline/uncomment/direct/Java/Go/s888333881_commented.go:177:23: cannot use n - p - 1 (value of type int) as type int64 in argument to pow10E97
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/multiline/uncomment/direct/Java/Go/s888333881_commented.go:183:22: invalid operation: division by zero
+",,
+s893190600,commented,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/multiline/uncomment/direct/Java/Go/s893190600_commented.go:7:2: imported and not used: ""strconv""
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/multiline/uncomment/direct/Java/Go/s893190600_commented.go:27:24: invalid operation: cannot take address of C[i][1:W + 1] (value of type []byte)
+",,
+s580342216,commented,success,,,
+s127819686,commented,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/multiline/uncomment/direct/Java/Go/s127819686_commented.go:15:1: syntax error: unexpected EOF, expecting }
+",,
+s824230885,commented,test_failed,,3,4
+s221078931,commented,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/multiline/uncomment/direct/Java/Go/s221078931_commented.go:51:3: diag declared but not used
+",,
+s967693306,commented,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/multiline/uncomment/direct/Java/Go/s967693306_commented.go:74:6: inv redeclared in this block
+	output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/multiline/uncomment/direct/Java/Go/s967693306_commented.go:16:2: other declaration of inv
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/multiline/uncomment/direct/Java/Go/s967693306_commented.go:166:17: invalid operation: list[i] < min (mismatched types rune and int)
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/multiline/uncomment/direct/Java/Go/s967693306_commented.go:174:2: undefined: sort
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/multiline/uncomment/direct/Java/Go/s967693306_commented.go:179:6: nextPermutation redeclared in this block
+	output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/multiline/uncomment/direct/Java/Go/s967693306_commented.go:144:6: other declaration of nextPermutation
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/multiline/uncomment/direct/Java/Go/s967693306_commented.go:184:4: undefined: sort
+",,
+s573993837,commented,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/multiline/uncomment/direct/Java/Go/s573993837_commented.go:30:43: cannot use m - n (value of type int64) as type int in argument to min
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/multiline/uncomment/direct/Java/Go/s573993837_commented.go:30:48: cannot use n (variable of type int64) as type int in argument to min
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/multiline/uncomment/direct/Java/Go/s573993837_commented.go:33:42: cannot use m - n (value of type int64) as type int in argument to min
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/multiline/uncomment/direct/Java/Go/s573993837_commented.go:33:47: cannot use n (variable of type int64) as type int in argument to min
+",,
+s780275612,commented,success,,,
+s316260310,commented,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/multiline/uncomment/direct/Java/Go/s316260310_commented.go:78:22: invalid operation: int(K) % int64(len(cycle)) (mismatched types int and int64)
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/multiline/uncomment/direct/Java/Go/s316260310_commented.go:85:8: undefined: rand
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/multiline/uncomment/direct/Java/Go/s316260310_commented.go:88:28: undefined: io
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/multiline/uncomment/direct/Java/Go/s316260310_commented.go:89:10: undefined: rand
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/multiline/uncomment/direct/Java/Go/s316260310_commented.go:89:34: undefined: time
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/multiline/uncomment/direct/Java/Go/s316260310_commented.go:90:4: h.reader undefined (type *Helper has no field or method reader)
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/multiline/uncomment/direct/Java/Go/s316260310_commented.go:91:4: h.writer undefined (type *Helper has no field or method writer)
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/multiline/uncomment/direct/Java/Go/s316260310_commented.go:95:14: h.reader undefined (type *Helper has no field or method reader)
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/multiline/uncomment/direct/Java/Go/s316260310_commented.go:96:10: undefined: strconv
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/multiline/uncomment/direct/Java/Go/s316260310_commented.go:96:23: undefined: strings
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/multiline/uncomment/direct/Java/Go/s316260310_commented.go:96:23: too many errors
+",,
+s749703010,commented,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/multiline/uncomment/direct/Java/Go/s749703010_commented.go:30:7: undefined: bits
+",,
+s380356166,commented,test_failed,,6,1
+s514557145,commented,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/multiline/uncomment/direct/Java/Go/s514557145_commented.go:7:2: imported and not used: ""strconv""
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/multiline/uncomment/direct/Java/Go/s514557145_commented.go:84:18: undefined: math
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/multiline/uncomment/direct/Java/Go/s514557145_commented.go:175:35: cannot use S{}.op (value of type func(s2 S) S) as type func(S, S) S in argument to NewLazySegTree
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/multiline/uncomment/direct/Java/Go/s514557145_commented.go:175:60: cannot use S{}.mapFunc (value of type func(f F) S) as type func(F, S) S in argument to NewLazySegTree
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/multiline/uncomment/direct/Java/Go/s514557145_commented.go:175:73: cannot use F{}.composite (value of type func(g F) F) as type func(F, F) F in argument to NewLazySegTree
+",,
+s010698290,commented,test_failed,,2 2,0 0

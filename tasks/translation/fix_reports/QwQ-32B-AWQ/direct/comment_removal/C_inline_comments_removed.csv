@@ -1,0 +1,42 @@
+id,version,status,error,expected,actual
+s596918302,comments_removed,compile_failed,"output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C/s596918302_comments_removed.c: In function ‘dpx’:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C/s596918302_comments_removed.c:69:58: error: expected ‘]’ before numeric constant
+   69 |             dp[i][in] = (dp[i-1][k] > dp[i-1][j] ? dp[i--1][k] : dp[i-1][j]) + arr[i][in];
+      |                                                          ^
+      |                                                          ]
+",,
+s545439898,comments_removed,success,,,
+s196249385,comments_removed,compile_failed,"output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C/s196249385_comments_removed.c: In function ‘main’:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C/s196249385_comments_removed.c:53:40: error: ‘瞠’ undeclared (first use in this function)
+   53 |             if ((current[i] & mask) != 瞠) {
+      |                                        ^~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C/s196249385_comments_removed.c:53:40: note: each undeclared identifier is reported only once for each function it appears in
+",,
+s456888268,comments_removed,success,,,
+s287007304,comments_removed,compile_failed,"output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C/s287007304_comments_removed.c: In function ‘main’:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C/s287007304_comments_removed.c:13:5: error: expected declaration or statement at end of input
+   13 |     return 0; // End of Code
+      |     ^~~~~~
+",,
+s937747608,comments_removed,success,,,
+s452855095,comments_removed,success,,,
+s504715611,comments_removed,compile_failed,"output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C/s504715611_comments_removed.c: In function ‘setArray’:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C/s504715611_comments_removed.c:198:29: error: ‘fs’ undeclared (first use in this function); did you mean ‘ffs’?
+  198 |         char *input = next(&fs);
+      |                             ^~
+      |                             ffs
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C/s504715611_comments_removed.c:198:29: note: each undeclared identifier is reported only once for each function it appears in
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C/s504715611_comments_removed.c: In function ‘lsetArray’:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C/s504715611_comments_removed.c:208:29: error: ‘fs’ undeclared (first use in this function); did you mean ‘ffs’?
+  208 |         char *input = next(&fs);
+      |                             ^~
+      |                             ffs
+",,
+s511234019,comments_removed,success,,,
+s725559666,comments_removed,success,,,
+s185737640,comments_removed,success,,,
+s826491904,comments_removed,success,,,
+s831281137,comments_removed,success,,,
+s527301188,comments_removed,test_failed,,3,
+s012761786,comments_removed,success,,,
+s063482767,comments_removed,success,,,

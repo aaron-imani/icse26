@@ -1,0 +1,1 @@
+The Python code is correct. It accurately translates the Java's logic, including the initial max_val=0 and the comparison condition. The code counts numbers >= current max, which aligns with the Java's behavior. Edge cases are properly handled.

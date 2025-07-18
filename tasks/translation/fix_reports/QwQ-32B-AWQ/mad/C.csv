@@ -1,0 +1,309 @@
+id,version,status,expected,actual,error
+s596918302,comments_removed,success,,,
+s596918302,commented,test_failed,210,1451263521,
+s283652523,comments_removed,success,,,
+s283652523,commented,success,,,
+s584572995,comments_removed,compile_failed,,,"output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/C/s584572995_comments_removed.c:1:1: error: unknown type name ‘The’
+    1 | The provided C code is correct and will produce the correct result under the problem constraints.
+      | ^~~
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/C/s584572995_comments_removed.c:1:14: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘C’
+    1 | The provided C code is correct and will produce the correct result under the problem constraints.
+      |              ^
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/C/s584572995_comments_removed.c:1:14: error: unknown type name ‘C’
+"
+s584572995,commented,compile_failed,,,"output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/C/s584572995_commented.c: In function ‘main’:
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/C/s584572995_commented.c:90:98: error: stray ‘\343’ in program
+   90 |     long long BN = (N * modpow(留下了正确的计算步骤，最终输出正确结果，正确处理了模运算和指针释放。) MOD;
+      |                                                                                                  ^~
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/C/s584572995_commented.c:90:32: error: ‘留下了正确的计算步骤，最终输出正确结果，正确处理了模运算和指针释放’ undeclared (first use in this function)
+   90 |     long long BN = (N * modpow(留下了正确的计算步骤，最终输出正确结果，正确处理了模运算和指针释放。) MOD;
+      |                                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/C/s584572995_commented.c:90:32: note: each undeclared identifier is reported only once for each function it appears in
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/C/s584572995_commented.c:90:25: error: too few arguments to function ‘modpow’
+   90 |     long long BN = (N * modpow(留下了正确的计算步骤，最终输出正确结果，正确处理了模运算和指针释放。) MOD;
+      |                         ^~~~~~
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/C/s584572995_commented.c:11:20: note: declared here
+   11 | unsigned long long modpow(unsigned long long x, unsigned long long y) {
+      |                    ^~~~~~
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/C/s584572995_commented.c:90:101: error: expected ‘)’ before numeric constant
+   90 |     long long BN = (N * modpow(留下了正确的计算步骤，最终输出正确结果，正确处理了模运算和指针释放。) MOD;
+      |                    ~                                                                                ^
+      |                                                                                                     )
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/C/s584572995_commented.c:102:1: error: expected ‘,’ or ‘;’ before ‘}’ token
+  102 | }
+      | ^
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/C/s584572995_commented.c:102:1: error: expected declaration or statement at end of input
+"
+s888333881,comments_removed,success,,,
+s888333881,commented,compile_failed,,,"output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/C/s888333881_commented.c: In function ‘nexL’:
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/C/s888333881_commented.c:72:36: error: ‘良い’ undeclared (first use in this function)
+   72 |     if (b < '0' || b > '9') return 良い
+      |                                    ^~~~
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/C/s888333881_commented.c:72:36: note: each undeclared identifier is reported only once for each function it appears in
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/C/s888333881_commented.c:72:40: error: expected ‘;’ before ‘while’
+   72 |     if (b < '0' || b > '9') return 良い
+      |                                        ^
+      |                                        ;
+   73 |     while (1) {
+      |     ~~~~~                               
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/C/s888333881_commented.c: In function ‘nexI’:
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/C/s888333881_commented.c:88:14: error: ‘INT_MIN’ undeclared (first use in this function)
+   88 |     if (nl < INT_MIN || nl > INT_MAX) return 0;
+      |              ^~~~~~~
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/C/s888333881_commented.c:5:1: note: ‘INT_MIN’ is defined in header ‘<limits.h>’; did you forget to ‘#include <limits.h>’?
+    4 | #include <string.h>
+  +++ |+#include <limits.h>
+    5 | 
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/C/s888333881_commented.c:88:30: error: ‘INT_MAX’ undeclared (first use in this function)
+   88 |     if (nl < INT_MIN || nl > INT_MAX) return 0;
+      |                              ^~~~~~~
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/C/s888333881_commented.c:88:30: note: ‘INT_MAX’ is defined in header ‘<limits.h>’; did you forget to ‘#include <limits.h>’?
+"
+s545439898,comments_removed,success,,,
+s545439898,commented,success,,,
+s893190600,comments_removed,success,,,
+s893190600,commented,success,,,
+s580342216,comments_removed,success,,,
+s580342216,commented,compile_failed,,,"output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/C/s580342216_commented.c: In function ‘compute_lcs’:
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/C/s580342216_commented.c:11:37: error: ‘只得’ undeclared (first use in this function)
+   11 |     int size = (sz_a + 1) * (sz_b + 只得 1);
+      |                                     ^~~~
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/C/s580342216_commented.c:11:37: note: each undeclared identifier is reported only once for each function it appears in
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/C/s580342216_commented.c:11:41: error: expected ‘)’ before numeric constant
+   11 |     int size = (sz_a + 1) * (sz_b + 只得 1);
+      |                             ~           ^~
+      |                                         )
+"
+s196249385,comments_removed,success,,,
+s196249385,commented,success,,,
+s456888268,comments_removed,success,,,
+s456888268,commented,success,,,
+s466963472,comments_removed,success,,,
+s466963472,commented,success,,,
+s863488345,comments_removed,compile_failed,,,"output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/C/s863488345_comments_removed.c: In function ‘moveBomber’:
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/C/s863488345_comments_removed.c:45:33: error: ‘罪’ undeclared (first use in this function)
+   45 |             while (currentCol > 罪? 0) {
+      |                                 ^~
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/C/s863488345_comments_removed.c:45:33: note: each undeclared identifier is reported only once for each function it appears in
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/C/s863488345_comments_removed.c:45:38: error: expected ‘:’ before ‘)’ token
+   45 |             while (currentCol > 罪? 0) {
+      |                                      ^
+      |                                      :
+"
+s863488345,commented,test_failed,"*....*
+......
+..-...
+..>#..
+
+<.
+..
+
+^-#**
+.-.#*
+.-..#
+
+.....
+.***.
+..*..
+..*..
+....v","*.*..*
+......
+..-...
+..>#..
+
+<.
+..
+
+^-#**
+.-*#*
+.-**#
+
+.****
+.****
+.****
+.****
+v****",
+s127819686,comments_removed,success,,,
+s127819686,commented,success,,,
+s287007304,comments_removed,success,,,
+s287007304,commented,success,,,
+s937747608,comments_removed,success,,,
+s937747608,commented,success,,,
+s824230885,comments_removed,success,,,
+s824230885,commented,compile_failed,,,"output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/C/s824230885_commented.c: In function ‘main’:
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/C/s824230885_commented.c:33:18: error: ‘表达了’ undeclared (first use in this function)
+   33 |     int output = 表达了 0;
+      |                  ^~~~~~
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/C/s824230885_commented.c:33:18: note: each undeclared identifier is reported only once for each function it appears in
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/C/s824230885_commented.c:33:25: error: expected ‘,’ or ‘;’ before numeric constant
+   33 |     int output = 表达了 0;
+      |                         ^
+"
+s452855095,comments_removed,success,,,
+s452855095,commented,success,,,
+s378126458,comments_removed,success,,,
+s378126458,commented,success,,,
+s221078931,comments_removed,compile_failed,,,"output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/C/s221078931_comments_removed.c: In function ‘main’:
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/C/s221078931_comments_removed.c:44:46: error: ‘_2’ undeclared (first use in this function)
+   44 |         if (sscanf(line, ""%d %d"", &h, &w) != _2) continue;
+      |                                              ^~
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/C/s221078931_comments_removed.c:44:46: note: each undeclared identifier is reported only once for each function it appears in
+"
+s221078931,commented,success,,,
+s081988820,comments_removed,success,,,
+s081988820,commented,success,,,
+s504715611,comments_removed,compile_failed,,,"/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x1b): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+"
+s504715611,commented,compile_failed,,,"output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/C/s504715611_commented.c: In function ‘setArray’:
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/C/s504715611_commented.c:164:40: warning: implicit declaration of function ‘nextInt’; did you mean ‘next’? [-Wimplicit-function-declaration]
+  164 |     for (int i = 0; i < a; i++) b[i] = nextInt(fs);
+      |                                        ^~~~~~~
+      |                                        next
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/C/s504715611_commented.c: In function ‘lsetArray’:
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/C/s504715611_commented.c:170:40: warning: implicit declaration of function ‘nextLong’ [-Wimplicit-function-declaration]
+  170 |     for (int i = 0; i < a; i++) b[i] = nextLong(fs);
+      |                                        ^~~~~~~~
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/C/s504715611_commented.c: In function ‘modpow’:
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/C/s504715611_commented.c:197:16: error: ‘تعديل’ undeclared (first use in this function)
+  197 |         n >>=  تعديل:1;
+      |                ^~~~~
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/C/s504715611_commented.c:197:16: note: each undeclared identifier is reported only once for each function it appears in
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/C/s504715611_commented.c:197:21: error: expected ‘;’ before ‘:’ token
+  197 |         n >>=  تعديل:1;
+      |                     ^
+      |                     ;
+"
+s684030429,comments_removed,success,,,
+s684030429,commented,success,,,
+s967693306,comments_removed,success,,,
+s967693306,commented,success,,,
+s685734377,comments_removed,compile_failed,,,"output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/C/s685734377_comments_removed.c: In function ‘main’:
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/C/s685734377_comments_removed.c:27:26: error: ‘翻译结果’ undeclared (first use in this function)
+   27 |             for (int k = 翻译结果 0; k < n; k++) {
+      |                          ^~~~~~~~
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/C/s685734377_comments_removed.c:27:26: note: each undeclared identifier is reported only once for each function it appears in
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/C/s685734377_comments_removed.c:27:35: error: expected ‘,’ or ‘;’ before numeric constant
+   27 |             for (int k = 翻译结果 0; k < n; k++) {
+      |                                   ^
+"
+s685734377,commented,success,,,
+s041542819,comments_removed,test_failed,"350
+1400
+301
+399",,
+s041542819,commented,success,,,
+s936984238,comments_removed,success,,,
+s936984238,commented,success,,,
+s867221485,comments_removed,success,,,
+s867221485,commented,test_failed,1,0,
+s511234019,comments_removed,success,,,
+s511234019,commented,success,,,
+s910447421,comments_removed,success,,,
+s910447421,commented,success,,,
+s725559666,comments_removed,success,,,
+s725559666,commented,success,,,
+s573993837,comments_removed,compile_failed,,,"output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/C/s573993837_comments_removed.c:1:1: error: unknown type name ‘The’
+    1 | The provided C code correctly translates the Java code. Key fixes include simplifying the modulo operation when n > m, ensuring correct token parsing in InputReader, and proper handling of all edge cases. The final code is correct and functional.
+      | ^~~
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/C/s573993837_comments_removed.c:1:14: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘C’
+    1 | The provided C code correctly translates the Java code. Key fixes include simplifying the modulo operation when n > m, ensuring correct token parsing in InputReader, and proper handling of all edge cases. The final code is correct and functional.
+      |              ^
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/C/s573993837_comments_removed.c:1:14: error: unknown type name ‘C’
+"
+s573993837,commented,compile_failed,,,"output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/C/s573993837_commented.c: In function ‘solve’:
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/C/s573993837_commented.c:49:21: error: expected ‘;’ before ‘u’
+   49 |             continue u;
+      |                     ^~
+      |                     ;
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/C/s573993837_commented.c:53:21: error: expected ‘;’ before ‘u’
+   53 |             continue u;
+      |                     ^~
+      |                     ;
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/C/s573993837_commented.c:59:21: error: expected ‘;’ before ‘u’
+   59 |             continue u;
+      |                     ^~
+      |                     ;
+"
+s185737640,comments_removed,success,,,
+s185737640,commented,success,,,
+s780275612,comments_removed,compile_failed,,,"/usr/bin/ld: /tmp/ccwNX6SB.o: in function `main':
+s780275612_comments_removed.c:(.text+0x58): undefined reference to `pow'
+collect2: error: ld returned 1 exit status
+"
+s780275612,commented,success,,,
+s826491904,comments_removed,success,,,
+s826491904,commented,success,,,
+s316260310,comments_removed,success,,,
+s316260310,commented,success,,,
+s749703010,comments_removed,success,,,
+s749703010,commented,compile_failed,,,"output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/C/s749703010_commented.c: In function ‘dp’:
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/C/s749703010_commented.c:28:14: error: ‘諛’ undeclared (first use in this function)
+   28 |     int ff = 諛;
+      |              ^~
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/C/s749703010_commented.c:28:14: note: each undeclared identifier is reported only once for each function it appears in
+"
+s380356166,comments_removed,success,,,
+s380356166,commented,success,,,
+s831281137,comments_removed,compile_failed,,,"output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/C/s831281137_comments_removed.c:3:1: error: unknown type name ‘defined’
+    3 | defined MAX(a, b) as ((a) > (b) ? (a) : (b))
+      | ^~~~~~~
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/C/s831281137_comments_removed.c: In function ‘MAX’:
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/C/s831281137_comments_removed.c:3:19: error: expected declaration specifiers before ‘as’
+    3 | defined MAX(a, b) as ((a) > (b) ? (a) : (b))
+      |                   ^~
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/C/s831281137_comments_removed.c:3:9: warning: type of ‘a’ defaults to ‘int’ [-Wimplicit-int]
+    3 | defined MAX(a, b) as ((a) > (b) ? (a) : (b))
+      |         ^~~
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/C/s831281137_comments_removed.c:3:9: warning: type of ‘b’ defaults to ‘int’ [-Wimplicit-int]
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/C/s831281137_comments_removed.c:38: error: expected ‘{’ at end of input
+"
+s831281137,commented,success,,,
+s527301188,comments_removed,success,,,
+s527301188,commented,success,,,
+s514557145,comments_removed,compile_failed,,,"output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/C/s514557145_comments_removed.c:4:1: error: unknown type name ‘defined’
+    4 | defined MOD2 998244353;
+      | ^~~~~~~
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/C/s514557145_comments_removed.c:4:14: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before numeric constant
+    4 | defined MOD2 998244353;
+      |              ^~~~~~~~~
+"
+s514557145,commented,compile_failed,,,"output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/C/s514557145_commented.c: In function ‘modInv’:
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/C/s514557145_commented.c:26:12: warning: implicit declaration of function ‘modPow’ [-Wimplicit-function-declaration]
+   26 |     return modPow(x, MOD2 - 2);
+      |            ^~~~~~
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/C/s514557145_commented.c: At top level:
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/C/s514557145_commented.c:29:11: error: conflicting types for ‘modPow’; have ‘long long int(long long int,  long long int)’
+   29 | long long modPow(long long x, long long y) {
+      |           ^~~~~~
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/C/s514557145_commented.c:26:12: note: previous implicit declaration of ‘modPow’ with type ‘int()’
+   26 |     return modPow(x, MOD2 - 2);
+      |            ^~~~~~
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/C/s514557145_commented.c: In function ‘push’:
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/C/s514557145_commented.c:86:27: error: ‘_done’ undeclared (first use in this function)
+   86 |     if (tree->Laz[k].D == _done
+      |                           ^~~~~
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/C/s514557145_commented.c:86:27: note: each undeclared identifier is reported only once for each function it appears in
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/C/s514557145_commented.c:86:32: error: expected ‘)’ before ‘}’ token
+   86 |     if (tree->Laz[k].D == _done
+      |        ~                       ^
+      |                                )
+   87 | }
+      | ~                               
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/C/s514557145_commented.c:87:1: error: expected expression before ‘}’ token
+   87 | }
+      | ^
+"
+s012761786,comments_removed,success,,,
+s012761786,commented,success,,,
+s612878490,comments_removed,success,,,
+s612878490,commented,success,,,
+s010698290,comments_removed,success,,,
+s010698290,commented,success,,,
+s063482767,comments_removed,compile_failed,,,"output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/C/s063482767_comments_removed.c: In function ‘main’:
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/C/s063482767_comments_removed.c:23:5: error: expected declaration or statement at end of input
+   23 |     return 0;
+      |     ^~~~~~
+"
+s063482767,commented,success,,,

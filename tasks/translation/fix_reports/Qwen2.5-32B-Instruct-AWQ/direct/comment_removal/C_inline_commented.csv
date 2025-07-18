@@ -1,0 +1,82 @@
+id,version,status,error,expected,actual
+s596918302,commented,success,,,
+s545439898,commented,success,,,
+s196249385,commented,compile_failed,"output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s196249385_commented.c: In function ‘main’:
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s196249385_commented.c:56:30: warning: implicit declaration of function ‘log2’ [-Wimplicit-function-declaration]
+   56 |     long mask = 1L << (long)(log2(max));
+      |                              ^~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s196249385_commented.c:3:1: note: include ‘<math.h>’ or provide a declaration of ‘log2’
+    2 | #include <stdlib.h>
+  +++ |+#include <math.h>
+    3 | 
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s196249385_commented.c:56:30: warning: incompatible implicit declaration of built-in function ‘log2’ [-Wbuiltin-declaration-mismatch]
+   56 |     long mask = 1L << (long)(log2(max));
+      |                              ^~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s196249385_commented.c:56:30: note: include ‘<math.h>’ or provide a declaration of ‘log2’
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s196249385_commented.c:66:28: warning: passing argument 1 of ‘freeArrayList’ from incompatible pointer type [-Wincompatible-pointer-types]
+   66 |             freeArrayList(b.array);
+      |                           ~^~~~~~
+      |                            |
+      |                            long int *
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s196249385_commented.c:24:31: note: expected ‘ArrayList *’ but argument is of type ‘long int *’
+   24 | void freeArrayList(ArrayList *list) {
+      |                    ~~~~~~~~~~~^~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s196249385_commented.c:69:30: warning: passing argument 1 of ‘freeArrayList’ from incompatible pointer type [-Wincompatible-pointer-types]
+   69 |             freeArrayList(tmp.array);
+      |                           ~~~^~~~~~
+      |                              |
+      |                              long int *
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s196249385_commented.c:24:31: note: expected ‘ArrayList *’ but argument is of type ‘long int *’
+   24 | void freeArrayList(ArrayList *list) {
+      |                    ~~~~~~~~~~~^~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s196249385_commented.c:86:20: warning: passing argument 1 of ‘freeArrayList’ from incompatible pointer type [-Wincompatible-pointer-types]
+   86 |     freeArrayList(b.array);
+      |                   ~^~~~~~
+      |                    |
+      |                    long int *
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s196249385_commented.c:24:31: note: expected ‘ArrayList *’ but argument is of type ‘long int *’
+   24 | void freeArrayList(ArrayList *list) {
+      |                    ~~~~~~~~~~~^~~~
+/usr/bin/ld: /tmp/cchhuaay.o: in function `main':
+s196249385_commented.c:(.text+0x2d4): undefined reference to `log2'
+collect2: error: ld returned 1 exit status
+",,
+s456888268,commented,success,,,
+s287007304,commented,success,,,
+s937747608,commented,success,,,
+s452855095,commented,success,,,
+s504715611,commented,compile_failed,"output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s504715611_commented.c: In function ‘isPrime’:
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s504715611_commented.c:100:14: warning: implicit declaration of function ‘sqrt’ [-Wimplicit-function-declaration]
+  100 |     long d = sqrt(n);
+      |              ^~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s504715611_commented.c:4:1: note: include ‘<math.h>’ or provide a declaration of ‘sqrt’
+    3 | #include <string.h>
+  +++ |+#include <math.h>
+    4 | 
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s504715611_commented.c:100:14: warning: incompatible implicit declaration of built-in function ‘sqrt’ [-Wbuiltin-declaration-mismatch]
+  100 |     long d = sqrt(n);
+      |              ^~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s504715611_commented.c:100:14: note: include ‘<math.h>’ or provide a declaration of ‘sqrt’
+/usr/bin/ld: /tmp/ccOF4ouq.o: in function `isPrime':
+s504715611_commented.c:(.text+0x469): undefined reference to `sqrt'
+collect2: error: ld returned 1 exit status
+",,
+s511234019,commented,success,,,
+s725559666,commented,success,,,
+s185737640,commented,success,,,
+s826491904,commented,success,,,
+s831281137,commented,success,,,
+s527301188,commented,success,,,
+s012761786,commented,success,,,
+s063482767,commented,compile_failed,"output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s063482767_commented.c: In function ‘pq_extract_min’:
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s063482767_commented.c:61:16: error: ‘INT_MAX’ undeclared (first use in this function)
+   61 |         return INT_MAX;
+      |                ^~~~~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s063482767_commented.c:3:1: note: ‘INT_MAX’ is defined in header ‘<limits.h>’; did you forget to ‘#include <limits.h>’?
+    2 | #include <stdlib.h>
+  +++ |+#include <limits.h>
+    3 | 
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s063482767_commented.c:61:16: note: each undeclared identifier is reported only once for each function it appears in
+   61 |         return INT_MAX;
+      |                ^~~~~~~
+",,

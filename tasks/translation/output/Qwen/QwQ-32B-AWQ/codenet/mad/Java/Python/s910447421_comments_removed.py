@@ -1,0 +1,1 @@
+The Python code correctly translates the Java solution. It handles input efficiently with FastScanner, maintains the problem's logic through sorting and coordinate swapping, and implements the greedy approach to find minimal sequences. The code's structure and algorithm match the original Java code's intent, ensuring correctness.

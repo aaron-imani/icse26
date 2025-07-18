@@ -1,0 +1,1 @@
+The Python code correctly translates the Java solution. It reads inputs efficiently, computes minimal costs via iterative relaxation over 10 steps (sufficient for 10 nodes), and sums valid grid values. The negative's analysis confirms correctness without errors.

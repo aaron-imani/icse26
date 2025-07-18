@@ -1,0 +1,1 @@
+def solve():\n    tmp = input().strip()\n    s = list(tmp)\n    n = len(s)\n    ans = 0\n    cnt = 0\n    for i in range(n):\n        if s[i] == 'S':\n            cnt += 1\n        else:\n            if cnt == 0:\n                continue\n            ans += 1\n            cnt -= 1\n    print(n - 2 * ans)\n\nif __name__ == "__main__":\n    solve()  # End of Code

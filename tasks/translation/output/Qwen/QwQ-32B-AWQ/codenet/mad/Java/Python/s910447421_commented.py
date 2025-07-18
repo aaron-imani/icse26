@@ -1,0 +1,1 @@
+The Python code correctly implements the Java logic. Key points: 1. FastScanner mirrors Java's input handling. 2. Global variables match static counterparts. 3. Sorting and swapping logic is preserved. 4. Algorithmic steps in solve() and check() align with Java's approach. No translation errors found.

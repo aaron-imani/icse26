@@ -1,0 +1,39 @@
+#include <iostream>
+#include <vector>
+#include <sstream>
+using namespace std;
+
+int main() {
+    string line;
+    getline(cin, line);
+    istringstream iss(line);
+    vector<string> strs{istream_iterator<string>(iss), istream_iterator<string>()};
+    
+    vector<int> nums(strs.size());
+    int top = 0;
+    
+    for (string& s : strs) {
+        char c = s[0];
+        switch(c) {
+            case '+':
+                top--;
+                nums[top-1] = nums[top-1] + nums[top];
+                break;
+            case '-':
+                top--;
+                nums[top-1] = nums[top-1] - nums[top];
+                break;
+            case '*':
+                top--;
+                nums[top-1] = nums[top-1] * nums[top];
+                break;
+            default:
+                nums[top] = stoi(s);
+                top++;
+                break;
+        }
+    }
+    cout << nums[0] << endl;
+    return 0;
+}
+// End of Code

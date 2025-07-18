@@ -1,0 +1,2 @@
+version,success_rate,test_failed_rate,runtime_failed_rate,infinite_loop_rate,compile_failure_rate,token_size_exceeded_rate
+comments_removed,40.0,6.666666666666667,0.0,0.0,53.333333333333336,0.0

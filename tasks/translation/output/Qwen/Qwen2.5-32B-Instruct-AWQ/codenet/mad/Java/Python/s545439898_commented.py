@@ -1,0 +1,1 @@
+count = int(input())\ngiving_numbers = list(map(int, input().split()))\n\n# Reversing Numbers\nfor i in range(count-1, -1, -1):\n    print(giving_numbers[i], end=" " if i > 0 else "\n")\n\n# End of Code

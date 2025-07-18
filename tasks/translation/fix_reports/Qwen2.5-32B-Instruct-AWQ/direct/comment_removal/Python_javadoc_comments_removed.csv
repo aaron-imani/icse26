@@ -1,0 +1,46 @@
+id,version,status,error,expected,actual
+s283652523,comments_removed,runtime_failed,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/Python/s283652523_comments_removed.py"", line 84, in <module>
+    main.m()  # End of Code
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/Python/s283652523_comments_removed.py"", line 23, in m
+    self.solve()
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/Python/s283652523_comments_removed.py"", line 9, in solve
+    N = self.inp.nextInt()
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/Python/s283652523_comments_removed.py"", line 34, in nextInt
+    return int(self.next())
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'generator'
+",,
+s466963472,comments_removed,test_failed,,"68440000
+70210000",70210000
+s863488345,comments_removed,success,,,
+s378126458,comments_removed,success,,,
+s081988820,comments_removed,success,,,
+s684030429,comments_removed,runtime_failed,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/Python/s684030429_comments_removed.py"", line 39, in <module>
+    main()
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/Python/s684030429_comments_removed.py"", line 36, in main
+    main_obj.solve()
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/Python/s684030429_comments_removed.py"", line 8, in solve
+    a = self.ni()
+AttributeError: 'Main' object has no attribute 'ni'
+",,
+s685734377,comments_removed,runtime_failed,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/Python/s685734377_comments_removed.py"", line 55, in <module>
+    solver.solve(1, scanner, out_stream)
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/Python/s685734377_comments_removed.py"", line 5, in solve
+    n = int(in_stream.readline())
+AttributeError: 'FastScanner' object has no attribute 'readline'
+",,
+s041542819,comments_removed,success,,,
+s936984238,comments_removed,success,,,
+s867221485,comments_removed,success,,,
+s910447421,comments_removed,runtime_failed,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/Python/s910447421_comments_removed.py"", line 120, in <module>
+    solve()
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/Python/s910447421_comments_removed.py"", line 82, in solve
+    ans = min(ans, check(p, q))
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/Python/s910447421_comments_removed.py"", line 92, in check
+    if not taken[i]:
+NameError: name 'taken' is not defined
+",,
+s612878490,comments_removed,test_failed,,4,3

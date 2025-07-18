@@ -1,0 +1,77 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int min(int arr[], int n);
+int dpc(int arr[][3], int i, int n, int row);
+int dpx(int arr[][3], int n);
+
+int main() {
+    int n;
+    scanf("%d", &n);
+    int arr[n][3];
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < 3; j++) {
+            scanf("%d", &arr[i][j]);
+        }
+    }
+    int ans = dpx(arr, n);
+    printf("%d\n", ans);
+    return 0;
+}
+
+int min(int arr[], int n) {
+    if (n == 1) return 0;
+    if (n == 2) return abs(arr[n-1] - arr[n-2]);
+    int op1 = abs(arr[n-1] - arr[n-2]) + min(arr, n-1);
+    int op2 = abs(arr[n-1] - arr[n-3]) + min(arr, n-2);
+    return (op1 < op2 ? op1 : op2);
+}
+
+int dpc(int arr[][3], int i, int n, int row) {
+    if (row == n) return 0;
+    int j = 0, k = 0;
+    if (i == 1) {
+        j = 0;
+        k = 2;
+    } else if (i == 0) {
+        j = 1;
+        k = 2;
+    } else {
+        j = 0;
+        k = 1;
+    }
+    int val_j = dpc(arr, j, n, row + 1);
+    int val_k = dpc(arr, k, n, row + 1);
+    return arr[row][i] + (val_j > val_k ? val_j : val_k);
+}
+
+int dpx(int arr[][3], int n) {
+    int dp[n][3];
+    dp[0][0] = arr[0][0];
+    dp[0][1] = arr[0][1];
+    dp[0][2] = arr[0][2];
+    for (int i = 1; i < n; i++) {
+        for (int in = 0; in < 3; in++) {
+            int j = 0, k = 0;
+            if (in == 1) {
+                j = 0;
+                k = 2;
+            } else if (in == 0) {
+                j = 1;
+                k = 2;
+            } else {
+                j = 0;
+                k = 1;
+            }
+            int prev_j = dp[i-1][j];
+            int prev_k = dp[i-1][k];
+            dp[i][in] = (prev_j > prev_k ? prev_j : prev_k) + arr[i][in];
+        }
+    }
+    int max_val = dp[n-1][0];
+    if (dp[n-1][1] > max_val) max_val = dp[n-1][1];
+    if (dp[n-1][2] > max_val) max_val = dp[n-1][2];
+    return max_val;
+}
+
+// End of Code

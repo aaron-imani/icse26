@@ -1,0 +1,58 @@
+id,version,status,error,expected,actual
+s283652523,comments_removed,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/Go/s283652523_comments_removed.go:7:2: imported and not used: ""strconv""
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/Go/s283652523_comments_removed.go:8:2: imported and not used: ""strings""
+",,
+s466963472,comments_removed,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/Go/s466963472_comments_removed.go:6:2: imported and not used: ""strings""
+",,
+s863488345,comments_removed,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/Go/s863488345_comments_removed.go:7:2: imported and not used: ""strings""
+",,
+s378126458,comments_removed,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/Go/s378126458_comments_removed.go:8:2: imported and not used: ""strings""
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/Go/s378126458_comments_removed.go:35:24: cannot use sc.Text (value of type func() string) as type string in argument to strconv.Atoi
+",,
+s081988820,comments_removed,success,,,
+s684030429,comments_removed,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/Go/s684030429_comments_removed.go:10:6: undefined: Scanner
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/Go/s684030429_comments_removed.go:23:23: undefined: Scanner
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/Go/s684030429_comments_removed.go:56:31: undefined: Scanner
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/Go/s684030429_comments_removed.go:57:13: undefined: Scanner
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/Go/s684030429_comments_removed.go:96:34: m redeclared in this block
+	output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/Go/s684030429_comments_removed.go:96:7: other declaration of m
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/Go/s684030429_comments_removed.go:98:19: invalid operation: j < m (mismatched types int and *Main)
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/Go/s684030429_comments_removed.go:104:36: m redeclared in this block
+	output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/Go/s684030429_comments_removed.go:104:7: other declaration of m
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/Go/s684030429_comments_removed.go:106:19: invalid operation: j < m (mismatched types int and *Main)
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/Go/s684030429_comments_removed.go:112:38: m redeclared in this block
+	output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/Go/s684030429_comments_removed.go:112:7: other declaration of m
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/Go/s684030429_comments_removed.go:114:19: invalid operation: j < m (mismatched types int and *Main)
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/Go/s684030429_comments_removed.go:114:19: too many errors
+",,
+s685734377,comments_removed,success,,,
+s041542819,comments_removed,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/Go/s041542819_comments_removed.go:97:4: cannot use max(sl, tl) (value of type int) as type int64 in argument to min
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/Go/s041542819_comments_removed.go:97:8: cannot use sl (variable of type int64) as type int in argument to max
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/Go/s041542819_comments_removed.go:97:12: cannot use tl (variable of type int64) as type int in argument to max
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/Go/s041542819_comments_removed.go:98:4: cannot use max(sr, tr) (value of type int) as type int64 in argument to min
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/Go/s041542819_comments_removed.go:98:8: cannot use sr (variable of type int64) as type int in argument to max
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/Go/s041542819_comments_removed.go:98:12: cannot use tr (variable of type int64) as type int in argument to max
+",,
+s936984238,comments_removed,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/Go/s936984238_comments_removed.go:9:2: imported and not used: ""strings""
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/Go/s936984238_comments_removed.go:16:3: not enough arguments in call to solve
+	have ()
+	want ([]int)
+",,
+s867221485,comments_removed,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/Go/s867221485_comments_removed.go:7:2: imported and not used: ""strings""
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/Go/s867221485_comments_removed.go:18:2: flag declared but not used
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/Go/s867221485_comments_removed.go:20:2: hen declared but not used
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/Go/s867221485_comments_removed.go:23:2: temp declared but not used
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/Go/s867221485_comments_removed.go:24:2: first declared but not used
+",,
+s910447421,comments_removed,compile_failed,"# command-line-arguments
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/Go/s910447421_comments_removed.go:6:2: imported and not used: ""math""
+",,
+s612878490,comments_removed,test_failed,,4,16

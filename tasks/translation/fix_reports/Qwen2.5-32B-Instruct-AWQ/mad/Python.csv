@@ -1,0 +1,400 @@
+id,version,status,error,expected,actual
+s596918302,comments_removed,compile_failed,"  File ""output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Python/s596918302_comments_removed.py"", line 1
+    elif in_ == 0:\n                j, k = 1, 2\n            else:\n                j, k = 0, 1\n            dp[i][in_] = max(dp[i-1][k], dp[i-1][j]) + arr[i][in_]\n    return max(dp[n-1][0], max(dp[n-1][1], dp[n-1][2]))\n\nif __name__ == ""__main__"":\n    main()  # End of Code
+               ^
+SyntaxError: unexpected character after line continuation character
+",,
+s596918302,commented,success,,,
+s283652523,comments_removed,test_failed,,11,"invalid literal for int() with base 10: '1 2 3'
+invalid literal for int() with base 10: ''
+invalid literal for int() with base 10: ''
+3"
+s283652523,commented,success,,,
+s584572995,comments_removed,runtime_failed,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Python/s584572995_comments_removed.py"", line 54, in <module>
+    A, B = fs.nextInt()-1, fs.nextInt()-1
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Python/s584572995_comments_removed.py"", line 39, in nextInt
+    return int(self.next())
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Python/s584572995_comments_removed.py"", line 26, in next
+    if self.tokenizer is None or not self.tokenizer.hasMoreTokens():
+AttributeError: 'list' object has no attribute 'hasMoreTokens'
+",,
+s584572995,commented,runtime_failed,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Python/s584572995_commented.py"", line 47, in <module>
+    A = fs.nextInt() - 1
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Python/s584572995_commented.py"", line 36, in nextInt
+    return int(self.next())
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Python/s584572995_commented.py"", line 26, in next
+    if self.tokenizer is None or not self.tokenizer.hasMoreTokens():
+AttributeError: 'list' object has no attribute 'hasMoreTokens'
+",,
+s888333881,comments_removed,test_failed,,"2
+1
+1",
+s888333881,commented,compile_failed,"  File ""output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Python/s888333881_commented.py"", line 1
+    The Python translation provided by the affirmative side is correct and complete.
+        ^^^^^^
+SyntaxError: invalid syntax
+",,
+s545439898,comments_removed,runtime_failed,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Python/s545439898_comments_removed.py"", line 4, in <module>
+    giving_numbers = [int(input()) for _ in range(count)]
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Python/s545439898_comments_removed.py"", line 4, in <listcomp>
+    giving_numbers = [int(input()) for _ in range(count)]
+ValueError: invalid literal for int() with base 10: '1 2 3 4 5'
+",,
+s545439898,commented,compile_failed,"  File ""output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Python/s545439898_commented.py"", line 1
+    count = int(input())\ngiving_numbers = list(map(int, input().split()))\n\n# Reversing Numbers\nfor i in range(count-1, -1, -1):\n    print(giving_numbers[i], end="" "" if i > 0 else ""\n"")\n\n# End of Code
+                         ^
+SyntaxError: unexpected character after line continuation character
+",,
+s893190600,comments_removed,success,,,
+s893190600,commented,runtime_failed,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Python/s893190600_commented.py"", line 42, in <module>
+    main()
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Python/s893190600_commented.py"", line 38, in main
+    solver.solve()
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Python/s893190600_commented.py"", line 11, in solve
+    H = self.nextInt()
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Python/s893190600_commented.py"", line 29, in nextInt
+    return int(self.input.readline())
+ValueError: invalid literal for int() with base 10: '3 3\n'
+",,
+s580342216,comments_removed,compile_failed,"  File ""output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Python/s580342216_comments_removed.py"", line 1
+    m, n = len(X), len(Y)\n        index = self.dp[m][n]\n        temp = index\n\n        lcs = [''] * (index + 1)\n        lcs[index] = '\\0'\n\n        i, j = m, n\n        while i > 0 and j > 0:\n            if X[i-1] == Y[j-1]:\n                lcs[index-1] = X[i-1]\n                i -= 1\n                j -= 1\n                index -= 1\n            elif self.dp[i-1][j] > self.dp[i][j-1]:\n                i -= 1\n            else:\n                j -= 1\n\n        return ''.join(lcs[:temp+2])  # End of Code
+              ^
+SyntaxError: unexpected character after line continuation character
+",,
+s580342216,commented,compile_failed,"  File ""output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Python/s580342216_commented.py"", line 1
+    = self.dp[m][n]\n        temp = index\n        lcs = [''] * (index + 1)\n        i, j = m, n\n        while i > 0 and j > 0:\n            if X[i-1] == Y[j-1]:\n                lcs[index-1] = X[i-1]\n                i -= 1\n                j -= 1\n                index -= 1\n            elif self.dp[i-1][j] > self.dp[i][j-1]:\n                i -= 1\n            else:\n                j -= 1\n        return ''.join(lcs[:temp+1])\n\n# End of Code
+              ^
+SyntaxError: unexpected character after line continuation character
+",,
+s196249385,comments_removed,success,,,
+s196249385,commented,compile_failed,"  File ""output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Python/s196249385_commented.py"", line 1
+    al = cumsum[j + 1] - cumsum[i]\n            b.append(val)\n            max_val = max(max_val, val)\n\n    mask = 1 << (max_val.bit_length() - 1)\n    while mask > 0:\n        tmp = [e for e in b if (e & mask) != 0]\n        if len(tmp) >= k:\n            b = tmp\n        mask >>= 1\n\n    if len(b) < k:\n        pr.println(0)\n    else:\n        ans = -1\n        for e in b:\n            ans &= e\n        pr.println(ans)\n\nif __name__ == ""__main__"":\n    sc = Scanner(sys.stdin)\n    pr = Printer(sys.stdout)\n    solve(sc, pr)\n    pr.close()\n    sc.close()\n\n# End of Code
+               ^
+SyntaxError: unexpected character after line continuation character
+",,
+s456888268,comments_removed,compile_failed,"  File ""output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Python/s456888268_comments_removed.py"", line 1
+    def solve():\n    tmp = input().strip()\n    s = list(tmp)\n    n = len(s)\n    ans = 0\n    cnt = 0\n    for i in range(n):\n        if s[i] == 'S':\n            cnt += 1\n        else:\n            if cnt == 0:\n                continue\n            ans += 1\n            cnt -= 1\n    print(n - 2 * ans)\n\nif __name__ == ""__main__"":\n    solve()  # End of Code
+                 ^
+SyntaxError: unexpected character after line continuation character
+",,
+s456888268,commented,success,,,
+s466963472,comments_removed,test_failed,,"68440000
+70210000","75640000
+73810000"
+s466963472,commented,runtime_failed,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Python/s466963472_commented.py"", line 19, in <module>
+    d = read()
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Python/s466963472_commented.py"", line 5, in read
+    d = int(input())
+EOFError: EOF when reading a line
+",,
+s863488345,comments_removed,runtime_failed,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Python/s863488345_comments_removed.py"", line 49, in <module>
+    moveBomber(xOfBomber, yOfBomber)
+NameError: name 'moveBomber' is not defined. Did you mean: 'xOfBomber'?
+",,
+s863488345,commented,compile_failed,"  File ""output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Python/s863488345_commented.py"", line 6
+    battle_town[i][b] = '.
+                        ^
+SyntaxError: unterminated string literal (detected at line 6)
+",,
+s127819686,comments_removed,runtime_failed,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Python/s127819686_comments_removed.py"", line 1, in <module>
+    a = int(input())
+ValueError: invalid literal for int() with base 10: '81 58'
+",,
+s127819686,commented,compile_failed,"  File ""output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Python/s127819686_commented.py"", line 1
+    a = int(input())\nb = int(input())\n\nhb = b // 2\nprint(a + hb)  # End of Code
+                     ^
+SyntaxError: unexpected character after line continuation character
+",,
+s287007304,comments_removed,compile_failed,"  File ""output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Python/s287007304_comments_removed.py"", line 1
+    def read_line():\n    try:\n        return input()\n    except Exception as e:\n        return str(e)\n\ns = read_line().split(' ')\na = int(s[0])\nb = int(s[1])\nif b % a == 0:\n    print(a + b)\nelse:\n    print(b - a)\n# End of Code
+                     ^
+SyntaxError: unexpected character after line continuation character
+",,
+s287007304,commented,success,,,
+s937747608,comments_removed,runtime_failed,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Python/s937747608_comments_removed.py"", line 1, in <module>
+    a = int(input())
+ValueError: invalid literal for int() with base 10: '3 5 2 7'
+",,
+s937747608,commented,compile_failed,"  File ""output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Python/s937747608_commented.py"", line 1
+    a = int(input())\nb = int(input())\nc = int(input())\nd = int(input())\nif a * b >= c * d:\n    print(a * b)\nelif a * b <= c * d:\n    print(c * d)\n# End of Code
+                     ^
+SyntaxError: unexpected character after line continuation character
+",,
+s824230885,comments_removed,runtime_failed,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Python/s824230885_comments_removed.py"", line 21, in <module>
+    ii = InputIterator()
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Python/s824230885_comments_removed.py"", line 5, in __init__
+    for line in iter(input, None):
+EOFError: EOF when reading a line
+",,
+s824230885,commented,success,,,
+s452855095,comments_removed,success,,,
+s452855095,commented,success,,,
+s378126458,comments_removed,success,,,
+s378126458,commented,success,,,
+s221078931,comments_removed,compile_failed,"  File ""output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Python/s221078931_comments_removed.py"", line 1
+    import sys\nclass IntegralRect:\n    def __init__(self, h, w):\n        self.height = h\n        self.width = w\n\n    def diagonal(self):\n        if self.height >= self.width:\n            return float('inf')\n        return self.height * self.height + self.width * self.width\n\n    def __lt__(self, other):\n        d1 = self.diagonal()\n        d2 = other.diagonal()\n        if d1 == d2:\n            return self.height < other.height\n        return d1 < d2\n\nrects = [IntegralRect(i + 1, j + 1) for i in range(200) for j in range(200)]\nrects.sort()\n\nfor line in sys.stdin:\n    h, w = map(int, line.split())\n    if h == 0 and w == 0:\n        break\n    tmpRect = IntegralRect(h, w)\n    for rect in rects:\n        if rect > tmpRect:\n            print(f'{{rect.height}} {{rect.width}}')\n            break\n# End of Code
+               ^
+SyntaxError: unexpected character after line continuation character
+",,
+s221078931,commented,compile_failed,"  File ""output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Python/s221078931_commented.py"", line 1
+    {{rect.width}}')\n            break\n# End of Code
+              ^
+SyntaxError: unexpected character after line continuation character
+",,
+s081988820,comments_removed,compile_failed,"  File ""output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Python/s081988820_comments_removed.py"", line 1
+    def solve():\n    # Read the dimensions H and W\n    H, W = map(int, input().split())\n    \n    # Read the cost matrix c\n    c = [list(map(int, input().split())) for _ in range(10)]\n    \n    # Initialize the minimum cost array\n    min_cost = [c[i][1] for i in range(10)]\n    \n    # Perform the Floyd-Warshall algorithm to find the minimum cost\n    for _ in range(10):\n        for i in range(10):\n            for j in range(10):\n                min_cost[i] = min(min_cost[i], c[i][j] + min_cost[j])\n    \n    # Calculate the total cost\n    ans = 0\n    for _ in range(H):\n        for A in map(int, input().split()):\n            if A >= 0:\n                ans += min_cost[A]\n    \n    # Print the final answer\n    print(ans)\n\n# Call the solve function\nsolve()  # End of Code
+                 ^
+SyntaxError: unexpected character after line continuation character
+",,
+s081988820,commented,compile_failed,"  File ""output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Python/s081988820_commented.py"", line 1
+    def solve():\n    sc = Scanner()\n    H = sc.nextInt()\n    W = sc.nextInt()\n    c = [[0 for _ in range(10)] for _ in range(10)]\n    for i in range(10):\n        for j in range(10):\n            c[i][j] = sc.nextInt()\n    min_cost = [c[i][1] for i in range(10)]\n    for _ in range(10):\n        for i in range(10):\n            for j in range(10):\n                min_cost[i] = min(min_cost[i], c[i][j] + min_cost[j])\n    ans = 0\n    for h in range(H):\n        for w in range(W):\n            A = sc.nextInt()\n            if A >= 0:\n                ans += min_cost[A]\n    print(ans)\n\nclass Scanner:\n    def __init__(self):\n        self.buffer = []\n        self.pos = 0\n\n    def nextInt(self):\n        while self.pos == len(self.buffer):\n            self.buffer = input().split()\n            self.pos = 0\n        self.pos += 1\n        return int(self.buffer[self.pos - 1])\n\nsolve()  # End of Code
+                 ^
+SyntaxError: unexpected character after line continuation character
+",,
+s504715611,comments_removed,runtime_failed,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Python/s504715611_comments_removed.py"", line 1, in <module>
+    Yes
+NameError: name 'Yes' is not defined
+",,
+s504715611,commented,runtime_failed,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Python/s504715611_commented.py"", line 1, in <module>
+    Yes
+NameError: name 'Yes' is not defined
+",,
+s684030429,comments_removed,runtime_failed,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Python/s684030429_comments_removed.py"", line 130, in <module>
+    main.solve()  # End of Code
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Python/s684030429_comments_removed.py"", line 10, in solve
+    a = self.ni()
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Python/s684030429_comments_removed.py"", line 15, in ni
+    return int(self.sc.readline())
+ValueError: invalid literal for int() with base 10: '12 4\n'
+",,
+s684030429,commented,runtime_failed,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Python/s684030429_commented.py"", line 130, in <module>
+    main.solve()  # End of Code
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Python/s684030429_commented.py"", line 10, in solve
+    a = self.ni()
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Python/s684030429_commented.py"", line 15, in ni
+    return int(self.sc.readline())
+ValueError: invalid literal for int() with base 10: '12 4\n'
+",,
+s967693306,comments_removed,compile_failed,"  File ""output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Python/s967693306_comments_removed.py"", line 1
+    a[i:] = sorted(a[i:])\n                return True\n        return False\n\n    def find(self, dest, a, s, e):\n        if s == e:\n            return s\n        m = (s + e + 1) // 2\n        return self.find(dest, a, s, m - 1) if a[m] <= dest else self.find(dest, a, m, e)\n\n    def elimination(self, a, b):\n        n = len(a)\n        for k in range(n - 1):\n            for i in range(k + 1, n):\n                f = -a[i][k] / a[k][k]\n                for j in range(k + 1, n):\n                    a[i][j] += f * a[k][j]\n                b[i] += f * b[k]\n            for i in range(n - 1, -1, -1):\n                for j in range(i + 1, n):\n                    b[i] -= a[i][j] * b[j]\n                b[i] /= a[i][i]\n\nif __name__ == ""__main__"":\n    main = Main()\n    main.solve()\n# End of Code
+           ^
+SyntaxError: unexpected character after line continuation character
+",,
+s967693306,commented,success,,,
+s685734377,comments_removed,success,,,
+s685734377,commented,compile_failed,"  File ""output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Python/s685734377_commented.py"", line 1
+    k\n                if ok:\n                    ans += 1\n        out_stream.write(f'{{ans}}\n')\n\nif __name__ == '__main__':\n    in_stream = sys.stdin\n    out_stream = sys.stdout\n    solver = TaskB()\n    solver.solve(in_stream, out_stream)\n    out_stream.flush()\n# End of Code
+               ^
+SyntaxError: unexpected character after line continuation character
+",,
+s041542819,comments_removed,runtime_failed,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Python/s041542819_comments_removed.py"", line 88, in <module>
+    solve(1, in_stream, out_stream)
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Python/s041542819_comments_removed.py"", line 60, in solve
+    b = in_stream.ints()
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Python/s041542819_comments_removed.py"", line 15, in ints
+    return int(self.string())
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Python/s041542819_comments_removed.py"", line 10, in string
+    if self.tokenizer is None or not self.tokenizer.hasMoreTokens():
+AttributeError: 'list_iterator' object has no attribute 'hasMoreTokens'
+",,
+s041542819,commented,runtime_failed,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Python/s041542819_commented.py"", line 104, in <module>
+    solver.solve(1, in_stream, out_stream)
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Python/s041542819_commented.py"", line 75, in solve
+    b = in_stream.ints()
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Python/s041542819_commented.py"", line 14, in ints
+    return int(self.string())
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Python/s041542819_commented.py"", line 9, in string
+    if self.tokenizer is None or not self.tokenizer.hasMoreTokens():
+AttributeError: 'list_iterator' object has no attribute 'hasMoreTokens'
+",,
+s936984238,comments_removed,compile_failed,"  File ""output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Python/s936984238_comments_removed.py"", line 1
+    import sys\ndef read():\n    number = int(input())\n    if number == 0:\n        return False\n    score = list(map(int, input().split()))\n    return number, score\ndef slove(number, score):\n    score.sort()\n    sum_score = sum(score[1:-1])\n    print(sum_score // (number - 2))\nwhile True:\n    result = read()\n    if not result:\n        break\n    number, score = result\n    slove(number, score)\n# End of Code
+               ^
+SyntaxError: unexpected character after line continuation character
+",,
+s936984238,commented,compile_failed,"  File ""output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Python/s936984238_commented.py"", line 1
+    import sys\ndef read():\n    number = int(input())\n    if number == 0:\n        return False\n    score = list(map(int, input().split()))\n    return score, number\n\ndef slove(score, number):\n    score.sort()\n    total_sum = sum(score[1:number-1])\n    print(total_sum // (number - 2))\n\nwhile True:\n    result = read()\n    if not result:\n        break\n    score, number = result\n    slove(score, number)  # End of Code
+               ^
+SyntaxError: unexpected character after line continuation character
+",,
+s867221485,comments_removed,compile_failed,"  File ""output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Python/s867221485_comments_removed.py"", line 1
+    N = int(input())\ns = input()\nans = 0\nsha = 0\ndot = 0\nfor i in range(N):\n    if s[i] == '#':\n        if sha <= dot:\n            ans += sha\n            sha = 0\n            dot = 0\n        sha += 1\n    else:\n        dot += 1\nif sha <= dot:\n    ans += sha\n    dot = 0\nprint(ans + dot)  # End of Code
+                     ^
+SyntaxError: unexpected character after line continuation character
+",,
+s867221485,commented,compile_failed,"  File ""output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Python/s867221485_commented.py"", line 1
+    N = int(input())\ns = input()\nans = 0\nsha = 0\ndot = 0\nfirst = True\nfor i in range(N):\n    if s[i] == '#':\n        if sha <= dot:\n            ans += sha\n            sha = 0\n            dot = 0\n            first = True\n        sha += 1\n    else:\n        dot += 1\nif sha <= dot:\n    ans += sha\n    dot = 0\nprint(ans + dot)  # End of Code
+                     ^
+SyntaxError: unexpected character after line continuation character
+",,
+s511234019,comments_removed,compile_failed,"  File ""output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Python/s511234019_comments_removed.py"", line 1
+    a = int(input())\nb = int(input())\nif a % 2 == 0 or b % 2 == 0:\n    print(""No"")\nelse:\n    print(""Yes"")\n# End of Code
+                     ^
+SyntaxError: unexpected character after line continuation character
+",,
+s511234019,commented,compile_failed,"  File ""output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Python/s511234019_commented.py"", line 1
+    a = int(input())\nb = int(input())\nif a % 2 == 0 or b % 2 == 0:\n    print('No')\nelse:\n    print('Yes')\n# End of Code
+                     ^
+SyntaxError: unexpected character after line continuation character
+",,
+s910447421,comments_removed,compile_failed,"  File ""output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Python/s910447421_comments_removed.py"", line 1
+    break\n            if not added:\n                break\n            for i in range(start + 1, N):\n                if balls[i][0] == x and balls[i][1] == y:\n                    taken[i] = True\n                    x += p\n                    y += q\n        return ret\n\n    solve()\n    for i in range(N):\n        balls[i][0], balls[i][1] = balls[i][1], balls[i][0]\n    balls.sort()\n    solve()\n    print(ans)\n\nif __name__ == ""__main__"":\n    main()\n# End of Code
+     ^
+SyntaxError: unexpected character after line continuation character
+",,
+s910447421,commented,runtime_failed,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Python/s910447421_commented.py"", line 95, in <module>
+    main()
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Python/s910447421_commented.py"", line 84, in main
+    solve()
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Python/s910447421_commented.py"", line 14, in solve
+    ans = min(ans, check(p, q))
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Python/s910447421_commented.py"", line 24, in check
+    if not taken[i]:
+IndexError: list index out of range
+",,
+s725559666,comments_removed,compile_failed,"  File ""output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Python/s725559666_comments_removed.py"", line 1
+    a = int(input())\nb = int(input())\nc = int(input())\n\nif a < b and b < c and a < c:\n    print(""Yes"")\nelse:\n    print(""No"")\n# End of Code
+                     ^
+SyntaxError: unexpected character after line continuation character
+",,
+s725559666,commented,runtime_failed,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Python/s725559666_commented.py"", line 1, in <module>
+    a = int(input())
+ValueError: invalid literal for int() with base 10: '1 3 8'
+",,
+s573993837,comments_removed,runtime_failed,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Python/s573993837_comments_removed.py"", line 104, in <module>
+    solve(sc, pw)
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Python/s573993837_comments_removed.py"", line 4, in solve
+    n = sc.nextLong()
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Python/s573993837_comments_removed.py"", line 95, in nextLong
+    return int(self.next())
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Python/s573993837_comments_removed.py"", line 84, in next
+    while self.tokenizer is None or not self.tokenizer.hasMoreTokens():
+AttributeError: 'list' object has no attribute 'hasMoreTokens'
+",,
+s573993837,commented,infinite_loop,,,
+s185737640,comments_removed,success,,,
+s185737640,commented,success,,,
+s780275612,comments_removed,success,,,
+s780275612,commented,success,,,
+s826491904,comments_removed,compile_failed,"  File ""output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Python/s826491904_comments_removed.py"", line 1
+    def solve():\n    N = int(input())\n    max_val = min_val = int(input())\n\n    for i in range(1, N):\n        val = int(input())\n        max_val = max(max_val, val)\n        min_val = min(min_val, val)\n\n    print(max_val - min_val)\n\nsolve()  # End of Code
+                 ^
+SyntaxError: unexpected character after line continuation character
+",,
+s826491904,commented,compile_failed,"  File ""output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Python/s826491904_commented.py"", line 1
+    def solve():\n    N = int(input())\n    max_val = min_val = int(input())\n    for i in range(1, N):\n        val = int(input())\n        max_val = max(max_val, val)\n        min_val = min(min_val, val)\n    print(max_val - min_val)\n\nsolve()  # End of Code
+                 ^
+SyntaxError: unexpected character after line continuation character
+",,
+s316260310,comments_removed,runtime_failed,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Python/s316260310_comments_removed.py"", line 195, in <module>
+    main()
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Python/s316260310_comments_removed.py"", line 190, in main
+    solver = Solver()
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Python/s316260310_comments_removed.py"", line 149, in __init__
+    self.hp = Helper(10**9 + 7, 1000_006)
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Python/s316260310_comments_removed.py"", line 9, in __init__
+    self.rnd = random.Random()
+NameError: name 'random' is not defined
+",,
+s316260310,commented,runtime_failed,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Python/s316260310_commented.py"", line 121, in <module>
+    solver.solve()
+TypeError: Solver.solve() missing 1 required positional argument: 'tc'
+",,
+s749703010,comments_removed,runtime_failed,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Python/s749703010_comments_removed.py"", line 22, in <module>
+    a[0] = [int(input()) for _ in range(n)]
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Python/s749703010_comments_removed.py"", line 22, in <listcomp>
+    a[0] = [int(input()) for _ in range(n)]
+ValueError: invalid literal for int() with base 10: '3 4 3'
+",,
+s749703010,commented,runtime_failed,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Python/s749703010_commented.py"", line 31, in <module>
+    a[0][i] = int(input())
+ValueError: invalid literal for int() with base 10: '3 4 3'
+",,
+s380356166,comments_removed,runtime_failed,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Python/s380356166_comments_removed.py"", line 11, in <module>
+    K = int(input())
+ValueError: invalid literal for int() with base 10: '2 2'
+",,
+s380356166,commented,runtime_failed,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Python/s380356166_commented.py"", line 14, in <module>
+    K = int(next(in_stream))
+ValueError: invalid literal for int() with base 10: '2 2'
+",,
+s831281137,comments_removed,runtime_failed,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Python/s831281137_comments_removed.py"", line 27, in <module>
+    N = nint()
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Python/s831281137_comments_removed.py"", line 4, in nint
+    return int(input())
+ValueError: invalid literal for int() with base 10: '4 5'
+",,
+s831281137,commented,runtime_failed,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Python/s831281137_commented.py"", line 76, in <module>
+    main()  # End of Code
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Python/s831281137_commented.py"", line 7, in main
+    N = nint()
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Python/s831281137_commented.py"", line 34, in nint
+    return int(sc.readline())
+ValueError: invalid literal for int() with base 10: '4 5\n'
+",,
+s527301188,comments_removed,success,,,
+s527301188,commented,test_failed,,3,1
+s514557145,comments_removed,success,,,
+s514557145,commented,runtime_failed,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Python/s514557145_commented.py"", line 326, in <module>
+    sc = InputReader(sys.stdin.buffer)
+NameError: name 'sys' is not defined
+",,
+s012761786,comments_removed,compile_failed,"  File ""output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Python/s012761786_comments_removed.py"", line 1
+    def next():\n    return input()\n\ndef next_int():\n    return int(next())\n\ndef next_long():\n    return int(next())\n\ndef next_double():\n    return float(next())\n\ndef split_string(s):\n    return s.split()\n\ndef split_char(s):\n    return list(s)\n\ndef char_to_int(aaa):\n    return ord(aaa) - ord('0')\n\ndef max_int(a):\n    return max(a)\n\ndef min_int(a):\n    return min(a)\n\ndef max_long(a):\n    return max(a)\n\ndef min_long(a):\n    return min(a)\n\nn = next_long()\na = next_long()\nb = next_long()\n\nsa = abs(a - b)\n\nans = 0\n\nif sa % 2 == 0:\n    ans = sa // 2\nelse:\n    AAA = min((n - a), (a - 1))\n    BBB = min((n - b), (b - 1))\n\n    ans = min(AAA, BBB)\n\n    sa -= 1\n    ans += 1\n\n    ans += sa // 2\n\nprint(ans)\n# End of Code
+                ^
+SyntaxError: unexpected character after line continuation character
+",,
+s012761786,commented,compile_failed,"  File ""output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Python/s012761786_commented.py"", line 1
+    import sys\ndef next_long():\n    return int(sys.stdin.readline())\nn = next_long()\na = next_long()\nb = next_long()\nsa = abs(a - b)\nans = 0\nif sa % 2 == 0:\n    ans = sa // 2\nelse:\n    AAA = min((n - a), (a - 1))\n    BBB = min((n - b), (b - 1))\n    ans = min(AAA, BBB)  # One of them reaches the edge.\n    sa -= 1\n    ans += 1\n    ans += sa // 2\nprint(ans)\n# End of Code
+               ^
+SyntaxError: unexpected character after line continuation character
+",,
+s612878490,comments_removed,success,,,
+s612878490,commented,success,,,
+s010698290,comments_removed,compile_failed,"  File ""output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Python/s010698290_comments_removed.py"", line 1
+    += penal[i]\n\nprint(f'{{correct_ans}} {{num_penal}}')\n# End of Code
+              ^
+SyntaxError: unexpected character after line continuation character
+",,
+s010698290,commented,compile_failed,"  File ""output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Python/s010698290_commented.py"", line 1
+    def main():\n    n, m = map(int, input().split())\n\n    penal = [0] * (n + 1)\n    solved = [False] * (n + 1)\n\n    for _ in range(m):\n        num, str = input().split()\n        num = int(num)\n        if str[0] == 'A':\n            solved[num] = True\n        else:\n            if not solved[num]:\n                penal[num] += 1\n\n    correct_ans = 0\n    num_penal = 0\n    for i in range(1, n + 1):\n        if solved[i]:\n            correct_ans += 1\n            num_penal += penal[i]\n\n    print(f'{{correct_ans}} {{num_penal}}')\n\nif __name__ == '__main__':\n    main()
+                ^
+SyntaxError: unexpected character after line continuation character
+",,
+s063482767,comments_removed,runtime_failed,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Python/s063482767_comments_removed.py"", line 5, in <module>
+    queue.append(int(input()))
+ValueError: invalid literal for int() with base 10: '3 8 5 1'
+",,
+s063482767,commented,compile_failed,"  File ""output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/mad/Java/Python/s063482767_commented.py"", line 1
+    import heapq\nn = int(input())\nqueue = []\nfor _ in range(n):\n    heapq.heappush(queue, int(input()))\n\nsum = 0\nfor _ in range(n - 1):\n    sum += heapq.heappop(queue)\n\n# 出力\nprint(""Yes"" if heapq.heappop(queue) < sum else ""No"")  # End of Code
+                 ^
+SyntaxError: unexpected character after line continuation character
+",,

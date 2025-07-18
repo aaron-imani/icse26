@@ -1,0 +1,27 @@
+id,version,status,expected,actual,error
+s584572995,comments_removed,compile_failed,,,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/Go/s584572995_comments_removed.go:92:9: invalid operation: (int64(WN) * int64(invCases)) % mod (mismatched types int64 and int)
+"
+s888333881,comments_removed,success,,,
+s893190600,comments_removed,success,,,
+s580342216,comments_removed,success,,,
+s127819686,comments_removed,compile_failed,,,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/Go/s127819686_comments_removed.go:11:1: syntax error: unexpected EOF, expecting }
+"
+s824230885,comments_removed,success,,,
+s221078931,comments_removed,compile_failed,,,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/Go/s221078931_comments_removed.go:59:3: found declared but not used
+"
+s967693306,comments_removed,compile_failed,,,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/Go/s967693306_comments_removed.go:65:18: undefined: krijg
+"
+s573993837,comments_removed,success,,,
+s780275612,comments_removed,success,,,
+s316260310,comments_removed,success,,,
+s749703010,comments_removed,compile_failed,,,"output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/Go/s749703010_comments_removed.go:1:1: expected 'package', found 'type'
+"
+s380356166,comments_removed,success,,,
+s514557145,comments_removed,compile_failed,,,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/Go/s514557145_comments_removed.go:127:15: syntax error: unexpected deteriorates at end of statement
+"
+s010698290,comments_removed,test_failed,2 2,0 0,

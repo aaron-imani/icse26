@@ -1,0 +1,100 @@
+id,status,error,expected,actual
+s596918302,success,,,
+s283652523,success,,,
+s584572995,success,,,
+s888333881,success,,,
+s545439898,success,,,
+s893190600,compile_failed,"output/Qwen/QwQ-32B-AWQ/codenet/Java/C/s893190600_commented.c: In function ‘main’:
+output/Qwen/QwQ-32B-AWQ/codenet/Java/C/s893190600_commented.c:35:13: error: ‘ConnectionState’ undeclared (first use in this function)
+   35 |     return  ConnectionState: 0;
+      |             ^~~~~~~~~~~~~~~
+output/Qwen/QwQ-32B-AWQ/codenet/Java/C/s893190600_commented.c:35:13: note: each undeclared identifier is reported only once for each function it appears in
+output/Qwen/QwQ-32B-AWQ/codenet/Java/C/s893190600_commented.c:35:28: error: expected ‘;’ before ‘:’ token
+   35 |     return  ConnectionState: 0;
+      |                            ^
+      |                            ;
+",,
+s580342216,success,,,
+s196249385,success,,,
+s456888268,success,,,
+s466963472,success,,,
+s863488345,compile_failed,"output/Qwen/QwQ-32B-AWQ/codenet/Java/C/s863488345_commented.c: In function ‘main’:
+output/Qwen/QwQ-32B-AWQ/codenet/Java/C/s863488345_commented.c:103:34: error: ‘宿題’ undeclared (first use in this function)
+  103 |                     if (y - 1 >= 宿題 && battleTown[x][y - 1] == '.') {
+      |                                  ^~~~
+output/Qwen/QwQ-32B-AWQ/codenet/Java/C/s863488345_commented.c:103:34: note: each undeclared identifier is reported only once for each function it appears in
+",,
+s127819686,success,,,
+s287007304,success,,,
+s937747608,success,,,
+s824230885,success,,,
+s452855095,success,,,
+s378126458,success,,,
+s221078931,compile_failed,"output/Qwen/QwQ-32B-AWQ/codenet/Java/C/s221078931_commented.c: In function ‘main’:
+output/Qwen/QwQ-32B-AWQ/codenet/Java/C/s221078931_commented.c:34:22: error: ‘check’ undeclared (first use in this function)
+   34 |         for (int j = check:0 to 199; j++) {
+      |                      ^~~~~
+output/Qwen/QwQ-32B-AWQ/codenet/Java/C/s221078931_commented.c:34:22: note: each undeclared identifier is reported only once for each function it appears in
+output/Qwen/QwQ-32B-AWQ/codenet/Java/C/s221078931_commented.c:34:27: error: expected ‘,’ or ‘;’ before ‘:’ token
+   34 |         for (int j = check:0 to 199; j++) {
+      |                           ^
+output/Qwen/QwQ-32B-AWQ/codenet/Java/C/s221078931_commented.c:34:41: error: expected ‘;’ before ‘)’ token
+   34 |         for (int j = check:0 to 199; j++) {
+      |                                         ^
+      |                                         ;
+",,
+s081988820,success,,,
+s504715611,compile_failed,"output/Qwen/QwQ-32B-AWQ/codenet/Java/C/s504715611_commented.c: In function ‘warshall_floyd’:
+output/Qwen/QwQ-32B-AWQ/codenet/Java/C/s504715611_commented.c:156:26: error: ‘犯错’ undeclared (first use in this function)
+  156 |             for (int j = 犯错; j < n; j++) {
+      |                          ^~~~
+output/Qwen/QwQ-32B-AWQ/codenet/Java/C/s504715611_commented.c:156:26: note: each undeclared identifier is reported only once for each function it appears in
+output/Qwen/QwQ-32B-AWQ/codenet/Java/C/s504715611_commented.c: In function ‘isPrime’:
+output/Qwen/QwQ-32B-AWQ/codenet/Java/C/s504715611_commented.c:171:14: warning: implicit declaration of function ‘sqrt’ [-Wimplicit-function-declaration]
+  171 |     long d = sqrt(n);
+      |              ^~~~
+output/Qwen/QwQ-32B-AWQ/codenet/Java/C/s504715611_commented.c:5:1: note: include ‘<math.h>’ or provide a declaration of ‘sqrt’
+    4 | #include <ctype.h>
+  +++ |+#include <math.h>
+    5 | 
+output/Qwen/QwQ-32B-AWQ/codenet/Java/C/s504715611_commented.c:171:14: warning: incompatible implicit declaration of built-in function ‘sqrt’ [-Wbuiltin-declaration-mismatch]
+  171 |     long d = sqrt(n);
+      |              ^~~~
+output/Qwen/QwQ-32B-AWQ/codenet/Java/C/s504715611_commented.c:171:14: note: include ‘<math.h>’ or provide a declaration of ‘sqrt’
+",,
+s684030429,success,,,
+s967693306,success,,,
+s685734377,success,,,
+s041542819,success,,,
+s936984238,success,,,
+s867221485,test_failed,,1,0
+s511234019,success,,,
+s910447421,success,,,
+s725559666,success,,,
+s573993837,success,,,
+s185737640,success,,,
+s780275612,compile_failed,"/usr/bin/ld: /tmp/cc6ehu9o.o: in function `main':
+s780275612_commented.c:(.text+0x58): undefined reference to `pow'
+collect2: error: ld returned 1 exit status
+",,
+s826491904,success,,,
+s316260310,success,,,
+s749703010,success,,,
+s380356166,success,,,
+s831281137,success,,,
+s527301188,success,,,
+s514557145,compile_failed,"output/Qwen/QwQ-32B-AWQ/codenet/Java/C/s514557145_commented.c: In function ‘push’:
+output/Qwen/QwQ-32B-AWQ/codenet/Java/C/s514557145_commented.c:114:22: error: invalid operands to binary == (have ‘F’ and ‘F’)
+  114 |     if (tree->laz[k] == tree->id) return;
+      |         ~~~~~~~~~~~~ ^~ ~~~~~~~~
+      |                  |          |
+      |                  F          F
+",,
+s012761786,success,,,
+s612878490,test_failed,,4,3
+s010698290,success,,,
+s063482767,compile_failed,"output/Qwen/QwQ-32B-AWQ/codenet/Java/C/s063482767_commented.c: In function ‘heapify’:
+output/Qwen/QwQ-32B-AWQ/codenet/Java/C/s063482767_commented.c:36:13: error: expected expression before ‘.’ token
+   36 |     int r = . * i + 2;
+      |             ^
+",,

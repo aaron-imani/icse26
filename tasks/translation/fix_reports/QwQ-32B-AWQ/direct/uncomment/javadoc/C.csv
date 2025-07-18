@@ -1,0 +1,68 @@
+id,version,status,expected,actual,error
+s283652523,commented,success,,,
+s466963472,commented,success,,,
+s863488345,commented,test_failed,"*....*
+......
+..-...
+..>#..
+
+<.
+..
+
+^-#**
+.-.#*
+.-..#
+
+.....
+.***.
+..*..
+..*..
+....v","*.*..*
+......
+..-...
+..>#..
+<.
+..
+^-#**
+.-*#*
+.-**#
+.****
+.****
+.****
+.****
+v****",
+s378126458,commented,success,,,
+s081988820,commented,success,,,
+s684030429,commented,compile_failed,,,"output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/uncomment/direct/Java/C/s684030429_commented.c: In function ‘lmin’:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/uncomment/direct/Java/C/s684030429_commented.c:111:16: error: ‘LONG_MAX’ undeclared (first use in this function)
+  111 |     long min = LONG_MAX;
+      |                ^~~~~~~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/uncomment/direct/Java/C/s684030429_commented.c:5:1: note: ‘LONG_MAX’ is defined in header ‘<limits.h>’; did you forget to ‘#include <limits.h>’?
+    4 | #include <math.h>
+  +++ |+#include <limits.h>
+    5 | 
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/uncomment/direct/Java/C/s684030429_commented.c:111:16: note: each undeclared identifier is reported only once for each function it appears in
+  111 |     long min = LONG_MAX;
+      |                ^~~~~~~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/uncomment/direct/Java/C/s684030429_commented.c: In function ‘imin’:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/uncomment/direct/Java/C/s684030429_commented.c:119:15: error: ‘INT_MAX’ undeclared (first use in this function)
+  119 |     int min = INT_MAX;
+      |               ^~~~~~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/uncomment/direct/Java/C/s684030429_commented.c:119:15: note: ‘INT_MAX’ is defined in header ‘<limits.h>’; did you forget to ‘#include <limits.h>’?
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/uncomment/direct/Java/C/s684030429_commented.c: In function ‘lmax’:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/uncomment/direct/Java/C/s684030429_commented.c:127:16: error: ‘LONG_MIN’ undeclared (first use in this function)
+  127 |     long max = LONG_MIN;
+      |                ^~~~~~~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/uncomment/direct/Java/C/s684030429_commented.c:127:16: note: ‘LONG_MIN’ is defined in header ‘<limits.h>’; did you forget to ‘#include <limits.h>’?
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/uncomment/direct/Java/C/s684030429_commented.c: In function ‘imax’:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/uncomment/direct/Java/C/s684030429_commented.c:135:15: error: ‘INT_MIN’ undeclared (first use in this function)
+  135 |     int max = INT_MIN;
+      |               ^~~~~~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/javadoc/uncomment/direct/Java/C/s684030429_commented.c:135:15: note: ‘INT_MIN’ is defined in header ‘<limits.h>’; did you forget to ‘#include <limits.h>’?
+"
+s685734377,commented,test_failed,2,0,
+s041542819,commented,success,,,
+s936984238,commented,success,,,
+s867221485,commented,test_failed,1,0,
+s910447421,commented,success,,,
+s612878490,commented,test_failed,4,3,

@@ -1,0 +1,38 @@
+id,version,status,error,expected,actual
+s596918302,commented,success,,,
+s545439898,commented,success,,,
+s196249385,commented,success,,,
+s456888268,commented,success,,,
+s287007304,commented,success,,,
+s937747608,commented,success,,,
+s452855095,commented,success,,,
+s504715611,commented,compile_failed,"output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C/s504715611_commented.c: In function ‘warshall_floyd’:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C/s504715611_commented.c:156:26: error: ‘犯错’ undeclared (first use in this function)
+  156 |             for (int j = 犯错; j < n; j++) {
+      |                          ^~~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C/s504715611_commented.c:156:26: note: each undeclared identifier is reported only once for each function it appears in
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C/s504715611_commented.c: In function ‘isPrime’:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C/s504715611_commented.c:171:14: warning: implicit declaration of function ‘sqrt’ [-Wimplicit-function-declaration]
+  171 |     long d = sqrt(n);
+      |              ^~~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C/s504715611_commented.c:5:1: note: include ‘<math.h>’ or provide a declaration of ‘sqrt’
+    4 | #include <ctype.h>
+  +++ |+#include <math.h>
+    5 | 
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C/s504715611_commented.c:171:14: warning: incompatible implicit declaration of built-in function ‘sqrt’ [-Wbuiltin-declaration-mismatch]
+  171 |     long d = sqrt(n);
+      |              ^~~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C/s504715611_commented.c:171:14: note: include ‘<math.h>’ or provide a declaration of ‘sqrt’
+",,
+s511234019,commented,success,,,
+s725559666,commented,success,,,
+s185737640,commented,success,,,
+s826491904,commented,success,,,
+s831281137,commented,success,,,
+s527301188,commented,success,,,
+s012761786,commented,success,,,
+s063482767,commented,compile_failed,"output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C/s063482767_commented.c: In function ‘heapify’:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C/s063482767_commented.c:36:13: error: expected expression before ‘.’ token
+   36 |     int r = . * i + 2;
+      |             ^
+",,

@@ -1,0 +1,149 @@
+id,status,error,expected,actual
+s596918302,success,,,
+s283652523,success,,,
+s584572995,compile_failed,"output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s584572995_comments_removed.go:1:16: expected 'package', found 'EOF'
+",,
+s888333881,compile_failed,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s888333881_comments_removed.go:4:2: imported and not used: ""bufio""
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s888333881_comments_removed.go:5:2: imported and not used: ""fmt""
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s888333881_comments_removed.go:6:2: imported and not used: ""math/bits""
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s888333881_comments_removed.go:7:2: imported and not used: ""os""
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s888333881_comments_removed.go:8:2: imported and not used: ""strconv""
+",,
+s545439898,success,,,
+s893190600,success,,,
+s580342216,compile_failed,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s580342216_comments_removed.go:85:22: syntax error: unexpected is, expecting comma or )
+",,
+s196249385,success,,,
+s456888268,compile_failed,"output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s456888268_comments_removed.go:1:1: expected 'package', found The
+",,
+s466963472,success,,,
+s863488345,test_failed,,"*....*
+......
+..-...
+..>#..
+
+<.
+..
+
+^-#**
+.-.#*
+.-..#
+
+.....
+.***.
+..*..
+..*..
+....v","*.*..*
+......
+..-...
+..>#..
+
+<.
+..
+
+^-#**
+.-*#*
+.-**#
+
+.****
+.****
+.****
+.****
+v****"
+s127819686,success,,,
+s287007304,success,,,
+s937747608,success,,,
+s824230885,success,,,
+s452855095,success,,,
+s378126458,success,,,
+s221078931,success,,,
+s081988820,compile_failed,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s081988820_comments_removed.go:32:16: syntax error: unexpected literal 0, expecting {
+",,
+s504715611,compile_failed,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s504715611_comments_removed.go:9:2: imported and not used: ""strings""
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s504715611_comments_removed.go:169:11: undefined: math
+",,
+s684030429,compile_failed,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s684030429_comments_removed.go:7:2: imported and not used: ""strconv""
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s684030429_comments_removed.go:31:7: undefined: ni
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s684030429_comments_removed.go:32:7: undefined: ni
+",,
+s967693306,compile_failed,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s967693306_comments_removed.go:4:2: imported and not used: ""bufio""
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s967693306_comments_removed.go:5:2: imported and not used: ""fmt""
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s967693306_comments_removed.go:6:2: imported and not used: ""os""
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s967693306_comments_removed.go:7:2: imported and not used: ""sort""
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s967693306_comments_removed.go:8:2: imported and not used: ""strconv""
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s967693306_comments_removed.go:37:21: undefined: FastScanner
+",,
+s685734377,compile_failed,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s685734377_comments_removed.go:4:2: imported and not used: ""bufio""
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s685734377_comments_removed.go:5:2: imported and not used: ""fmt""
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s685734377_comments_removed.go:6:2: imported and not used: ""io""
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s685734377_comments_removed.go:7:2: imported and not used: ""os""
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s685734377_comments_removed.go:8:2: imported and not used: ""strconv""
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s685734377_comments_removed.go:9:2: imported and not used: ""strings""
+",,
+s041542819,compile_failed,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s041542819_comments_removed.go:182:1: syntax error: unexpected EOF, expecting }
+",,
+s936984238,compile_failed,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s936984238_comments_removed.go:40:1: syntax error: unexpected EOF, expecting }
+",,
+s867221485,compile_failed,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s867221485_comments_removed.go:43:1: syntax error: unexpected EOF, expecting }
+",,
+s511234019,success,,,
+s910447421,compile_failed,"output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s910447421_comments_removed.go:1:1: expected 'package', found ERROR
+",,
+s725559666,success,,,
+s573993837,runtime_failed,"panic: runtime error: index out of range [2] with length 2
+
+goroutine 1 [running]:
+main.main()
+	/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s573993837_comments_removed.go:21 +0x365
+",,
+s185737640,success,,,
+s780275612,compile_failed,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s780275612_comments_removed.go:11:1: syntax error: unexpected EOF, expecting }
+",,
+s826491904,success,,,
+s316260310,runtime_failed,"panic: runtime error: index out of range [0] with length 0
+
+goroutine 1 [running]:
+main.(*Solver).solve(0xc000236180)
+	/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s316260310_comments_removed.go:152 +0x330
+main.(*Solver).Solve(0xc000236180)
+	/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s316260310_comments_removed.go:137 +0x45
+main.main()
+	/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s316260310_comments_removed.go:180 +0x1e
+",,
+s749703010,runtime_failed,"panic: runtime error: index out of range [3] with length 3
+
+goroutine 1 [running]:
+main.dp(0x0, 0x3, 0x18000000000?)
+	/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s749703010_comments_removed.go:71 +0x2f5
+main.main()
+	/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s749703010_comments_removed.go:50 +0x376
+",,
+s380356166,success,,,
+s831281137,success,,,
+s527301188,compile_failed,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s527301188_comments_removed.go:13:32: newline in rune literal
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s527301188_comments_removed.go:13:32: syntax error: unexpected newline, expecting comma or )
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s527301188_comments_removed.go:14:3: newline in rune literal
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s527301188_comments_removed.go:15:48: syntax error: unexpected ) at end of statement
+",,
+s514557145,compile_failed,"# command-line-arguments
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s514557145_comments_removed.go:234:36: newline in rune literal
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s514557145_comments_removed.go:235:1: more than one character in rune literal
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s514557145_comments_removed.go:235:13: syntax error: unexpected literal ' {, expecting { after if clause
+output/Qwen/QwQ-32B-AWQ/codenet/mad/Java/Go/s514557145_comments_removed.go:235:16: newline in rune literal
+",,
+s012761786,success,,,
+s612878490,test_failed,,4,16
+s010698290,success,,,
+s063482767,success,,,

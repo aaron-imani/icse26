@@ -1,0 +1,104 @@
+id,version,status,error,expected,actual
+s596918302,commented,runtime_failed,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/QwQ-32B-AWQ/codenet/direct/comment/comment/direct/Java/Python/s596918302_commented.py"", line 57, in <module>
+    main()
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/QwQ-32B-AWQ/codenet/direct/comment/comment/direct/Java/Python/s596918302_commented.py"", line 53, in main
+    ans = dpx(arr, n)
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/QwQ-32B-AWQ/codenet/direct/comment/comment/direct/Java/Python/s596918302_commented.py"", line 35, in dpx
+    if in_col == ṇ:
+NameError: name 'ṇ' is not defined
+",,
+s283652523,commented,success,,,
+s584572995,commented,success,,,
+s888333881,commented,success,,,
+s545439898,commented,success,,,
+s893190600,commented,compile_failed,"  File ""output/Qwen/QwQ-32B-AWQ/codenet/direct/comment/comment/direct/Java/Python/s893190600_commented.py"", line 1
+    Here's the Python code based on the Java code provided:
+        ^
+SyntaxError: unterminated string literal (detected at line 1)
+",,
+s580342216,commented,success,,,
+s196249385,commented,compile_failed,"  File ""output/Qwen/QwQ-32B-AWQ/codenet/direct/comment/comment/direct/Java/Python/s196249385_commented.py"", line 21
+    mask = 
+           ^
+SyntaxError: invalid syntax
+",,
+s456888268,commented,success,,,
+s466963472,commented,test_failed,,"68440000
+70210000","1513800000
+3132900000"
+s863488345,commented,success,,,
+s127819686,commented,success,,,
+s287007304,commented,success,,,
+s937747608,commented,success,,,
+s824230885,commented,compile_failed,"  File ""output/Qwen/QwQ-32B-AWQ/codenet/direct/comment/comment/direct/Java/Python/s824230885_commented.py"", line 8
+    output = 
+             ^
+SyntaxError: invalid syntax
+",,
+s452855095,commented,success,,,
+s378126458,commented,success,,,
+s221078931,commented,success,,,
+s081988820,commented,success,,,
+s504715611,commented,success,,,
+s684030429,commented,success,,,
+s967693306,commented,compile_failed,"  File ""output/Qwen/QwQ-32B-AWQ/codenet/direct/comment/comment/direct/Java/Python/s967693306_commented.py"", line 34
+    if current_digit !=  dagen = int(sys.stdin.readline())
+                               ^
+SyntaxError: invalid syntax
+",,
+s685734377,commented,success,,,
+s041542819,commented,runtime_failed,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/QwQ-32B-AWQ/codenet/direct/comment/comment/direct/Java/Python/s041542819_commented.py"", line 42, in <module>
+    main()  # End of Code
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/QwQ-32B-AWQ/codenet/direct/comment/comment/direct/Java/Python/s041542819_commented.py"", line 34, in main
+    c3 = 明確
+NameError: name '明確' is not defined
+",,
+s936984238,commented,success,,,
+s867221485,commented,test_failed,,1,0
+s511234019,commented,success,,,
+s910447421,commented,success,,,
+s725559666,commented,success,,,
+s573993837,commented,runtime_failed,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/QwQ-32B-AWQ/codenet/direct/comment/comment/direct/Java/Python/s573993837_commented.py"", line 26, in <module>
+    main()
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/QwQ-32B-AWQ/codenet/direct/comment/comment/direct/Java/Python/s573993837_commented.py"", line 10, in main
+    m = int(data[idx+1])
+IndexError: list index out of range
+",,
+s185737640,commented,success,,,
+s780275612,commented,success,,,
+s826491904,commented,runtime_failed,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/QwQ-32B-AWQ/codenet/direct/comment/comment/direct/Java/Python/s826491904_commented.py"", line 2, in <module>
+    first = int(input())
+ValueError: invalid literal for int() with base 10: '2 3 7 9'
+",,
+s316260310,commented,runtime_failed,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/QwQ-32B-AWQ/codenet/direct/comment/comment/direct/Java/Python/s316260310_commented.py"", line 86, in <module>
+    solver.solve()
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/QwQ-32B-AWQ/codenet/direct/comment/comment/direct/Java/Python/s316260310_commented.py"", line 50, in solve
+    self.solve_case()
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/QwQ-32B-AWQ/codenet/direct/comment/comment/direct/Java/Python/s316260310_commented.py"", line 55, in solve_case
+    K = self.hp.next_long()
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/QwQ-32B-AWQ/codenet/direct/comment/comment/direct/Java/Python/s316260310_commented.py"", line 26, in next_long
+    self.pos += ourcem
+NameError: name 'ourcem' is not defined
+",,
+s749703010,commented,success,,,
+s380356166,commented,success,,,
+s831281137,commented,success,,,
+s527301188,commented,success,,,
+s514557145,commented,compile_failed,"  File ""output/Qwen/QwQ-32B-AWQ/codenet/direct/comment/comment/direct/Java/Python/s514557145_commented.py"", line 1
+    Here's the Python code translation of the provided Java code:
+        ^
+SyntaxError: unterminated string literal (detected at line 1)
+",,
+s012761786,commented,success,,,
+s612878490,commented,runtime_failed,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/QwQ-32B-AWQ/codenet/direct/comment/comment/direct/Java/Python/s612878490_commented.py"", line 4, in <module>
+    a = int(input())
+ValueError: invalid literal for int() with base 10: '1 7'
+",,
+s010698290,commented,success,,,
+s063482767,commented,success,,,

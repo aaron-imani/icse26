@@ -1,0 +1,1 @@
+N = int(input())\ns = input()\nans = 0\nsha = 0\ndot = 0\nfirst = True\nfor i in range(N):\n    if s[i] == '#':\n        if sha <= dot:\n            ans += sha\n            sha = 0\n            dot = 0\n            first = True\n        sha += 1\n    else:\n        dot += 1\nif sha <= dot:\n    ans += sha\n    dot = 0\nprint(ans + dot)  # End of Code

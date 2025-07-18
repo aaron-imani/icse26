@@ -1,0 +1,1 @@
+def solve():\n    N = int(input())\n    max_val = min_val = int(input())\n\n    for i in range(1, N):\n        val = int(input())\n        max_val = max(max_val, val)\n        min_val = min(min_val, val)\n\n    print(max_val - min_val)\n\nsolve()  # End of Code

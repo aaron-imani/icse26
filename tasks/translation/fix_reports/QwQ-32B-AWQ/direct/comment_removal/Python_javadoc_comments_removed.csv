@@ -1,0 +1,57 @@
+id,version,status,error,expected,actual
+s283652523,comments_removed,success,,,
+s466963472,comments_removed,success,,,
+s863488345,comments_removed,test_failed,,"*....*
+......
+..-...
+..>#..
+
+<.
+..
+
+^-#**
+.-.#*
+.-..#
+
+.....
+.***.
+..*..
+..*..
+....v","*.*..*
+......
+..-...
+..>#..
+
+<.
+..
+
+^-#**
+.-*#*
+.-**#
+
+.****
+.****
+.****
+.****
+v****"
+s378126458,comments_removed,success,,,
+s081988820,comments_removed,success,,,
+s684030429,comments_removed,runtime_failed,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/Python/s684030429_comments_removed.py"", line 122, in <module>
+    solve()  # End of Code
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/Python/s684030429_comments_removed.py"", line 118, in solve
+    a = ni()
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/Python/s684030429_comments_removed.py"", line 2, in ni
+    return int(input())
+ValueError: invalid literal for int() with base 10: '12 4'
+",,
+s685734377,comments_removed,success,,,
+s041542819,comments_removed,success,,,
+s936984238,comments_removed,success,,,
+s867221485,comments_removed,success,,,
+s910447421,comments_removed,success,,,
+s612878490,comments_removed,runtime_failed,"Traceback (most recent call last):
+  File ""/home/alirezi/research/ICSE26/rq1/PLTranslationEmpirical/output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/Python/s612878490_comments_removed.py"", line 4, in <module>
+    A = int(input())
+ValueError: invalid literal for int() with base 10: '1 7'
+",,

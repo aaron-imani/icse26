@@ -1,0 +1,528 @@
+id,version,status,error,expected,actual
+s596918302,comments_removed,success,,,
+s545439898,comments_removed,success,,,
+s196249385,comments_removed,compile_failed,"output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s196249385_comments_removed.c: In function ‘main’:
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s196249385_comments_removed.c:59:30: warning: implicit declaration of function ‘log2’ [-Wimplicit-function-declaration]
+   59 |     long mask = 1L << (long)(log2(max));
+      |                              ^~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s196249385_comments_removed.c:3:1: note: include ‘<math.h>’ or provide a declaration of ‘log2’
+    2 | #include <stdlib.h>
+  +++ |+#include <math.h>
+    3 | 
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s196249385_comments_removed.c:59:30: warning: incompatible implicit declaration of built-in function ‘log2’ [-Wbuiltin-declaration-mismatch]
+   59 |     long mask = 1L << (long)(log2(max));
+      |                              ^~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s196249385_comments_removed.c:59:30: note: include ‘<math.h>’ or provide a declaration of ‘log2’
+/usr/bin/ld: /tmp/ccrxiroF.o: in function `main':
+s196249385_comments_removed.c:(.text+0x363): undefined reference to `log2'
+collect2: error: ld returned 1 exit status
+",,
+s456888268,comments_removed,compile_failed,"output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:23:6: error: conflicting types for ‘reverse’; have ‘void(long int *, int)’
+   23 | void reverse(long ar[], int len) {
+      |      ^~~~~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:15:6: note: previous definition of ‘reverse’ with type ‘void(int *, int)’
+   15 | void reverse(int ar[], int len) {
+      |      ^~~~~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:31:6: error: conflicting types for ‘reverse’; have ‘void(double *, int)’
+   31 | void reverse(double ar[], int len) {
+      |      ^~~~~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:15:6: note: previous definition of ‘reverse’ with type ‘void(int *, int)’
+   15 | void reverse(int ar[], int len) {
+      |      ^~~~~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:39:6: error: conflicting types for ‘reverse’; have ‘void(char *, int)’
+   39 | void reverse(char ar[], int len) {
+      |      ^~~~~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:15:6: note: previous definition of ‘reverse’ with type ‘void(int *, int)’
+   15 | void reverse(int ar[], int len) {
+      |      ^~~~~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c: In function ‘getReverse’:
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:49:13: warning: passing argument 1 of ‘reverse’ from incompatible pointer type [-Wincompatible-pointer-types]
+   49 |     reverse((int*)s, len);
+      |             ^~~~~~~
+      |             |
+      |             int *
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:39:19: note: expected ‘char *’ but argument is of type ‘int *’
+   39 | void reverse(char ar[], int len) {
+      |              ~~~~~^~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c: At top level:
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:109:5: error: conflicting types for ‘lowerBound’; have ‘int(long int *, long int,  int)’
+  109 | int lowerBound(long a[], long x, int len) {
+      |     ^~~~~~~~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:57:5: note: previous definition of ‘lowerBound’ with type ‘int(int *, int,  int)’
+   57 | int lowerBound(int a[], int x, int len) {
+      |     ^~~~~~~~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:122:5: error: conflicting types for ‘upperBound’; have ‘int(long int *, long int,  int)’
+  122 | int upperBound(long a[], long x, int len) {
+      |     ^~~~~~~~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:70:5: note: previous definition of ‘upperBound’ with type ‘int(int *, int,  int)’
+   70 | int upperBound(int a[], int x, int len) {
+      |     ^~~~~~~~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:135:5: error: conflicting types for ‘rlowerBound’; have ‘int(long int *, long int,  int)’
+  135 | int rlowerBound(long a[], long x, int len) {
+      |     ^~~~~~~~~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:83:5: note: previous definition of ‘rlowerBound’ with type ‘int(int *, int,  int)’
+   83 | int rlowerBound(int a[], int x, int len) {
+      |     ^~~~~~~~~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:148:5: error: conflicting types for ‘rupperBound’; have ‘int(long int *, long int,  int)’
+  148 | int rupperBound(long a[], long x, int len) {
+      |     ^~~~~~~~~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:96:5: note: previous definition of ‘rupperBound’ with type ‘int(int *, int,  int)’
+   96 | int rupperBound(int a[], int x, int len) {
+      |     ^~~~~~~~~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:161:5: error: conflicting types for ‘lowerBound’; have ‘int(double *, double,  int)’
+  161 | int lowerBound(double a[], double x, int len) {
+      |     ^~~~~~~~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:57:5: note: previous definition of ‘lowerBound’ with type ‘int(int *, int,  int)’
+   57 | int lowerBound(int a[], int x, int len) {
+      |     ^~~~~~~~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:174:5: error: conflicting types for ‘upperBound’; have ‘int(double *, double,  int)’
+  174 | int upperBound(double a[], double x, int len) {
+      |     ^~~~~~~~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:70:5: note: previous definition of ‘upperBound’ with type ‘int(int *, int,  int)’
+   70 | int upperBound(int a[], int x, int len) {
+      |     ^~~~~~~~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:187:5: error: conflicting types for ‘rlowerBound’; have ‘int(double *, double,  int)’
+  187 | int rlowerBound(double a[], double x, int len) {
+      |     ^~~~~~~~~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:83:5: note: previous definition of ‘rlowerBound’ with type ‘int(int *, int,  int)’
+   83 | int rlowerBound(int a[], int x, int len) {
+      |     ^~~~~~~~~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:200:5: error: conflicting types for ‘rupperBound’; have ‘int(double *, double,  int)’
+  200 | int rupperBound(double a[], double x, int len) {
+      |     ^~~~~~~~~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:96:5: note: previous definition of ‘rupperBound’ with type ‘int(int *, int,  int)’
+   96 | int rupperBound(int a[], int x, int len) {
+      |     ^~~~~~~~~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:213:5: error: conflicting types for ‘lowerBound’; have ‘int(char *, char,  int)’
+  213 | int lowerBound(char a[], char x, int len) {
+      |     ^~~~~~~~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:57:5: note: previous definition of ‘lowerBound’ with type ‘int(int *, int,  int)’
+   57 | int lowerBound(int a[], int x, int len) {
+      |     ^~~~~~~~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:226:5: error: conflicting types for ‘upperBound’; have ‘int(char *, char,  int)’
+  226 | int upperBound(char a[], char x, int len) {
+      |     ^~~~~~~~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:70:5: note: previous definition of ‘upperBound’ with type ‘int(int *, int,  int)’
+   70 | int upperBound(int a[], int x, int len) {
+      |     ^~~~~~~~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:239:5: error: conflicting types for ‘rlowerBound’; have ‘int(char *, char,  int)’
+  239 | int rlowerBound(char a[], char x, int len) {
+      |     ^~~~~~~~~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:83:5: note: previous definition of ‘rlowerBound’ with type ‘int(int *, int,  int)’
+   83 | int rlowerBound(int a[], int x, int len) {
+      |     ^~~~~~~~~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:252:5: error: conflicting types for ‘rupperBound’; have ‘int(char *, char,  int)’
+  252 | int rupperBound(char a[], char x, int len) {
+      |     ^~~~~~~~~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:96:5: note: previous definition of ‘rupperBound’ with type ‘int(int *, int,  int)’
+   96 | int rupperBound(int a[], int x, int len) {
+      |     ^~~~~~~~~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c: In function ‘concat’:
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:266:22: warning: implicit declaration of function ‘malloc’ [-Wimplicit-function-declaration]
+  266 |     int* ret = (int*)malloc((len + 1) * sizeof(int));
+      |                      ^~~~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:3:1: note: include ‘<stdlib.h>’ or provide a declaration of ‘malloc’
+    2 | #include <string.h>
+  +++ |+#include <stdlib.h>
+    3 | 
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:266:22: warning: incompatible implicit declaration of built-in function ‘malloc’ [-Wbuiltin-declaration-mismatch]
+  266 |     int* ret = (int*)malloc((len + 1) * sizeof(int));
+      |                      ^~~~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:266:22: note: include ‘<stdlib.h>’ or provide a declaration of ‘malloc’
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c: At top level:
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:272:6: error: conflicting types for ‘concat’; have ‘int *(int *, int,  int)’
+  272 | int* concat(int arr[], int x, int len) {
+      |      ^~~~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:265:6: note: previous definition of ‘concat’ with type ‘int *(int,  int *, int)’
+  265 | int* concat(int x, int arr[], int len) {
+      |      ^~~~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c: In function ‘concat’:
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:273:22: warning: incompatible implicit declaration of built-in function ‘malloc’ [-Wbuiltin-declaration-mismatch]
+  273 |     int* ret = (int*)malloc((len + 1) * sizeof(int));
+      |                      ^~~~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:273:22: note: include ‘<stdlib.h>’ or provide a declaration of ‘malloc’
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c: At top level:
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:279:7: error: conflicting types for ‘concat’; have ‘long int *(long int,  long int *, int)’
+  279 | long* concat(long x, long arr[], int len) {
+      |       ^~~~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:265:6: note: previous definition of ‘concat’ with type ‘int *(int,  int *, int)’
+  265 | int* concat(int x, int arr[], int len) {
+      |      ^~~~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c: In function ‘concat’:
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:280:24: warning: incompatible implicit declaration of built-in function ‘malloc’ [-Wbuiltin-declaration-mismatch]
+  280 |     long* ret = (long*)malloc((len + 1) * sizeof(long));
+      |                        ^~~~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:280:24: note: include ‘<stdlib.h>’ or provide a declaration of ‘malloc’
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c: At top level:
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:286:7: error: conflicting types for ‘concat’; have ‘long int *(long int *, long int,  int)’
+  286 | long* concat(long arr[], long x, int len) {
+      |       ^~~~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:265:6: note: previous definition of ‘concat’ with type ‘int *(int,  int *, int)’
+  265 | int* concat(int x, int arr[], int len) {
+      |      ^~~~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c: In function ‘concat’:
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:287:24: warning: incompatible implicit declaration of built-in function ‘malloc’ [-Wbuiltin-declaration-mismatch]
+  287 |     long* ret = (long*)malloc((len + 1) * sizeof(long));
+      |                        ^~~~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:287:24: note: include ‘<stdlib.h>’ or provide a declaration of ‘malloc’
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c: At top level:
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:301:5: error: conflicting types for ‘max’; have ‘int(int,  int,  int)’
+  301 | int max(int x, int y, int z) {
+      |     ^~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:293:5: note: previous definition of ‘max’ with type ‘int(int,  int)’
+  293 | int max(int x, int y) {
+      |     ^~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c: In function ‘max’:
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:302:16: error: too few arguments to function ‘max’
+  302 |     return max(max(x, y), z);
+      |                ^~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:301:5: note: declared here
+  301 | int max(int x, int y, int z) {
+      |     ^~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:302:12: error: too few arguments to function ‘max’
+  302 |     return max(max(x, y), z);
+      |            ^~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:301:5: note: declared here
+  301 | int max(int x, int y, int z) {
+      |     ^~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c: At top level:
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:305:5: error: conflicting types for ‘min’; have ‘int(int,  int,  int)’
+  305 | int min(int x, int y, int z) {
+      |     ^~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:297:5: note: previous definition of ‘min’ with type ‘int(int,  int)’
+  297 | int min(int x, int y) {
+      |     ^~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c: In function ‘min’:
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:306:16: error: too few arguments to function ‘min’
+  306 |     return min(min(x, y), z);
+      |                ^~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:305:5: note: declared here
+  305 | int min(int x, int y, int z) {
+      |     ^~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:306:12: error: too few arguments to function ‘min’
+  306 |     return min(min(x, y), z);
+      |            ^~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:305:5: note: declared here
+  305 | int min(int x, int y, int z) {
+      |     ^~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c: At top level:
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:309:6: error: conflicting types for ‘max’; have ‘long int(long int,  long int)’
+  309 | long max(long x, long y) {
+      |      ^~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:293:5: note: previous definition of ‘max’ with type ‘int(int,  int)’
+  293 | int max(int x, int y) {
+      |     ^~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:313:6: error: conflicting types for ‘min’; have ‘long int(long int,  long int)’
+  313 | long min(long x, long y) {
+      |      ^~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:297:5: note: previous definition of ‘min’ with type ‘int(int,  int)’
+  297 | int min(int x, int y) {
+      |     ^~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:317:6: error: conflicting types for ‘max’; have ‘long int(long int,  long int,  long int)’
+  317 | long max(long x, long y, long z) {
+      |      ^~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:293:5: note: previous definition of ‘max’ with type ‘int(int,  int)’
+  293 | int max(int x, int y) {
+      |     ^~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c: In function ‘max’:
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:318:16: error: too few arguments to function ‘max’
+  318 |     return max(max(x, y), z);
+      |                ^~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:317:6: note: declared here
+  317 | long max(long x, long y, long z) {
+      |      ^~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:318:12: error: too few arguments to function ‘max’
+  318 |     return max(max(x, y), z);
+      |            ^~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:317:6: note: declared here
+  317 | long max(long x, long y, long z) {
+      |      ^~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c: At top level:
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:321:6: error: conflicting types for ‘min’; have ‘long int(long int,  long int,  long int)’
+  321 | long min(long x, long y, long z) {
+      |      ^~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:297:5: note: previous definition of ‘min’ with type ‘int(int,  int)’
+  297 | int min(int x, int y) {
+      |     ^~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c: In function ‘min’:
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:322:16: error: too few arguments to function ‘min’
+  322 |     return min(min(x, y), z);
+      |                ^~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:321:6: note: declared here
+  321 | long min(long x, long y, long z) {
+      |      ^~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:322:12: error: too few arguments to function ‘min’
+  322 |     return min(min(x, y), z);
+      |            ^~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:321:6: note: declared here
+  321 | long min(long x, long y, long z) {
+      |      ^~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c: At top level:
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:325:8: error: conflicting types for ‘max’; have ‘double(double,  double)’
+  325 | double max(double x, double y) {
+      |        ^~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:293:5: note: previous definition of ‘max’ with type ‘int(int,  int)’
+  293 | int max(int x, int y) {
+      |     ^~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:329:8: error: conflicting types for ‘min’; have ‘double(double,  double)’
+  329 | double min(double x, double y) {
+      |        ^~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:297:5: note: previous definition of ‘min’ with type ‘int(int,  int)’
+  297 | int min(int x, int y) {
+      |     ^~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:333:8: error: conflicting types for ‘max’; have ‘double(double,  double,  double)’
+  333 | double max(double x, double y, double z) {
+      |        ^~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:293:5: note: previous definition of ‘max’ with type ‘int(int,  int)’
+  293 | int max(int x, int y) {
+      |     ^~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c: In function ‘max’:
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:334:16: error: too few arguments to function ‘max’
+  334 |     return max(max(x, y), z);
+      |                ^~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:333:8: note: declared here
+  333 | double max(double x, double y, double z) {
+      |        ^~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:334:12: error: too few arguments to function ‘max’
+  334 |     return max(max(x, y), z);
+      |            ^~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:333:8: note: declared here
+  333 | double max(double x, double y, double z) {
+      |        ^~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c: At top level:
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:337:8: error: conflicting types for ‘min’; have ‘double(double,  double,  double)’
+  337 | double min(double x, double y, double z) {
+      |        ^~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:297:5: note: previous definition of ‘min’ with type ‘int(int,  int)’
+  297 | int min(int x, int y) {
+      |     ^~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c: In function ‘min’:
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:338:16: error: too few arguments to function ‘min’
+  338 |     return min(min(x, y), z);
+      |                ^~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:337:8: note: declared here
+  337 | double min(double x, double y, double z) {
+      |        ^~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:338:12: error: too few arguments to function ‘min’
+  338 |     return min(min(x, y), z);
+      |            ^~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:337:8: note: declared here
+  337 | double min(double x, double y, double z) {
+      |        ^~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c: In function ‘sort’:
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:342:5: warning: implicit declaration of function ‘qsort’; did you mean ‘sort’? [-Wimplicit-function-declaration]
+  342 |     qsort(ar, len, sizeof(int), (int(*)(const void*, const void*))strcmp);
+      |     ^~~~~
+      |     sort
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c: At top level:
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:345:6: error: conflicting types for ‘sort’; have ‘void(long int *, int)’
+  345 | void sort(long ar[], int len) {
+      |      ^~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:341:6: note: previous definition of ‘sort’ with type ‘void(int *, int)’
+  341 | void sort(int ar[], int len) {
+      |      ^~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:349:6: error: conflicting types for ‘sort’; have ‘void(double *, int)’
+  349 | void sort(double ar[], int len) {
+      |      ^~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:341:6: note: previous definition of ‘sort’ with type ‘void(int *, int)’
+  341 | void sort(int ar[], int len) {
+      |      ^~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:353:6: error: conflicting types for ‘sort’; have ‘void(char *, int)’
+  353 | void sort(char ar[], int len) {
+      |      ^~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:341:6: note: previous definition of ‘sort’ with type ‘void(int *, int)’
+  341 | void sort(int ar[], int len) {
+      |      ^~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c: In function ‘rsort’:
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:359:13: warning: passing argument 1 of ‘reverse’ from incompatible pointer type [-Wincompatible-pointer-types]
+  359 |     reverse(ar, len);
+      |             ^~
+      |             |
+      |             int *
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:39:19: note: expected ‘char *’ but argument is of type ‘int *’
+   39 | void reverse(char ar[], int len) {
+      |              ~~~~~^~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c: At top level:
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:362:6: error: conflicting types for ‘rsort’; have ‘void(long int *, int)’
+  362 | void rsort(long ar[], int len) {
+      |      ^~~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:357:6: note: previous definition of ‘rsort’ with type ‘void(int *, int)’
+  357 | void rsort(int ar[], int len) {
+      |      ^~~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c: In function ‘rsort’:
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:364:13: warning: passing argument 1 of ‘reverse’ from incompatible pointer type [-Wincompatible-pointer-types]
+  364 |     reverse(ar, len);
+      |             ^~
+      |             |
+      |             long int *
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:39:19: note: expected ‘char *’ but argument is of type ‘long int *’
+   39 | void reverse(char ar[], int len) {
+      |              ~~~~~^~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c: At top level:
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:367:6: error: conflicting types for ‘rsort’; have ‘void(double *, int)’
+  367 | void rsort(double ar[], int len) {
+      |      ^~~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:357:6: note: previous definition of ‘rsort’ with type ‘void(int *, int)’
+  357 | void rsort(int ar[], int len) {
+      |      ^~~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c: In function ‘rsort’:
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:369:13: warning: passing argument 1 of ‘reverse’ from incompatible pointer type [-Wincompatible-pointer-types]
+  369 |     reverse(ar, len);
+      |             ^~
+      |             |
+      |             double *
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:39:19: note: expected ‘char *’ but argument is of type ‘double *’
+   39 | void reverse(char ar[], int len) {
+      |              ~~~~~^~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c: At top level:
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:372:6: error: conflicting types for ‘rsort’; have ‘void(char *, int)’
+  372 | void rsort(char ar[], int len) {
+      |      ^~~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:357:6: note: previous definition of ‘rsort’ with type ‘void(int *, int)’
+  357 | void rsort(int ar[], int len) {
+      |      ^~~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:383:6: error: conflicting types for ‘fill’; have ‘void(long int *, long int,  int)’
+  383 | void fill(long arr[], long x, int len) {
+      |      ^~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:377:6: note: previous definition of ‘fill’ with type ‘void(int *, int,  int)’
+  377 | void fill(int arr[], int x, int len) {
+      |      ^~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:389:11: error: unknown type name ‘bool’
+  389 | void fill(bool arr[], bool x, int len) {
+      |           ^~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:3:1: note: ‘bool’ is defined in header ‘<stdbool.h>’; did you forget to ‘#include <stdbool.h>’?
+    2 | #include <string.h>
+  +++ |+#include <stdbool.h>
+    3 | 
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:389:23: error: unknown type name ‘bool’
+  389 | void fill(bool arr[], bool x, int len) {
+      |                       ^~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:389:23: note: ‘bool’ is defined in header ‘<stdbool.h>’; did you forget to ‘#include <stdbool.h>’?
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:395:6: error: conflicting types for ‘fill’; have ‘void(double *, double,  int)’
+  395 | void fill(double arr[], double x, int len) {
+      |      ^~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:377:6: note: previous definition of ‘fill’ with type ‘void(int *, int,  int)’
+  377 | void fill(int arr[], int x, int len) {
+      |      ^~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:401:6: error: conflicting types for ‘fill’; have ‘void(int (*)[100], int,  int)’
+  401 | void fill(int arr[][100], int x, int len) {
+      |      ^~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:377:6: note: previous definition of ‘fill’ with type ‘void(int *, int,  int)’
+  377 | void fill(int arr[], int x, int len) {
+      |      ^~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c: In function ‘fill’:
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:403:17: warning: passing argument 1 of ‘fill’ from incompatible pointer type [-Wincompatible-pointer-types]
+  403 |         fill(arr[i], x, 100);
+      |                 ^
+      |                 |
+      |                 int *
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:401:15: note: expected ‘int (*)[100]’ but argument is of type ‘int *’
+  401 | void fill(int arr[][100], int x, int len) {
+      |           ~~~~^~~~~~~~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c: At top level:
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:407:6: error: conflicting types for ‘fill’; have ‘void(long int (*)[100], long int,  int)’
+  407 | void fill(long arr[][100], long x, int len) {
+      |      ^~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:377:6: note: previous definition of ‘fill’ with type ‘void(int *, int,  int)’
+  377 | void fill(int arr[], int x, int len) {
+      |      ^~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c: In function ‘fill’:
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:409:17: warning: passing argument 1 of ‘fill’ from incompatible pointer type [-Wincompatible-pointer-types]
+  409 |         fill(arr[i], x, 100);
+      |                 ^
+      |                 |
+      |                 long int *
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:407:16: note: expected ‘long int (*)[100]’ but argument is of type ‘long int *’
+  407 | void fill(long arr[][100], long x, int len) {
+      |           ~~~~~^~~~~~~~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c: At top level:
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:413:6: error: conflicting types for ‘fill’; have ‘void(double (*)[100], double,  int)’
+  413 | void fill(double arr[][100], double x, int len) {
+      |      ^~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:377:6: note: previous definition of ‘fill’ with type ‘void(int *, int,  int)’
+  377 | void fill(int arr[], int x, int len) {
+      |      ^~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c: In function ‘fill’:
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:415:17: warning: passing argument 1 of ‘fill’ from incompatible pointer type [-Wincompatible-pointer-types]
+  415 |         fill(arr[i], x, 100);
+      |                 ^
+      |                 |
+      |                 double *
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:413:18: note: expected ‘double (*)[100]’ but argument is of type ‘double *’
+  413 | void fill(double arr[][100], double x, int len) {
+      |           ~~~~~~~^~~~~~~~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c: At top level:
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:419:11: error: unknown type name ‘bool’
+  419 | void fill(bool arr[][100], bool x, int len) {
+      |           ^~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:419:11: note: ‘bool’ is defined in header ‘<stdbool.h>’; did you forget to ‘#include <stdbool.h>’?
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:419:28: error: unknown type name ‘bool’
+  419 | void fill(bool arr[][100], bool x, int len) {
+      |                            ^~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:419:28: note: ‘bool’ is defined in header ‘<stdbool.h>’; did you forget to ‘#include <stdbool.h>’?
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c: In function ‘div’:
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:441:20: warning: implicit declaration of function ‘pow’ [-Wimplicit-function-declaration]
+  441 |     long res = x * pow(y, mod - 2) % mod;
+      |                    ^~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:3:1: note: include ‘<math.h>’ or provide a declaration of ‘pow’
+    2 | #include <string.h>
+  +++ |+#include <math.h>
+    3 | 
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:441:20: warning: incompatible implicit declaration of built-in function ‘pow’ [-Wbuiltin-declaration-mismatch]
+  441 |     long res = x * pow(y, mod - 2) % mod;
+      |                    ^~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:441:20: note: include ‘<math.h>’ or provide a declaration of ‘pow’
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:441:36: error: invalid operands to binary % (have ‘double’ and ‘int’)
+  441 |     long res = x * pow(y, mod - 2) % mod;
+      |                ~~~~~~~~~~~~~~~~~~~ ^
+      |                  |
+      |                  double
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c: At top level:
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:445:6: warning: conflicting types for built-in function ‘pow’; expected ‘double(double,  double)’ [-Wbuiltin-declaration-mismatch]
+  445 | long pow(long x, long y) {
+      |      ^~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s456888268_comments_removed.c:445:6: note: ‘pow’ is declared in header ‘<math.h>’
+",,
+s287007304,comments_removed,success,,,
+s937747608,comments_removed,success,,,
+s452855095,comments_removed,success,,,
+s504715611,comments_removed,compile_failed,"output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s504715611_comments_removed.c: In function ‘isPrime’:
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s504715611_comments_removed.c:100:14: warning: implicit declaration of function ‘sqrt’ [-Wimplicit-function-declaration]
+  100 |     long d = sqrt(n);
+      |              ^~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s504715611_comments_removed.c:4:1: note: include ‘<math.h>’ or provide a declaration of ‘sqrt’
+    3 | #include <string.h>
+  +++ |+#include <math.h>
+    4 | 
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s504715611_comments_removed.c:100:14: warning: incompatible implicit declaration of built-in function ‘sqrt’ [-Wbuiltin-declaration-mismatch]
+  100 |     long d = sqrt(n);
+      |              ^~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s504715611_comments_removed.c:100:14: note: include ‘<math.h>’ or provide a declaration of ‘sqrt’
+/usr/bin/ld: /tmp/ccmhEgaA.o: in function `isPrime':
+s504715611_comments_removed.c:(.text+0x469): undefined reference to `sqrt'
+collect2: error: ld returned 1 exit status
+",,
+s511234019,comments_removed,success,,,
+s725559666,comments_removed,success,,,
+s185737640,comments_removed,success,,,
+s826491904,comments_removed,success,,,
+s831281137,comments_removed,success,,,
+s527301188,comments_removed,success,,,
+s012761786,comments_removed,compile_failed,"/usr/bin/ld: /tmp/cc3zYZRr.o: in function `main':
+s012761786_comments_removed.c:(.text+0xfb): undefined reference to `fmin'
+/usr/bin/ld: s012761786_comments_removed.c:(.text+0x139): undefined reference to `fmin'
+/usr/bin/ld: s012761786_comments_removed.c:(.text+0x169): undefined reference to `fmin'
+collect2: error: ld returned 1 exit status
+",,
+s063482767,comments_removed,compile_failed,"output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s063482767_comments_removed.c: In function ‘extractMin’:
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s063482767_comments_removed.c:57:16: error: ‘INT_MAX’ undeclared (first use in this function)
+   57 |         return INT_MAX;
+      |                ^~~~~~~
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s063482767_comments_removed.c:3:1: note: ‘INT_MAX’ is defined in header ‘<limits.h>’; did you forget to ‘#include <limits.h>’?
+    2 | #include <stdlib.h>
+  +++ |+#include <limits.h>
+    3 | 
+output/Qwen/Qwen2.5-32B-Instruct-AWQ/codenet/direct/Java/C/s063482767_comments_removed.c:57:16: note: each undeclared identifier is reported only once for each function it appears in
+   57 |         return INT_MAX;
+      |                ^~~~~~~
+",,

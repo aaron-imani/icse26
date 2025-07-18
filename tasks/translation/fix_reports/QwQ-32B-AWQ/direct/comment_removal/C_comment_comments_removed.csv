@@ -1,0 +1,147 @@
+id,version,status,error,expected,actual
+s596918302,comments_removed,compile_failed,"output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C/s596918302_comments_removed.c: In function ‘dpx’:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C/s596918302_comments_removed.c:69:58: error: expected ‘]’ before numeric constant
+   69 |             dp[i][in] = (dp[i-1][k] > dp[i-1][j] ? dp[i--1][k] : dp[i-1][j]) + arr[i][in];
+      |                                                          ^
+      |                                                          ]
+",,
+s283652523,comments_removed,success,,,
+s584572995,comments_removed,test_failed,,125000001,
+s888333881,comments_removed,success,,,
+s545439898,comments_removed,success,,,
+s893190600,comments_removed,success,,,
+s580342216,comments_removed,success,,,
+s196249385,comments_removed,compile_failed,"output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C/s196249385_comments_removed.c: In function ‘main’:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C/s196249385_comments_removed.c:53:40: error: ‘瞠’ undeclared (first use in this function)
+   53 |             if ((current[i] & mask) != 瞠) {
+      |                                        ^~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C/s196249385_comments_removed.c:53:40: note: each undeclared identifier is reported only once for each function it appears in
+",,
+s456888268,comments_removed,success,,,
+s466963472,comments_removed,success,,,
+s863488345,comments_removed,test_failed,,"*....*
+......
+..-...
+..>#..
+
+<.
+..
+
+^-#**
+.-.#*
+.-..#
+
+.....
+.***.
+..*..
+..*..
+....v","*....*
+......
+..-...
+..>#..
+
+<.
+..
+
+>-
+.-
+.-
+15
+SS
+
+v*
+**
+**
+**
+44"
+s127819686,comments_removed,success,,,
+s287007304,comments_removed,compile_failed,"output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C/s287007304_comments_removed.c: In function ‘main’:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C/s287007304_comments_removed.c:13:5: error: expected declaration or statement at end of input
+   13 |     return 0; // End of Code
+      |     ^~~~~~
+",,
+s937747608,comments_removed,success,,,
+s824230885,comments_removed,success,,,
+s452855095,comments_removed,success,,,
+s378126458,comments_removed,success,,,
+s221078931,comments_removed,success,,,
+s081988820,comments_removed,success,,,
+s504715611,comments_removed,compile_failed,"output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C/s504715611_comments_removed.c: In function ‘setArray’:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C/s504715611_comments_removed.c:198:29: error: ‘fs’ undeclared (first use in this function); did you mean ‘ffs’?
+  198 |         char *input = next(&fs);
+      |                             ^~
+      |                             ffs
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C/s504715611_comments_removed.c:198:29: note: each undeclared identifier is reported only once for each function it appears in
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C/s504715611_comments_removed.c: In function ‘lsetArray’:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C/s504715611_comments_removed.c:208:29: error: ‘fs’ undeclared (first use in this function); did you mean ‘ffs’?
+  208 |         char *input = next(&fs);
+      |                             ^~
+      |                             ffs
+",,
+s684030429,comments_removed,success,,,
+s967693306,comments_removed,compile_failed,"output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C/s967693306_comments_removed.c: In function ‘main’:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C/s967693306_comments_removed.c:39:30: error: ‘不行’ undeclared (first use in this function)
+   39 |                 if (digit != 不行) {
+      |                              ^~~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C/s967693306_comments_removed.c:39:30: note: each undeclared identifier is reported only once for each function it appears in
+",,
+s685734377,comments_removed,success,,,
+s041542819,comments_removed,success,,,
+s936984238,comments_removed,success,,,
+s867221485,comments_removed,success,,,
+s511234019,comments_removed,success,,,
+s910447421,comments_removed,success,,,
+s725559666,comments_removed,success,,,
+s573993837,comments_removed,success,,,
+s185737640,comments_removed,success,,,
+s780275612,comments_removed,compile_failed,"/usr/bin/ld: /tmp/ccfAWuWZ.o: in function `main':
+s780275612_comments_removed.c:(.text+0x58): undefined reference to `pow'
+collect2: error: ld returned 1 exit status
+",,
+s826491904,comments_removed,success,,,
+s316260310,comments_removed,success,,,
+s749703010,comments_removed,compile_failed,"output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C/s749703010_comments_removed.c: In function ‘dp’:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C/s749703010_comments_removed.c:28:15: error: ‘according’ undeclared (first use in this function)
+   28 |     int ff =  according to the Java code, but there was a missing value. Wait in the Java code, it's initialized to 0. So yes:
+      |               ^~~~~~~~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C/s749703010_comments_removed.c:28:15: note: each undeclared identifier is reported only once for each function it appears in
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C/s749703010_comments_removed.c:28:25: error: expected ‘,’ or ‘;’ before ‘to’
+   28 |     int ff =  according to the Java code, but there was a missing value. Wait in the Java code, it's initialized to 0. So yes:
+      |                         ^~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C/s749703010_comments_removed.c:28:99: warning: missing terminating ' character
+   28 |     int ff =  according to the Java code, but there was a missing value. Wait in the Java code, it's initialized to 0. So yes:
+      |                                                                                                   ^
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C/s749703010_comments_removed.c:28:99: error: missing terminating ' character
+   28 |     int ff =  according to the Java code, but there was a missing value. Wait in the Java code, it's initialized to 0. So yes:
+      |                                                                                                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+",,
+s380356166,comments_removed,success,,,
+s831281137,comments_removed,success,,,
+s527301188,comments_removed,test_failed,,3,
+s514557145,comments_removed,compile_failed,"output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C/s514557145_comments_removed.c:17:19: error: ‘INT_MAX’ undeclared here (not in a function)
+   17 | const S S_E = {0, INT_MAX / 2, INT_MIN / 2};
+      |                   ^~~~~~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C/s514557145_comments_removed.c:4:1: note: ‘INT_MAX’ is defined in header ‘<limits.h>’; did you forget to ‘#include <limits.h>’?
+    3 | #include <math.h>
+  +++ |+#include <limits.h>
+    4 | 
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C/s514557145_comments_removed.c:17:32: error: ‘INT_MIN’ undeclared here (not in a function)
+   17 | const S S_E = {0, INT_MAX / 2, INT_MIN / 2};
+      |                                ^~~~~~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C/s514557145_comments_removed.c:17:32: note: ‘INT_MIN’ is defined in header ‘<limits.h>’; did you forget to ‘#include <limits.h>’?
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C/s514557145_comments_removed.c: In function ‘modInv’:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C/s514557145_comments_removed.c:27:12: warning: implicit declaration of function ‘modPow’ [-Wimplicit-function-declaration]
+   27 |     return modPow(x, MOD2 - 2);
+      |            ^~~~~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C/s514557145_comments_removed.c: At top level:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C/s514557145_comments_removed.c:30:11: error: conflicting types for ‘modPow’; have ‘long long int(long long int,  long long int)’
+   30 | long long modPow(long long x, long long y) {
+      |           ^~~~~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/Java/C/s514557145_comments_removed.c:27:12: note: previous implicit declaration of ‘modPow’ with type ‘int()’
+   27 |     return modPow(x, MOD2 - 2);
+      |            ^~~~~~
+",,
+s012761786,comments_removed,success,,,
+s612878490,comments_removed,test_failed,,4,3
+s010698290,comments_removed,success,,,
+s063482767,comments_removed,success,,,

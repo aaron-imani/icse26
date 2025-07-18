@@ -1,0 +1,36 @@
+id,version,status,expected,actual,error
+s584572995,commented,success,,,
+s888333881,commented,success,,,
+s893190600,commented,success,,,
+s580342216,commented,success,,,
+s127819686,commented,success,,,
+s824230885,commented,success,,,
+s221078931,commented,success,,,
+s967693306,commented,success,,,
+s573993837,commented,test_failed,1,"4
+4
+4
+4
+4
+4
+4",
+s780275612,commented,compile_failed,,,"/usr/bin/ld: /tmp/cc7Xwf8Z.o: in function `main':
+s780275612_commented.c:(.text+0x58): undefined reference to `pow'
+collect2: error: ld returned 1 exit status
+"
+s316260310,commented,success,,,
+s749703010,commented,success,,,
+s380356166,commented,success,,,
+s514557145,commented,compile_failed,,,"output/Qwen/QwQ-32B-AWQ/codenet/direct/multiline/uncomment/direct/Java/C/s514557145_commented.c: In function ‘S_map’:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/multiline/uncomment/direct/Java/C/s514557145_commented.c:41:20: error: ‘tenmod’ undeclared (first use in this function)
+   41 |     long long c = (tenmod[len_l] - tenmod[len_r]) % MOD2;
+      |                    ^~~~~~
+output/Qwen/QwQ-32B-AWQ/codenet/direct/multiline/uncomment/direct/Java/C/s514557145_commented.c:41:20: note: each undeclared identifier is reported only once for each function it appears in
+output/Qwen/QwQ-32B-AWQ/codenet/direct/multiline/uncomment/direct/Java/C/s514557145_commented.c: In function ‘LazySegTree_push’:
+output/Qwen/QwQ-32B-AWQ/codenet/direct/multiline/uncomment/direct/Java/C/s514557145_commented.c:88:24: error: invalid operands to binary == (have ‘struct F’ and ‘struct F’)
+   88 |     if (tree->Laz[k-1] == tree->Id) return;
+      |         ~~~~~~~~~~~~~~ ^~ ~~~~~~~~
+      |                  |            |
+      |                  struct F     struct F
+"
+s010698290,commented,success,,,
