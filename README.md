@@ -1,4 +1,4 @@
-# Supplementary Material for Submission #3457
+# Inside Out: Uncovering How Comment Internalization Steers LLMs for Better or Worse
 
 ## Setup Instructions
 
