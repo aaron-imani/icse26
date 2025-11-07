@@ -50,7 +50,67 @@ To replicate the results of RQ2, please refer to [tcav/README.md](tcav/README.md
 
 ## RQ3
 
-The tasks are located in the `tasks` directory. To replicate the results of RQ3 for each task, please refer to the respective `README.md` files in the task directory within the `tasks` directory. The `Sheets` directory contains the performance results of the experiments for each task, including the baseline results, Concept Activation (CA), and Concept Deactivation (CD) results across all LLMs, metrics, and tasks.
+The tasks are located in the `tasks` directory. To replicate the results of RQ3 for each task, please refer to the respective `README.md` files in the task directory within the `tasks` directory. The `Sheets` directory contains the performance results of the experiments for each task, including the baseline results, Concept Activation (**CA**), and Concept Deactivation (**CD**) results across all LLMs, metrics, and tasks.
+
+**NEW (Added as part of revisions):** For convenience, we also provide the results of RQ3 for Code Translation to C, C++, and Go below:
+
+**SR:** Success Rate, $\mathbf{SR^\alpha}$: Commented SR, $\mathbf{SR^\gamma}$: Comment-free SR. **Bold**: Largest impact of activating or deactivating a concept. <ins>Underlined</ins>: Largest overall impact from activation and deactivation across concepts and LLMs.
+
+### RQ3 results for Code Translation to Python
+
+Refer to Table 3 in the paper. 
+
+### RQ3 results for Code Translation to C
+
+| **Concept**           | **LLM** | **$\mathbf{SR^\alpha}$ / CD SR ($\Delta_{rel}$)** | **$\mathbf{SR^\gamma}$/ CA SR  ($\Delta_{rel}$)** |
+|----------------------------|--------------|--------------------------------------------------------|---------------------------------------------------------|
+| Comment   | Code         | 67.44 / 60.47 (-10.34\%)                                 | 69.77 / 65.12 (-6.67\%)        |
+|                            | Generic      | 55.81 / 58.14 (4.17\%)                       | 53.49 / 53.49 (0.00\%)                                 |
+|                            | Reasoning    | **79.07 / 90.70 (14.71\%)**                                | <ins>**72.09 / 60.47 (-16.13\%)**</ins>**                                |
+| Javadoc   | Code         | 66.67 / 58.33 (-12.5\%)                                | **69.77 / 65.12 (-6.67\%)**                        |
+|                            | Generic      | <ins>**66.67 / 50.00 (-25.00\%)**</ins>    | 53.49 / 55.81 (4.35\%)                                  |
+|                            | Reasoning    | 75.00 / 58.33 (-22.22\%)                                 | 72.09 / 72.09 (0.00\%)                                  |
+| Inline    | Code         | 87.50 / 87.50 (0.00\%)                       | 69.77 / 69.77 (0.00\%)                                 |
+|                            | Generic      | **81.25 / 68.75 (-15.38\%)**                                | 53.49 / 55.81 (4.35\%)                        |
+|                            | Reasoning    | 87.50 / 87.50 (0.00\%)                                 | **72.09 / 79.07 (9.68\%)**                                 |
+| Multiline | Code         | 46.67 / 46.67 (0.00\%)                                   | **69.77 / 62.79 (-10.00\%)**                                 |
+|                            | Generic      | 20.00 / 20.00 (0.00\%)                       | 53.49 / 51.16 (-4.35\%)                                  |
+|                            | Reasoning    | **73.33 / 80.00 (9.09\%)**                                 | 72.09 / 67.44 (-6.45\%)                       |
+
+### RQ3 results for Code Translation to C++
+
+| **Concept**           | **LLM** | **$\mathbf{SR^\alpha}$ / CD SR ($\Delta_{rel}$)** | **$\mathbf{SR^\gamma}$/ CA SR  ($\Delta_{rel}$)** |
+|----------------------------|--------------|--------------------------------------------------------|---------------------------------------------------------|
+| Comment   | Code         | 69.77 / 60.47 (-13.33\%)                                 | 67.44 / 62.79 (-6.90\%)        |
+|                            | Generic      | **53.49 / 65.12 (21.74\%)**                       | 62.79 / 62.79 (0.00\%)                                 |
+|                            | Reasoning    | 65.12 / 74.42 (14.29\%)                                | <ins>**65.12 / 51.16 (-21.43\%)**</ins>**                                |
+| Javadoc   | Code         | 58.33 / 50.00 (-14.29\%)                                | **67.44 / 60.47 (-10.34\%)**                        |
+|                            | Generic      | **41.67 / 50.00 (20.00\%)**    | 62.79 / 58.14 (-7.41\%)                                  |
+|                            | Reasoning    | 58.33 / 50.00 (-14.29\%)                                 | 65.12 / 67.44 (3.57\%)                                  |
+| Inline    | Code         | **87.50 / 10.00 (14.29\%)**                       | **67.44 / 55.81 (-17.24\%)**                                 |
+|                            | Generic      | 75.00 / 75.00 (0.00\%)                                | 62.79 / 58.14 (-7.41\%)                        |
+|                            | Reasoning    | 87.50 / 87.50 (0.00\%)                                 | 65.12 / 67.44 (3.57\%)                                 |
+| Multiline | Code         | <ins>**60.00 / 40.00 (-33.33\%)**</ins>                                   | 67.44 / 65.12 (-3.45\%)                                 |
+|                            | Generic      | 40.00 / 40.00 (0.00\%)                       | **62.79 / 60.47 (-3.70\%)**                                  |
+|                            | Reasoning    | 46.67 / 53.33 (14.29\%)                                 | 65.12 / 65.12 (0.00\%)                       |
+
+### RQ3 results for Code Translation to Go
+
+| **Concept**           | **LLM** | **$\mathbf{SR^\alpha}$ / CD SR ($\Delta_{rel}$)** | **$\mathbf{SR^\gamma}$/ CA SR  ($\Delta_{rel}$)** |
+|----------------------------|--------------|--------------------------------------------------------|---------------------------------------------------------|
+| Comment   | Code         | 53.49 / 58.14 (8.70\%)                                 | 53.49 / 53.49 (0.00\%)        |
+|                            | Generic      | **27.91 / 34.88 (25.00\%)**                       | **30.23 / 25.58 (-15.38\%)**                                 |
+|                            | Reasoning    | 60.47 / 53.49 (-11.54\%)                                | 51.16 / 48.84 (-4.55\%)                                |
+| Javadoc   | Code         | 41.67 / 41.67 (0.00\%)                                | 53.49 / 55.81 (4.35\%)                        |
+|                            | Generic      | <ins>**16.67 / 25.00 (50.00\%)**</ins>    | 30.23 / 34.88 (15.38\%)                                  |
+|                            | Reasoning    | 50.00 / 58.33 (16.67\%)                                 | **51.16 / 62.79 (22.73\%)**                                  |
+| Inline    | Code         | **56.25 / 68.75 (22.22\%)**                       | 53.49 / 53.49 (0.00\%)                                 |
+|                            | Generic      | 50.00 / 56.25 (12.50\%)                                | 30.23 / 32.56 (7.69\%)                        |
+|                            | Reasoning    | 87.50 / 93.75 (7.14\%)                                 | **51.16 / 60.47 (18.18\%)**                                 |
+| Multiline | Code         | **75.00 / 93.75 (25.00\%)**                                   | 53.49 / 55.81 (4.35\%)                                 |
+|                            | Generic      | 43.75 / 50.00 (14.29\%)                       | 30.23 / 32.56 (7.69\%)                                  |
+|                            | Reasoning    | 62.50 / 68.75 (10.00\%)                                 | <ins>**51.16 / 65.12 (27.27\%)**</ins>                       |
+
 
 ## RQ4
 
