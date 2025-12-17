@@ -1,5 +1,8 @@
 # Inside Out: Uncovering How Comment Internalization Steers LLMs for Better or Worse
 
+![Conference](https://img.shields.io/badge/ICSE-2026-00B4CC) [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE) 
+
+
 ## Setup Instructions
 
 1. Run the following command to add the current directory to the python path:
