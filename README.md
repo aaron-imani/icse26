@@ -141,3 +141,16 @@ To run RQ4 experiments, please refer run the following command:
 cd rq4
 python run_rq4.py
 ```
+
+
+## Citation
+If you found this work helpful, please consider citing it using the following:
+
+```bibtex
+@inproceedings{imani2026insideout,
+  title={Inside Out: Uncovering How Comment Internalization Steers LLMs for Better or Worse},
+  author={Imani, Aaron and Moshirpour, Mohammad and Ahmed, Iftekhar},
+  booktitle={2026 IEEE/ACM 48th International Conference on Software Engineering (ICSE)},
+  year={2026},
+  organization={IEEE}
+}
