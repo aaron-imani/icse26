@@ -2,6 +2,9 @@
 
 ![Conference](https://img.shields.io/badge/ICSE-2026-00B4CC) [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE) 
 
+<a href="https://arxiv.org/abs/2512.16790" target="_blank">
+    <img src="inside-out.png" width="1024" alt="Inside Out: Uncovering How Comment Internalization Steers LLMs for Better or Worse">
+</a>
 
 ## Setup Instructions
 
